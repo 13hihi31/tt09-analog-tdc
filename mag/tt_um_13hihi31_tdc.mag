@@ -1,0 +1,169 @@
+magic
+tech sky130A
+timestamp 1727346141
+<< checkpaint >>
+rect -530 -130 1230 22706
+<< metal4 >>
+rect 3067 22476 3097 22576
+rect 3343 22476 3373 22576
+rect 3619 22476 3649 22576
+rect 3895 22476 3925 22576
+rect 4171 22476 4201 22576
+rect 4447 22476 4477 22576
+rect 4723 22476 4753 22576
+rect 4999 22476 5029 22576
+rect 5275 22476 5305 22576
+rect 5551 22476 5581 22576
+rect 5827 22476 5857 22576
+rect 6103 22476 6133 22576
+rect 6379 22476 6409 22576
+rect 6655 22476 6685 22576
+rect 6931 22476 6961 22576
+rect 7207 22476 7237 22576
+rect 7483 22476 7513 22576
+rect 7759 22476 7789 22576
+rect 8035 22476 8065 22576
+rect 8311 22476 8341 22576
+rect 8587 22476 8617 22576
+rect 8863 22476 8893 22576
+rect 9139 22476 9169 22576
+rect 9415 22476 9445 22576
+rect 9691 22476 9721 22576
+rect 9967 22476 9997 22576
+rect 10243 22476 10273 22576
+rect 10519 22476 10549 22576
+rect 10795 22476 10825 22576
+rect 11071 22476 11101 22576
+rect 11347 22476 11377 22576
+rect 11623 22476 11653 22576
+rect 11899 22476 11929 22576
+rect 12175 22476 12205 22576
+rect 12451 22476 12481 22576
+rect 12727 22476 12757 22576
+rect 13003 22476 13033 22576
+rect 13279 22476 13309 22576
+rect 13555 22476 13585 22576
+rect 13831 22476 13861 22576
+rect 14107 22476 14137 22576
+rect 14383 22476 14413 22576
+rect 14659 22476 14689 22576
+rect 100 500 300 22076
+rect 400 500 600 22076
+rect 1657 0 1747 100
+rect 3589 0 3679 100
+rect 5521 0 5611 100
+rect 7453 0 7543 100
+rect 9385 0 9475 100
+rect 11317 0 11407 100
+rect 13249 0 13339 100
+rect 15181 0 15271 100
+<< labels >>
+flabel metal4 s 14383 22476 14413 22576 0 FreeSans 240 90 0 0 clk
+port 0 nsew signal input
+flabel metal4 s 14659 22476 14689 22576 0 FreeSans 240 90 0 0 ena
+port 1 nsew signal input
+flabel metal4 s 14107 22476 14137 22576 0 FreeSans 240 90 0 0 rst_n
+port 2 nsew signal input
+flabel metal4 s 15181 0 15271 100 0 FreeSans 480 0 0 0 ua[0]
+port 3 nsew signal bidirectional
+flabel metal4 s 13249 0 13339 100 0 FreeSans 480 0 0 0 ua[1]
+port 4 nsew signal bidirectional
+flabel metal4 s 11317 0 11407 100 0 FreeSans 480 0 0 0 ua[2]
+port 5 nsew signal bidirectional
+flabel metal4 s 9385 0 9475 100 0 FreeSans 480 0 0 0 ua[3]
+port 6 nsew signal bidirectional
+flabel metal4 s 7453 0 7543 100 0 FreeSans 480 0 0 0 ua[4]
+port 7 nsew signal bidirectional
+flabel metal4 s 5521 0 5611 100 0 FreeSans 480 0 0 0 ua[5]
+port 8 nsew signal bidirectional
+flabel metal4 s 3589 0 3679 100 0 FreeSans 480 0 0 0 ua[6]
+port 9 nsew signal bidirectional
+flabel metal4 s 1657 0 1747 100 0 FreeSans 480 0 0 0 ua[7]
+port 10 nsew signal bidirectional
+flabel metal4 s 13831 22476 13861 22576 0 FreeSans 240 90 0 0 ui_in[0]
+port 11 nsew signal input
+flabel metal4 s 13555 22476 13585 22576 0 FreeSans 240 90 0 0 ui_in[1]
+port 12 nsew signal input
+flabel metal4 s 13279 22476 13309 22576 0 FreeSans 240 90 0 0 ui_in[2]
+port 13 nsew signal input
+flabel metal4 s 13003 22476 13033 22576 0 FreeSans 240 90 0 0 ui_in[3]
+port 14 nsew signal input
+flabel metal4 s 12727 22476 12757 22576 0 FreeSans 240 90 0 0 ui_in[4]
+port 15 nsew signal input
+flabel metal4 s 12451 22476 12481 22576 0 FreeSans 240 90 0 0 ui_in[5]
+port 16 nsew signal input
+flabel metal4 s 12175 22476 12205 22576 0 FreeSans 240 90 0 0 ui_in[6]
+port 17 nsew signal input
+flabel metal4 s 11899 22476 11929 22576 0 FreeSans 240 90 0 0 ui_in[7]
+port 18 nsew signal input
+flabel metal4 s 11623 22476 11653 22576 0 FreeSans 240 90 0 0 uio_in[0]
+port 19 nsew signal input
+flabel metal4 s 11347 22476 11377 22576 0 FreeSans 240 90 0 0 uio_in[1]
+port 20 nsew signal input
+flabel metal4 s 11071 22476 11101 22576 0 FreeSans 240 90 0 0 uio_in[2]
+port 21 nsew signal input
+flabel metal4 s 10795 22476 10825 22576 0 FreeSans 240 90 0 0 uio_in[3]
+port 22 nsew signal input
+flabel metal4 s 10519 22476 10549 22576 0 FreeSans 240 90 0 0 uio_in[4]
+port 23 nsew signal input
+flabel metal4 s 10243 22476 10273 22576 0 FreeSans 240 90 0 0 uio_in[5]
+port 24 nsew signal input
+flabel metal4 s 9967 22476 9997 22576 0 FreeSans 240 90 0 0 uio_in[6]
+port 25 nsew signal input
+flabel metal4 s 9691 22476 9721 22576 0 FreeSans 240 90 0 0 uio_in[7]
+port 26 nsew signal input
+flabel metal4 s 4999 22476 5029 22576 0 FreeSans 240 90 0 0 uio_oe[0]
+port 27 nsew signal output
+flabel metal4 s 4723 22476 4753 22576 0 FreeSans 240 90 0 0 uio_oe[1]
+port 28 nsew signal output
+flabel metal4 s 4447 22476 4477 22576 0 FreeSans 240 90 0 0 uio_oe[2]
+port 29 nsew signal output
+flabel metal4 s 4171 22476 4201 22576 0 FreeSans 240 90 0 0 uio_oe[3]
+port 30 nsew signal output
+flabel metal4 s 3895 22476 3925 22576 0 FreeSans 240 90 0 0 uio_oe[4]
+port 31 nsew signal output
+flabel metal4 s 3619 22476 3649 22576 0 FreeSans 240 90 0 0 uio_oe[5]
+port 32 nsew signal output
+flabel metal4 s 3343 22476 3373 22576 0 FreeSans 240 90 0 0 uio_oe[6]
+port 33 nsew signal output
+flabel metal4 s 3067 22476 3097 22576 0 FreeSans 240 90 0 0 uio_oe[7]
+port 34 nsew signal output
+flabel metal4 s 7207 22476 7237 22576 0 FreeSans 240 90 0 0 uio_out[0]
+port 35 nsew signal output
+flabel metal4 s 6931 22476 6961 22576 0 FreeSans 240 90 0 0 uio_out[1]
+port 36 nsew signal output
+flabel metal4 s 6655 22476 6685 22576 0 FreeSans 240 90 0 0 uio_out[2]
+port 37 nsew signal output
+flabel metal4 s 6379 22476 6409 22576 0 FreeSans 240 90 0 0 uio_out[3]
+port 38 nsew signal output
+flabel metal4 s 6103 22476 6133 22576 0 FreeSans 240 90 0 0 uio_out[4]
+port 39 nsew signal output
+flabel metal4 s 5827 22476 5857 22576 0 FreeSans 240 90 0 0 uio_out[5]
+port 40 nsew signal output
+flabel metal4 s 5551 22476 5581 22576 0 FreeSans 240 90 0 0 uio_out[6]
+port 41 nsew signal output
+flabel metal4 s 5275 22476 5305 22576 0 FreeSans 240 90 0 0 uio_out[7]
+port 42 nsew signal output
+flabel metal4 s 9415 22476 9445 22576 0 FreeSans 240 90 0 0 uo_out[0]
+port 43 nsew signal output
+flabel metal4 s 9139 22476 9169 22576 0 FreeSans 240 90 0 0 uo_out[1]
+port 44 nsew signal output
+flabel metal4 s 8863 22476 8893 22576 0 FreeSans 240 90 0 0 uo_out[2]
+port 45 nsew signal output
+flabel metal4 s 8587 22476 8617 22576 0 FreeSans 240 90 0 0 uo_out[3]
+port 46 nsew signal output
+flabel metal4 s 8311 22476 8341 22576 0 FreeSans 240 90 0 0 uo_out[4]
+port 47 nsew signal output
+flabel metal4 s 8035 22476 8065 22576 0 FreeSans 240 90 0 0 uo_out[5]
+port 48 nsew signal output
+flabel metal4 s 7759 22476 7789 22576 0 FreeSans 240 90 0 0 uo_out[6]
+port 49 nsew signal output
+flabel metal4 s 7483 22476 7513 22576 0 FreeSans 240 90 0 0 uo_out[7]
+port 50 nsew signal output
+flabel metal4 100 500 300 22076 1 FreeSans 800 0 0 0 VDPWR
+port 51 nsew power bidirectional
+flabel metal4 400 500 600 22076 1 FreeSans 800 0 0 0 VGND
+port 52 nsew ground bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 16100 22576
+<< end >>
