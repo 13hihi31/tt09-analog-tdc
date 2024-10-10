@@ -1,0 +1,53 @@
+* NGSPICE file created from tt_um_13hihi31_tdc.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_8DVQZL a_303_n2097# a_111_n2097# a_n81_n2097# a_n509_n2000#
++ a_n465_n2097# a_399_2031# a_n273_n2097# a_63_n2000# a_n33_n2000# w_n647_n2219# a_n129_n2000#
++ a_n417_n2000# a_207_2031# a_n225_n2000# a_n321_n2000# a_n369_2031# a_447_n2000#
++ a_159_n2000# a_351_n2000# a_255_n2000# a_15_2031# a_n177_2031#
+X0 a_n129_n2000# a_n177_2031# a_n225_n2000# w_n647_n2219# sky130_fd_pr__pfet_01v8 ad=3.3 pd=20.33 as=3.3 ps=20.33 w=20 l=0.15
+**devattr s=132000,4066 d=132000,4066
+X1 a_447_n2000# a_399_2031# a_351_n2000# w_n647_n2219# sky130_fd_pr__pfet_01v8 ad=6.2 pd=40.62 as=3.3 ps=20.33 w=20 l=0.15
+**devattr s=132000,4066 d=248000,8124
+X2 a_n225_n2000# a_n273_n2097# a_n321_n2000# w_n647_n2219# sky130_fd_pr__pfet_01v8 ad=3.3 pd=20.33 as=3.3 ps=20.33 w=20 l=0.15
+**devattr s=132000,4066 d=132000,4066
+X3 a_n321_n2000# a_n369_2031# a_n417_n2000# w_n647_n2219# sky130_fd_pr__pfet_01v8 ad=3.3 pd=20.33 as=3.3 ps=20.33 w=20 l=0.15
+**devattr s=132000,4066 d=132000,4066
+X4 a_63_n2000# a_15_2031# a_n33_n2000# w_n647_n2219# sky130_fd_pr__pfet_01v8 ad=3.3 pd=20.33 as=3.3 ps=20.33 w=20 l=0.15
+**devattr s=132000,4066 d=132000,4066
+X5 a_159_n2000# a_111_n2097# a_63_n2000# w_n647_n2219# sky130_fd_pr__pfet_01v8 ad=3.3 pd=20.33 as=3.3 ps=20.33 w=20 l=0.15
+**devattr s=132000,4066 d=132000,4066
+X6 a_255_n2000# a_207_2031# a_159_n2000# w_n647_n2219# sky130_fd_pr__pfet_01v8 ad=3.3 pd=20.33 as=3.3 ps=20.33 w=20 l=0.15
+**devattr s=132000,4066 d=132000,4066
+X7 a_n417_n2000# a_n465_n2097# a_n509_n2000# w_n647_n2219# sky130_fd_pr__pfet_01v8 ad=3.3 pd=20.33 as=6.2 ps=40.62 w=20 l=0.15
+**devattr s=248000,8124 d=132000,4066
+X8 a_351_n2000# a_303_n2097# a_255_n2000# w_n647_n2219# sky130_fd_pr__pfet_01v8 ad=3.3 pd=20.33 as=3.3 ps=20.33 w=20 l=0.15
+**devattr s=132000,4066 d=132000,4066
+X9 a_n33_n2000# a_n81_n2097# a_n129_n2000# w_n647_n2219# sky130_fd_pr__pfet_01v8 ad=3.3 pd=20.33 as=3.3 ps=20.33 w=20 l=0.15
+**devattr s=132000,4066 d=132000,4066
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_CG2JGS a_n81_n600# a_n129_n688# a_63_n688# a_n275_n774#
++ a_n173_n600# a_15_n600# a_n33_622# a_111_n600#
+X0 a_111_n600# a_63_n688# a_15_n600# a_n275_n774# sky130_fd_pr__nfet_01v8 ad=1.86 pd=12.62 as=0.99 ps=6.33 w=6 l=0.15
+**devattr s=39600,1266 d=74400,2524
+X1 a_n81_n600# a_n129_n688# a_n173_n600# a_n275_n774# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=1.86 ps=12.62 w=6 l=0.15
+**devattr s=74400,2524 d=39600,1266
+X2 a_15_n600# a_n33_622# a_n81_n600# a_n275_n774# sky130_fd_pr__nfet_01v8 ad=0.99 pd=6.33 as=0.99 ps=6.33 w=6 l=0.15
+**devattr s=39600,1266 d=39600,1266
+.ends
+
+.subckt inverter out VDD in VSS
+Xsky130_fd_pr__pfet_01v8_8DVQZL_0 in in in out in in in out VDD VDD out VDD in VDD
++ out in out VDD VDD out in in sky130_fd_pr__pfet_01v8_8DVQZL
+Xsky130_fd_pr__nfet_01v8_CG2JGS_0 out in in VSS VSS VSS in out sky130_fd_pr__nfet_01v8_CG2JGS
+.ends
+
+.subckt tt_um_13hihi31_tdc clk ena rst_n ua[0] ua[1] ua[2] ua[3] ua[4] ua[5] ua[6]
++ ua[7] ui_in[0] ui_in[1] ui_in[2] ui_in[3] ui_in[4] ui_in[5] ui_in[6] ui_in[7] uio_in[0]
++ uio_in[1] uio_in[2] uio_in[3] uio_in[4] uio_in[5] uio_in[6] uio_in[7] uio_oe[0]
++ uio_oe[1] uio_oe[2] uio_oe[3] uio_oe[4] uio_oe[5] uio_oe[6] uio_oe[7] uio_out[0]
++ uio_out[1] uio_out[2] uio_out[3] uio_out[4] uio_out[5] uio_out[6] uio_out[7] uo_out[0]
++ uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7] VDPWR VGND
+Xinverter_0 ua[1] VDPWR ua[0] VGND inverter
+.ends
+

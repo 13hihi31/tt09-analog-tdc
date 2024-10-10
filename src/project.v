@@ -20,4 +20,11 @@ module tt_um_13hihi31_tdc (
     input  wire       rst_n     // reset_n - low to reset
 );
 
+    inverter inverter_1(
+        .VDD(VDPWR),
+        .VSS(VGND),
+        .in(ua[0]),
+        .out(ua[1])
+    );
+
 endmodule
