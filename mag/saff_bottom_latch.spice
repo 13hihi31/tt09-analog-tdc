@@ -1,0 +1,21 @@
+** sch_path: /home/ttuser/Documents/tt09-analog-tdc/xschem/saff_bottom_latch.sch
+.subckt saff_bottom_latch a1 a2 b1 b2 c nc VDD VSS
+*.PININFO VDD:B a1:I c:O VSS:B b2:I nc:O a2:I b1:I
+XM2 net5 c VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM12 net2 a2 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM13 net2 a2 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM14 net1 b2 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM15 net1 b2 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM16 c a1 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM17 c net1 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM18 nc b1 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM19 nc net2 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM20 net4 c VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM21 nc net2 net4 VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM22 c net1 net3 VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM23 net3 nc VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM24 c a1 net6 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM25 nc b1 net5 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM26 net6 nc VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+.ends
+.end

@@ -149,7 +149,6 @@ N 1160 -180 1160 -150 {
 lab=vdd}
 N 1160 -70 1160 -40 {
 lab=GND}
-C {tdc.sym} 310 -270 0 0 {name=x1}
 C {devices/gnd.sym} 60 -40 0 0 {name=l1 lab=GND}
 C {devices/vsource.sym} 60 -70 0 0 {name=V1 value=1.8 savecurrent=false}
 C {devices/lab_pin.sym} 60 -100 0 0 {name=p4 sig_type=std_logic lab=vdd}
@@ -524,7 +523,7 @@ C {devices/code.sym} 170 -990 0 0 {name=STIMULI only_toplevel=false value="
 .control
 run
 set wr_vecnames
-wrdata tdc_small_step_tt_tb.txt v(start) v(stop) v(term_0) v(term_1) v(term_2) v(term_3) v(term_4) v(term_5) v(term_6) v(term_7)
+wrdata tdc_small_step_tt_tb_post_layout.txt v(start) v(stop) v(term_0) v(term_1) v(term_2) v(term_3) v(term_4) v(term_5) v(term_6) v(term_7)
 .endc
 "}
 C {sky130_fd_pr/pfet_01v8.sym} 660 -770 0 0 {name=M23
@@ -683,3 +682,4 @@ spiceprefix=X
 C {devices/lab_pin.sym} 1160 -180 0 1 {name=p40 sig_type=std_logic lab=vdd}
 C {devices/lab_wire.sym} 1120 -110 0 0 {name=p41 sig_type=std_logic lab=term_7}
 C {devices/gnd.sym} 1160 -40 0 0 {name=l20 lab=GND}
+C {tdc_post_layout.sym} 310 -270 0 0 {name=x1}

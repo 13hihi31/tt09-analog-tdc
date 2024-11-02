@@ -131,7 +131,7 @@ def plot_tdc_tb_3():
   
   
 def plot_tdc_tb_4():
-  wrdata_output = Path("~/.xschem/simulations/tdc_small_step_ss_tb.txt").expanduser()
+  wrdata_output = Path("~/.xschem/simulations/tdc_small_step_tt_tb.txt").expanduser()
   
   signals = read_output_signals(wrdata_output)
   
@@ -165,9 +165,24 @@ def plot_saff():
   )
   
 
+def plot_saff_post_layout():
+  wrdata_output = Path("~/.xschem/simulations/saff_tb_post_layout.txt").expanduser()
+  
+  signals = read_output_signals(wrdata_output)
+  
+  plot_signals(
+    signals,
+    ["time", "time"],
+    ["v(d)", "v(clk)", "v(q)"],
+    ["v(d)", "v(nd)", "v(clk)", "v(q)", "v(nq)"],
+  )
+  
+
 if __name__ == "__main__":
   #plot_tdc_tb_1()
   #plot_tdc_tb_2()
-  plot_tdc_tb_4()
+  #plot_tdc_tb_4()
   #plot_saff()
+  #plot_saff_post_layout()
+  plot_diff_gen_tb()
   

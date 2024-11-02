@@ -1,0 +1,26 @@
+** sch_path: /home/ttuser/Documents/tt09-analog-tdc/xschem/sense_amplifier.sch
+.subckt sense_amplifier d nd clk out1 out2 VDD VSS
+*.PININFO VDD:B d:I out1:O VSS:B nd:I clk:I out2:O
+XM3 out1 clk VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM4 out2 clk VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM5 out2 out1 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM6 out1 out2 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM7 out2 out1 net3 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM8 out1 out2 net1 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM9 net2 clk VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM10 net3 nd net2 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM11 net1 d net2 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM1 out1 out2 net1 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM2 net1 d net2 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM12 net1 d net2 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM13 net1 d net2 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM14 net3 nd net2 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM15 net3 nd net2 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM16 net3 nd net2 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM17 out2 out1 net3 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM18 net2 clk VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM19 net2 clk VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM20 net2 clk VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM21 net2 clk VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+.ends
+.end

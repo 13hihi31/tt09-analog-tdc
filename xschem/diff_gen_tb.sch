@@ -5,46 +5,18 @@ K {}
 V {}
 S {}
 E {}
-N 1210 -310 1210 -210 {
+N 1080 -330 1210 -330 {
 lab=#net1}
-N 1160 -210 1210 -210 {
-lab=#net1}
-N 1160 -190 1240 -190 {
+N 1080 -310 1210 -310 {
 lab=#net2}
-N 1240 -330 1240 -190 {
-lab=#net2}
-N 1160 -330 1290 -330 {
-lab=#net2}
-N 1160 -310 1290 -310 {
-lab=#net1}
-N 1590 -330 1720 -330 {
+N 1430 -330 1560 -330 {
 lab=#net3}
-N 1590 -310 1720 -310 {
+N 1430 -310 1560 -310 {
 lab=#net4}
-N 1650 -310 1650 -210 {
-lab=#net4}
-N 1590 -210 1650 -210 {
-lab=#net4}
-N 1680 -330 1680 -190 {
-lab=#net3}
-N 1590 -190 1680 -190 {
-lab=#net3}
-N 2070 -310 2070 -210 {
-lab=#net5}
-N 2020 -210 2070 -210 {
-lab=#net5}
-N 2020 -190 2100 -190 {
-lab=#net6}
-N 2100 -330 2100 -190 {
-lab=#net6}
-N 2020 -310 2070 -310 {
-lab=#net5}
-N 2020 -330 2100 -330 {
-lab=#net6}
 N 660 -550 660 -530 {
-lab=#net7}
+lab=#net5}
 N 620 -580 620 -500 {
-lab=#net8}
+lab=#net6}
 N 660 -610 660 -580 {
 lab=vdd}
 N 660 -500 660 -470 {
@@ -52,7 +24,7 @@ lab=GND}
 N 800 -550 800 -530 {
 lab=buffered}
 N 760 -580 760 -500 {
-lab=#net7}
+lab=#net5}
 N 800 -610 800 -580 {
 lab=vdd}
 N 800 -500 800 -470 {
@@ -66,7 +38,7 @@ lab=vdd}
 N 940 -500 940 -470 {
 lab=GND}
 N 660 -540 760 -540 {
-lab=#net7}
+lab=#net5}
 N 800 -540 900 -540 {
 lab=buffered}
 N 940 -540 1040 -540 {
@@ -74,17 +46,17 @@ lab=delayed}
 N 900 -500 900 -420 {
 lab=buffered}
 N 520 -550 520 -530 {
-lab=#net8}
+lab=#net6}
 N 480 -580 480 -500 {
-lab=#net9}
+lab=#net7}
 N 520 -610 520 -580 {
 lab=vdd}
 N 520 -500 520 -470 {
 lab=GND}
 N 520 -540 620 -540 {
-lab=#net8}
+lab=#net6}
 N 380 -550 380 -530 {
-lab=#net9}
+lab=#net7}
 N 340 -580 340 -500 {
 lab=input}
 N 380 -610 380 -580 {
@@ -92,7 +64,35 @@ lab=vdd}
 N 380 -500 380 -470 {
 lab=GND}
 N 380 -540 480 -540 {
+lab=#net7}
+N 1020 -210 1130 -210 {
+lab=#net1}
+N 1130 -330 1130 -210 {
+lab=#net1}
+N 1150 -310 1150 -190 {
+lab=#net2}
+N 1020 -190 1150 -190 {
+lab=#net2}
+N 1370 -210 1490 -210 {
+lab=#net3}
+N 1490 -330 1490 -210 {
+lab=#net3}
+N 1510 -310 1510 -190 {
+lab=#net4}
+N 1370 -190 1510 -190 {
+lab=#net4}
+N 1780 -310 1890 -310 {
+lab=#net8}
+N 1780 -330 1890 -330 {
 lab=#net9}
+N 1830 -330 1830 -210 {
+lab=#net9}
+N 1720 -210 1830 -210 {
+lab=#net9}
+N 1850 -310 1850 -190 {
+lab=#net8}
+N 1720 -190 1850 -190 {
+lab=#net8}
 C {diff_gen.sym} 570 -300 0 0 {name=x1}
 C {devices/gnd.sym} 80 -60 0 0 {name=l1 lab=GND}
 C {devices/vsource.sym} 80 -90 0 0 {name=V1 value=1.8 savecurrent=false}
@@ -122,33 +122,33 @@ wrdata diff_gen_tb.txt v(buffered) v(delayed) v(pos) v(neg)
 "}
 C {devices/gnd.sym} 720 -270 0 0 {name=l2 lab=GND}
 C {devices/lab_pin.sym} 720 -290 0 1 {name=p1 sig_type=std_logic lab=vdd}
-C {delay_unit.sym} 1010 -300 0 0 {name=x2}
-C {saff.sym} 1010 -180 0 1 {name=x3}
-C {devices/gnd.sym} 1160 -270 0 0 {name=l3 lab=GND}
-C {devices/lab_pin.sym} 1160 -290 0 1 {name=p2 sig_type=std_logic lab=vdd}
+C {delay_unit.sym} 970 -300 0 0 {name=x2}
+C {saff.sym} 940 -180 0 1 {name=x3}
+C {devices/gnd.sym} 1080 -270 0 0 {name=l3 lab=GND}
+C {devices/lab_pin.sym} 1080 -290 0 1 {name=p2 sig_type=std_logic lab=vdd}
 C {devices/gnd.sym} 860 -150 0 1 {name=l4 lab=GND}
 C {devices/lab_pin.sym} 860 -170 0 0 {name=p3 sig_type=std_logic lab=vdd}
-C {devices/lab_pin.sym} 1160 -170 0 1 {name=p6 sig_type=std_logic lab=vdd}
+C {devices/lab_pin.sym} 1020 -170 0 1 {name=p6 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} 860 -330 0 0 {name=p7 sig_type=std_logic lab=pos}
 C {devices/lab_pin.sym} 860 -310 0 0 {name=p8 sig_type=std_logic lab=neg}
 C {devices/lab_pin.sym} 720 -330 0 1 {name=p9 sig_type=std_logic lab=pos}
 C {devices/lab_pin.sym} 720 -310 0 1 {name=p10 sig_type=std_logic lab=neg}
 C {devices/lab_pin.sym} 420 -330 0 0 {name=p11 sig_type=std_logic lab=delayed}
 C {devices/lab_pin.sym} 420 -310 0 0 {name=p12 sig_type=std_logic lab=buffered}
-C {delay_unit.sym} 1440 -300 0 0 {name=x4}
-C {saff.sym} 1440 -180 0 1 {name=x5}
-C {devices/gnd.sym} 1590 -270 0 0 {name=l6 lab=GND}
-C {devices/lab_pin.sym} 1590 -290 0 1 {name=p13 sig_type=std_logic lab=vdd}
-C {devices/gnd.sym} 1290 -150 0 1 {name=l7 lab=GND}
-C {devices/lab_pin.sym} 1290 -170 0 0 {name=p14 sig_type=std_logic lab=vdd}
-C {devices/lab_pin.sym} 1590 -170 0 1 {name=p15 sig_type=std_logic lab=vdd}
-C {delay_unit.sym} 1870 -300 0 0 {name=x6}
-C {saff.sym} 1870 -180 0 1 {name=x7}
-C {devices/gnd.sym} 2020 -270 0 0 {name=l8 lab=GND}
-C {devices/lab_pin.sym} 2020 -290 0 1 {name=p16 sig_type=std_logic lab=vdd}
-C {devices/gnd.sym} 1720 -150 0 1 {name=l9 lab=GND}
-C {devices/lab_pin.sym} 1720 -170 0 0 {name=p17 sig_type=std_logic lab=vdd}
-C {devices/lab_pin.sym} 2020 -170 0 1 {name=p18 sig_type=std_logic lab=vdd}
+C {delay_unit.sym} 1320 -300 0 0 {name=x4}
+C {saff.sym} 1290 -180 0 1 {name=x5}
+C {devices/gnd.sym} 1430 -270 0 0 {name=l6 lab=GND}
+C {devices/lab_pin.sym} 1430 -290 0 1 {name=p13 sig_type=std_logic lab=vdd}
+C {devices/gnd.sym} 1210 -150 0 1 {name=l7 lab=GND}
+C {devices/lab_pin.sym} 1210 -170 0 0 {name=p14 sig_type=std_logic lab=vdd}
+C {devices/lab_pin.sym} 1370 -170 0 1 {name=p15 sig_type=std_logic lab=vdd}
+C {delay_unit.sym} 1670 -300 0 0 {name=x6}
+C {saff.sym} 1640 -180 0 1 {name=x7}
+C {devices/gnd.sym} 1780 -270 0 0 {name=l8 lab=GND}
+C {devices/lab_pin.sym} 1780 -290 0 1 {name=p16 sig_type=std_logic lab=vdd}
+C {devices/gnd.sym} 1560 -150 0 1 {name=l9 lab=GND}
+C {devices/lab_pin.sym} 1560 -170 0 0 {name=p17 sig_type=std_logic lab=vdd}
+C {devices/lab_pin.sym} 1720 -170 0 1 {name=p18 sig_type=std_logic lab=vdd}
 C {sky130_fd_pr/pfet_01v8.sym} 640 -580 0 0 {name=M11
 L=0.15
 W=3

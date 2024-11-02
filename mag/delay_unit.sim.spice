@@ -1,0 +1,187 @@
+* NGSPICE file created from delay_unit_parax.ext - technology: sky130A
+
+.subckt delay_unit_parax out_1 in_1 out_2 in_2 VDD VSS
+X0 out_2.t3 in_1.t2 VSS.t11 VSS.t10 sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=0.15
+X1 VDD.t15 in_2.t2 out_1.t0 VDD.t14 sky130_fd_pr__pfet_01v8 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=0.15
+X2 VSS.t9 in_1.t3 out_2.t2 VSS.t8 sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=0.15
+X3 VSS.t15 in_2.t3 in_1.t0 VSS.t14 sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=0.15
+X4 VDD.t7 in_1.t4 out_2.t0 VDD.t6 sky130_fd_pr__pfet_01v8 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=0.15
+X5 VDD.t13 in_2.t4 in_1.t1 VDD.t12 sky130_fd_pr__pfet_01v8 ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=0.15
+X6 VSS.t7 in_1.t5 in_2.t1 VSS.t6 sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=0.15
+X7 out_1.t1 in_2.t5 VDD.t11 VDD.t10 sky130_fd_pr__pfet_01v8 ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=0.15
+X8 out_1.t5 in_2.t6 VSS.t1 VSS.t0 sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=0.15
+X9 out_2.t4 in_1.t6 VDD.t5 VDD.t4 sky130_fd_pr__pfet_01v8 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=0.15
+X10 VSS.t3 in_2.t7 out_1.t4 VSS.t2 sky130_fd_pr__nfet_01v8 ad=0.145 pd=1.29 as=0.145 ps=1.29 w=1 l=0.15
+X11 out_1.t3 in_2.t8 VSS.t13 VSS.t12 sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=0.15
+X12 out_2.t1 in_1.t7 VSS.t5 VSS.t4 sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=0.15
+X13 out_2.t5 in_1.t8 VDD.t3 VDD.t2 sky130_fd_pr__pfet_01v8 ad=0.87 pd=6.58 as=0.435 ps=3.29 w=3 l=0.15
+X14 out_1.t2 in_2.t9 VDD.t9 VDD.t8 sky130_fd_pr__pfet_01v8 ad=0.435 pd=3.29 as=0.435 ps=3.29 w=3 l=0.15
+X15 VDD.t1 in_1.t9 in_2.t0 VDD.t0 sky130_fd_pr__pfet_01v8 ad=0.435 pd=3.29 as=0.87 ps=6.58 w=3 l=0.15
+R0 in_1.n3 in_1.t6 523.774
+R1 in_1.n4 in_1.t9 523.774
+R2 in_1.n0 in_1.t8 523.774
+R3 in_1.n1 in_1.t4 523.774
+R4 in_1.n3 in_1.t2 202.44
+R5 in_1.n4 in_1.t5 202.44
+R6 in_1.n0 in_1.t7 202.44
+R7 in_1.n1 in_1.t3 202.44
+R8 in_1.n6 in_1.n2 166.149
+R9 in_1.n6 in_1.n5 165.8
+R10 in_1.n7 in_1.t0 85.1574
+R11 in_1.n7 in_1.t1 83.8097
+R12 in_1.n5 in_1.n3 27.8082
+R13 in_1.n2 in_1.n1 27.8082
+R14 in_1.n5 in_1.n4 26.5723
+R15 in_1.n2 in_1.n0 26.5723
+R16 in_1.n8 in_1.n6 11.8052
+R17 in_1.n8 in_1.n7 5.74235
+R18 in_1 in_1.n8 0.203625
+R19 VSS.n6 VSS.t4 1521.96
+R20 VSS.n5 VSS.t12 1306.25
+R21 VSS.n5 VSS.t6 802.083
+R22 VSS.t8 VSS.t4 672.222
+R23 VSS.t10 VSS.t8 672.222
+R24 VSS.t6 VSS.t10 672.222
+R25 VSS.t12 VSS.t2 672.222
+R26 VSS.t2 VSS.t0 672.222
+R27 VSS.t0 VSS.t14 672.222
+R28 VSS.n6 VSS.n5 75.5708
+R29 VSS.n4 VSS.n3 67.3942
+R30 VSS.n4 VSS.n2 67.165
+R31 VSS.n8 VSS.n1 67.165
+R32 VSS.n9 VSS.n0 67.165
+R33 VSS.n3 VSS.t5 17.4005
+R34 VSS.n3 VSS.t9 17.4005
+R35 VSS.n2 VSS.t11 17.4005
+R36 VSS.n2 VSS.t7 17.4005
+R37 VSS.n1 VSS.t13 17.4005
+R38 VSS.n1 VSS.t3 17.4005
+R39 VSS.n0 VSS.t1 17.4005
+R40 VSS.n0 VSS.t15 17.4005
+R41 VSS.n7 VSS.n6 5.20721
+R42 VSS.n8 VSS.n7 0.307792
+R43 VSS VSS.n9 0.262219
+R44 VSS.n9 VSS.n8 0.229667
+R45 VSS.n7 VSS.n4 0.167167
+R46 out_2.n3 out_2.t5 85.2499
+R47 out_2.n3 out_2.t1 83.7172
+R48 out_2.n2 out_2.n0 75.7282
+R49 out_2.n2 out_2.n1 66.3172
+R50 out_2.n1 out_2.t2 17.4005
+R51 out_2.n1 out_2.t3 17.4005
+R52 out_2.n0 out_2.t0 9.52217
+R53 out_2.n0 out_2.t4 9.52217
+R54 out_2.n4 out_2.n2 5.30824
+R55 out_2.n4 out_2.n3 4.94887
+R56 out_2 out_2.n4 0.160656
+R57 in_2.n3 in_2.t9 523.774
+R58 in_2.n4 in_2.t4 523.774
+R59 in_2.n0 in_2.t5 523.774
+R60 in_2.n1 in_2.t2 523.774
+R61 in_2.n3 in_2.t6 202.44
+R62 in_2.n4 in_2.t3 202.44
+R63 in_2.n0 in_2.t8 202.44
+R64 in_2.n1 in_2.t7 202.44
+R65 in_2.n6 in_2.n2 166.144
+R66 in_2.n6 in_2.n5 165.8
+R67 in_2.n7 in_2.t0 85.2499
+R68 in_2.n7 in_2.t1 83.7172
+R69 in_2.n5 in_2.n3 27.8082
+R70 in_2.n2 in_2.n0 27.8082
+R71 in_2.n5 in_2.n4 26.5723
+R72 in_2.n2 in_2.n1 26.5723
+R73 in_2.n8 in_2.n7 6.21161
+R74 in_2.n8 in_2.n6 0.863781
+R75 in_2 in_2.n8 0.063
+R76 out_1.n3 out_1.t3 85.065
+R77 out_1.n3 out_1.t1 83.8097
+R78 out_1.n2 out_1.n1 74.288
+R79 out_1.n2 out_1.n0 67.7574
+R80 out_1.n0 out_1.t4 17.4005
+R81 out_1.n0 out_1.t5 17.4005
+R82 out_1.n1 out_1.t0 9.52217
+R83 out_1.n1 out_1.t2 9.52217
+R84 out_1.n4 out_1.n2 5.83219
+R85 out_1.n4 out_1.n3 5.49235
+R86 out_1 out_1.n4 1.28956
+R87 VDD.n6 VDD.t2 364.303
+R88 VDD.n5 VDD.t10 170.441
+R89 VDD.n5 VDD.t0 86.6181
+R90 VDD.t6 VDD.t2 81.9613
+R91 VDD.t4 VDD.t6 81.9613
+R92 VDD.t0 VDD.t4 81.9613
+R93 VDD.t10 VDD.t14 81.9613
+R94 VDD.t14 VDD.t8 81.9613
+R95 VDD.t8 VDD.t12 81.9613
+R96 VDD.n4 VDD.n3 75.9465
+R97 VDD.n9 VDD.n0 75.7173
+R98 VDD.n8 VDD.n1 75.7173
+R99 VDD.n4 VDD.n2 75.7173
+R100 VDD.n6 VDD.n5 23.4479
+R101 VDD.n0 VDD.t9 9.52217
+R102 VDD.n0 VDD.t13 9.52217
+R103 VDD.n1 VDD.t11 9.52217
+R104 VDD.n1 VDD.t15 9.52217
+R105 VDD.n2 VDD.t5 9.52217
+R106 VDD.n2 VDD.t1 9.52217
+R107 VDD.n3 VDD.t3 9.52217
+R108 VDD.n3 VDD.t7 9.52217
+R109 VDD.n7 VDD.n6 1.95059
+R110 VDD.n8 VDD.n7 0.297375
+R111 VDD VDD.n9 0.262219
+R112 VDD.n9 VDD.n8 0.229667
+R113 VDD.n7 VDD.n4 0.177583
+C0 in_1 in_2 0.500499f
+C1 out_1 out_2 0.046928f
+C2 VDD out_2 1.93421f
+C3 in_1 out_2 0.280546f
+C4 VDD out_1 2.10402f
+C5 in_2 out_2 0.019424f
+C6 in_1 out_1 0.590604f
+C7 in_1 VDD 1.52226f
+C8 out_1 in_2 0.794658f
+C9 VDD in_2 0.922494f
+C10 out_2 VSS 1.19053f
+C11 out_1 VSS 1.03116f
+C12 in_1 VSS 1.3449f
+C13 in_2 VSS 1.3014f
+C14 VDD VSS 4.452751f
+C15 VDD.t9 VSS 0.009622f
+C16 VDD.t13 VSS 0.009622f
+C17 VDD.n0 VSS 0.020567f
+C18 VDD.t11 VSS 0.009622f
+C19 VDD.t15 VSS 0.009622f
+C20 VDD.n1 VSS 0.020567f
+C21 VDD.t5 VSS 0.009622f
+C22 VDD.t1 VSS 0.009622f
+C23 VDD.n2 VSS 0.020567f
+C24 VDD.t3 VSS 0.009622f
+C25 VDD.t7 VSS 0.009622f
+C26 VDD.n3 VSS 0.020763f
+C27 VDD.n4 VSS 0.144712f
+C28 VDD.t2 VSS 0.262149f
+C29 VDD.t6 VSS 0.099272f
+C30 VDD.t4 VSS 0.099272f
+C31 VDD.t0 VSS 0.102092f
+C32 VDD.t12 VSS 0.226746f
+C33 VDD.t8 VSS 0.099272f
+C34 VDD.t14 VSS 0.099272f
+C35 VDD.t10 VSS 0.152856f
+C36 VDD.n5 VSS 0.206919f
+C37 VDD.n6 VSS 0.176997f
+C38 VDD.n7 VSS 0.091745f
+C39 VDD.n8 VSS 0.085009f
+C40 VDD.n9 VSS 0.083576f
+C41 out_1.t4 VSS 0.019085f
+C42 out_1.t5 VSS 0.019085f
+C43 out_1.n0 VSS 0.044702f
+C44 out_1.t0 VSS 0.057256f
+C45 out_1.t2 VSS 0.057256f
+C46 out_1.n1 VSS 0.11664f
+C47 out_1.n2 VSS 0.485294f
+C48 out_1.t3 VSS 0.070741f
+C49 out_1.t1 VSS 0.211394f
+C50 out_1.n3 VSS 0.576491f
+C51 out_1.n4 VSS 0.260587f
+.ends
+

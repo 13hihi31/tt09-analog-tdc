@@ -1,0 +1,68 @@
+* NGSPICE file created from saff.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_XGSNAL a_n33_n397# a_n73_n300# a_15_n300# w_n211_n519#
+X0 a_15_n300# a_n33_n397# a_n73_n300# w_n211_n519# sky130_fd_pr__pfet_01v8 ad=0.87 pd=6.58 as=0.87 ps=6.58 w=3 l=0.15
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_648S5X a_n73_n100# a_n33_n188# a_15_n100# a_n175_n274#
+X0 a_15_n100# a_n33_n188# a_n73_n100# a_n175_n274# sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_MGSNAN a_n73_n336# a_15_n336# a_n33_295# w_n211_n484#
+X0 a_15_n336# a_n33_295# a_n73_n336# w_n211_n484# sky130_fd_pr__pfet_01v8 ad=0.87 pd=6.58 as=0.87 ps=6.58 w=3 l=0.15
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_LGES5M a_n33_n300# a_15_322# a_n227_n474# a_n125_n300#
++ a_n81_n388# a_63_n300#
+X0 a_63_n300# a_15_322# a_n33_n300# a_n227_n474# sky130_fd_pr__nfet_01v8 ad=0.93 pd=6.62 as=0.495 ps=3.33 w=3 l=0.15
+X1 a_n33_n300# a_n81_n388# a_n125_n300# a_n227_n474# sky130_fd_pr__nfet_01v8 ad=0.495 pd=3.33 as=0.93 ps=6.62 w=3 l=0.15
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_95PS5T a_n275_n574# a_n173_n400# a_15_n400# a_n33_422#
++ a_111_n400# a_n81_n400# a_n129_n488# a_63_n488#
+X0 a_111_n400# a_63_n488# a_15_n400# a_n275_n574# sky130_fd_pr__nfet_01v8 ad=1.24 pd=8.62 as=0.66 ps=4.33 w=4 l=0.15
+X1 a_n81_n400# a_n129_n488# a_n173_n400# a_n275_n574# sky130_fd_pr__nfet_01v8 ad=0.66 pd=4.33 as=1.24 ps=8.62 w=4 l=0.15
+X2 a_15_n400# a_n33_422# a_n81_n400# a_n275_n574# sky130_fd_pr__nfet_01v8 ad=0.66 pd=4.33 as=0.66 ps=4.33 w=4 l=0.15
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_LGSNAL a_n73_n264# a_n33_n361# a_15_n264# w_n211_n484#
+X0 a_15_n264# a_n33_n361# a_n73_n264# w_n211_n484# sky130_fd_pr__pfet_01v8 ad=0.87 pd=6.58 as=0.87 ps=6.58 w=3 l=0.15
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_84PS53 a_15_n500# a_n33_522# a_111_n500# a_n81_n500#
++ a_n129_n588# a_63_n588# a_n275_n674# a_n173_n500#
+X0 a_n81_n500# a_n129_n588# a_n173_n500# a_n275_n674# sky130_fd_pr__nfet_01v8 ad=0.825 pd=5.33 as=1.55 ps=10.62 w=5 l=0.15
+X1 a_15_n500# a_n33_522# a_n81_n500# a_n275_n674# sky130_fd_pr__nfet_01v8 ad=0.825 pd=5.33 as=0.825 ps=5.33 w=5 l=0.15
+X2 a_111_n500# a_63_n588# a_15_n500# a_n275_n674# sky130_fd_pr__nfet_01v8 ad=1.55 pd=10.62 as=0.825 ps=5.33 w=5 l=0.15
+.ends
+
+.subckt saff d nd clk q nq VDD VSS
+XXM12 m1_2288_604# VDD m1_4948_n1380# VDD sky130_fd_pr__pfet_01v8_XGSNAL
+XXM23 m1_4310_n582# m1_3006_n560# VDD VDD sky130_fd_pr__pfet_01v8_XGSNAL
+XXM24 q m1_2288_604# m1_3006_n1398# VSS sky130_fd_pr__nfet_01v8_648S5X
+XXM25 m1_3994_n1392# m1_2174_604# m1_4310_n582# VSS sky130_fd_pr__nfet_01v8_648S5X
+XXM13 VSS m1_2288_604# m1_4948_n1380# VSS sky130_fd_pr__nfet_01v8_648S5X
+Xsky130_fd_pr__pfet_01v8_MGSNAN_0 VDD m1_2288_604# clk VDD sky130_fd_pr__pfet_01v8_MGSNAN
+XXM14 m1_2174_604# m1_2182_n1460# VDD VDD sky130_fd_pr__pfet_01v8_XGSNAL
+XXM26 m1_3006_n1398# m1_4310_n582# VSS VSS sky130_fd_pr__nfet_01v8_648S5X
+Xsky130_fd_pr__nfet_01v8_648S5X_0 m1_2182_n1460# m1_2174_604# VSS VSS sky130_fd_pr__nfet_01v8_648S5X
+XXM16 m1_2288_604# VDD q VDD sky130_fd_pr__pfet_01v8_XGSNAL
+XXM17 VSS m1_2592_n1548# q VSS sky130_fd_pr__nfet_01v8_648S5X
+XXM18 m1_2174_604# m1_4310_n582# VDD VDD sky130_fd_pr__pfet_01v8_XGSNAL
+XXM19 m1_4310_n582# m1_4532_n1548# VSS VSS sky130_fd_pr__nfet_01v8_648S5X
+Xsky130_fd_pr__nfet_01v8_LGES5M_0 m1_2480_1186# m1_2174_604# VSS m1_2288_604# m1_2604_1734#
++ m1_2288_604# sky130_fd_pr__nfet_01v8_LGES5M
+XXM2 VSS m1_3900_n190# m1_3994_n1392# VSS sky130_fd_pr__nfet_01v8_648S5X
+Xsky130_fd_pr__nfet_01v8_95PS5T_0 VSS m1_2480_1186# m1_2480_1186# d m1_2654_620# m1_2654_620#
++ d d sky130_fd_pr__nfet_01v8_95PS5T
+XXM4 m1_2174_604# VDD clk VDD sky130_fd_pr__pfet_01v8_MGSNAN
+XXM5 m1_2754_2868# m1_2288_604# m1_2174_604# VDD sky130_fd_pr__pfet_01v8_LGSNAL
+XXM6 m1_2288_604# m1_2174_604# m1_2754_2868# VDD sky130_fd_pr__pfet_01v8_LGSNAL
+XXM7 m1_2996_1186# m1_2288_604# VSS m1_2174_604# m1_3120_1734# m1_2174_604# sky130_fd_pr__nfet_01v8_LGES5M
+XXM9 m1_2654_620# clk VSS VSS clk clk VSS m1_2654_620# sky130_fd_pr__nfet_01v8_84PS53
+XXM20 m1_3900_n190# VDD m1_3994_n582# VDD sky130_fd_pr__pfet_01v8_XGSNAL
+XXM10 VSS m1_2996_1186# m1_2996_1186# nd m1_2654_620# m1_2654_620# nd nd sky130_fd_pr__nfet_01v8_95PS5T
+XXM21 m1_4216_n928# m1_3994_n582# m1_4310_n582# VDD sky130_fd_pr__pfet_01v8_XGSNAL
+XXM22 m1_2908_n928# q m1_3006_n560# VDD sky130_fd_pr__pfet_01v8_XGSNAL
+.ends
+

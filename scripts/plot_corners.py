@@ -3,17 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from numpy.lib.stride_tricks import sliding_window_view
 
-from read_signals import read_output_signals, plot_signals
-
-
-def find_transitions(signal: np.ndarray, midpoint: float) -> tuple[np.ndarray, np.ndarray]:  
-  signal_sign = np.sign(signal - midpoint)
-  signal_sign_diff = np.diff(signal_sign, prepend=signal_sign[0])
-  
-  rising_edge_sample_idxs = (signal_sign_diff > 1.5).nonzero()[0]
-  falling_edge_sample_idxs = (signal_sign_diff < -1.5).nonzero()[0]
-  
-  return rising_edge_sample_idxs, falling_edge_sample_idxs
+from read_signals import read_output_signals, plot_signals, find_transitions
   
 
 def plot_transfer_curve(ax, wrdata_output_path: str, label: str) -> None:
@@ -82,7 +72,8 @@ def plot_tranfer_curves_corners() -> None:
   
   
 def plot_corners() -> None:
-  wrdata_output = Path("../../tdc_corners/tdc_small_step_sf_tb.txt").expanduser()
+  #wrdata_output = Path("../../tdc_corners/tdc_small_step_sf_tb.txt").expanduser()
+  wrdata_output = Path("~/.xschem/simulations/tdc_small_step_tt_tb_post_layout.txt").expanduser()
   
   signals = read_output_signals(wrdata_output)
   
@@ -104,6 +95,6 @@ def plot_corners() -> None:
 
 if __name__ == "__main__":
   #plot_transitions()
-  #plot_corners()
-  plot_tranfer_curves_corners()
+  plot_corners()
+  #plot_tranfer_curves_corners()
   

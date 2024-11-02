@@ -1,0 +1,75 @@
+* NGSPICE file created from saff_2.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_6H9P4D a_n73_n100# a_15_n100# a_n15_n126# VSUBS
+X0 a_15_n100# a_n15_n126# a_n73_n100# VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+**devattr s=11600,516 d=11600,516
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_2K9SAN a_n73_n300# w_n109_n362# a_15_n300# a_n15_n326#
+X0 a_15_n300# a_n15_n326# a_n73_n300# w_n109_n362# sky130_fd_pr__pfet_01v8 ad=0.87 pd=6.58 as=0.87 ps=6.58 w=3 l=0.15
+**devattr s=34800,1316 d=34800,1316
+.ends
+
+.subckt saff_bottom_latch a1 a2 b1 b2 c nc VDD VSS
+Xsky130_fd_pr__nfet_01v8_6H9P4D_0 a_6226_n406# VSS b2 VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__nfet_01v8_6H9P4D_1 VSS c a_6226_n406# VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_0 a_6226_n406# VDD VDD b2 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_2 c sky130_fd_pr__nfet_01v8_6H9P4D_2/a_15_n100# a1
++ VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_1 VDD VDD c a1 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_3 sky130_fd_pr__nfet_01v8_6H9P4D_2/a_15_n100# VSS
++ nc VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_2 c VDD sky130_fd_pr__pfet_01v8_2K9SAN_2/a_15_n300#
++ a_6226_n406# sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_4 VSS sky130_fd_pr__nfet_01v8_6H9P4D_4/a_15_n100#
++ c VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_3 sky130_fd_pr__pfet_01v8_2K9SAN_2/a_15_n300# VDD
++ VDD nc sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_5 sky130_fd_pr__nfet_01v8_6H9P4D_4/a_15_n100# nc b1
++ VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__nfet_01v8_6H9P4D_6 nc VSS a_6688_n404# VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_4 VDD VDD sky130_fd_pr__pfet_01v8_2K9SAN_4/a_15_n300#
++ c sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_7 VSS a_6688_n404# a2 VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_5 sky130_fd_pr__pfet_01v8_2K9SAN_4/a_15_n300# VDD
++ nc a_6688_n404# sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__pfet_01v8_2K9SAN_6 nc VDD VDD b1 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__pfet_01v8_2K9SAN_7 VDD VDD a_6688_n404# a2 sky130_fd_pr__pfet_01v8_2K9SAN
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_NM9Y3C a_n73_n300# a_15_n300# a_n15_n326# VSUBS
+X0 a_15_n300# a_n15_n326# a_n73_n300# VSUBS sky130_fd_pr__nfet_01v8 ad=0.87 pd=6.58 as=0.87 ps=6.58 w=3 l=0.15
+**devattr s=34800,1316 d=34800,1316
+.ends
+
+.subckt sense_amplifier d nd clk out1 out2 VDD VSS
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_0 m1_62_2238# m1_150_3122# d VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_1 m1_150_3122# out1 out2 VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_2 out1 m1_150_3122# out2 VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_3 out2 m1_326_3122# out1 VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_4 m1_326_3122# out2 out1 VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_5 m1_326_3122# m1_62_2238# nd VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_6 m1_150_3122# m1_62_2238# d VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_7 m1_62_2238# m1_326_3122# nd VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_8 m1_326_3122# m1_62_2238# nd VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_9 m1_62_2238# VSS clk VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__pfet_01v8_2K9SAN_0 out2 VDD VDD clk sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__pfet_01v8_2K9SAN_1 VDD VDD out1 clk sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__pfet_01v8_2K9SAN_2 out1 VDD VDD out2 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_10 m1_150_3122# m1_62_2238# d VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__pfet_01v8_2K9SAN_3 VDD VDD out2 out1 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_11 m1_62_2238# m1_326_3122# nd VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_12 m1_62_2238# m1_150_3122# d VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_13 m1_62_2238# VSS clk VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_14 VSS m1_62_2238# clk VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_15 m1_62_2238# VSS clk VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_16 VSS m1_62_2238# clk VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+.ends
+
+.subckt saff_2 d nd clk q nq VDD1 VSS1 VDD2 VSS2
+Xsaff_bottom_latch_0 sense_amplifier_0/out1 sense_amplifier_0/out1 sense_amplifier_0/out2
++ sense_amplifier_0/out2 q nq VDD2 VSS2 saff_bottom_latch
+Xsense_amplifier_0 d nd clk sense_amplifier_0/out1 sense_amplifier_0/out2 VDD1 VSS1
++ sense_amplifier
+.ends
+

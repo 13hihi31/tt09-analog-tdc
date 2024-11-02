@@ -1,0 +1,53 @@
+magic
+tech sky130A
+timestamp 1730578401
+<< pwell >>
+rect 0 -841 265 -790
+<< metal1 >>
+rect 0 1685 32 1717
+rect 0 1594 32 1626
+rect 0 63 32 95
+rect 0 -103 265 -52
+rect 913 -103 1141 -52
+rect 0 -841 1141 -790
+<< metal2 >>
+rect 154 1735 186 1767
+rect 987 1735 1019 1767
+rect 45 -113 79 0
+rect 101 -6 574 17
+rect 45 -137 288 -113
+rect 551 -131 574 -6
+rect 602 -6 1071 17
+rect 602 -131 625 -6
+rect 1093 -117 1126 0
+rect 890 -141 1126 -117
+rect 438 -760 470 -728
+rect 706 -761 738 -729
+use saff_bottom_latch  saff_bottom_latch_0
+timestamp 1730537487
+transform 1 0 -2657 0 1 49
+box 2922 -890 3570 -76
+use sense_amplifier  sense_amplifier_0
+timestamp 1730496807
+transform 1 0 257 0 1 -1006
+box -257 1006 884 2773
+<< labels >>
+rlabel metal2 154 1735 186 1767 0 d
+port 1 nsew
+rlabel metal2 987 1735 1019 1767 0 nd
+port 2 nsew
+rlabel metal1 0 1685 32 1717 0 clk
+port 3 nsew
+rlabel metal2 438 -760 470 -728 0 q
+port 4 nsew
+rlabel metal2 706 -761 738 -729 0 nq
+port 5 nsew
+rlabel metal1 0 1594 32 1626 0 VDD1
+port 6 nsew
+rlabel metal1 0 63 32 95 0 VSS1
+port 7 nsew
+rlabel metal1 0 -84 32 -52 0 VDD2
+port 8 nsew
+rlabel metal1 0 -822 32 -790 0 VSS2
+port 9 nsew
+<< end >>

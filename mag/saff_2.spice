@@ -1,0 +1,60 @@
+** sch_path: /home/ttuser/Documents/tt09-analog-tdc/xschem/saff_2.sch
+.subckt saff_2 d nd clk q nq VDD1 VSS1 VDD2 VSS2
+*.PININFO VDD1:B d:I q:O VSS1:B nd:I clk:I nq:O VDD2:B VSS2:B
+x1 d nd clk out1 out2 VDD1 VSS1 sense_amplifier
+x2 out1 out1 out2 out2 q nq VDD2 VSS2 saff_bottom_latch
+.ends
+
+* expanding   symbol:  sense_amplifier.sym # of pins=7
+** sym_path: /home/ttuser/Documents/tt09-analog-tdc/xschem/sense_amplifier.sym
+** sch_path: /home/ttuser/Documents/tt09-analog-tdc/xschem/sense_amplifier.sch
+.subckt sense_amplifier d nd clk out1 out2 VDD VSS
+*.PININFO VDD:B d:I out1:O VSS:B nd:I clk:I out2:O
+XM3 out1 clk VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM4 out2 clk VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM5 out2 out1 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM6 out1 out2 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM7 out2 out1 net3 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM8 out1 out2 net1 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM9 net2 clk VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM10 net3 nd net2 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM11 net1 d net2 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM1 out1 out2 net1 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM2 net1 d net2 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM12 net1 d net2 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM13 net1 d net2 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM14 net3 nd net2 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM15 net3 nd net2 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM16 net3 nd net2 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM17 out2 out1 net3 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM18 net2 clk VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM19 net2 clk VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM20 net2 clk VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM21 net2 clk VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+.ends
+
+
+* expanding   symbol:  saff_bottom_latch.sym # of pins=8
+** sym_path: /home/ttuser/Documents/tt09-analog-tdc/xschem/saff_bottom_latch.sym
+** sch_path: /home/ttuser/Documents/tt09-analog-tdc/xschem/saff_bottom_latch.sch
+.subckt saff_bottom_latch a1 a2 b1 b2 c nc VDD VSS
+*.PININFO VDD:B a1:I c:O VSS:B b2:I nc:O a2:I b1:I
+XM2 net5 c VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM12 net2 a2 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM13 net2 a2 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM14 net1 b2 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM15 net1 b2 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM16 c a1 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM17 c net1 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM18 nc b1 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM19 nc net2 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM20 net4 c VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM21 nc net2 net4 VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM22 c net1 net3 VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM23 net3 nc VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM24 c a1 net6 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM25 nc b1 net5 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM26 net6 nc VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+.ends
+
+.end

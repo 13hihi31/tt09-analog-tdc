@@ -1,0 +1,118 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_6H9P4D in circuit saff_bottom_latch (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2K9SAN in circuit saff_bottom_latch (0)(8 instances)
+
+Subcircuit summary:
+Circuit 1: saff_bottom_latch               |Circuit 2: saff_bottom_latch               
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (8)                |sky130_fd_pr__nfet_01v8 (8)                
+sky130_fd_pr__pfet_01v8 (8)                |sky130_fd_pr__pfet_01v8 (8)                
+Number of devices: 16                      |Number of devices: 16                      
+Number of nets: 14                         |Number of nets: 14                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: saff_bottom_latch               |Circuit 2: saff_bottom_latch               
+-------------------------------------------|-------------------------------------------
+nc                                         |nc                                         
+c                                          |c                                          
+a2                                         |a2                                         
+b2                                         |b2                                         
+b1                                         |b1                                         
+a1                                         |a1                                         
+VSS                                        |VSS                                        
+VDD                                        |VDD                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes saff_bottom_latch and saff_bottom_latch are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NM9Y3C in circuit sense_amplifier (0)(17 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2K9SAN in circuit sense_amplifier (0)(4 instances)
+
+Class sense_amplifier (0):  Merged 12 parallel devices.
+Class sense_amplifier (1):  Merged 12 parallel devices.
+Subcircuit summary:
+Circuit 1: sense_amplifier                 |Circuit 2: sense_amplifier                 
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (17->5)            |sky130_fd_pr__nfet_01v8 (17->5)            
+sky130_fd_pr__pfet_01v8 (4)                |sky130_fd_pr__pfet_01v8 (4)                
+Number of devices: 9                       |Number of devices: 9                       
+Number of nets: 10                         |Number of nets: 10                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sense_amplifier                 |Circuit 2: sense_amplifier                 
+-------------------------------------------|-------------------------------------------
+VDD                                        |VDD                                        
+out2                                       |out2                                       
+out1                                       |out1                                       
+VSS                                        |VSS                                        
+nd                                         |nd                                         
+d                                          |d                                          
+clk                                        |clk                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sense_amplifier and sense_amplifier are equivalent.
+
+Subcircuit summary:
+Circuit 1: saff_2                          |Circuit 2: saff_2                          
+-------------------------------------------|-------------------------------------------
+saff_bottom_latch (1)                      |saff_bottom_latch (1)                      
+sense_amplifier (1)                        |sense_amplifier (1)                        
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 11                         |Number of nets: 11                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: saff_2                          |Circuit 2: saff_2                          
+-------------------------------------------|-------------------------------------------
+d                                          |d                                          
+nd                                         |nd                                         
+clk                                        |clk                                        
+VDD1                                       |VDD1                                       
+VSS1                                       |VSS1                                       
+q                                          |q                                          
+nq                                         |nq                                         
+VDD2                                       |VDD2                                       
+VSS2                                       |VSS2                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes saff_2 and saff_2 are equivalent.
+
+Final result: Circuits match uniquely.
+.

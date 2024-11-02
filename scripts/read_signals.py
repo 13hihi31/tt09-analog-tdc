@@ -33,3 +33,13 @@ def plot_signals(signals: pd.DataFrame, x_sig_names: list[str], *y_sigs_names: l
     
   plt.show()
   
+  
+def find_transitions(signal: np.ndarray, midpoint: float) -> tuple[np.ndarray, np.ndarray]:  
+  signal_sign = np.sign(signal - midpoint)
+  signal_sign_diff = np.diff(signal_sign, prepend=signal_sign[0])
+  
+  rising_edge_sample_idxs = (signal_sign_diff > 1.5).nonzero()[0]
+  falling_edge_sample_idxs = (signal_sign_diff < -1.5).nonzero()[0]
+  
+  return rising_edge_sample_idxs, falling_edge_sample_idxs
+  
