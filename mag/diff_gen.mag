@@ -1,0 +1,53 @@
+magic
+tech sky130A
+timestamp 1730645360
+<< metal1 >>
+rect 0 711 32 743
+rect 0 16 32 48
+<< metal2 >>
+rect 0 649 32 681
+rect 4448 649 4480 681
+rect 0 233 32 265
+rect 4448 64 4480 96
+use delay_unit_2  delay_unit_2_0
+timestamp 1730643297
+transform 1 0 222 0 1 71
+box -222 -71 418 690
+use delay_unit_2  delay_unit_2_1
+timestamp 1730643297
+transform 1 0 862 0 1 71
+box -222 -71 418 690
+use delay_unit_2  delay_unit_2_2
+timestamp 1730643297
+transform 1 0 1502 0 1 71
+box -222 -71 418 690
+use delay_unit_2  delay_unit_2_3
+timestamp 1730643297
+transform 1 0 2142 0 1 71
+box -222 -71 418 690
+use delay_unit_2  delay_unit_2_4
+timestamp 1730643297
+transform 1 0 2782 0 1 71
+box -222 -71 418 690
+use delay_unit_2  delay_unit_2_5
+timestamp 1730643297
+transform 1 0 3422 0 1 71
+box -222 -71 418 690
+use delay_unit_2  delay_unit_2_6
+timestamp 1730643297
+transform 1 0 4062 0 1 71
+box -222 -71 418 690
+<< labels >>
+rlabel metal2 0 233 32 265 0 in_delay
+port 1 nsew
+rlabel metal2 0 649 32 681 0 in_buff
+port 2 nsew
+rlabel metal2 4448 64 4480 96 0 out_neg
+port 4 nsew
+rlabel metal1 0 711 32 743 0 VDD
+port 5 nsew
+rlabel metal1 0 16 32 48 0 VSS
+port 6 nsew
+rlabel metal2 4448 649 4480 681 0 out_pos
+port 3 nsew
+<< end >>

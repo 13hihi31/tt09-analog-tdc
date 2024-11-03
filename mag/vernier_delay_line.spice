@@ -1,0 +1,72 @@
+** sch_path: /home/ttuser/Documents/tt09-analog-tdc/xschem/vernier_delay_line.sch
+.subckt vernier_delay_line start_pos start_neg stop_strong term_0 term_1 term_2 term_3 term_4 term_5 term_6 term_7 VDD VSS
+*.PININFO VDD:B VSS:B start_pos:I stop_strong:I term_0:O term_1:O term_2:O term_3:O term_4:O term_5:O term_6:O term_7:O
+*+ start_neg:I
+x1 delay_pos_0 start_pos start_neg VDD delay_neg_0 VSS delay_unit
+x2 delay_pos_0 delay_neg_0 stop_strong term_0 net1 VDD VSS saff
+x4 delay_pos_1 delay_neg_1 stop_strong term_1 net2 VDD VSS saff
+x5 delay_pos_1 delay_pos_0 delay_neg_0 VDD delay_neg_1 VSS delay_unit
+x6 delay_pos_2 delay_pos_1 delay_neg_1 VDD delay_neg_2 VSS delay_unit
+x7 delay_pos_3 delay_pos_2 delay_neg_2 VDD delay_neg_3 VSS delay_unit
+x8 delay_pos_2 delay_neg_2 stop_strong term_2 net3 VDD VSS saff
+x9 delay_pos_4 delay_pos_3 delay_neg_3 VDD delay_neg_4 VSS delay_unit
+x10 delay_pos_3 delay_neg_3 stop_strong term_3 net4 VDD VSS saff
+x11 delay_pos_4 delay_neg_4 stop_strong term_4 net5 VDD VSS saff
+x12 delay_pos_5 delay_pos_4 delay_neg_4 VDD delay_neg_5 VSS delay_unit
+x13 delay_pos_5 delay_neg_5 stop_strong term_5 net6 VDD VSS saff
+x14 delay_pos_6 delay_pos_5 delay_neg_5 VDD delay_neg_6 VSS delay_unit
+x15 delay_pos_6 delay_neg_6 stop_strong term_6 net7 VDD VSS saff
+x16 delay_pos_7 delay_pos_6 delay_neg_6 VDD delay_neg_7 VSS delay_unit
+x17 delay_pos_7 delay_neg_7 stop_strong term_7 net8 VDD VSS saff
+x18 net9 delay_pos_7 delay_neg_7 VDD net10 VSS delay_unit
+.ends
+
+* expanding   symbol:  delay_unit.sym # of pins=6
+** sym_path: /home/ttuser/Documents/tt09-analog-tdc/xschem/delay_unit.sym
+** sch_path: /home/ttuser/Documents/tt09-analog-tdc/xschem/delay_unit.sch
+.subckt delay_unit out_1 in_1 in_2 VDD out_2 VSS
+*.PININFO VDD:B in_1:I out_1:O VSS:B in_2:I out_2:O
+XM5 out_2 in_1 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=9 nf=1 m=1
+XM7 out_2 in_1 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM1 out_1 in_2 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=9 nf=1 m=1
+XM2 out_1 in_2 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+XM3 in_1 in_2 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM4 in_1 in_2 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM6 in_2 in_1 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM8 in_2 in_1 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+.ends
+
+
+* expanding   symbol:  saff.sym # of pins=7
+** sym_path: /home/ttuser/Documents/tt09-analog-tdc/xschem/saff.sym
+** sch_path: /home/ttuser/Documents/tt09-analog-tdc/xschem/saff.sch
+.subckt saff d nd clk q nq VDD VSS
+*.PININFO VDD:B d:I q:O VSS:B nd:I clk:I nq:O
+XM2 net3 q VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM3 left_latch_1 clk VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM4 right_latch_1 clk VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM5 right_latch_1 left_latch_1 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM6 left_latch_1 right_latch_1 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM7 right_latch_1 left_latch_1 net7 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=6 nf=2 m=1
+XM8 left_latch_1 right_latch_1 net5 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=6 nf=2 m=1
+XM9 net6 clk VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=15 nf=3 m=1
+XM10 net7 nd net6 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=12 nf=3 m=1
+XM11 net5 d net6 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=12 nf=3 m=1
+XM12 right_latch_2 left_latch_1 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM13 right_latch_2 left_latch_1 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM14 left_latch_2 right_latch_1 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM15 left_latch_2 right_latch_1 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM16 q left_latch_1 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM17 q left_latch_2 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM18 nq right_latch_1 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM19 nq right_latch_2 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM20 net2 q VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM21 nq right_latch_2 net2 VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM22 q left_latch_2 net1 VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM23 net1 nq VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM24 q left_latch_1 net4 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM25 nq right_latch_1 net3 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM26 net4 nq VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+.ends
+
+.end

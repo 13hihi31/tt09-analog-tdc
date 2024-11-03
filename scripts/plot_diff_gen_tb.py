@@ -178,11 +178,35 @@ def plot_saff_post_layout():
   )
   
 
+def plot_tdc_vernier_delay_line_tb():
+  wrdata_output = Path("~/.xschem/simulations/tdc_vernier_delay_line_tb.txt").expanduser()
+  
+  signals = read_output_signals(wrdata_output)
+  
+  plot_signals(
+    signals, 
+    ["time"], 
+    [
+      "v(start)",
+      "v(stop)",
+      "v(term_0)",
+      "v(term_1)",
+      "v(term_2)",
+      "v(term_3)",
+      "v(term_4)",
+      "v(term_5)",
+      "v(term_6)",
+      "v(term_7)",
+    ],
+  )
+
+
 if __name__ == "__main__":
   #plot_tdc_tb_1()
   #plot_tdc_tb_2()
   #plot_tdc_tb_4()
   #plot_saff()
   #plot_saff_post_layout()
-  plot_diff_gen_tb()
+  #plot_diff_gen_tb()
+  plot_tdc_vernier_delay_line_tb()
   

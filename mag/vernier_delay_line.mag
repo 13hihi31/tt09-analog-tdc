@@ -1,0 +1,114 @@
+magic
+tech sky130A
+timestamp 1730663836
+<< pwell >>
+rect -82 0 0 51
+<< metal1 >>
+rect -256 3323 0 3371
+rect -256 2467 -176 3323
+rect -82 2673 0 2676
+rect -82 2631 -79 2673
+rect -37 2631 0 2673
+rect -82 2628 0 2631
+rect 0 2526 32 2558
+rect -256 2429 0 2467
+rect -256 2388 5 2429
+rect -256 789 -176 2388
+rect -82 932 0 936
+rect -82 884 -78 932
+rect -38 884 0 932
+rect -82 880 0 884
+rect -256 738 1 789
+rect -82 47 0 51
+rect -82 4 -78 47
+rect -38 4 0 47
+rect -82 0 0 4
+<< via1 >>
+rect -79 2631 -37 2673
+rect -78 884 -38 932
+rect -78 4 -38 47
+<< metal2 >>
+rect 0 3277 32 3309
+rect 0 2772 32 2804
+rect -82 2673 -34 2676
+rect -82 2631 -79 2673
+rect -37 2631 -34 2673
+rect -82 932 -34 2631
+rect -82 884 -78 932
+rect -38 884 -34 932
+rect -82 47 -34 884
+rect 438 81 470 113
+rect 1579 81 1611 113
+rect 2720 81 2752 113
+rect 3861 81 3893 113
+rect 5002 81 5034 113
+rect 6143 81 6175 113
+rect 7284 81 7316 113
+rect 8425 81 8457 113
+rect -82 4 -78 47
+rect -38 4 -34 47
+rect -82 0 -34 4
+use delay_unit_2  delay_unit_2_0
+timestamp 1730643297
+transform 1 0 9350 0 1 2699
+box -222 -71 418 690
+use saff_delay_unit  saff_delay_unit_0
+timestamp 1730652801
+transform 1 0 0 0 1 0
+box 0 0 1141 3389
+use saff_delay_unit  saff_delay_unit_1
+timestamp 1730652801
+transform 1 0 1141 0 1 0
+box 0 0 1141 3389
+use saff_delay_unit  saff_delay_unit_2
+timestamp 1730652801
+transform 1 0 2282 0 1 0
+box 0 0 1141 3389
+use saff_delay_unit  saff_delay_unit_3
+timestamp 1730652801
+transform 1 0 3423 0 1 0
+box 0 0 1141 3389
+use saff_delay_unit  saff_delay_unit_4
+timestamp 1730652801
+transform 1 0 4564 0 1 0
+box 0 0 1141 3389
+use saff_delay_unit  saff_delay_unit_5
+timestamp 1730652801
+transform 1 0 5705 0 1 0
+box 0 0 1141 3389
+use saff_delay_unit  saff_delay_unit_6
+timestamp 1730652801
+transform 1 0 6846 0 1 0
+box 0 0 1141 3389
+use saff_delay_unit  saff_delay_unit_7
+timestamp 1730652801
+transform 1 0 7987 0 1 0
+box 0 0 1141 3389
+<< labels >>
+rlabel metal2 0 3277 32 3309 0 start_pos
+port 1 nsew
+rlabel metal2 0 2772 32 2804 0 start_neg
+port 2 nsew
+rlabel metal1 0 2526 32 2558 0 stop_strong
+port 3 nsew
+rlabel metal2 438 81 470 113 0 term_0
+port 4 nsew
+rlabel metal2 1579 81 1611 113 0 term_1
+port 5 nsew
+rlabel metal2 2720 81 2752 113 0 term_2
+port 6 nsew
+rlabel metal2 3861 81 3893 113 0 term_3
+port 7 nsew
+rlabel metal2 5002 81 5034 113 0 term_4
+port 8 nsew
+rlabel metal2 6143 81 6175 113 0 term_5
+port 9 nsew
+rlabel metal2 7284 81 7316 113 0 term_6
+port 10 nsew
+rlabel metal2 8425 81 8457 113 0 term_7
+port 11 nsew
+rlabel metal1 -256 3339 -224 3371 0 VDD
+port 12 nsew
+rlabel metal2 -82 2577 -50 2609 0 VSS
+port 13 nsew
+<< end >>

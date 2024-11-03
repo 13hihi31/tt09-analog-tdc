@@ -1,0 +1,82 @@
+| units: 500000 tech: sky130A format: MIT
+x clk a_570_510# VSS2 VSS2 s=17400,658 d=34800,1316 l=30 w=600 x=1684 y=510 sky130_fd_pr__nfet_01v8
+x sense_amplifier_0.out2 a_1336_n1386# nq VSS2 s=5800,258 d=5800,258 l=30 w=200 x=1394 y=-1385 sky130_fd_pr__nfet_01v8
+x d a_658_510# a_570_510# VSS2 s=17400,658 d=17400,658 l=30 w=600 x=1068 y=510 sky130_fd_pr__nfet_01v8
+x clk a_570_510# VSS2 VSS2 s=17400,658 d=17400,658 l=30 w=600 x=1508 y=510 sky130_fd_pr__nfet_01v8
+x a_690_n1522# VSS2 q VSS2 s=5800,258 d=5800,258 l=30 w=200 x=840 y=-1385 sky130_fd_pr__nfet_01v8
+x sense_amplifier_0.out1 q a_958_n1386# VSS2 s=5800,258 d=5800,258 l=30 w=200 x=928 y=-1385 sky130_fd_pr__nfet_01v8
+x sense_amplifier_0.out1 sense_amplifier_0.out2 a_834_510# VSS2 s=34800,1316 d=17400,658 l=30 w=600 x=1156 y=1360 sky130_fd_pr__nfet_01v8
+x clk sense_amplifier_0.out2 VDD1 VDD1 s=17400,658 d=34800,1316 l=30 w=600 x=1244 y=2286 sky130_fd_pr__pfet_01v8
+x d a_570_510# a_658_510# VSS2 s=34800,1316 d=17400,658 l=30 w=600 x=628 y=510 sky130_fd_pr__nfet_01v8
+x clk VDD1 sense_amplifier_0.out1 VDD1 s=34800,1316 d=17400,658 l=30 w=600 x=628 y=2286 sky130_fd_pr__pfet_01v8
+x nd a_834_510# a_570_510# VSS2 s=17400,658 d=17400,658 l=30 w=600 x=1244 y=510 sky130_fd_pr__nfet_01v8
+x sense_amplifier_0.out2 nq VDD2 VDD2 s=17400,658 d=17400,658 l=30 w=600 x=1482 y=-951 sky130_fd_pr__pfet_01v8
+x sense_amplifier_0.out2 a_658_510# sense_amplifier_0.out1 VSS2 s=17400,658 d=34800,1316 l=30 w=600 x=716 y=1360 sky130_fd_pr__nfet_01v8
+x nq a_958_n952# VDD2 VDD2 s=17400,658 d=34800,1316 l=30 w=600 x=1016 y=-951 sky130_fd_pr__pfet_01v8
+x d a_570_510# a_658_510# VSS2 s=17400,658 d=17400,658 l=30 w=600 x=980 y=510 sky130_fd_pr__nfet_01v8
+x sense_amplifier_0.out2 a_690_n1522# VSS2 VSS2 s=11600,516 d=5800,258 l=30 w=200 x=752 y=-1385 sky130_fd_pr__nfet_01v8
+x nd a_570_510# a_834_510# VSS2 s=17400,658 d=17400,658 l=30 w=600 x=804 y=510 sky130_fd_pr__nfet_01v8
+x clk VSS2 a_570_510# VSS2 s=17400,658 d=17400,658 l=30 w=600 x=1596 y=510 sky130_fd_pr__nfet_01v8
+x clk VSS2 a_570_510# VSS2 s=17400,658 d=17400,658 l=30 w=600 x=1420 y=510 sky130_fd_pr__nfet_01v8
+x sense_amplifier_0.out1 VDD2 q VDD2 s=17400,658 d=17400,658 l=30 w=600 x=840 y=-951 sky130_fd_pr__pfet_01v8
+x sense_amplifier_0.out1 VSS2 a_1374_n306# VSS2 s=5800,258 d=11600,516 l=30 w=200 x=1570 y=-1385 sky130_fd_pr__nfet_01v8
+x sense_amplifier_0.out1 VDD1 sense_amplifier_0.out2 VDD1 s=34800,1316 d=17400,658 l=30 w=600 x=1156 y=2286 sky130_fd_pr__pfet_01v8
+x q VSS2 a_1336_n1386# VSS2 s=11600,516 d=5800,258 l=30 w=200 x=1306 y=-1385 sky130_fd_pr__nfet_01v8
+x nd a_570_510# a_834_510# VSS2 s=17400,658 d=17400,658 l=30 w=600 x=1156 y=510 sky130_fd_pr__nfet_01v8
+x nq a_958_n1386# VSS2 VSS2 s=5800,258 d=11600,516 l=30 w=200 x=1016 y=-1385 sky130_fd_pr__nfet_01v8
+x sense_amplifier_0.out1 a_834_510# sense_amplifier_0.out2 VSS2 s=17400,658 d=34800,1316 l=30 w=600 x=1244 y=1360 sky130_fd_pr__nfet_01v8
+x nd a_834_510# a_570_510# VSS2 s=17400,658 d=17400,658 l=30 w=600 x=892 y=510 sky130_fd_pr__nfet_01v8
+x a_1374_n306# a_1336_n952# nq VDD2 s=17400,658 d=17400,658 l=30 w=600 x=1394 y=-951 sky130_fd_pr__pfet_01v8
+x sense_amplifier_0.out2 sense_amplifier_0.out1 a_658_510# VSS2 s=34800,1316 d=17400,658 l=30 w=600 x=628 y=1360 sky130_fd_pr__nfet_01v8
+x d a_658_510# a_570_510# VSS2 s=17400,658 d=17400,658 l=30 w=600 x=716 y=510 sky130_fd_pr__nfet_01v8
+x a_690_n1522# q a_958_n952# VDD2 s=17400,658 d=17400,658 l=30 w=600 x=928 y=-951 sky130_fd_pr__pfet_01v8
+x a_1374_n306# nq VSS2 VSS2 s=5800,258 d=5800,258 l=30 w=200 x=1482 y=-1385 sky130_fd_pr__nfet_01v8
+x sense_amplifier_0.out2 sense_amplifier_0.out1 VDD1 VDD1 s=17400,658 d=34800,1316 l=30 w=600 x=716 y=2286 sky130_fd_pr__pfet_01v8
+x clk a_570_510# VSS2 VSS2 s=17400,658 d=17400,658 l=30 w=600 x=1332 y=510 sky130_fd_pr__nfet_01v8
+x sense_amplifier_0.out1 VDD2 a_1374_n306# VDD2 s=17400,658 d=34800,1316 l=30 w=600 x=1570 y=-951 sky130_fd_pr__pfet_01v8
+x q VDD2 a_1336_n952# VDD2 s=34800,1316 d=17400,658 l=30 w=600 x=1306 y=-951 sky130_fd_pr__pfet_01v8
+x sense_amplifier_0.out2 a_690_n1522# VDD2 VDD2 s=34800,1316 d=17400,658 l=30 w=600 x=752 y=-951 sky130_fd_pr__pfet_01v8
+C sense_amplifier_0.out2 sense_amplifier_0.out1 4.3
+C a_834_510# a_570_510# 2.0
+C clk VDD1 2.6
+R q 4590
+= q saff_bottom_latch_0.c
+R nq 4590
+= nq saff_bottom_latch_0.nc
+C nd0 2.4
+R nd 5489
+= nd sense_amplifier_0.nd
+C d0 2.1
+R d 4756
+= d sense_amplifier_0.d
+C clk0 2.0
+R clk 8815
+= clk sense_amplifier_0.clk
+C VDD20 5.7
+R VDD2 19777
+= VDD2 saff_bottom_latch_0.VDD
+C VDD10 4.6
+R VDD1 15432
+= VDD1 sense_amplifier_0.VDD
+R VSS2 35889
+= VSS2 VSS1
+= VSS2 saff_bottom_latch_0.VSS
+= VSS2 sense_amplifier_0.VSS
+R a_1336_n1386# 493
+R a_958_n1386# 493
+R a_1336_n952# 2268
+R a_958_n952# 2268
+R a_1374_n306# 4922
+R a_690_n1522# 4915
+C a_570_510#0 4.1
+R a_570_510# 11989
+R a_834_510# 4982
+R a_658_510# 4982
+C sense_amplifier_0.out10 4.0
+R sense_amplifier_0.out1 13846
+= sense_amplifier_0.out1 saff_bottom_latch_0.a2
+= sense_amplifier_0.out1 saff_bottom_latch_0.a1
+C sense_amplifier_0.out20 4.2
+R sense_amplifier_0.out2 13819
+= sense_amplifier_0.out2 saff_bottom_latch_0.b2
+= sense_amplifier_0.out2 saff_bottom_latch_0.b1

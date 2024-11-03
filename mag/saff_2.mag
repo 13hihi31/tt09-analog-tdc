@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1730578401
+timestamp 1730645859
 << pwell >>
 rect 0 -841 265 -790
 << metal1 >>
@@ -28,7 +28,7 @@ timestamp 1730537487
 transform 1 0 -2657 0 1 49
 box 2922 -890 3570 -76
 use sense_amplifier  sense_amplifier_0
-timestamp 1730496807
+timestamp 1730645817
 transform 1 0 257 0 1 -1006
 box -257 1006 884 2773
 << labels >>

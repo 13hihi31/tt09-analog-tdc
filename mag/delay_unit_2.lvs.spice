@@ -1,0 +1,31 @@
+* NGSPICE file created from delay_unit_2.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_6H9P4D a_n73_n100# a_15_n100# a_n15_n126# VSUBS
+X0 a_15_n100# a_n15_n126# a_n73_n100# VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+**devattr s=11600,516 d=11600,516
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_2K9SAN a_n73_n300# w_n109_n362# a_15_n300# a_n15_n326#
+X0 a_15_n300# a_n15_n326# a_n73_n300# w_n109_n362# sky130_fd_pr__pfet_01v8 ad=0.87 pd=6.58 as=0.87 ps=6.58 w=3 l=0.15
+**devattr s=34800,1316 d=34800,1316
+.ends
+
+.subckt delay_unit_2 in_1 in_2 out_1 out_2 VDD VSS
+Xsky130_fd_pr__nfet_01v8_6H9P4D_0 VSS out_1 in_2 VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__nfet_01v8_6H9P4D_1 out_1 VSS in_2 VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_0 VDD VDD out_1 in_2 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_2 VSS out_1 in_2 VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_1 out_1 VDD VDD in_2 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_3 in_1 VSS in_2 VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_2 VDD VDD out_1 in_2 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_4 in_2 VSS in_1 VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_3 in_1 VDD VDD in_2 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_5 VSS out_2 in_1 VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__nfet_01v8_6H9P4D_6 out_2 VSS in_1 VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_4 VDD VDD out_2 in_1 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_7 VSS out_2 in_1 VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_5 in_2 VDD VDD in_1 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__pfet_01v8_2K9SAN_6 VDD VDD out_2 in_1 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__pfet_01v8_2K9SAN_7 out_2 VDD VDD in_1 sky130_fd_pr__pfet_01v8_2K9SAN
+.ends
+
