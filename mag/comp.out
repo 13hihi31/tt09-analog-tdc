@@ -28,52 +28,32 @@ Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
-Flattening unmatched subcell saff_delay_unit in circuit vernier_delay_line (0)(8 instances)
-Flattening unmatched subcell saff_2 in circuit vernier_delay_line (0)(8 instances)
-Flattening unmatched subcell saff_bottom_latch in circuit vernier_delay_line (0)(8 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_6H9P4D in circuit vernier_delay_line (0)(64 instances)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2K9SAN in circuit vernier_delay_line (0)(64 instances)
-Flattening unmatched subcell sense_amplifier in circuit vernier_delay_line (0)(8 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NM9Y3C in circuit vernier_delay_line (0)(136 instances)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2K9SAN in circuit vernier_delay_line (0)(32 instances)
-Flattening unmatched subcell delay_unit_2 in circuit vernier_delay_line (0)(9 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_6H9P4D in circuit vernier_delay_line (0)(72 instances)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2K9SAN in circuit vernier_delay_line (0)(72 instances)
-Flattening unmatched subcell delay_unit in circuit vernier_delay_line (1)(9 instances)
-Flattening unmatched subcell saff in circuit vernier_delay_line (1)(8 instances)
+Flattening unmatched subcell inverter_3_1x4 in circuit stop_buffer (0)(7 instances)
+Flattening unmatched subcell inverter_3_1 in circuit stop_buffer (0)(28 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_6H9P4D in circuit stop_buffer (0)(28 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2K9SAN in circuit stop_buffer (0)(28 instances)
 
-Class vernier_delay_line (0):  Merged 168 parallel devices.
+Class stop_buffer (0):  Merged 36 parallel devices.
 Subcircuit summary:
-Circuit 1: vernier_delay_line              |Circuit 2: vernier_delay_line              
+Circuit 1: stop_buffer                     |Circuit 2: stop_buffer                     
 -------------------------------------------|-------------------------------------------
-sky130_fd_pr__nfet_01v8 (272->140)         |sky130_fd_pr__nfet_01v8 (140)              
-sky130_fd_pr__pfet_01v8 (168->132)         |sky130_fd_pr__pfet_01v8 (132)              
-Number of devices: 272                     |Number of devices: 272                     
-Number of nets: 127                        |Number of nets: 127                        
+sky130_fd_pr__nfet_01v8 (28->10)           |sky130_fd_pr__nfet_01v8 (10)               
+sky130_fd_pr__pfet_01v8 (28->10)           |sky130_fd_pr__pfet_01v8 (10)               
+Number of devices: 20                      |Number of devices: 20                      
+Number of nets: 13                         |Number of nets: 13                         
 ---------------------------------------------------------------------------------------
-Resolving symmetries by property value.
-Resolving symmetries by pin name.
 Netlists match uniquely.
 
 Subcircuit pins:
-Circuit 1: vernier_delay_line              |Circuit 2: vernier_delay_line              
+Circuit 1: stop_buffer                     |Circuit 2: stop_buffer                     
 -------------------------------------------|-------------------------------------------
-VSS                                        |VSS                                        
-VDD                                        |VDD                                        
 stop_strong                                |stop_strong                                
-start_pos                                  |start_pos                                  
-start_neg                                  |start_neg                                  
-term_0                                     |term_0                                     
-term_7                                     |term_7                                     
-term_1                                     |term_1                                     
-term_3                                     |term_3                                     
-term_4                                     |term_4                                     
-term_2                                     |term_2                                     
-term_5                                     |term_5                                     
-term_6                                     |term_6                                     
+stop                                       |stop                                       
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes vernier_delay_line and vernier_delay_line are equivalent.
+Device classes stop_buffer and stop_buffer are equivalent.
 
 Final result: Circuits match uniquely.
 .

@@ -1,0 +1,25 @@
+** sch_path: /home/ttuser/Documents/tt09-analog-tdc/xschem/stop_buffer.sch
+.subckt stop_buffer stop stop_strong VDD VSS
+*.PININFO VDD:B VSS:B stop:I stop_strong:O
+XM7 net1 net2 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM8 net1 net2 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM9 net3 net1 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM10 net3 net1 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM11 net4 net3 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM12 net4 net3 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM13 net5 net4 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM14 net5 net4 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM15 net6 net5 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM16 net6 net5 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM17 net7 net6 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM18 net7 net6 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM19 net8 net7 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=12 nf=1 m=1
+XM20 net8 net7 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=4 nf=1 m=1
+XM21 stop_strong net8 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=48 nf=1 m=1
+XM22 stop_strong net8 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=16 nf=1 m=1
+XM23 net9 stop VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM24 net9 stop VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM25 net2 net9 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM26 net2 net9 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+.ends
+.end
