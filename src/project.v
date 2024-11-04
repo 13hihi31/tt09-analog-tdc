@@ -26,5 +26,9 @@ module tt_um_13hihi31_tdc (
         .in(ua[0]),
         .out(ua[1])
     );
+    
+    //vernier_delay_line vernier_delay_line_0();
+    //diff_gen diff_gen_0();
+    stop_buffer stop_buffer_0();
 
 endmodule

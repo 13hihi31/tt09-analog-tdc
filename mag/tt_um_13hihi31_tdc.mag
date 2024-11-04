@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1728591295
+timestamp 1730824673
 << metal1 >>
 rect 11760 5125 11885 5130
 rect 11760 5010 11765 5125
@@ -151,10 +151,42 @@ rect 15180 120 15185 170
 rect 15265 120 15270 170
 rect 15180 107 15270 120
 rect 15178 0 15273 107
+use delay_unit_2  delay_unit_2_0
+timestamp 1730821126
+transform 1 0 6078 0 1 8500
+box -222 -71 418 690
+use diff_gen  diff_gen_0
+timestamp 1730821783
+transform 1 0 4940 0 1 12590
+box 0 0 4480 761
 use inverter  inverter_0
 timestamp 1728242959
 transform 1 0 12080 0 1 1950
 box -195 -120 615 3200
+use saff  saff_0
+timestamp 1730183176
+transform 1 0 1761 0 1 7655
+box 978 -1065 2547 2065
+use saff_2  saff_2_0
+timestamp 1730823783
+transform 1 0 10841 0 1 8489
+box 0 -841 1141 1767
+use saff_bottom_latch  saff_bottom_latch_0
+timestamp 1730823390
+transform 1 0 101 0 1 11456
+box 2922 -890 3570 -76
+use sense_amplifier  sense_amplifier_0
+timestamp 1730822054
+transform 1 0 8428 0 1 5726
+box -257 1006 884 2773
+use stop_buffer  stop_buffer_0
+timestamp 1730753331
+transform 1 0 4069 0 1 19006
+box 0 0 4114 641
+use vernier_delay_line  vernier_delay_line_0
+timestamp 1730824333
+transform 1 0 3805 0 1 14869
+box -256 0 9768 3389
 << labels >>
 flabel metal4 s 14383 22476 14413 22576 0 FreeSans 240 90 0 0 clk
 port 0 nsew signal input
