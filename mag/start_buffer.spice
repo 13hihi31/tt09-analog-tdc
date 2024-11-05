@@ -1,0 +1,11 @@
+** sch_path: /home/ttuser/Documents/tt09-analog-tdc/xschem/start_buffer.sch
+.subckt start_buffer start start_delay start_buff VDD VSS
+*.PININFO VDD:B VSS:B start:I start_delay:O start_buff:O
+XM1 net1 start VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM2 net1 start VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM3 start_buff net1 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=12 nf=1 m=1
+XM4 start_buff net1 VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=4 nf=1 m=1
+XM5 start_delay start_buff VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=9 nf=1 m=1
+XM6 start_delay start_buff VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=3 nf=1 m=1
+.ends
+.end

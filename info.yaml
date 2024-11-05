@@ -11,7 +11,7 @@ project:
   tiles: "1x2"          # Valid values for analog projects: 1x2, 2x2
 
   # How many analog pins does your project use?
-  analog_pins: 2        # Valid values: 0 to 6
+  analog_pins: 1        # Valid values: 0 to 6
   uses_3v3: false       # Set to true if your project uses 3.3V (VAPWR) in addition to 1.8V (VDPWR)
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
@@ -24,24 +24,24 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: "delay bit 0"
-  ui[1]: "delay bit 1"
-  ui[2]: "delay bit 2"
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "start delay 0"
+  ui[1]: "start delay 1"
+  ui[2]: "start delay 2"
+  ui[3]: "stop delay 0"
+  ui[4]: "stop delay 1"
+  ui[5]: "stop delay 2"
+  ui[6]: "stop delay 3"
+  ui[7]: "stop delay 4"
 
   # Outputs
   uo[0]: "tdc bit 0"
   uo[1]: "tdc bit 1"
   uo[2]: "tdc bit 2"
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[3]: "tdc bit 3"
+  uo[4]: "tdc bit 4"
+  uo[5]: "tdc bit 5"
+  uo[6]: "tdc bit 6"
+  uo[7]: "tdc bit 7"
 
   # Bidirectional pins
   uio[0]: ""
@@ -54,8 +54,8 @@ pinout:
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: "start"
-  ua[1]: "stop"
+  ua[0]: "stop"
+  ua[1]: ""
   ua[2]: ""
   ua[3]: ""
   ua[4]: ""

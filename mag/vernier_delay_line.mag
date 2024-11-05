@@ -1,42 +1,43 @@
 magic
 tech sky130A
-timestamp 1730824333
+timestamp 1730836525
 << pwell >>
-rect -82 0 0 51
+rect -106 0 0 51
 << metal1 >>
-rect -256 3323 0 3371
-rect -256 2467 -176 3323
-rect -82 2673 0 2676
-rect -82 2631 -79 2673
+rect -301 3323 0 3371
+rect -301 2467 -221 3323
+rect -106 2673 0 2676
+rect -106 2631 -103 2673
 rect -37 2631 0 2673
-rect -82 2628 0 2631
-rect 0 2526 32 2558
-rect -256 2429 0 2467
-rect -256 2388 5 2429
-rect -256 789 -176 2388
-rect -82 932 0 936
-rect -82 884 -78 932
+rect -106 2628 0 2631
+rect -185 2526 32 2558
+rect -185 2508 0 2526
+rect -301 2429 0 2467
+rect -301 2388 5 2429
+rect -301 789 -221 2388
+rect -106 932 0 936
+rect -106 884 -102 932
 rect -38 884 0 932
-rect -82 880 0 884
-rect -256 738 1 789
-rect -82 47 0 51
-rect -82 4 -78 47
+rect -106 880 0 884
+rect -301 738 1 789
+rect -106 47 0 51
+rect -106 4 -102 47
 rect -38 4 0 47
-rect -82 0 0 4
+rect -106 0 0 4
 << via1 >>
-rect -79 2631 -37 2673
-rect -78 884 -38 932
-rect -78 4 -38 47
+rect -103 2631 -37 2673
+rect -102 884 -38 932
+rect -102 4 -38 47
 << metal2 >>
 rect 0 3277 32 3309
 rect 0 2772 32 2804
-rect -82 2673 -34 2676
-rect -82 2631 -79 2673
+rect -106 2673 -34 2676
+rect -106 2631 -103 2673
 rect -37 2631 -34 2673
-rect -82 932 -34 2631
-rect -82 884 -78 932
+rect -106 932 -34 2631
+rect -106 884 -102 932
 rect -38 884 -34 932
-rect -82 47 -34 884
+rect -106 47 -34 884
 rect 438 81 470 113
 rect 1579 81 1611 113
 rect 2720 81 2752 113
@@ -45,9 +46,9 @@ rect 5002 81 5034 113
 rect 6143 81 6175 113
 rect 7284 81 7316 113
 rect 8425 81 8457 113
-rect -82 4 -78 47
+rect -106 4 -102 47
 rect -38 4 -34 47
-rect -82 0 -34 4
+rect -106 0 -34 4
 use delay_unit_2  delay_unit_2_0
 timestamp 1730821126
 transform 1 0 9350 0 1 2699
@@ -107,8 +108,8 @@ rlabel metal2 7284 81 7316 113 0 term_6
 port 10 nsew
 rlabel metal2 8425 81 8457 113 0 term_7
 port 11 nsew
-rlabel metal1 -256 3339 -224 3371 0 VDD
-port 12 nsew
 rlabel metal2 -82 2577 -50 2609 0 VSS
 port 13 nsew
+rlabel metal1 -301 3339 -269 3371 0 VDD
+port 12 nsew
 << end >>

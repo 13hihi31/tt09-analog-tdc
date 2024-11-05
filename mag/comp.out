@@ -28,32 +28,33 @@ Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
-Flattening unmatched subcell inverter_3_1x4 in circuit stop_buffer (0)(7 instances)
-Flattening unmatched subcell inverter_3_1 in circuit stop_buffer (0)(28 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_6H9P4D in circuit stop_buffer (0)(28 instances)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2K9SAN in circuit stop_buffer (0)(28 instances)
+Flattening unmatched subcell inverter_3_1x4 in circuit start_buffer (0)(2 instances)
+Flattening unmatched subcell inverter_3_1 in circuit start_buffer (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_6H9P4D in circuit start_buffer (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2K9SAN in circuit start_buffer (0)(8 instances)
 
-Class stop_buffer (0):  Merged 36 parallel devices.
+Class start_buffer (0):  Merged 10 parallel devices.
 Subcircuit summary:
-Circuit 1: stop_buffer                     |Circuit 2: stop_buffer                     
+Circuit 1: start_buffer                    |Circuit 2: start_buffer                    
 -------------------------------------------|-------------------------------------------
-sky130_fd_pr__nfet_01v8 (28->10)           |sky130_fd_pr__nfet_01v8 (10)               
-sky130_fd_pr__pfet_01v8 (28->10)           |sky130_fd_pr__pfet_01v8 (10)               
-Number of devices: 20                      |Number of devices: 20                      
-Number of nets: 13                         |Number of nets: 13                         
+sky130_fd_pr__nfet_01v8 (8->3)             |sky130_fd_pr__nfet_01v8 (3)                
+sky130_fd_pr__pfet_01v8 (8->3)             |sky130_fd_pr__pfet_01v8 (3)                
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 6                          |Number of nets: 6                          
 ---------------------------------------------------------------------------------------
 Netlists match uniquely.
 
 Subcircuit pins:
-Circuit 1: stop_buffer                     |Circuit 2: stop_buffer                     
+Circuit 1: start_buffer                    |Circuit 2: start_buffer                    
 -------------------------------------------|-------------------------------------------
-stop_strong                                |stop_strong                                
-stop                                       |stop                                       
+start                                      |start                                      
+start_delay                                |start_delay                                
 VDD                                        |VDD                                        
 VSS                                        |VSS                                        
+start_buff                                 |start_buff                                 
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes stop_buffer and stop_buffer are equivalent.
+Device classes start_buffer and start_buffer are equivalent.
 
 Final result: Circuits match uniquely.
 .

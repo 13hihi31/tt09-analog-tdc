@@ -1,0 +1,39 @@
+* NGSPICE file created from start_buffer.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_6H9P4D a_n73_n100# a_15_n100# a_n15_n126# VSUBS
+X0 a_15_n100# a_n15_n126# a_n73_n100# VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+**devattr s=11600,516 d=11600,516
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_2K9SAN a_n73_n300# w_n109_n362# a_15_n300# a_n15_n326#
+X0 a_15_n300# a_n15_n326# a_n73_n300# w_n109_n362# sky130_fd_pr__pfet_01v8 ad=0.87 pd=6.58 as=0.87 ps=6.58 w=3 l=0.15
+**devattr s=34800,1316 d=34800,1316
+.ends
+
+.subckt inverter_3_1 w_30_230# m1_250_162# sky130_fd_pr__pfet_01v8_2K9SAN_0/VSUBS
++ a_136_200#
+Xsky130_fd_pr__nfet_01v8_6H9P4D_0 sky130_fd_pr__pfet_01v8_2K9SAN_0/VSUBS m1_250_162#
++ a_136_200# sky130_fd_pr__pfet_01v8_2K9SAN_0/VSUBS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_0 w_30_230# w_30_230# m1_250_162# a_136_200# sky130_fd_pr__pfet_01v8_2K9SAN
+.ends
+
+.subckt inverter_3_1x4 inverter_3_1_2/a_136_200# inverter_3_1_3/a_136_200# inverter_3_1_4/a_136_200#
++ inverter_3_1_4/w_30_230# inverter_3_1_4/m1_250_162# inverter_3_1_3/m1_250_162# inverter_3_1_2/m1_250_162#
++ inverter_3_1_0/a_136_200# inverter_3_1_0/m1_250_162# VSUBS
+Xinverter_3_1_0 inverter_3_1_4/w_30_230# inverter_3_1_0/m1_250_162# VSUBS inverter_3_1_0/a_136_200#
++ inverter_3_1
+Xinverter_3_1_2 inverter_3_1_4/w_30_230# inverter_3_1_2/m1_250_162# VSUBS inverter_3_1_2/a_136_200#
++ inverter_3_1
+Xinverter_3_1_3 inverter_3_1_4/w_30_230# inverter_3_1_3/m1_250_162# VSUBS inverter_3_1_3/a_136_200#
++ inverter_3_1
+Xinverter_3_1_4 inverter_3_1_4/w_30_230# inverter_3_1_4/m1_250_162# VSUBS inverter_3_1_4/a_136_200#
++ inverter_3_1
+.ends
+
+.subckt start_buffer start start_delay start_buff VDD VSS
+Xinverter_3_1x4_0 m1_266_396# m1_266_396# m1_266_396# VDD start_buff start_buff start_buff
++ start m1_266_396# VSS inverter_3_1x4
+Xinverter_3_1x4_1 start_buff start_buff start_buff VDD start_delay start_delay start_delay
++ m1_266_396# start_buff VSS inverter_3_1x4
+.ends
+

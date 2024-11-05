@@ -27,8 +27,35 @@ module tt_um_13hihi31_tdc (
         .out(ua[1])
     );
     
-    //vernier_delay_line vernier_delay_line_0();
-    //diff_gen diff_gen_0();
-    stop_buffer stop_buffer_0();
+    vernier_delay_line vernier_delay_line_0(
+      .start_pos(),
+      .start_neg(),
+      .stop_strong(),
+      .term_0(),
+      .term_1(),
+      .term_2(),
+      .term_3(),
+      .term_4(),
+      .term_5(),
+      .term_6(),
+      .term_7(),
+      .VDD(),
+      .VSS(),
+    );
+    
+    diff_gen diff_gen_0(
+      .in_delay(),
+      .in_buff(),
+      .out_pos(),
+      .out_neg(),
+      .VDD(),
+      .VSS(),
+    );
+    
+    stop_buffer stop_buffer_0(
+      .stop(),
+      .stop_strong(),
+      .VDD() VSS
+    );
 
 endmodule
