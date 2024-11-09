@@ -1,0 +1,1156 @@
+| units: 500000 tech: sky130A format: MIT
+x vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out1 VDD vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out2 VDD s=34800,1316 d=17400,658 l=30 w=600 x=15360 y=3968 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 term_7 a_17444_296# VSS s=5800,258 d=5800,258 l=30 w=200 x=17414 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 a_14774_2192# a_14862_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=14832 y=2192 sky130_fd_pr__nfet_01v8
+x a_8732_1376# a_8694_730# vernier_delay_line_0.saff_delay_unit_3/saff_2_0.nq VDD s=17400,658 d=17400,658 l=30 w=600 x=8752 y=730 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_5.in_2 VSS diff_gen_0.delay_unit_2_6.in_1 VSS s=5800,258 d=5800,258 l=30 w=200 x=-2641 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nq VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=17968 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 a_4130_296# vernier_delay_line_0.saff_delay_unit_1/saff_2_0.nq VSS s=5800,258 d=5800,258 l=30 w=200 x=4188 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong VSS a_12492_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=13342 y=2192 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_2.in_1 diff_gen_0.delay_unit_2_3.in_2 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=-5837 y=5490 sky130_fd_pr__nfet_01v8
+x start_buffer_0.start_buff start_buffer_0.start_delay VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=-8573 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 VSS vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd VSS s=5800,258 d=5800,258 l=30 w=200 x=17376 y=5490 sky130_fd_pr__nfet_01v8
+x a_n6748_3464# VSS a_n6458_3464# VSS s=11600,516 d=11600,516 l=30 w=200 x=-5907 y=3464 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_1.in_2 diff_gen_0.delay_unit_2_1.in_1 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=-7849 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=15006 y=5490 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_4.in_1 VSS diff_gen_0.delay_unit_2_5.in_2 VSS s=5800,258 d=5800,258 l=30 w=200 x=-3365 y=5490 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_6.in_1 VSS vernier_delay_line_0.start_neg VSS s=5800,258 d=11600,516 l=30 w=200 x=-629 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 a_5646_2192# a_5910_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=5880 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 VDD vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 VDD s=17400,658 d=17400,658 l=30 w=600 x=12256 y=5820 sky130_fd_pr__pfet_01v8
+x term_5 VSS a_13258_296# VSS s=11600,516 d=5800,258 l=30 w=200 x=13228 y=296 sky130_fd_pr__nfet_01v8
+x a_n11872_5654# VSS start_buffer_0.start_buff VSS s=11600,516 d=11600,516 l=30 w=200 x=-11611 y=5654 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 a_3452_2192# a_3364_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=3510 y=2192 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_5.in_2 diff_gen_0.delay_unit_2_5.in_1 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=-2729 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out2 a_1848_296# vernier_delay_line_0.saff_delay_unit_0/saff_2_0.nq VSS s=5800,258 d=5800,258 l=30 w=200 x=1906 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong VSS a_3364_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=4390 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 a_15038_2192# a_14774_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=15096 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong a_1082_2192# VSS VSS s=17400,658 d=17400,658 l=30 w=600 x=2020 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=6054 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d VDD vernier_delay_line_0.delay_unit_2_0.out_2 VDD s=17400,658 d=34800,1316 l=30 w=600 x=19834 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=10442 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/saff_2_0.nq a_8316_730# VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=8374 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 VSS vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d VSS s=5800,258 d=11600,516 l=30 w=200 x=16996 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 a_15038_2192# a_14774_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=15448 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out1 VDD vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out2 VDD s=34800,1316 d=17400,658 l=30 w=600 x=10796 y=3968 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_3.in_2 diff_gen_0.delay_unit_2_4.in_1 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=-5113 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=14626 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out1 VSS a_15578_1376# VSS s=5800,258 d=11600,516 l=30 w=200 x=15774 y=296 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_5.in_1 diff_gen_0.delay_unit_2_6.in_2 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=-1997 y=5820 sky130_fd_pr__pfet_01v8
+x start_buffer_0.start_buff VDD diff_gen_0.delay_unit_2_1.in_2 VDD s=17400,658 d=34800,1316 l=30 w=600 x=-8309 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=8160 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 a_7928_2192# a_8016_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=7986 y=2192 sky130_fd_pr__nfet_01v8
+x a_17176_160# term_7 a_17444_730# VDD s=17400,658 d=17400,658 l=30 w=600 x=17414 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.start_pos vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=1490 y=5820 sky130_fd_pr__pfet_01v8
+x start_buffer_0.start_delay VDD diff_gen_0.delay_unit_2_1.in_1 VDD s=17400,658 d=34800,1316 l=30 w=600 x=-8865 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 VSS vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 VSS s=5800,258 d=5800,258 l=30 w=200 x=12812 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=16732 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.stop_strong VSS a_5646_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=6496 y=2192 sky130_fd_pr__nfet_01v8
+x a_4168_1376# a_4130_730# vernier_delay_line_0.saff_delay_unit_1/saff_2_0.nq VDD s=17400,658 d=17400,658 l=30 w=600 x=4188 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_0/saff_2_0.nq a_1470_296# VSS VSS s=5800,258 d=11600,516 l=30 w=200 x=1528 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong a_3364_2192# VSS VSS s=17400,658 d=17400,658 l=30 w=600 x=4126 y=2192 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_2.in_2 diff_gen_0.delay_unit_2_3.in_1 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=-6393 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 VSS vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 VSS s=5800,258 d=11600,516 l=30 w=200 x=3304 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out2 a_12612_160# VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=12674 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.start_neg vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=934 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d a_17144_2192# a_17056_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=17202 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong VDD vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out1 VDD s=34800,1316 d=17400,658 l=30 w=600 x=12550 y=3968 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_3.in_1 diff_gen_0.delay_unit_2_3.in_2 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=-4733 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.stop_strong VSS a_17056_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=18082 y=2192 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_6.in_2 VSS vernier_delay_line_0.start_pos VSS s=5800,258 d=11600,516 l=30 w=200 x=-1185 y=5490 sky130_fd_pr__nfet_01v8
+x a_6450_1376# vernier_delay_line_0.saff_delay_unit_2/saff_2_0.nq VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=6558 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 VSS vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 VSS s=5800,258 d=11600,516 l=30 w=200 x=3860 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=7780 y=5820 sky130_fd_pr__pfet_01v8
+x term_5 VDD a_13258_730# VDD s=34800,1316 d=17400,658 l=30 w=600 x=13228 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 a_10474_2192# a_10210_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=10532 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out1 a_1170_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=1140 y=3042 sky130_fd_pr__nfet_01v8
+x a_1886_1376# a_1848_730# vernier_delay_line_0.saff_delay_unit_0/saff_2_0.nq VDD s=17400,658 d=17400,658 l=30 w=600 x=1906 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 VDD vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 VDD s=17400,658 d=17400,658 l=30 w=600 x=5410 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 a_8192_2192# a_7928_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=8250 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=3596 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out2 a_12756_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=13078 y=3042 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/saff_2_0.nq a_15162_296# VSS VSS s=5800,258 d=11600,516 l=30 w=200 x=15220 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 a_1170_2192# a_1082_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=1580 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out1 VDD a_15578_1376# VDD s=17400,658 d=34800,1316 l=30 w=600 x=15774 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 a_8192_2192# a_7928_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=8602 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out1 VDD vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 VDD s=34800,1316 d=17400,658 l=30 w=600 x=3950 y=3968 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=15182 y=5820 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_1.in_1 diff_gen_0.delay_unit_2_2.in_2 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=-7117 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong VSS a_1082_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=1932 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out2 VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=13166 y=3968 sky130_fd_pr__pfet_01v8
+x start_buffer_0.start_delay start_buffer_0.start_buff VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=-9129 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 VSS vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 VSS s=5800,258 d=5800,258 l=30 w=200 x=5966 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=9886 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 a_12580_2192# a_12492_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=12638 y=2192 sky130_fd_pr__nfet_01v8
+x a_n6748_3464# VDD a_n6458_3464# VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-6197 y=3794 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_1.in_2 diff_gen_0.delay_unit_2_2.in_1 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=-7673 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_0/saff_2_0.nq a_1470_730# VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=1528 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.stop_strong a_10210_2192# VSS VSS s=17400,658 d=17400,658 l=30 w=600 x=11148 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out2 a_10976_296# vernier_delay_line_0.saff_delay_unit_4/saff_2_0.nq VSS s=5800,258 d=5800,258 l=30 w=200 x=11034 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 VSS vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd VSS s=5800,258 d=11600,516 l=30 w=200 x=17552 y=5490 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_4.in_2 diff_gen_0.delay_unit_2_4.in_1 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=-4009 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out2 a_12612_160# VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=12674 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out1 term_2 a_6034_296# VSS s=5800,258 d=5800,258 l=30 w=200 x=6004 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd VDD vernier_delay_line_0.delay_unit_2_0.out_1 VDD s=17400,658 d=17400,658 l=30 w=600 x=19102 y=5820 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_6.in_1 VSS vernier_delay_line_0.start_neg VSS s=5800,258 d=5800,258 l=30 w=200 x=-805 y=5490 sky130_fd_pr__nfet_01v8
+x start_buffer_0.start_buff diff_gen_0.delay_unit_2_1.in_2 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=-8397 y=5490 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_5.in_2 diff_gen_0.delay_unit_2_6.in_1 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=-2553 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_2/saff_2_0.nq VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=6558 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 a_3628_2192# a_3364_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=3686 y=2192 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_2.in_1 VDD diff_gen_0.delay_unit_2_3.in_2 VDD s=17400,658 d=34800,1316 l=30 w=600 x=-5749 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 VDD vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 VDD s=17400,658 d=34800,1316 l=30 w=600 x=12432 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 a_1082_2192# a_1346_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=1316 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=17288 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out1 a_10474_2192# vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out2 VSS s=17400,658 d=34800,1316 l=30 w=600 x=10884 y=3042 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong a_1082_2192# VSS VSS s=17400,658 d=34800,1316 l=30 w=600 x=2196 y=2192 sky130_fd_pr__nfet_01v8
+x a_n6458_3464# VDD vernier_delay_line_0.stop_strong VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-3297 y=3794 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_4.in_1 diff_gen_0.delay_unit_2_5.in_2 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=-3277 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 a_14862_2192# a_14774_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=15272 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=14450 y=5490 sky130_fd_pr__nfet_01v8
+x a_n6748_3464# VSS a_n6458_3464# VSS s=11600,516 d=11600,516 l=30 w=200 x=-6197 y=3464 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 VDD vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 VDD s=34800,1316 d=17400,658 l=30 w=600 x=17642 y=3968 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out1 VSS a_8732_1376# VSS s=5800,258 d=11600,516 l=30 w=200 x=8928 y=296 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_3.in_2 diff_gen_0.delay_unit_2_3.in_1 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=-5289 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.stop_strong a_17056_2192# VSS VSS s=17400,658 d=17400,658 l=30 w=600 x=17994 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/saff_2_0.nq a_15162_730# VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=15220 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.stop_strong VSS a_14774_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=15624 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out2 a_5910_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=6232 y=3042 sky130_fd_pr__nfet_01v8
+x a_n7328_3464# VDD a_n7038_3464# VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-7067 y=3794 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d VSS vernier_delay_line_0.delay_unit_2_0.out_2 VSS s=5800,258 d=5800,258 l=30 w=200 x=19658 y=5490 sky130_fd_pr__nfet_01v8
+x a_10330_160# VSS term_4 VSS s=5800,258 d=5800,258 l=30 w=200 x=10480 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 VSS vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 VSS s=5800,258 d=11600,516 l=30 w=200 x=12988 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out1 a_10298_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=10268 y=3042 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_2.in_1 diff_gen_0.delay_unit_2_2.in_2 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=-6013 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=10618 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 VDD vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 VDD s=17400,658 d=17400,658 l=30 w=600 x=14538 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out2 a_5766_160# VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=5828 y=296 sky130_fd_pr__nfet_01v8
+x a_n6458_3464# VSS vernier_delay_line_0.stop_strong VSS s=11600,516 d=11600,516 l=30 w=200 x=-3297 y=3464 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out2 VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=6320 y=3968 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out1 VSS a_4168_1376# VSS s=5800,258 d=11600,516 l=30 w=200 x=4364 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong VSS a_5646_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=6672 y=2192 sky130_fd_pr__nfet_01v8
+x a_11014_1376# a_10976_730# vernier_delay_line_0.saff_delay_unit_4/saff_2_0.nq VDD s=17400,658 d=17400,658 l=30 w=600 x=11034 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd a_17320_2192# a_17056_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=17378 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong a_3364_2192# VSS VSS s=17400,658 d=17400,658 l=30 w=600 x=4302 y=2192 sky130_fd_pr__nfet_01v8
+x a_n6458_3464# VDD vernier_delay_line_0.stop_strong VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-4167 y=3794 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_4.in_2 diff_gen_0.delay_unit_2_5.in_1 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=-3833 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=8336 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 a_14774_2192# a_15038_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=15008 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out1 VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=10356 y=3968 sky130_fd_pr__pfet_01v8
+x a_5766_160# term_2 a_6034_730# VDD s=17400,658 d=17400,658 l=30 w=600 x=6004 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=12724 y=5820 sky130_fd_pr__pfet_01v8
+x a_n7328_3464# VSS a_n7038_3464# VSS s=11600,516 d=11600,516 l=30 w=200 x=-7067 y=3464 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_6.in_2 VSS vernier_delay_line_0.start_pos VSS s=5800,258 d=5800,258 l=30 w=200 x=-1361 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 VDD vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 VDD s=17400,658 d=34800,1316 l=30 w=600 x=5586 y=5820 sky130_fd_pr__pfet_01v8
+x a_13296_1376# vernier_delay_line_0.saff_delay_unit_5/saff_2_0.nq VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=13404 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=16908 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.start_neg vernier_delay_line_0.start_pos VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=758 y=5490 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_3.in_1 diff_gen_0.delay_unit_2_4.in_2 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=-4557 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out1 VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=8074 y=3968 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_1.in_1 diff_gen_0.delay_unit_2_1.in_2 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=-7293 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=3216 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out2 a_1346_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=1668 y=3042 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_5.in_1 VDD diff_gen_0.delay_unit_2_6.in_2 VDD s=17400,658 d=34800,1316 l=30 w=600 x=-1909 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out2 a_1202_160# VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=1264 y=296 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_2.in_2 diff_gen_0.delay_unit_2_2.in_1 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=-6569 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 a_5646_2192# a_5734_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=6056 y=2192 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_5.in_1 VSS diff_gen_0.delay_unit_2_6.in_2 VSS s=5800,258 d=5800,258 l=30 w=200 x=-2085 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out1 VDD a_8732_1376# VDD s=17400,658 d=34800,1316 l=30 w=600 x=8928 y=730 sky130_fd_pr__pfet_01v8
+x a_n6458_3464# VDD vernier_delay_line_0.stop_strong VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-1267 y=3794 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=3772 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.stop_strong VSS a_7928_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=8778 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.start_pos VDD vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 VDD s=17400,658 d=17400,658 l=30 w=600 x=1402 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.stop_strong a_5646_2192# VSS VSS s=17400,658 d=17400,658 l=30 w=600 x=6408 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd vernier_delay_line_0.delay_unit_2_0.out_1 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=19190 y=5490 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_6.in_2 diff_gen_0.delay_unit_2_6.in_1 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=-1449 y=5820 sky130_fd_pr__pfet_01v8
+x a_n6458_3464# VSS vernier_delay_line_0.stop_strong VSS s=11600,516 d=11600,516 l=30 w=200 x=-4167 y=3464 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out2 VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=1756 y=3968 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.stop_strong VDD vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out1 VDD s=34800,1316 d=17400,658 l=30 w=600 x=14832 y=3968 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_2.in_2 VDD diff_gen_0.delay_unit_2_3.in_1 VDD s=17400,658 d=34800,1316 l=30 w=600 x=-6305 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out1 VDD term_4 VDD s=17400,658 d=17400,658 l=30 w=600 x=10480 y=730 sky130_fd_pr__pfet_01v8
+x a_n6458_3464# VDD vernier_delay_line_0.stop_strong VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-5037 y=3794 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out2 a_5734_2192# vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out1 VSS s=17400,658 d=34800,1316 l=30 w=600 x=5792 y=3042 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 VSS vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 VSS s=5800,258 d=11600,516 l=30 w=200 x=10150 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out2 a_5766_160# VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=5828 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 a_12756_2192# a_12492_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=12814 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out1 a_3452_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=3422 y=3042 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out1 VDD a_4168_1376# VDD s=17400,658 d=34800,1316 l=30 w=600 x=4364 y=730 sky130_fd_pr__pfet_01v8
+x a_n7038_3464# VDD a_n6748_3464# VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-6777 y=3794 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.stop_strong a_10210_2192# VSS VSS s=17400,658 d=34800,1316 l=30 w=600 x=11324 y=2192 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_1.in_1 VDD diff_gen_0.delay_unit_2_2.in_2 VDD s=17400,658 d=34800,1316 l=30 w=600 x=-7029 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd VDD vernier_delay_line_0.delay_unit_2_0.out_1 VDD s=17400,658 d=34800,1316 l=30 w=600 x=19278 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out1 term_5 a_12880_296# VSS s=5800,258 d=5800,258 l=30 w=200 x=12850 y=296 sky130_fd_pr__nfet_01v8
+x a_n6458_3464# VSS vernier_delay_line_0.stop_strong VSS s=11600,516 d=11600,516 l=30 w=200 x=-1267 y=3464 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=5878 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 a_1082_2192# a_1170_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=1140 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 VSS a_17860_1376# VSS s=5800,258 d=11600,516 l=30 w=200 x=18056 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 a_17320_2192# vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 VSS s=17400,658 d=34800,1316 l=30 w=600 x=17730 y=3042 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong a_7928_2192# VSS VSS s=17400,658 d=34800,1316 l=30 w=600 x=9042 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out1 VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=3510 y=3968 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_1.in_2 VDD diff_gen_0.delay_unit_2_2.in_1 VDD s=17400,658 d=34800,1316 l=30 w=600 x=-7585 y=5820 sky130_fd_pr__pfet_01v8
+x start_buffer_0.start_buff start_buffer_0.start_delay VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=-8573 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_5/saff_2_0.nq VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=13404 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 a_3452_2192# a_3364_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=3862 y=2192 sky130_fd_pr__nfet_01v8
+x a_n6458_3464# VDD vernier_delay_line_0.stop_strong VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-2137 y=3794 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_2.in_1 VDD diff_gen_0.delay_unit_2_3.in_2 VDD s=17400,658 d=17400,658 l=30 w=600 x=-5925 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 a_17822_296# vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nq VSS s=5800,258 d=5800,258 l=30 w=200 x=17880 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=17464 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out2 a_1202_160# VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=1264 y=730 sky130_fd_pr__pfet_01v8
+x a_n6458_3464# VSS vernier_delay_line_0.stop_strong VSS s=11600,516 d=11600,516 l=30 w=200 x=-5037 y=3464 sky130_fd_pr__nfet_01v8
+x a_n6458_3464# VDD vernier_delay_line_0.stop_strong VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-3877 y=3794 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 a_12492_2192# a_12756_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=13078 y=2192 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_4.in_1 diff_gen_0.delay_unit_2_4.in_2 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=-3453 y=5820 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_6.in_1 vernier_delay_line_0.start_neg VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=-717 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 VSS vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 VSS s=5800,258 d=5800,258 l=30 w=200 x=12256 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out2 VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=15448 y=3968 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_5.in_2 diff_gen_0.delay_unit_2_5.in_1 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=-2729 y=5490 sky130_fd_pr__nfet_01v8
+x a_n7038_3464# VSS a_n6748_3464# VSS s=11600,516 d=11600,516 l=30 w=200 x=-6777 y=3464 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out1 a_3628_2192# vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 VSS s=17400,658 d=34800,1316 l=30 w=600 x=4038 y=3042 sky130_fd_pr__nfet_01v8
+x a_3484_160# VSS term_1 VSS s=5800,258 d=5800,258 l=30 w=200 x=3634 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong VSS a_14774_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=15800 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 a_17144_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=17114 y=3042 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d VSS vernier_delay_line_0.delay_unit_2_0.out_2 VSS s=5800,258 d=11600,516 l=30 w=200 x=19834 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong VDD vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out1 VDD s=34800,1316 d=17400,658 l=30 w=600 x=7986 y=3968 sky130_fd_pr__pfet_01v8
+x a_n7908_3464# VDD a_n7618_3464# VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-7647 y=3794 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=10442 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 VDD vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 VDD s=17400,658 d=34800,1316 l=30 w=600 x=6142 y=5820 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_3.in_2 diff_gen_0.delay_unit_2_4.in_1 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=-5113 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 a_5910_2192# a_5646_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=5968 y=2192 sky130_fd_pr__nfet_01v8
+x a_n6458_3464# VSS vernier_delay_line_0.stop_strong VSS s=11600,516 d=11600,516 l=30 w=200 x=-2137 y=3464 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_5.in_1 diff_gen_0.delay_unit_2_6.in_2 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=-1997 y=5490 sky130_fd_pr__nfet_01v8
+x start_buffer_0.start_buff VSS diff_gen_0.delay_unit_2_1.in_2 VSS s=5800,258 d=11600,516 l=30 w=200 x=-8309 y=5490 sky130_fd_pr__nfet_01v8
+x term_3 VSS a_8694_296# VSS s=11600,516 d=5800,258 l=30 w=200 x=8664 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 VDD vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 VDD s=17400,658 d=34800,1316 l=30 w=600 x=14714 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=8160 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong a_3364_2192# VSS VSS s=17400,658 d=34800,1316 l=30 w=600 x=4478 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out1 VSS a_11014_1376# VSS s=5800,258 d=11600,516 l=30 w=200 x=11210 y=296 sky130_fd_pr__nfet_01v8
+x a_n6458_3464# VDD vernier_delay_line_0.stop_strong VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-3007 y=3794 sky130_fd_pr__pfet_01v8
+x a_n6458_3464# VSS vernier_delay_line_0.stop_strong VSS s=11600,516 d=11600,516 l=30 w=200 x=-3877 y=3464 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=17202 y=3968 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.stop_strong VSS a_1082_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=2108 y=2192 sky130_fd_pr__nfet_01v8
+x a_12612_160# term_5 a_12880_730# VDD s=17400,658 d=17400,658 l=30 w=600 x=12850 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d a_17144_2192# a_17056_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=17554 y=2192 sky130_fd_pr__nfet_01v8
+x start_buffer_0.start_delay VSS diff_gen_0.delay_unit_2_1.in_1 VSS s=5800,258 d=11600,516 l=30 w=200 x=-8865 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.start_pos vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=1490 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=16732 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 VDD a_17860_1376# VDD s=17400,658 d=34800,1316 l=30 w=600 x=18056 y=730 sky130_fd_pr__pfet_01v8
+x a_n6458_3464# VDD vernier_delay_line_0.stop_strong VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-4747 y=3794 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=3040 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=12900 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 a_10474_2192# a_10210_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=10884 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong VSS a_17056_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=17906 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out2 a_8192_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=8514 y=3042 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_2.in_2 diff_gen_0.delay_unit_2_3.in_1 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=-6393 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.start_neg vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=934 y=5490 sky130_fd_pr__nfet_01v8
+x a_n7908_3464# VSS a_n7618_3464# VSS s=11600,516 d=11600,516 l=30 w=200 x=-7647 y=3464 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_4.in_2 VDD diff_gen_0.delay_unit_2_5.in_1 VDD s=17400,658 d=34800,1316 l=30 w=600 x=-3745 y=5820 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_3.in_1 diff_gen_0.delay_unit_2_3.in_2 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=-4733 y=5490 sky130_fd_pr__nfet_01v8
+x a_17860_1376# a_17822_730# vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nq VDD s=17400,658 d=17400,658 l=30 w=600 x=17880 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 VDD vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 VDD s=17400,658 d=17400,658 l=30 w=600 x=8248 y=5820 sky130_fd_pr__pfet_01v8
+x start_buffer_0.start_buff VDD start_buffer_0.start_delay VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-10451 y=5984 sky130_fd_pr__pfet_01v8
+x a_1886_1376# vernier_delay_line_0.saff_delay_unit_0/saff_2_0.nq VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=1994 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=7780 y=5490 sky130_fd_pr__nfet_01v8
+x a_n8778_3464# VDD a_n8488_3464# VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-8517 y=3794 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out2 a_14862_2192# vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out1 VSS s=17400,658 d=34800,1316 l=30 w=600 x=14920 y=3042 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 a_5646_2192# a_5910_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=6232 y=2192 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_6.in_2 vernier_delay_line_0.start_pos VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=-1273 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.start_pos VDD vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 VDD s=17400,658 d=34800,1316 l=30 w=600 x=1578 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out1 term_3 a_8316_296# VSS s=5800,258 d=5800,258 l=30 w=200 x=8286 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 VSS vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 VSS s=5800,258 d=5800,258 l=30 w=200 x=5410 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out2 VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=8602 y=3968 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_3.in_1 VDD diff_gen_0.delay_unit_2_4.in_2 VDD s=17400,658 d=34800,1316 l=30 w=600 x=-4469 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.stop_strong VSS a_7928_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=8954 y=2192 sky130_fd_pr__nfet_01v8
+x a_n6458_3464# VSS vernier_delay_line_0.stop_strong VSS s=11600,516 d=11600,516 l=30 w=200 x=-3007 y=3464 sky130_fd_pr__nfet_01v8
+x a_n6458_3464# VDD vernier_delay_line_0.stop_strong VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-1847 y=3794 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out1 VDD term_1 VDD s=17400,658 d=17400,658 l=30 w=600 x=3634 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=3596 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 a_10210_2192# a_10298_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=10268 y=2192 sky130_fd_pr__nfet_01v8
+x a_n6458_3464# VSS vernier_delay_line_0.stop_strong VSS s=11600,516 d=11600,516 l=30 w=200 x=-4747 y=3464 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out1 VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=12638 y=3968 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out2 a_8048_160# VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=8110 y=296 sky130_fd_pr__nfet_01v8
+x a_17176_160# VSS term_7 VSS s=5800,258 d=5800,258 l=30 w=200 x=17326 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 VDD vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 VDD s=17400,658 d=34800,1316 l=30 w=600 x=7868 y=5820 sky130_fd_pr__pfet_01v8
+x term_3 VDD a_8694_730# VDD s=34800,1316 d=17400,658 l=30 w=600 x=8664 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out2 a_1170_2192# vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out1 VSS s=17400,658 d=34800,1316 l=30 w=600 x=1228 y=3042 sky130_fd_pr__nfet_01v8
+x a_n6748_3464# VDD a_n6458_3464# VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-5617 y=3794 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=15182 y=5490 sky130_fd_pr__nfet_01v8
+x start_buffer_0.start_buff VSS start_buffer_0.start_delay VSS s=11600,516 d=11600,516 l=30 w=200 x=-10451 y=5654 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out1 VDD a_11014_1376# VDD s=17400,658 d=34800,1316 l=30 w=600 x=11210 y=730 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_1.in_1 VDD diff_gen_0.delay_unit_2_2.in_2 VDD s=17400,658 d=17400,658 l=30 w=600 x=-7205 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=9886 y=5490 sky130_fd_pr__nfet_01v8
+x a_n8778_3464# VSS a_n8488_3464# VSS s=11600,516 d=11600,516 l=30 w=200 x=-8517 y=3464 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 a_7928_2192# a_8016_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=8338 y=2192 sky130_fd_pr__nfet_01v8
+x a_n11872_5654# VDD start_buffer_0.start_buff VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-11321 y=5984 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=10062 y=5820 sky130_fd_pr__pfet_01v8
+x a_n6458_3464# VSS vernier_delay_line_0.stop_strong VSS s=11600,516 d=11600,516 l=30 w=200 x=-1847 y=3464 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 a_1082_2192# a_1346_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=1668 y=2192 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_1.in_2 VDD diff_gen_0.delay_unit_2_2.in_1 VDD s=17400,658 d=17400,658 l=30 w=600 x=-7761 y=5820 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_4.in_2 diff_gen_0.delay_unit_2_4.in_1 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=-4009 y=5490 sky130_fd_pr__nfet_01v8
+x term_0 VSS a_1848_296# VSS s=11600,516 d=5800,258 l=30 w=200 x=1818 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out1 term_0 a_1470_296# VSS s=5800,258 d=5800,258 l=30 w=200 x=1440 y=296 sky130_fd_pr__nfet_01v8
+x a_n6458_3464# VDD vernier_delay_line_0.stop_strong VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-2717 y=3794 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd VSS vernier_delay_line_0.delay_unit_2_0.out_1 VSS s=5800,258 d=5800,258 l=30 w=200 x=19102 y=5490 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_5.in_2 diff_gen_0.delay_unit_2_6.in_1 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=-2553 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/saff_2_0.nq a_10598_296# VSS VSS s=5800,258 d=11600,516 l=30 w=200 x=10656 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_0/saff_2_0.nq VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=1994 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.stop_strong a_12492_2192# VSS VSS s=17400,658 d=17400,658 l=30 w=600 x=13254 y=2192 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_2.in_1 VSS diff_gen_0.delay_unit_2_3.in_2 VSS s=5800,258 d=11600,516 l=30 w=200 x=-5749 y=5490 sky130_fd_pr__nfet_01v8
+x start_buffer_0.start_buff VDD diff_gen_0.delay_unit_2_1.in_2 VDD s=17400,658 d=17400,658 l=30 w=600 x=-8485 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 VSS vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 VSS s=5800,258 d=11600,516 l=30 w=200 x=12432 y=5490 sky130_fd_pr__nfet_01v8
+x a_n6748_3464# VSS a_n6458_3464# VSS s=11600,516 d=11600,516 l=30 w=200 x=-5617 y=3464 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=17288 y=5490 sky130_fd_pr__nfet_01v8
+x a_8048_160# term_3 a_8316_730# VDD s=17400,658 d=17400,658 l=30 w=600 x=8286 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out1 a_5734_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=5704 y=3042 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_4.in_1 diff_gen_0.delay_unit_2_5.in_2 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=-3277 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out2 a_6412_296# vernier_delay_line_0.saff_delay_unit_2/saff_2_0.nq VSS s=5800,258 d=5800,258 l=30 w=200 x=6470 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong a_12492_2192# VSS VSS s=17400,658 d=34800,1316 l=30 w=600 x=13606 y=2192 sky130_fd_pr__nfet_01v8
+x a_15578_1376# vernier_delay_line_0.saff_delay_unit_6/saff_2_0.nq VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=15686 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 a_5734_2192# a_5646_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=5792 y=2192 sky130_fd_pr__nfet_01v8
+x a_n11872_5654# VSS start_buffer_0.start_buff VSS s=11600,516 d=11600,516 l=30 w=200 x=-11321 y=5654 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_3.in_2 diff_gen_0.delay_unit_2_3.in_1 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=-5289 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=12168 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 a_3364_2192# a_3452_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=3422 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out2 a_8048_160# VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=8110 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 VDD term_7 VDD s=17400,658 d=17400,658 l=30 w=600 x=17326 y=730 sky130_fd_pr__pfet_01v8
+x term_6 VSS a_15540_296# VSS s=11600,516 d=5800,258 l=30 w=200 x=15510 y=296 sky130_fd_pr__nfet_01v8
+x a_n6458_3464# VSS vernier_delay_line_0.stop_strong VSS s=11600,516 d=11600,516 l=30 w=200 x=-2717 y=3464 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d vernier_delay_line_0.delay_unit_2_0.out_2 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=19746 y=5820 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_3.in_2 VDD diff_gen_0.delay_unit_2_4.in_1 VDD s=17400,658 d=34800,1316 l=30 w=600 x=-5025 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 VSS vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 VSS s=5800,258 d=5800,258 l=30 w=200 x=14538 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd a_17320_2192# a_17056_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=17730 y=2192 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_2.in_1 diff_gen_0.delay_unit_2_2.in_2 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=-6013 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 VDD vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 VDD s=17400,658 d=34800,1316 l=30 w=600 x=10706 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/saff_2_0.nq a_6034_296# VSS VSS s=5800,258 d=11600,516 l=30 w=200 x=6092 y=296 sky130_fd_pr__nfet_01v8
+x term_0 VDD a_1848_730# VDD s=34800,1316 d=17400,658 l=30 w=600 x=1818 y=730 sky130_fd_pr__pfet_01v8
+x a_1202_160# term_0 a_1470_730# VDD s=17400,658 d=17400,658 l=30 w=600 x=1440 y=730 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_4.in_2 VDD diff_gen_0.delay_unit_2_5.in_1 VDD s=17400,658 d=17400,658 l=30 w=600 x=-3921 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=12724 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/saff_2_0.nq a_10598_730# VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=10656 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 VDD vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 VDD s=17400,658 d=34800,1316 l=30 w=600 x=8424 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 VSS vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 VSS s=5800,258 d=11600,516 l=30 w=200 x=5586 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 a_3628_2192# a_3364_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=4038 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=3216 y=5490 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_1.in_1 diff_gen_0.delay_unit_2_1.in_2 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=-7293 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out1 term_6 a_15162_296# VSS s=5800,258 d=5800,258 l=30 w=200 x=15132 y=296 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_5.in_1 VSS diff_gen_0.delay_unit_2_6.in_2 VSS s=5800,258 d=11600,516 l=30 w=200 x=-1909 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.start_neg VDD vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 VDD s=17400,658 d=17400,658 l=30 w=600 x=846 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d a_17056_2192# a_17144_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=17114 y=2192 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_3.in_1 VDD diff_gen_0.delay_unit_2_4.in_2 VDD s=17400,658 d=17400,658 l=30 w=600 x=-4645 y=5820 sky130_fd_pr__pfet_01v8
+x a_6450_1376# a_6412_730# vernier_delay_line_0.saff_delay_unit_2/saff_2_0.nq VDD s=17400,658 d=17400,658 l=30 w=600 x=6470 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/saff_2_0.nq a_3752_296# VSS VSS s=5800,258 d=11600,516 l=30 w=200 x=3810 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_6/saff_2_0.nq VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=15686 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=3772 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 VDD vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 VDD s=17400,658 d=17400,658 l=30 w=600 x=7692 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 a_10210_2192# a_10474_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=10444 y=2192 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_5.in_1 diff_gen_0.delay_unit_2_5.in_2 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=-2173 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.start_pos VSS vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 VSS s=5800,258 d=5800,258 l=30 w=200 x=1402 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=5322 y=5820 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_6.in_2 diff_gen_0.delay_unit_2_6.in_1 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=-1449 y=5490 sky130_fd_pr__nfet_01v8
+x a_8732_1376# vernier_delay_line_0.saff_delay_unit_3/saff_2_0.nq VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=8840 y=296 sky130_fd_pr__nfet_01v8
+x term_6 VDD a_15540_730# VDD s=34800,1316 d=17400,658 l=30 w=600 x=15510 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 a_7928_2192# a_8192_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=8162 y=2192 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_2.in_2 VSS diff_gen_0.delay_unit_2_3.in_1 VSS s=5800,258 d=11600,516 l=30 w=200 x=-6305 y=5490 sky130_fd_pr__nfet_01v8
+x start_buffer_0.start_delay VDD diff_gen_0.delay_unit_2_1.in_1 VDD s=17400,658 d=17400,658 l=30 w=600 x=-9041 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.stop_strong VDD vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out1 VDD s=34800,1316 d=17400,658 l=30 w=600 x=1140 y=3968 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out2 a_15038_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=15360 y=3042 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 a_1082_2192# a_1170_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=1492 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 a_7928_2192# a_8192_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=8514 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 VDD vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 VDD s=17400,658 d=17400,658 l=30 w=600 x=15094 y=5820 sky130_fd_pr__pfet_01v8
+x start VDD a_n11872_5654# VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-11901 y=5984 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_1.in_1 VSS diff_gen_0.delay_unit_2_2.in_2 VSS s=5800,258 d=11600,516 l=30 w=200 x=-7029 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/saff_2_0.nq a_6034_730# VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=6092 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd VSS vernier_delay_line_0.delay_unit_2_0.out_1 VSS s=5800,258 d=11600,516 l=30 w=200 x=19278 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong a_1082_2192# VSS VSS s=17400,658 d=17400,658 l=30 w=600 x=1844 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=5878 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out1 VDD vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out2 VDD s=34800,1316 d=17400,658 l=30 w=600 x=13078 y=3968 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out2 a_14894_160# VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=14956 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out1 VSS a_13296_1376# VSS s=5800,258 d=11600,516 l=30 w=200 x=13492 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 a_14862_2192# a_14774_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=14920 y=2192 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_1.in_2 VSS diff_gen_0.delay_unit_2_2.in_1 VSS s=5800,258 d=11600,516 l=30 w=200 x=-7585 y=5490 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_2.in_1 VSS diff_gen_0.delay_unit_2_3.in_2 VSS s=5800,258 d=5800,258 l=30 w=200 x=-5925 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong a_12492_2192# VSS VSS s=17400,658 d=17400,658 l=30 w=600 x=13430 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=17464 y=5490 sky130_fd_pr__nfet_01v8
+x a_14894_160# term_6 a_15162_730# VDD s=17400,658 d=17400,658 l=30 w=600 x=15132 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/saff_2_0.nq a_3752_730# VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=3810 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=19014 y=5820 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_6.in_1 vernier_delay_line_0.start_neg VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=-717 y=5490 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_5.in_2 VDD diff_gen_0.delay_unit_2_6.in_1 VDD s=17400,658 d=34800,1316 l=30 w=600 x=-2465 y=5820 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_4.in_1 diff_gen_0.delay_unit_2_4.in_2 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=-3453 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 a_3364_2192# a_3628_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=3598 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 a_1170_2192# a_1082_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=1228 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=12344 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out2 a_10330_160# VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=10392 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out2 a_10474_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=10796 y=3042 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=19570 y=5820 sky130_fd_pr__pfet_01v8
+x start VSS a_n11872_5654# VSS s=11600,516 d=11600,516 l=30 w=200 x=-11901 y=5654 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nq a_17444_296# VSS VSS s=5800,258 d=11600,516 l=30 w=200 x=17502 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_3/saff_2_0.nq VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=8840 y=730 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_4.in_1 VDD diff_gen_0.delay_unit_2_5.in_2 VDD s=17400,658 d=34800,1316 l=30 w=600 x=-3189 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 a_14774_2192# a_14862_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=15184 y=2192 sky130_fd_pr__nfet_01v8
+x a_4168_1376# vernier_delay_line_0.saff_delay_unit_1/saff_2_0.nq VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=4276 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 VSS vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 VSS s=5800,258 d=11600,516 l=30 w=200 x=6142 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 VDD vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 VDD s=17400,658 d=17400,658 l=30 w=600 x=10530 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.stop_strong a_14774_2192# VSS VSS s=17400,658 d=17400,658 l=30 w=600 x=15536 y=2192 sky130_fd_pr__nfet_01v8
+x a_n6458_3464# VDD vernier_delay_line_0.stop_strong VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-977 y=3794 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out2 VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=10884 y=3968 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_3.in_2 VDD diff_gen_0.delay_unit_2_4.in_1 VDD s=17400,658 d=17400,658 l=30 w=600 x=-5201 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 VSS vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 VSS s=5800,258 d=11600,516 l=30 w=200 x=14714 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.start_neg VDD vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 VDD s=17400,658 d=34800,1316 l=30 w=600 x=1022 y=5820 sky130_fd_pr__pfet_01v8
+x term_1 VSS a_4130_296# VSS s=11600,516 d=5800,258 l=30 w=200 x=4100 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out2 a_13258_296# vernier_delay_line_0.saff_delay_unit_5/saff_2_0.nq VSS s=5800,258 d=5800,258 l=30 w=200 x=13316 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out2 a_14894_160# VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=14956 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out1 a_12580_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=12550 y=3042 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=3040 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out1 VDD a_13296_1376# VDD s=17400,658 d=34800,1316 l=30 w=600 x=13492 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out1 VDD vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out2 VDD s=34800,1316 d=17400,658 l=30 w=600 x=6232 y=3968 sky130_fd_pr__pfet_01v8
+x start_buffer_0.start_delay diff_gen_0.delay_unit_2_1.in_1 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=-8953 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=12900 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 a_5646_2192# a_5734_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=5704 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 VDD vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d VDD s=17400,658 d=17400,658 l=30 w=600 x=16820 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.stop_strong a_5646_2192# VSS VSS s=17400,658 d=17400,658 l=30 w=600 x=6584 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong VSS a_3364_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=4214 y=2192 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_4.in_2 VSS diff_gen_0.delay_unit_2_5.in_1 VSS s=5800,258 d=11600,516 l=30 w=200 x=-3745 y=5490 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_2.in_2 VDD diff_gen_0.delay_unit_2_3.in_1 VDD s=17400,658 d=17400,658 l=30 w=600 x=-6481 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 VSS vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 VSS s=5800,258 d=5800,258 l=30 w=200 x=8248 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong VDD vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out1 VDD s=34800,1316 d=17400,658 l=30 w=600 x=10268 y=3968 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.stop_strong a_17056_2192# VSS VSS s=17400,658 d=34800,1316 l=30 w=600 x=18170 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 a_12580_2192# a_12492_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=12990 y=2192 sky130_fd_pr__nfet_01v8
+x a_n6458_3464# VSS vernier_delay_line_0.stop_strong VSS s=11600,516 d=11600,516 l=30 w=200 x=-977 y=3464 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_6.in_2 vernier_delay_line_0.start_pos VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=-1273 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.start_pos VSS vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 VSS s=5800,258 d=11600,516 l=30 w=200 x=1578 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=5498 y=5820 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_3.in_1 VSS diff_gen_0.delay_unit_2_4.in_2 VSS s=5800,258 d=11600,516 l=30 w=200 x=-4469 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out2 a_10330_160# VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=10392 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 a_10210_2192# a_10298_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=10620 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 VDD vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 VDD s=17400,658 d=17400,658 l=30 w=600 x=3128 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nq a_17444_730# VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=17502 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 a_3628_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=3950 y=3042 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_1/saff_2_0.nq VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=4276 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 VDD vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 VDD s=17400,658 d=17400,658 l=30 w=600 x=3684 y=5820 sky130_fd_pr__pfet_01v8
+x a_12612_160# VSS term_5 VSS s=5800,258 d=5800,258 l=30 w=200 x=12762 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out1 a_12756_2192# vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out2 VSS s=17400,658 d=34800,1316 l=30 w=600 x=13166 y=3042 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.start_pos vernier_delay_line_0.start_neg VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=1314 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 VSS vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 VSS s=5800,258 d=11600,516 l=30 w=200 x=7868 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out1 VDD vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out2 VDD s=34800,1316 d=17400,658 l=30 w=600 x=1668 y=3968 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out1 VSS a_6450_1376# VSS s=5800,258 d=11600,516 l=30 w=200 x=6646 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 VDD vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 VDD s=17400,658 d=34800,1316 l=30 w=600 x=15270 y=5820 sky130_fd_pr__pfet_01v8
+x term_1 VDD a_4130_730# VDD s=34800,1316 d=17400,658 l=30 w=600 x=4100 y=730 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_1.in_1 VSS diff_gen_0.delay_unit_2_2.in_2 VSS s=5800,258 d=5800,258 l=30 w=200 x=-7205 y=5490 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_6.in_1 diff_gen_0.delay_unit_2_6.in_2 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=-893 y=5820 sky130_fd_pr__pfet_01v8
+x a_13296_1376# a_13258_730# vernier_delay_line_0.saff_delay_unit_5/saff_2_0.nq VDD s=17400,658 d=17400,658 l=30 w=600 x=13316 y=730 sky130_fd_pr__pfet_01v8
+x term_7 VSS a_17822_296# VSS s=11600,516 d=5800,258 l=30 w=200 x=17792 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=10062 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 VDD vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 VDD s=17400,658 d=17400,658 l=30 w=600 x=9974 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 a_12492_2192# a_12756_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=12726 y=2192 sky130_fd_pr__nfet_01v8
+x a_n6748_3464# VDD a_n6458_3464# VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-6487 y=3794 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_1.in_2 VSS diff_gen_0.delay_unit_2_2.in_1 VSS s=5800,258 d=5800,258 l=30 w=200 x=-7761 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=7604 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.stop_strong VSS a_10210_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=11236 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out1 VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=5792 y=3968 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 a_3484_160# VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=3546 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out1 VSS a_1886_1376# VSS s=5800,258 d=11600,516 l=30 w=200 x=2082 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong VDD vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out1 VDD s=34800,1316 d=17400,658 l=30 w=600 x=3422 y=3968 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_5.in_2 VDD diff_gen_0.delay_unit_2_6.in_1 VDD s=17400,658 d=17400,658 l=30 w=600 x=-2641 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 a_17320_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=17642 y=3042 sky130_fd_pr__nfet_01v8
+x start_buffer_0.start_buff VSS diff_gen_0.delay_unit_2_1.in_2 VSS s=5800,258 d=5800,258 l=30 w=200 x=-8485 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 a_3364_2192# a_3452_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=3774 y=2192 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_2.in_1 diff_gen_0.delay_unit_2_3.in_2 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=-5837 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 a_1346_2192# a_1082_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=1404 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 VDD vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd VDD s=17400,658 d=17400,658 l=30 w=600 x=17376 y=5820 sky130_fd_pr__pfet_01v8
+x a_n6458_3464# VDD vernier_delay_line_0.stop_strong VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-3587 y=3794 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_1.in_2 diff_gen_0.delay_unit_2_1.in_1 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=-7849 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=15006 y=5820 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_6.in_1 VDD vernier_delay_line_0.start_neg VDD s=17400,658 d=34800,1316 l=30 w=600 x=-629 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 a_14774_2192# a_15038_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=15360 y=2192 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_4.in_1 VDD diff_gen_0.delay_unit_2_5.in_2 VDD s=17400,658 d=17400,658 l=30 w=600 x=-3365 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=12168 y=5490 sky130_fd_pr__nfet_01v8
+x a_11014_1376# vernier_delay_line_0.saff_delay_unit_4/saff_2_0.nq VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=11122 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=17730 y=3968 sky130_fd_pr__pfet_01v8
+x a_n6748_3464# VSS a_n6458_3464# VSS s=11600,516 d=11600,516 l=30 w=200 x=-6487 y=3464 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out1 VDD term_5 VDD s=17400,658 d=17400,658 l=30 w=600 x=12762 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out1 a_5910_2192# vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out2 VSS s=17400,658 d=34800,1316 l=30 w=600 x=6320 y=3042 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong a_14774_2192# VSS VSS s=17400,658 d=17400,658 l=30 w=600 x=15712 y=2192 sky130_fd_pr__nfet_01v8
+x a_n7618_3464# VDD a_n7328_3464# VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-7357 y=3794 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d vernier_delay_line_0.delay_unit_2_0.out_2 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=19746 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out1 VDD a_6450_1376# VDD s=17400,658 d=34800,1316 l=30 w=600 x=6646 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=6054 y=5820 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_3.in_2 VSS diff_gen_0.delay_unit_2_4.in_1 VSS s=5800,258 d=11600,516 l=30 w=200 x=-5025 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 VDD vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d VDD s=17400,658 d=34800,1316 l=30 w=600 x=16996 y=5820 sky130_fd_pr__pfet_01v8
+x term_7 VDD a_17822_730# VDD s=34800,1316 d=17400,658 l=30 w=600 x=17792 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out2 a_10298_2192# vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out1 VSS s=17400,658 d=34800,1316 l=30 w=600 x=10356 y=3042 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=4038 y=3968 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 VSS vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 VSS s=5800,258 d=11600,516 l=30 w=200 x=10706 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=14626 y=5820 sky130_fd_pr__pfet_01v8
+x a_n6458_3464# VSS vernier_delay_line_0.stop_strong VSS s=11600,516 d=11600,516 l=30 w=200 x=-3587 y=3464 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong a_5646_2192# VSS VSS s=17400,658 d=34800,1316 l=30 w=600 x=6760 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong VDD vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 VDD s=34800,1316 d=17400,658 l=30 w=600 x=17114 y=3968 sky130_fd_pr__pfet_01v8
+x a_8048_160# VSS term_3 VSS s=5800,258 d=5800,258 l=30 w=200 x=8198 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out2 a_8016_2192# vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out1 VSS s=17400,658 d=34800,1316 l=30 w=600 x=8074 y=3042 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d a_17056_2192# a_17144_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=17466 y=2192 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_4.in_2 VSS diff_gen_0.delay_unit_2_5.in_1 VSS s=5800,258 d=5800,258 l=30 w=200 x=-3921 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 VSS vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 VSS s=5800,258 d=11600,516 l=30 w=200 x=8424 y=5490 sky130_fd_pr__nfet_01v8
+x a_n6458_3464# VDD vernier_delay_line_0.stop_strong VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-4457 y=3794 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 a_3484_160# VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=3546 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out1 VDD a_1886_1376# VDD s=17400,658 d=34800,1316 l=30 w=600 x=2082 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 VDD vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 VDD s=17400,658 d=17400,658 l=30 w=600 x=12812 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 a_10210_2192# a_10474_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=10796 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong a_17056_2192# VSS VSS s=17400,658 d=17400,658 l=30 w=600 x=17818 y=2192 sky130_fd_pr__nfet_01v8
+x term_4 VSS a_10976_296# VSS s=11600,516 d=5800,258 l=30 w=200 x=10946 y=296 sky130_fd_pr__nfet_01v8
+x a_n7618_3464# VSS a_n7328_3464# VSS s=11600,516 d=11600,516 l=30 w=200 x=-7357 y=3464 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.start_neg VSS vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 VSS s=5800,258 d=5800,258 l=30 w=200 x=846 y=5490 sky130_fd_pr__nfet_01v8
+x start_buffer_0.start_buff VDD start_buffer_0.start_delay VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-10161 y=5984 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_3.in_1 VSS diff_gen_0.delay_unit_2_4.in_2 VSS s=5800,258 d=5800,258 l=30 w=200 x=-4645 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 VDD vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 VDD s=17400,658 d=34800,1316 l=30 w=600 x=3304 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 a_17176_160# VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=17238 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out1 a_1346_2192# vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out2 VSS s=17400,658 d=34800,1316 l=30 w=600 x=1756 y=3042 sky130_fd_pr__nfet_01v8
+x a_5766_160# VSS term_2 VSS s=5800,258 d=5800,258 l=30 w=200 x=5916 y=296 sky130_fd_pr__nfet_01v8
+x a_n8488_3464# VDD a_n8198_3464# VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-8227 y=3794 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 VSS vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 VSS s=5800,258 d=5800,258 l=30 w=200 x=7692 y=5490 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_6.in_2 VDD vernier_delay_line_0.start_pos VDD s=17400,658 d=34800,1316 l=30 w=600 x=-1185 y=5820 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_5.in_1 diff_gen_0.delay_unit_2_5.in_2 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=-2173 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_4/saff_2_0.nq VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=11122 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out1 a_14862_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=14832 y=3042 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 a_5734_2192# a_5646_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=6144 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=5322 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out1 VDD vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out2 VDD s=34800,1316 d=17400,658 l=30 w=600 x=8514 y=3968 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 VDD vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 VDD s=17400,658 d=34800,1316 l=30 w=600 x=3860 y=5820 sky130_fd_pr__pfet_01v8
+x a_n6458_3464# VDD vernier_delay_line_0.stop_strong VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-1557 y=3794 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.stop_strong a_7928_2192# VSS VSS s=17400,658 d=17400,658 l=30 w=600 x=8866 y=2192 sky130_fd_pr__nfet_01v8
+x start_buffer_0.start_delay VSS diff_gen_0.delay_unit_2_1.in_1 VSS s=5800,258 d=5800,258 l=30 w=200 x=-9041 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 a_12492_2192# a_12580_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=12550 y=2192 sky130_fd_pr__nfet_01v8
+x a_n6458_3464# VSS vernier_delay_line_0.stop_strong VSS s=11600,516 d=11600,516 l=30 w=200 x=-4457 y=3464 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out1 VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=14920 y=3968 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.stop_strong VSS a_10210_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=11060 y=2192 sky130_fd_pr__nfet_01v8
+x a_n6458_3464# VDD vernier_delay_line_0.stop_strong VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-5327 y=3794 sky130_fd_pr__pfet_01v8
+x a_1202_160# VSS term_0 VSS s=5800,258 d=5800,258 l=30 w=200 x=1352 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out1 term_4 a_10598_296# VSS s=5800,258 d=5800,258 l=30 w=200 x=10568 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 a_3452_2192# vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out1 VSS s=17400,658 d=34800,1316 l=30 w=600 x=3510 y=3042 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 VSS vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 VSS s=5800,258 d=5800,258 l=30 w=200 x=15094 y=5490 sky130_fd_pr__nfet_01v8
+x start_buffer_0.start_buff VSS start_buffer_0.start_delay VSS s=11600,516 d=11600,516 l=30 w=200 x=-10161 y=5654 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 a_12492_2192# a_12580_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=12902 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out1 VDD term_3 VDD s=17400,658 d=17400,658 l=30 w=600 x=8198 y=730 sky130_fd_pr__pfet_01v8
+x a_n8488_3464# VSS a_n8198_3464# VSS s=11600,516 d=11600,516 l=30 w=200 x=-8227 y=3464 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_1.in_1 diff_gen_0.delay_unit_2_2.in_2 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=-7117 y=5820 sky130_fd_pr__pfet_01v8
+x a_n11872_5654# VDD start_buffer_0.start_buff VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-11031 y=5984 sky130_fd_pr__pfet_01v8
+x term_2 VSS a_6412_296# VSS s=11600,516 d=5800,258 l=30 w=200 x=6382 y=296 sky130_fd_pr__nfet_01v8
+x start_buffer_0.start_delay start_buffer_0.start_buff VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=-9129 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 VDD vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 VDD s=17400,658 d=17400,658 l=30 w=600 x=5966 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out2 a_15540_296# vernier_delay_line_0.saff_delay_unit_6/saff_2_0.nq VSS s=5800,258 d=5800,258 l=30 w=200 x=15598 y=296 sky130_fd_pr__nfet_01v8
+x a_n6458_3464# VSS vernier_delay_line_0.stop_strong VSS s=11600,516 d=11600,516 l=30 w=200 x=-1557 y=3464 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out1 VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=1228 y=3968 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out1 a_15038_2192# vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out2 VSS s=17400,658 d=34800,1316 l=30 w=600 x=15448 y=3042 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_1.in_2 diff_gen_0.delay_unit_2_2.in_1 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=-7673 y=5820 sky130_fd_pr__pfet_01v8
+x term_4 VDD a_10976_730# VDD s=34800,1316 d=17400,658 l=30 w=600 x=10946 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 a_3364_2192# a_3628_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=3950 y=2192 sky130_fd_pr__nfet_01v8
+x a_n6458_3464# VDD vernier_delay_line_0.stop_strong VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-2427 y=3794 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=19014 y=5490 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_5.in_2 VSS diff_gen_0.delay_unit_2_6.in_1 VSS s=5800,258 d=11600,516 l=30 w=200 x=-2465 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 a_17176_160# VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=17238 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 VDD vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd VDD s=17400,658 d=34800,1316 l=30 w=600 x=17552 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out1 VDD term_2 VDD s=17400,658 d=17400,658 l=30 w=600 x=5916 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 a_12756_2192# a_12492_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=13166 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out1 a_8016_2192# VSS s=34800,1316 d=17400,658 l=30 w=600 x=7986 y=3042 sky130_fd_pr__nfet_01v8
+x a_n6458_3464# VSS vernier_delay_line_0.stop_strong VSS s=11600,516 d=11600,516 l=30 w=200 x=-5327 y=3464 sky130_fd_pr__nfet_01v8
+x start_buffer_0.start_buff diff_gen_0.delay_unit_2_1.in_2 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=-8397 y=5820 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_6.in_1 VDD vernier_delay_line_0.start_neg VDD s=17400,658 d=17400,658 l=30 w=600 x=-805 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=12344 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong a_14774_2192# VSS VSS s=17400,658 d=34800,1316 l=30 w=600 x=15888 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=19570 y=5490 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_4.in_1 VSS diff_gen_0.delay_unit_2_5.in_2 VSS s=5800,258 d=11600,516 l=30 w=200 x=-3189 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong VSS a_12492_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=13518 y=2192 sky130_fd_pr__nfet_01v8
+x a_n11872_5654# VSS start_buffer_0.start_buff VSS s=11600,516 d=11600,516 l=30 w=200 x=-11031 y=5654 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 a_17144_2192# vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 VSS s=17400,658 d=34800,1316 l=30 w=600 x=17202 y=3042 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 VSS vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 VSS s=5800,258 d=5800,258 l=30 w=200 x=10530 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=14450 y=5820 sky130_fd_pr__pfet_01v8
+x a_n8198_3464# VDD a_n7908_3464# VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-7937 y=3794 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.stop_strong VDD vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out1 VDD s=34800,1316 d=17400,658 l=30 w=600 x=5704 y=3968 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_3.in_2 VSS diff_gen_0.delay_unit_2_4.in_1 VSS s=5800,258 d=5800,258 l=30 w=200 x=-5201 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out1 VDD term_0 VDD s=17400,658 d=17400,658 l=30 w=600 x=1352 y=730 sky130_fd_pr__pfet_01v8
+x a_10330_160# term_4 a_10598_730# VDD s=17400,658 d=17400,658 l=30 w=600 x=10568 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd a_17056_2192# a_17320_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=17290 y=2192 sky130_fd_pr__nfet_01v8
+x a_n6458_3464# VSS vernier_delay_line_0.stop_strong VSS s=11600,516 d=11600,516 l=30 w=200 x=-2427 y=3464 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.start_neg VSS vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 VSS s=5800,258 d=11600,516 l=30 w=200 x=1022 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d VDD vernier_delay_line_0.delay_unit_2_0.out_2 VDD s=17400,658 d=17400,658 l=30 w=600 x=19658 y=5820 sky130_fd_pr__pfet_01v8
+x start_buffer_0.start_buff VDD start_buffer_0.start_delay VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-9871 y=5984 sky130_fd_pr__pfet_01v8
+x a_14894_160# VSS term_6 VSS s=5800,258 d=5800,258 l=30 w=200 x=15044 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd a_17056_2192# a_17320_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=17642 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 VDD vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 VDD s=17400,658 d=34800,1316 l=30 w=600 x=12988 y=5820 sky130_fd_pr__pfet_01v8
+x start_buffer_0.start_delay diff_gen_0.delay_unit_2_1.in_1 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=-8953 y=5490 sky130_fd_pr__nfet_01v8
+x term_2 VDD a_6412_730# VDD s=34800,1316 d=17400,658 l=30 w=600 x=6382 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out1 term_1 a_3752_296# VSS s=5800,258 d=5800,258 l=30 w=200 x=3722 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 VSS vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d VSS s=5800,258 d=5800,258 l=30 w=200 x=16820 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/saff_2_0.nq a_12880_296# VSS VSS s=5800,258 d=11600,516 l=30 w=200 x=12938 y=296 sky130_fd_pr__nfet_01v8
+x a_15578_1376# a_15540_730# vernier_delay_line_0.saff_delay_unit_6/saff_2_0.nq VDD s=17400,658 d=17400,658 l=30 w=600 x=15598 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=10618 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.stop_strong a_10210_2192# VSS VSS s=17400,658 d=17400,658 l=30 w=600 x=10972 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out1 a_8192_2192# vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out2 VSS s=17400,658 d=34800,1316 l=30 w=600 x=8602 y=3042 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_2.in_2 VSS diff_gen_0.delay_unit_2_3.in_1 VSS s=5800,258 d=5800,258 l=30 w=200 x=-6481 y=5490 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_4.in_2 diff_gen_0.delay_unit_2_5.in_1 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=-3833 y=5820 sky130_fd_pr__pfet_01v8
+x a_n8198_3464# VSS a_n7908_3464# VSS s=11600,516 d=11600,516 l=30 w=200 x=-7937 y=3464 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=8336 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out2 a_8694_296# vernier_delay_line_0.saff_delay_unit_3/saff_2_0.nq VSS s=5800,258 d=5800,258 l=30 w=200 x=8752 y=296 sky130_fd_pr__nfet_01v8
+x a_17860_1376# vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nq VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=17968 y=296 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.stop_strong a_7928_2192# VSS VSS s=17400,658 d=17400,658 l=30 w=600 x=8690 y=2192 sky130_fd_pr__nfet_01v8
+x a_n11872_5654# VDD start_buffer_0.start_buff VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-10741 y=5984 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=5498 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out2 a_12580_2192# vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out1 VSS s=17400,658 d=34800,1316 l=30 w=600 x=12638 y=3042 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 VSS vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 VSS s=5800,258 d=5800,258 l=30 w=200 x=3128 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 a_5910_2192# a_5646_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=6320 y=2192 sky130_fd_pr__nfet_01v8
+x stop VDD a_n8778_3464# VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-8807 y=3794 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_6.in_2 VDD vernier_delay_line_0.start_pos VDD s=17400,658 d=17400,658 l=30 w=600 x=-1361 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.start_neg vernier_delay_line_0.start_pos VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=758 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=16908 y=5820 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_3.in_1 diff_gen_0.delay_unit_2_4.in_2 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=-4557 y=5820 sky130_fd_pr__pfet_01v8
+x start_buffer_0.start_buff VSS start_buffer_0.start_delay VSS s=11600,516 d=11600,516 l=30 w=200 x=-9871 y=5654 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_2.in_2 diff_gen_0.delay_unit_2_2.in_1 VDD VDD s=34800,1316 d=17400,658 l=30 w=600 x=-6569 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 VSS vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 VSS s=5800,258 d=5800,258 l=30 w=200 x=3684 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 a_10298_2192# a_10210_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=10356 y=2192 sky130_fd_pr__nfet_01v8
+x diff_gen_0.delay_unit_2_5.in_1 VDD diff_gen_0.delay_unit_2_6.in_2 VDD s=17400,658 d=17400,658 l=30 w=600 x=-2085 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.start_pos vernier_delay_line_0.start_neg VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=1314 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 a_10298_2192# a_10210_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=10708 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 a_8016_2192# a_7928_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=8074 y=2192 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd vernier_delay_line_0.delay_unit_2_0.out_1 VDD VDD s=17400,658 d=17400,658 l=30 w=600 x=19190 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 VSS vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 VSS s=5800,258 d=11600,516 l=30 w=200 x=15270 y=5490 sky130_fd_pr__nfet_01v8
+x a_n6748_3464# VDD a_n6458_3464# VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-5907 y=3794 sky130_fd_pr__pfet_01v8
+x diff_gen_0.delay_unit_2_6.in_1 diff_gen_0.delay_unit_2_6.in_2 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=-893 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/saff_2_0.nq a_8316_296# VSS VSS s=5800,258 d=11600,516 l=30 w=200 x=8374 y=296 sky130_fd_pr__nfet_01v8
+x a_n11872_5654# VSS start_buffer_0.start_buff VSS s=11600,516 d=11600,516 l=30 w=200 x=-10741 y=5654 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out1 VDD term_6 VDD s=17400,658 d=17400,658 l=30 w=600 x=15044 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 VSS vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 VSS s=5800,258 d=5800,258 l=30 w=200 x=9974 y=5490 sky130_fd_pr__nfet_01v8
+x a_3484_160# term_1 a_3752_730# VDD s=17400,658 d=17400,658 l=30 w=600 x=3722 y=730 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 a_8016_2192# a_7928_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=8426 y=2192 sky130_fd_pr__nfet_01v8
+x stop VSS a_n8778_3464# VSS s=11600,516 d=11600,516 l=30 w=200 x=-8807 y=3464 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 VSS VSS s=11600,516 d=5800,258 l=30 w=200 x=7604 y=5490 sky130_fd_pr__nfet_01v8
+x vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 VDD vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 VDD s=17400,658 d=34800,1316 l=30 w=600 x=10150 y=5820 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_5/saff_2_0.nq a_12880_730# VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=12938 y=730 sky130_fd_pr__pfet_01v8
+x a_n11872_5654# VDD start_buffer_0.start_buff VDD s=34800,1316 d=34800,1316 l=30 w=600 x=-11611 y=5984 sky130_fd_pr__pfet_01v8
+x vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 a_1346_2192# a_1082_2192# VSS s=17400,658 d=17400,658 l=30 w=600 x=1756 y=2192 sky130_fd_pr__nfet_01v8
+C a_n6458_3464# VDD 7.5
+C vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out1 VDD 2.6
+C VDD vernier_delay_line_0.delay_unit_2_0.out_1 2.2
+C VDD vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out2 2.4
+C start_buffer_0.start_buff VDD 7.2
+C VDD vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out2 2.4
+C vernier_delay_line_0.start_pos VDD 4.8
+C vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 VDD 3.2
+C vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 VDD 5.1
+C vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 VDD 3.2
+C vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 VDD 5.1
+C a_12756_2192# a_12492_2192# 2.0
+C vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out2 4.3
+C diff_gen_0.delay_unit_2_6.in_2 VDD 3.1
+C vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out1 4.3
+C vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 VDD 3.2
+C vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out2 VDD 2.4
+C vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out2 VDD 2.4
+C diff_gen_0.delay_unit_2_2.in_2 VDD 3.1
+C VDD diff_gen_0.delay_unit_2_4.in_2 3.1
+C vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out1 VDD 2.6
+C vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 VDD 2.6
+C diff_gen_0.delay_unit_2_3.in_2 VDD 3.1
+C vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out2 4.3
+C VDD vernier_delay_line_0.stop_strong 37.0
+C a_15038_2192# a_14774_2192# 2.0
+C diff_gen_0.delay_unit_2_2.in_1 VDD 4.4
+C vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out1 4.3
+C vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out2 VDD 2.4
+C VDD diff_gen_0.delay_unit_2_3.in_1 4.4
+C vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out2 4.3
+C vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out1 VDD 2.6
+C vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 VDD 5.1
+C VDD vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out1 2.6
+C diff_gen_0.delay_unit_2_1.in_1 VDD 4.4
+C start_buffer_0.start_delay VDD 4.1
+C vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 VDD 3.2
+C vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d VDD 5.1
+C a_1346_2192# a_1082_2192# 2.0
+C vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 VDD 5.2
+C VDD vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 3.2
+C vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 4.3
+C vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out1 VDD 2.6
+C vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 VDD 5.1
+C vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out1 VDD 2.6
+C VDD diff_gen_0.delay_unit_2_5.in_1 4.4
+C diff_gen_0.delay_unit_2_5.in_2 VDD 3.1
+C vernier_delay_line_0.start_neg VDD 3.2
+C VDD diff_gen_0.delay_unit_2_4.in_1 4.4
+C vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 VDD 3.2
+C diff_gen_0.delay_unit_2_1.in_2 VDD 3.1
+C a_17056_2192# a_17320_2192# 2.0
+C a_3364_2192# a_3628_2192# 2.0
+C a_8192_2192# a_7928_2192# 2.0
+C vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 VDD 2.4
+C a_5910_2192# a_5646_2192# 2.0
+C diff_gen_0.delay_unit_2_6.in_1 VDD 4.4
+C VDD vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 2.4
+C VDD vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out1 2.6
+C a_n6458_3464# vernier_delay_line_0.stop_strong 3.1
+C a_10474_2192# a_10210_2192# 2.0
+C vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out2 VDD 2.4
+C vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out1 4.3
+C vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 VDD 5.1
+C VDD vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd 3.2
+C vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 VDD 5.1
+C VDD vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 3.2
+C vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out1 4.3
+R term_7 4590
+= term_7 vernier_delay_line_0.saff_delay_unit_7/saff_2_0.saff_bottom_latch_0.c
+= term_7 vernier_delay_line_0.saff_delay_unit_7/saff_2_0.q
+= term_7 vernier_delay_line_0.term_7
+R term_6 4590
+= term_6 vernier_delay_line_0.saff_delay_unit_6/saff_2_0.saff_bottom_latch_0.c
+= term_6 vernier_delay_line_0.saff_delay_unit_6/saff_2_0.q
+= term_6 vernier_delay_line_0.term_6
+R term_5 4590
+= term_5 vernier_delay_line_0.saff_delay_unit_5/saff_2_0.saff_bottom_latch_0.c
+= term_5 vernier_delay_line_0.saff_delay_unit_5/saff_2_0.q
+= term_5 vernier_delay_line_0.term_5
+R term_4 4590
+= term_4 vernier_delay_line_0.saff_delay_unit_4/saff_2_0.saff_bottom_latch_0.c
+= term_4 vernier_delay_line_0.saff_delay_unit_4/saff_2_0.q
+= term_4 vernier_delay_line_0.term_4
+R term_3 4590
+= term_3 vernier_delay_line_0.saff_delay_unit_3/saff_2_0.saff_bottom_latch_0.c
+= term_3 vernier_delay_line_0.saff_delay_unit_3/saff_2_0.q
+= term_3 vernier_delay_line_0.term_3
+R term_2 4590
+= term_2 vernier_delay_line_0.saff_delay_unit_2/saff_2_0.saff_bottom_latch_0.c
+= term_2 vernier_delay_line_0.saff_delay_unit_2/saff_2_0.q
+= term_2 vernier_delay_line_0.term_2
+R term_1 4590
+= term_1 vernier_delay_line_0.saff_delay_unit_1/saff_2_0.saff_bottom_latch_0.c
+= term_1 vernier_delay_line_0.saff_delay_unit_1/saff_2_0.q
+= term_1 vernier_delay_line_0.term_1
+R term_0 4590
+= term_0 vernier_delay_line_0.saff_delay_unit_0/saff_2_0.saff_bottom_latch_0.c
+= term_0 vernier_delay_line_0.saff_delay_unit_0/saff_2_0.q
+= term_0 vernier_delay_line_0.term_0
+R stop 1620
+= stop stop_buffer_0.stop
+R start 1620
+= start start_buffer_0.start
+C VDD0 204.4
+R VDD 872645
+= VDD diff_gen_0.delay_unit_2_0.VDD
+= VDD diff_gen_0.delay_unit_2_1.VDD
+= VDD diff_gen_0.delay_unit_2_2.VDD
+= VDD diff_gen_0.delay_unit_2_3.VDD
+= VDD diff_gen_0.delay_unit_2_4.VDD
+= VDD diff_gen_0.delay_unit_2_5.VDD
+= VDD diff_gen_0.delay_unit_2_6.VDD
+= VDD diff_gen_0.VDD
+= VDD start_buffer_0.VDD
+= VDD stop_buffer_0.VDD
+= VDD vernier_delay_line_0.delay_unit_2_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_0/delay_unit_2_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_0/saff_2_0.saff_bottom_latch_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_0/saff_2_0.VDD2
+= VDD vernier_delay_line_0.saff_delay_unit_0/saff_2_0.VDD1
+= VDD vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_1/saff_2_0.saff_bottom_latch_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_1/saff_2_0.VDD2
+= VDD vernier_delay_line_0.saff_delay_unit_1/saff_2_0.VDD1
+= VDD vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_2/saff_2_0.saff_bottom_latch_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_2/saff_2_0.VDD2
+= VDD vernier_delay_line_0.saff_delay_unit_2/saff_2_0.VDD1
+= VDD vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_3/saff_2_0.saff_bottom_latch_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_3/saff_2_0.VDD2
+= VDD vernier_delay_line_0.saff_delay_unit_3/saff_2_0.VDD1
+= VDD vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_4/saff_2_0.saff_bottom_latch_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_4/saff_2_0.VDD2
+= VDD vernier_delay_line_0.saff_delay_unit_4/saff_2_0.VDD1
+= VDD vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_5/saff_2_0.saff_bottom_latch_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_5/saff_2_0.VDD2
+= VDD vernier_delay_line_0.saff_delay_unit_5/saff_2_0.VDD1
+= VDD vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_6/saff_2_0.saff_bottom_latch_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_6/saff_2_0.VDD2
+= VDD vernier_delay_line_0.saff_delay_unit_6/saff_2_0.VDD1
+= VDD vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_7/saff_2_0.saff_bottom_latch_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.VDD
+= VDD vernier_delay_line_0.saff_delay_unit_7/saff_2_0.VDD2
+= VDD vernier_delay_line_0.saff_delay_unit_7/saff_2_0.VDD1
+= VDD vernier_delay_line_0.VDD
+R VSS 540098
+= VSS diff_gen_0.delay_unit_2_0.VSS
+= VSS diff_gen_0.delay_unit_2_1.VSS
+= VSS diff_gen_0.delay_unit_2_2.VSS
+= VSS diff_gen_0.delay_unit_2_3.VSS
+= VSS diff_gen_0.delay_unit_2_4.VSS
+= VSS diff_gen_0.delay_unit_2_5.VSS
+= VSS diff_gen_0.delay_unit_2_6.VSS
+= VSS diff_gen_0.VSS
+= VSS start_buffer_0.VSS
+= VSS stop_buffer_0.VSS
+= VSS vernier_delay_line_0.delay_unit_2_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_0/delay_unit_2_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_0/saff_2_0.saff_bottom_latch_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_0/saff_2_0.VSS2
+= VSS vernier_delay_line_0.saff_delay_unit_0/saff_2_0.VSS1
+= VSS vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_1/saff_2_0.saff_bottom_latch_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_1/saff_2_0.VSS2
+= VSS vernier_delay_line_0.saff_delay_unit_1/saff_2_0.VSS1
+= VSS vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_2/saff_2_0.saff_bottom_latch_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_2/saff_2_0.VSS2
+= VSS vernier_delay_line_0.saff_delay_unit_2/saff_2_0.VSS1
+= VSS vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_3/saff_2_0.saff_bottom_latch_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_3/saff_2_0.VSS2
+= VSS vernier_delay_line_0.saff_delay_unit_3/saff_2_0.VSS1
+= VSS vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_4/saff_2_0.saff_bottom_latch_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_4/saff_2_0.VSS2
+= VSS vernier_delay_line_0.saff_delay_unit_4/saff_2_0.VSS1
+= VSS vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_5/saff_2_0.saff_bottom_latch_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_5/saff_2_0.VSS2
+= VSS vernier_delay_line_0.saff_delay_unit_5/saff_2_0.VSS1
+= VSS vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_6/saff_2_0.saff_bottom_latch_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_6/saff_2_0.VSS2
+= VSS vernier_delay_line_0.saff_delay_unit_6/saff_2_0.VSS1
+= VSS vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_7/saff_2_0.saff_bottom_latch_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.VSS
+= VSS vernier_delay_line_0.saff_delay_unit_7/saff_2_0.VSS2
+= VSS vernier_delay_line_0.saff_delay_unit_7/saff_2_0.VSS1
+= VSS vernier_delay_line_0.VSS
+R a_17822_296# 493
+R a_17444_296# 493
+R a_15540_296# 493
+R a_17822_730# 2268
+R a_15162_296# 493
+R a_17444_730# 2268
+R a_17860_1376# 4922
+R vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nq 4590
+= vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nq vernier_delay_line_0.saff_delay_unit_7/saff_2_0.saff_bottom_latch_0.nc
+R a_17176_160# 4915
+R a_13258_296# 493
+R a_15540_730# 2268
+R a_12880_296# 493
+R a_15162_730# 2268
+R a_15578_1376# 4922
+R vernier_delay_line_0.saff_delay_unit_6/saff_2_0.nq 4590
+= vernier_delay_line_0.saff_delay_unit_6/saff_2_0.nq vernier_delay_line_0.saff_delay_unit_6/saff_2_0.saff_bottom_latch_0.nc
+R a_14894_160# 4915
+R a_10976_296# 493
+R a_13258_730# 2268
+R a_10598_296# 493
+R a_12880_730# 2268
+R a_13296_1376# 4922
+R vernier_delay_line_0.saff_delay_unit_5/saff_2_0.nq 4590
+= vernier_delay_line_0.saff_delay_unit_5/saff_2_0.nq vernier_delay_line_0.saff_delay_unit_5/saff_2_0.saff_bottom_latch_0.nc
+R a_12612_160# 4915
+R a_8694_296# 493
+R a_10976_730# 2268
+R a_8316_296# 493
+R a_10598_730# 2268
+R a_11014_1376# 4922
+R vernier_delay_line_0.saff_delay_unit_4/saff_2_0.nq 4590
+= vernier_delay_line_0.saff_delay_unit_4/saff_2_0.nq vernier_delay_line_0.saff_delay_unit_4/saff_2_0.saff_bottom_latch_0.nc
+R a_10330_160# 4915
+R a_6412_296# 493
+R a_8694_730# 2268
+R a_6034_296# 493
+R a_8316_730# 2268
+R a_8732_1376# 4922
+R vernier_delay_line_0.saff_delay_unit_3/saff_2_0.nq 4590
+= vernier_delay_line_0.saff_delay_unit_3/saff_2_0.nq vernier_delay_line_0.saff_delay_unit_3/saff_2_0.saff_bottom_latch_0.nc
+R a_8048_160# 4915
+R a_4130_296# 493
+R a_6412_730# 2268
+R a_3752_296# 493
+R a_6034_730# 2268
+R a_6450_1376# 4922
+R vernier_delay_line_0.saff_delay_unit_2/saff_2_0.nq 4590
+= vernier_delay_line_0.saff_delay_unit_2/saff_2_0.nq vernier_delay_line_0.saff_delay_unit_2/saff_2_0.saff_bottom_latch_0.nc
+R a_5766_160# 4915
+R a_1848_296# 493
+R a_4130_730# 2268
+R a_1470_296# 493
+R a_3752_730# 2268
+R a_4168_1376# 4922
+R vernier_delay_line_0.saff_delay_unit_1/saff_2_0.nq 4590
+= vernier_delay_line_0.saff_delay_unit_1/saff_2_0.nq vernier_delay_line_0.saff_delay_unit_1/saff_2_0.saff_bottom_latch_0.nc
+R a_3484_160# 4915
+R a_1848_730# 2268
+R a_1470_730# 2268
+R a_1886_1376# 4922
+R vernier_delay_line_0.saff_delay_unit_0/saff_2_0.nq 4590
+= vernier_delay_line_0.saff_delay_unit_0/saff_2_0.nq vernier_delay_line_0.saff_delay_unit_0/saff_2_0.saff_bottom_latch_0.nc
+R a_1202_160# 4915
+C a_17056_2192#0 4.1
+R a_17056_2192# 11989
+R a_17320_2192# 4982
+R a_17144_2192# 4982
+C a_14774_2192#0 4.1
+R a_14774_2192# 11989
+R a_15038_2192# 4982
+R a_14862_2192# 4982
+C a_12492_2192#0 4.1
+R a_12492_2192# 11989
+R a_12756_2192# 4982
+R a_12580_2192# 4982
+C a_10210_2192#0 4.1
+R a_10210_2192# 11989
+R a_10474_2192# 4982
+R a_10298_2192# 4982
+C a_7928_2192#0 4.1
+R a_7928_2192# 11989
+R a_8192_2192# 4982
+R a_8016_2192# 4982
+C a_5646_2192#0 4.1
+R a_5646_2192# 11989
+R a_5910_2192# 4982
+R a_5734_2192# 4982
+C a_3364_2192#0 4.1
+R a_3364_2192# 11989
+R a_3628_2192# 4982
+R a_3452_2192# 4982
+C a_1082_2192#0 4.1
+R a_1082_2192# 11989
+R a_1346_2192# 4982
+R a_1170_2192# 4982
+C vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out10 3.9
+R vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 13846
+= vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_7/saff_2_0.saff_bottom_latch_0.a2
+= vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_7/saff_2_0.saff_bottom_latch_0.a1
+C vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out20 3.7
+R vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 13819
+= vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_7/saff_2_0.saff_bottom_latch_0.b2
+= vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_7/saff_2_0.saff_bottom_latch_0.b1
+C vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out10 3.4
+R vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out1 13846
+= vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_6/saff_2_0.saff_bottom_latch_0.a2
+= vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_6/saff_2_0.saff_bottom_latch_0.a1
+C vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out20 3.7
+R vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out2 13819
+= vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_6/saff_2_0.saff_bottom_latch_0.b2
+= vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_6/saff_2_0.saff_bottom_latch_0.b1
+C vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out10 3.4
+R vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out1 13846
+= vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_5/saff_2_0.saff_bottom_latch_0.a2
+= vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_5/saff_2_0.saff_bottom_latch_0.a1
+C vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out20 3.7
+R vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out2 13819
+= vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_5/saff_2_0.saff_bottom_latch_0.b2
+= vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_5/saff_2_0.saff_bottom_latch_0.b1
+C vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out10 3.4
+R vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out1 13846
+= vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_4/saff_2_0.saff_bottom_latch_0.a2
+= vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_4/saff_2_0.saff_bottom_latch_0.a1
+C vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out20 3.7
+R vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out2 13819
+= vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_4/saff_2_0.saff_bottom_latch_0.b2
+= vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_4/saff_2_0.saff_bottom_latch_0.b1
+C vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out10 3.4
+R vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out1 13846
+= vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_3/saff_2_0.saff_bottom_latch_0.a2
+= vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_3/saff_2_0.saff_bottom_latch_0.a1
+C vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out20 3.7
+R vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out2 13819
+= vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_3/saff_2_0.saff_bottom_latch_0.b2
+= vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_3/saff_2_0.saff_bottom_latch_0.b1
+C vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out10 3.4
+R vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out1 13846
+= vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_2/saff_2_0.saff_bottom_latch_0.a2
+= vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_2/saff_2_0.saff_bottom_latch_0.a1
+C vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out20 3.7
+R vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out2 13819
+= vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_2/saff_2_0.saff_bottom_latch_0.b2
+= vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_2/saff_2_0.saff_bottom_latch_0.b1
+C vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out10 3.4
+R vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out1 13846
+= vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_1/saff_2_0.saff_bottom_latch_0.a2
+= vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_1/saff_2_0.saff_bottom_latch_0.a1
+C vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out20 3.7
+R vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 13819
+= vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_1/saff_2_0.saff_bottom_latch_0.b2
+= vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_1/saff_2_0.saff_bottom_latch_0.b1
+C vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out10 3.4
+R vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out1 13846
+= vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_0/saff_2_0.saff_bottom_latch_0.a2
+= vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out1 vernier_delay_line_0.saff_delay_unit_0/saff_2_0.saff_bottom_latch_0.a1
+C vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out20 4.3
+R vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out2 13819
+= vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_0/saff_2_0.saff_bottom_latch_0.b2
+= vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out2 vernier_delay_line_0.saff_delay_unit_0/saff_2_0.saff_bottom_latch_0.b1
+C vernier_delay_line_0.stop_strong0 27.2
+R vernier_delay_line_0.stop_strong 126773
+= vernier_delay_line_0.stop_strong stop_buffer_0.stop_strong
+= vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.clk
+= vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_0/saff_2_0.clk
+= vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.clk
+= vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_1/saff_2_0.clk
+= vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.clk
+= vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_2/saff_2_0.clk
+= vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.clk
+= vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_3/saff_2_0.clk
+= vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.clk
+= vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_4/saff_2_0.clk
+= vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.clk
+= vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_5/saff_2_0.clk
+= vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.clk
+= vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_6/saff_2_0.clk
+= vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.clk
+= vernier_delay_line_0.stop_strong vernier_delay_line_0.saff_delay_unit_7/saff_2_0.clk
+C a_n6458_3464#0 6.6
+R a_n6458_3464# 41311
+R a_n6748_3464# 9707
+R a_n7038_3464# 4444
+R a_n7328_3464# 4444
+R a_n7618_3464# 4444
+R a_n7908_3464# 4444
+R a_n8198_3464# 4444
+R a_n8488_3464# 4444
+R a_n8778_3464# 4444
+R vernier_delay_line_0.delay_unit_2_0.out_2 6326
+R vernier_delay_line_0.delay_unit_2_0.out_1 6327
+C vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd0 5.7
+R vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd 21780
+= vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd vernier_delay_line_0.delay_unit_2_0.in_2
+= vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.out_2
+= vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.nd
+C vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d0 4.4
+R vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d 21053
+= vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d vernier_delay_line_0.delay_unit_2_0.in_1
+= vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.out_1
+= vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.d
+C vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_20 5.4
+R vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 21780
+= vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.out_2
+= vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.nd
+= vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_6/saff_2_0.nd
+C vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_10 4.3
+R vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 21053
+= vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.out_1
+= vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.d
+= vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_6/saff_2_0.d
+C vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_20 5.4
+R vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 21780
+= vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.out_2
+= vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.nd
+= vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_5/saff_2_0.nd
+C vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_10 4.3
+R vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 21053
+= vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.out_1
+= vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.d
+= vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_5/saff_2_0.d
+C vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_20 5.4
+R vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 21780
+= vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.out_2
+= vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.nd
+= vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_4/saff_2_0.nd
+C vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_10 4.3
+R vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 21053
+= vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.out_1
+= vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.d
+= vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_4/saff_2_0.d
+C vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_20 5.4
+R vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 21780
+= vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.out_2
+= vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.nd
+= vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_3/saff_2_0.nd
+C vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_10 4.3
+R vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 21053
+= vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.out_1
+= vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.d
+= vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_3/saff_2_0.d
+C vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_20 5.4
+R vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 21780
+= vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.out_2
+= vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.nd
+= vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_2/saff_2_0.nd
+C vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_10 4.3
+R vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 21053
+= vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.out_1
+= vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.d
+= vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_2/saff_2_0.d
+C vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_20 5.4
+R vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 21780
+= vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.out_2
+= vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.nd
+= vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_1/saff_2_0.nd
+C vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_10 4.3
+R vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 21053
+= vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.out_1
+= vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.d
+= vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_1/saff_2_0.d
+C vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_20 5.4
+R vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 21780
+= vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_0/delay_unit_2_0.out_2
+= vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.nd
+= vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 vernier_delay_line_0.saff_delay_unit_0/saff_2_0.nd
+C vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_10 4.5
+R vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 21053
+= vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_0/delay_unit_2_0.out_1
+= vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.d
+= vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 vernier_delay_line_0.saff_delay_unit_0/saff_2_0.d
+C vernier_delay_line_0.start_neg0 3.0
+R vernier_delay_line_0.start_neg 16169
+= vernier_delay_line_0.start_neg diff_gen_0.delay_unit_2_6.out_2
+= vernier_delay_line_0.start_neg diff_gen_0.out_neg
+= vernier_delay_line_0.start_neg vernier_delay_line_0.saff_delay_unit_0/delay_unit_2_0.in_2
+C vernier_delay_line_0.start_pos0 2.2
+R vernier_delay_line_0.start_pos 16173
+= vernier_delay_line_0.start_pos diff_gen_0.delay_unit_2_6.out_1
+= vernier_delay_line_0.start_pos diff_gen_0.out_pos
+= vernier_delay_line_0.start_pos vernier_delay_line_0.saff_delay_unit_0/delay_unit_2_0.in_1
+C diff_gen_0.delay_unit_2_6.in_20 2.8
+R diff_gen_0.delay_unit_2_6.in_2 16167
+= diff_gen_0.delay_unit_2_6.in_2 diff_gen_0.delay_unit_2_5.out_2
+R diff_gen_0.delay_unit_2_6.in_1 16171
+= diff_gen_0.delay_unit_2_6.in_1 diff_gen_0.delay_unit_2_5.out_1
+C diff_gen_0.delay_unit_2_5.in_20 2.8
+R diff_gen_0.delay_unit_2_5.in_2 16167
+= diff_gen_0.delay_unit_2_5.in_2 diff_gen_0.delay_unit_2_4.out_2
+R diff_gen_0.delay_unit_2_5.in_1 16171
+= diff_gen_0.delay_unit_2_5.in_1 diff_gen_0.delay_unit_2_4.out_1
+C diff_gen_0.delay_unit_2_4.in_20 2.8
+R diff_gen_0.delay_unit_2_4.in_2 16167
+= diff_gen_0.delay_unit_2_4.in_2 diff_gen_0.delay_unit_2_3.out_2
+R diff_gen_0.delay_unit_2_4.in_1 16171
+= diff_gen_0.delay_unit_2_4.in_1 diff_gen_0.delay_unit_2_3.out_1
+C diff_gen_0.delay_unit_2_3.in_20 2.8
+R diff_gen_0.delay_unit_2_3.in_2 16167
+= diff_gen_0.delay_unit_2_3.in_2 diff_gen_0.delay_unit_2_2.out_2
+R diff_gen_0.delay_unit_2_3.in_1 16171
+= diff_gen_0.delay_unit_2_3.in_1 diff_gen_0.delay_unit_2_2.out_1
+C diff_gen_0.delay_unit_2_2.in_20 2.8
+R diff_gen_0.delay_unit_2_2.in_2 16167
+= diff_gen_0.delay_unit_2_2.in_2 diff_gen_0.delay_unit_2_1.out_2
+R diff_gen_0.delay_unit_2_2.in_1 16171
+= diff_gen_0.delay_unit_2_2.in_1 diff_gen_0.delay_unit_2_1.out_1
+C diff_gen_0.delay_unit_2_1.in_20 2.8
+R diff_gen_0.delay_unit_2_1.in_2 16167
+= diff_gen_0.delay_unit_2_1.in_2 diff_gen_0.delay_unit_2_0.out_2
+R diff_gen_0.delay_unit_2_1.in_1 16171
+= diff_gen_0.delay_unit_2_1.in_1 diff_gen_0.delay_unit_2_0.out_1
+C start_buffer_0.start_delay0 3.4
+R start_buffer_0.start_delay 19674
+= start_buffer_0.start_delay diff_gen_0.delay_unit_2_0.in_2
+= start_buffer_0.start_delay diff_gen_0.in_delay
+C start_buffer_0.start_buff0 4.5
+R start_buffer_0.start_buff 28447
+= start_buffer_0.start_buff diff_gen_0.delay_unit_2_0.in_1
+= start_buffer_0.start_buff diff_gen_0.in_buff
+R a_n11872_5654# 9707

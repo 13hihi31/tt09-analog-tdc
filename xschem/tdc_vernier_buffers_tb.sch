@@ -523,7 +523,7 @@ C {devices/code.sym} 170 -990 0 0 {name=STIMULI only_toplevel=false value="
 .control
 run
 set wr_vecnames
-wrdata tdc_vernier_delay_line_tb.txt v(start) v(stop) v(term_0) v(term_1) v(term_2) v(term_3) v(term_4) v(term_5) v(term_6) v(term_7)
+wrdata tdc_vernier_buffers_parax_tb.txt v(start) v(stop) v(term_0) v(term_1) v(term_2) v(term_3) v(term_4) v(term_5) v(term_6) v(term_7)
 .endc
 "}
 C {sky130_fd_pr/pfet_01v8.sym} 660 -770 0 0 {name=M23
@@ -682,4 +682,7 @@ spiceprefix=X
 C {devices/lab_pin.sym} 1160 -180 0 1 {name=p40 sig_type=std_logic lab=vdd}
 C {devices/lab_wire.sym} 1120 -110 0 0 {name=p41 sig_type=std_logic lab=term_7}
 C {devices/gnd.sym} 1160 -40 0 0 {name=l20 lab=GND}
-C {tdc_vernier_delay_line_post_layout.sym} 310 -270 0 0 {name=x1}
+C {tdc_vernier_buffers.sym} 310 -270 0 0 {name=x1
+schematic=tdc_parax.sim
+spice_sym_def="tcleval(.include [file normalize ../mag/tdc.sim.spice])"
+tclcommand="textwindow [file normalize ../mag/tdc.sim.spice]"}

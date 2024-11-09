@@ -1,4 +1,4 @@
-timestamp 1730652801
+timestamp 1730824333
 version 8.3
 tech sky130A
 style ngspice()
@@ -12,89 +12,89 @@ node "m1_1280_5256#" 1 469.763 1280 5256 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 node "m1_592_5512#" 2 359.255 592 5512 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7168 352 44288 1512 0 0 0 0 0 0 0 0
 node "m1_1280_6646#" 1 469.763 1280 6646 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96192 2196 0 0 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "m1_1280_5256#" "m1_592_5512#" 1.62683
-cap "m2_1280_5384#" "m1_1280_6646#" 0.498575
-cap "m2_1280_6554#" "m1_1280_6646#" 224.756
-cap "m2_1280_6554#" "m2_1280_5384#" 42.9674
-cap "m1_1280_5256#" "m1_1280_6646#" 32.8036
-cap "m1_1280_5256#" "m2_1280_5384#" 290.705
+cap "m1_592_5512#" "m2_1280_5384#" 11.3472
 cap "m2_1280_6554#" "m1_1280_5256#" 0.481128
-cap "m2_1280_5384#" "m1_592_5512#" 11.3472
-cap "saff_2_0/VDD1" "saff_2_0/sense_amplifier_0/out2" -1.13687e-13
-cap "saff_2_0/sense_amplifier_0/out2" "saff_2_0/clk" 3.55271e-15
-cap "saff_2_0/sense_amplifier_0/out2" "delay_unit_2_0/sky130_fd_pr__nfet_01v8_6H9P4D_4/a_n15_n126#" 0.151707
-cap "saff_2_0/clk" "saff_2_0/sense_amplifier_0/sky130_fd_pr__nfet_01v8_NM9Y3C_2/a_n73_n300#" -3.55271e-15
-cap "delay_unit_2_0/in_2" "saff_2_0/sense_amplifier_0/out2" 3.63903
-cap "delay_unit_2_0/sky130_fd_pr__nfet_01v8_6H9P4D_4/a_n15_n126#" "saff_2_0/sense_amplifier_0/sky130_fd_pr__nfet_01v8_NM9Y3C_2/a_n73_n300#" 0.177314
-cap "saff_2_0/sense_amplifier_0/out2" "delay_unit_2_0/VSS" 0.328904
-cap "saff_2_0/nd" "saff_2_0/sense_amplifier_0/sky130_fd_pr__nfet_01v8_NM9Y3C_2/a_n73_n300#" 6.57925
+cap "m1_1280_6646#" "m2_1280_6554#" 224.756
+cap "m1_1280_6646#" "m1_1280_5256#" 32.8036
+cap "m2_1280_5384#" "m2_1280_6554#" 42.9674
+cap "m2_1280_5384#" "m1_1280_5256#" 290.705
+cap "m2_1280_5384#" "m1_1280_6646#" 0.498575
+cap "m1_592_5512#" "m1_1280_5256#" 1.62683
 cap "delay_unit_2_0/VSS" "saff_2_0/sense_amplifier_0/sky130_fd_pr__nfet_01v8_NM9Y3C_2/a_n73_n300#" 0.447729
 cap "saff_2_0/sense_amplifier_0/out2" "saff_2_0/sense_amplifier_0/sky130_fd_pr__nfet_01v8_NM9Y3C_2/a_n73_n300#" -1.13687e-13
+cap "saff_2_0/VDD1" "saff_2_0/sense_amplifier_0/out2" -1.13687e-13
+cap "saff_2_0/nd" "saff_2_0/sense_amplifier_0/sky130_fd_pr__nfet_01v8_NM9Y3C_2/a_n73_n300#" 6.57925
 cap "delay_unit_2_0/VSS" "saff_2_0/d" 0.0323925
+cap "delay_unit_2_0/in_2" "saff_2_0/sense_amplifier_0/out2" 3.63903
 cap "saff_2_0/sense_amplifier_0/out2" "saff_2_0/d" 6.37602
-cap "saff_2_0/sense_amplifier_0/sky130_fd_pr__nfet_01v8_NM9Y3C_2/a_n73_n300#" "delay_unit_2_0/VSS" 0.582566
-cap "saff_2_0/sense_amplifier_0/sky130_fd_pr__nfet_01v8_NM9Y3C_2/a_n73_n300#" "saff_2_0/nd" 11.9236
-cap "saff_2_0/nd" "saff_2_0/VDD1" 18.2696
-cap "delay_unit_2_0/VDD" "delay_unit_2_0/in_2" -5.89567
-cap "saff_2_0/sense_amplifier_0/sky130_fd_pr__nfet_01v8_NM9Y3C_2/a_n73_n300#" "saff_2_0/nd" 7.39111
-cap "saff_2_0/sense_amplifier_0/out2" "delay_unit_2_0/in_2" 3.64023
-cap "delay_unit_2_0/in_1" "delay_unit_2_0/in_2" -4.5801
-cap "delay_unit_2_0/VDD" "saff_2_0/sense_amplifier_0/out2" 0.100401
-cap "saff_2_0/clk" "delay_unit_2_0/in_2" 5.4504
-cap "delay_unit_2_0/VSS" "delay_unit_2_0/in_2" -9.36861
-cap "saff_2_0/d" "delay_unit_2_0/in_2" 225.777
-cap "delay_unit_2_0/VDD" "saff_2_0/clk" 1.33541
-cap "delay_unit_2_0/in_1" "saff_2_0/sense_amplifier_0/out2" 0.167685
-cap "delay_unit_2_0/VDD" "delay_unit_2_0/VSS" 4.66294e-15
-cap "delay_unit_2_0/VDD" "saff_2_0/d" 8.90883
-cap "saff_2_0/sense_amplifier_0/out2" "delay_unit_2_0/VSS" 0.0413373
-cap "saff_2_0/sense_amplifier_0/out2" "saff_2_0/d" 6.37602
-cap "delay_unit_2_0/in_1" "saff_2_0/clk" 0.944054
-cap "saff_2_0/nd" "delay_unit_2_0/in_2" -9.96669
-cap "saff_2_0/VDD1" "delay_unit_2_0/in_2" 4.28412
-cap "delay_unit_2_0/VSS" "saff_2_0/clk" 326.25
-cap "delay_unit_2_0/in_1" "saff_2_0/d" 18.1368
-cap "saff_2_0/d" "saff_2_0/clk" 72.1504
-cap "saff_2_0/d" "delay_unit_2_0/VSS" 200.29
-cap "delay_unit_2_0/VDD" "saff_2_0/sense_amplifier_0/sky130_fd_pr__nfet_01v8_NM9Y3C_2/a_n73_n300#" 0.100401
-cap "saff_2_0/sense_amplifier_0/out2" "saff_2_0/nd" 0.724867
-cap "delay_unit_2_0/in_1" "saff_2_0/VDD1" 3.56616
-cap "saff_2_0/VDD1" "delay_unit_2_0/VSS" 58.6942
-cap "saff_2_0/nd" "saff_2_0/clk" 9.38907
-cap "delay_unit_2_0/in_1" "saff_2_0/sense_amplifier_0/sky130_fd_pr__nfet_01v8_NM9Y3C_2/a_n73_n300#" 0.195473
-cap "saff_2_0/nd" "delay_unit_2_0/VSS" 11.0849
-cap "saff_2_0/d" "saff_2_0/VDD1" 21.2835
-cap "saff_2_0/d" "saff_2_0/nd" 10.174
-cap "saff_2_0/sense_amplifier_0/sky130_fd_pr__nfet_01v8_NM9Y3C_2/a_n73_n300#" "delay_unit_2_0/VSS" 0.0413373
-cap "saff_2_0/sense_amplifier_0/sky130_fd_pr__nfet_01v8_NM9Y3C_2/a_n73_n300#" "saff_2_0/d" 0.835679
+cap "saff_2_0/sense_amplifier_0/out2" "delay_unit_2_0/sky130_fd_pr__nfet_01v8_6H9P4D_4/a_n15_n126#" 0.151707
+cap "saff_2_0/sense_amplifier_0/out2" "saff_2_0/clk" 3.55271e-15
+cap "saff_2_0/sense_amplifier_0/out2" "delay_unit_2_0/VSS" 0.328904
+cap "delay_unit_2_0/sky130_fd_pr__nfet_01v8_6H9P4D_4/a_n15_n126#" "saff_2_0/sense_amplifier_0/sky130_fd_pr__nfet_01v8_NM9Y3C_2/a_n73_n300#" 0.177314
+cap "saff_2_0/clk" "saff_2_0/sense_amplifier_0/sky130_fd_pr__nfet_01v8_NM9Y3C_2/a_n73_n300#" -3.55271e-15
 cap "saff_2_0/nd" "saff_2_0/sense_amplifier_0/sky130_fd_pr__nfet_01v8_NM9Y3C_2/a_n73_n300#" 11.9236
-cap "saff_2_0/d" "saff_2_0/nd" 1.20301
-cap "saff_2_0/nd" "delay_unit_2_0/VSS" 6.86639
+cap "saff_2_0/sense_amplifier_0/sky130_fd_pr__nfet_01v8_NM9Y3C_2/a_n73_n300#" "delay_unit_2_0/VSS" 0.582566
+cap "saff_2_0/d" "delay_unit_2_0/in_2" 225.777
+cap "delay_unit_2_0/VSS" "delay_unit_2_0/VDD" 4.66294e-15
+cap "saff_2_0/clk" "delay_unit_2_0/VSS" 326.23
+cap "saff_2_0/clk" "delay_unit_2_0/VDD" 1.32281
+cap "saff_2_0/nd" "delay_unit_2_0/VSS" 11.4149
+cap "saff_2_0/clk" "saff_2_0/nd" 9.38907
+cap "saff_2_0/sense_amplifier_0/out2" "delay_unit_2_0/in_2" 3.64023
+cap "saff_2_0/d" "saff_2_0/sense_amplifier_0/sky130_fd_pr__nfet_01v8_NM9Y3C_2/a_n73_n300#" 0.835679
+cap "saff_2_0/VDD1" "delay_unit_2_0/VSS" 58.6942
+cap "delay_unit_2_0/in_1" "delay_unit_2_0/in_2" -4.54463
+cap "saff_2_0/nd" "saff_2_0/VDD1" 18.2708
+cap "delay_unit_2_0/in_1" "saff_2_0/sense_amplifier_0/sky130_fd_pr__nfet_01v8_NM9Y3C_2/a_n73_n300#" 0.195473
+cap "saff_2_0/d" "delay_unit_2_0/VDD" 9.07788
+cap "saff_2_0/d" "delay_unit_2_0/VSS" 199.206
+cap "saff_2_0/d" "saff_2_0/clk" 72.1504
+cap "saff_2_0/d" "saff_2_0/nd" 10.174
+cap "saff_2_0/sense_amplifier_0/out2" "delay_unit_2_0/VSS" 0.0413373
+cap "saff_2_0/sense_amplifier_0/out2" "delay_unit_2_0/VDD" 0.100401
+cap "saff_2_0/sense_amplifier_0/out2" "saff_2_0/nd" 0.724867
+cap "saff_2_0/d" "saff_2_0/VDD1" 21.2872
+cap "saff_2_0/clk" "delay_unit_2_0/in_1" 0.953411
+cap "delay_unit_2_0/in_2" "delay_unit_2_0/VDD" -6.03446
+cap "delay_unit_2_0/in_1" "saff_2_0/VDD1" 3.56616
+cap "saff_2_0/clk" "delay_unit_2_0/in_2" 5.4504
+cap "delay_unit_2_0/in_2" "delay_unit_2_0/VSS" -9.14898
+cap "delay_unit_2_0/in_2" "saff_2_0/nd" -9.96669
+cap "saff_2_0/d" "saff_2_0/sense_amplifier_0/out2" 6.37602
+cap "saff_2_0/sense_amplifier_0/sky130_fd_pr__nfet_01v8_NM9Y3C_2/a_n73_n300#" "delay_unit_2_0/VSS" 0.0413373
+cap "saff_2_0/sense_amplifier_0/sky130_fd_pr__nfet_01v8_NM9Y3C_2/a_n73_n300#" "delay_unit_2_0/VDD" 0.100401
+cap "saff_2_0/sense_amplifier_0/sky130_fd_pr__nfet_01v8_NM9Y3C_2/a_n73_n300#" "saff_2_0/nd" 7.39111
+cap "saff_2_0/d" "delay_unit_2_0/in_1" 18.0741
+cap "delay_unit_2_0/in_2" "saff_2_0/VDD1" 4.28394
+cap "delay_unit_2_0/in_1" "saff_2_0/sense_amplifier_0/out2" 0.167685
+cap "saff_2_0/VDD1" "delay_unit_2_0/VSS" 0.156453
 cap "delay_unit_2_0/VSS" "saff_2_0/clk" 206.168
-cap "saff_2_0/nd" "saff_2_0/clk" 22.9747
-cap "delay_unit_2_0/VSS" "saff_2_0/VDD1" 0.156453
-cap "saff_2_0/nd" "saff_2_0/VDD1" 10.5544
-cap "saff_2_0/sense_amplifier_0/sky130_fd_pr__pfet_01v8_2K9SAN_1/a_15_n300#" "delay_unit_2_0/in_1" 0.100698
-cap "delay_unit_2_0/in_2" "saff_2_0/VDD1" 1.08195
-cap "delay_unit_2_0/in_1" "saff_2_0/sense_amplifier_0/sky130_fd_pr__pfet_01v8_2K9SAN_2/a_n15_n326#" 0.383434
-cap "delay_unit_2_0/VDD" "saff_2_0/d" 12.24
-cap "delay_unit_2_0/in_1" "saff_2_0/d" 11.9425
-cap "delay_unit_2_0/in_2" "saff_2_0/d" 0.204117
-cap "saff_2_0/d" "saff_2_0/nd" -3.55271e-15
-cap "delay_unit_2_0/in_1" "saff_2_0/clk" 1.31968
-cap "delay_unit_2_0/VDD" "delay_unit_2_0/in_1" -4.54747e-13
-cap "delay_unit_2_0/in_2" "saff_2_0/clk" 0.292506
-cap "delay_unit_2_0/VDD" "delay_unit_2_0/in_2" -0.705128
-cap "delay_unit_2_0/VDD" "delay_unit_2_0/VSS" -5.9952e-15
-cap "delay_unit_2_0/in_2" "delay_unit_2_0/in_1" -3.12489
-cap "delay_unit_2_0/VSS" "delay_unit_2_0/in_1" -3.43827
-cap "saff_2_0/VDD1" "delay_unit_2_0/in_1" 5.77008
+cap "saff_2_0/VDD1" "saff_2_0/nd" 10.5563
+cap "saff_2_0/clk" "saff_2_0/nd" 22.9747
+cap "saff_2_0/nd" "saff_2_0/sense_amplifier_0/sky130_fd_pr__nfet_01v8_NM9Y3C_2/a_n73_n300#" 11.9236
+cap "delay_unit_2_0/VSS" "saff_2_0/nd" 6.86639
+cap "saff_2_0/d" "saff_2_0/nd" 1.20301
+cap "delay_unit_2_0/in_1" "saff_2_0/sense_amplifier_0/sky130_fd_pr__pfet_01v8_2K9SAN_1/a_15_n300#" 0.100698
+cap "delay_unit_2_0/in_1" "delay_unit_2_0/VSS" -3.33535
+cap "delay_unit_2_0/VSS" "delay_unit_2_0/VDD" -5.9952e-15
+cap "delay_unit_2_0/in_1" "delay_unit_2_0/in_2" -3.02582
+cap "delay_unit_2_0/in_2" "delay_unit_2_0/VDD" -0.705128
 cap "delay_unit_2_0/VDD" "saff_2_0/nd" 8.54108e-14
+cap "saff_2_0/d" "delay_unit_2_0/in_2" 0.197388
+cap "delay_unit_2_0/in_1" "delay_unit_2_0/VDD" -4.54747e-13
+cap "saff_2_0/d" "saff_2_0/nd" -3.55271e-15
+cap "saff_2_0/sense_amplifier_0/sky130_fd_pr__pfet_01v8_2K9SAN_2/a_n15_n326#" "delay_unit_2_0/in_1" 0.383434
+cap "delay_unit_2_0/in_2" "saff_2_0/clk" 0.286142
+cap "saff_2_0/d" "delay_unit_2_0/in_1" 11.7419
+cap "saff_2_0/d" "delay_unit_2_0/VDD" 12.24
+cap "delay_unit_2_0/in_2" "saff_2_0/VDD1" 1.06109
+cap "delay_unit_2_0/in_1" "saff_2_0/clk" 1.31283
+cap "delay_unit_2_0/in_1" "saff_2_0/VDD1" 5.73394
 merge "delay_unit_2_0/VSS" "m1_1280_5256#" -475.078 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -192 0 0 0 0 0 0 0 0 0 0
 merge "m1_1280_5256#" "saff_2_0/VSUBS"
 merge "saff_2_0/VSUBS" "VSUBS"
 merge "delay_unit_2_0/VDD" "m1_1280_6646#" -39.1262 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -192 0 0 0 0 0 0 0 0 0 0
-merge "delay_unit_2_0/out_1" "m2_1280_6554#" -316.332 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 -256 0 0 0 0 0 0 0 0
+merge "delay_unit_2_0/out_1" "m2_1280_6554#" -315.839 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 -256 0 0 0 0 0 0 0 0
 merge "m2_1280_6554#" "delay_unit_2_0/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#"
 merge "delay_unit_2_0/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" "saff_2_0/d"
 merge "saff_2_0/d" "m1_592_5512#"

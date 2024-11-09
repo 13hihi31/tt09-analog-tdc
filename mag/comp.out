@@ -28,33 +28,61 @@ Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
-Flattening unmatched subcell inverter_3_1x4 in circuit start_buffer (0)(2 instances)
-Flattening unmatched subcell inverter_3_1 in circuit start_buffer (0)(8 instances)
-Flattening unmatched subcell sky130_fd_pr__nfet_01v8_6H9P4D in circuit start_buffer (0)(8 instances)
-Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2K9SAN in circuit start_buffer (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_6H9P4D in circuit tristate_inverter (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2K9SAN in circuit tristate_inverter (0)(4 instances)
 
-Class start_buffer (0):  Merged 10 parallel devices.
+Class tristate_inverter (0):  Merged 4 parallel devices.
 Subcircuit summary:
-Circuit 1: start_buffer                    |Circuit 2: start_buffer                    
+Circuit 1: tristate_inverter               |Circuit 2: tristate_inverter               
 -------------------------------------------|-------------------------------------------
-sky130_fd_pr__nfet_01v8 (8->3)             |sky130_fd_pr__nfet_01v8 (3)                
-sky130_fd_pr__pfet_01v8 (8->3)             |sky130_fd_pr__pfet_01v8 (3)                
-Number of devices: 6                       |Number of devices: 6                       
-Number of nets: 6                          |Number of nets: 6                          
+sky130_fd_pr__nfet_01v8 (4->2)             |sky130_fd_pr__nfet_01v8 (2)                
+sky130_fd_pr__pfet_01v8 (4->2)             |sky130_fd_pr__pfet_01v8 (2)                
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 8                          |Number of nets: 8                          
 ---------------------------------------------------------------------------------------
 Netlists match uniquely.
 
 Subcircuit pins:
-Circuit 1: start_buffer                    |Circuit 2: start_buffer                    
+Circuit 1: tristate_inverter               |Circuit 2: tristate_inverter               
 -------------------------------------------|-------------------------------------------
-start                                      |start                                      
-start_delay                                |start_delay                                
+nen                                        |nen                                        
+en                                         |en                                         
+out                                        |out                                        
+in                                         |in                                         
 VDD                                        |VDD                                        
 VSS                                        |VSS                                        
-start_buff                                 |start_buff                                 
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes start_buffer and start_buffer are equivalent.
+Device classes tristate_inverter and tristate_inverter are equivalent.
+Flattening unmatched subcell inverter_3_1 in circuit variable_delay_unit (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_6H9P4D in circuit variable_delay_unit (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2K9SAN in circuit variable_delay_unit (0)(2 instances)
+Flattening unmatched subcell inverter_2 in circuit variable_delay_unit (1)(2 instances)
+
+Subcircuit summary:
+Circuit 1: variable_delay_unit             |Circuit 2: variable_delay_unit             
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+sky130_fd_pr__pfet_01v8 (2)                |sky130_fd_pr__pfet_01v8 (2)                
+tristate_inverter (2)                      |tristate_inverter (2)                      
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 8                          |Number of nets: 8                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: variable_delay_unit             |Circuit 2: variable_delay_unit             
+-------------------------------------------|-------------------------------------------
+back                                       |back                                       
+en                                         |en                                         
+out                                        |out                                        
+in                                         |in                                         
+forward                                    |forward                                    
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes variable_delay_unit and variable_delay_unit are equivalent.
 
 Final result: Circuits match uniquely.
 .

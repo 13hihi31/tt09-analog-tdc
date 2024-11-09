@@ -20,33 +20,33 @@ node "start" 0 53.9389 0 396 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 node "m1_266_396#" 4 469.89 266 396 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22928 1248 59024 2028 0 0 0 0 0 0 0 0
 node "VDD" 0 27.8515 0 1210 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1296 144 0 0 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "start_delay" "m1_1426_396#" 13.462
-cap "start_buff" "m1_1670_158#" 23.9074
-cap "m1_1670_158#" "m1_1426_396#" 109.32
-cap "m1_266_396#" "start" 12.5963
-cap "start_delay" "m1_1670_158#" 5.32453
-cap "start_buff" "m1_266_396#" 176.703
-cap "VDD" "start" 1.95556
+cap "m1_1426_396#" "m1_1670_158#" 109.32
 cap "m1_266_396#" "m1_1426_396#" 25.3062
-cap "start_buff" "m1_1426_396#" 5.32453
 cap "VSS" "start" 4.52571
-cap "inverter_3_1x4_0/inverter_3_1_4/a_136_200#" "inverter_3_1x4_0/inverter_3_1_4/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" 222.322
-cap "inverter_3_1x4_0/inverter_3_1_4/a_136_200#" "inverter_3_1x4_0/inverter_3_1_4/w_30_230#" 285.359
-cap "inverter_3_1x4_0/inverter_3_1_0/a_136_200#" "inverter_3_1x4_0/inverter_3_1_4/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" 0.427145
-cap "inverter_3_1x4_0/inverter_3_1_0/a_136_200#" "inverter_3_1x4_0/inverter_3_1_4/w_30_230#" 37.5818
-cap "inverter_3_1x4_0/inverter_3_1_4/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" "inverter_3_1x4_0/inverter_3_1_4/a_66_n196#" 408.089
-cap "inverter_3_1x4_0/inverter_3_1_4/w_30_230#" "inverter_3_1x4_0/inverter_3_1_4/a_66_n196#" -124.369
+cap "start_delay" "m1_1426_396#" 13.462
+cap "VDD" "start" 1.95556
+cap "start_delay" "m1_1670_158#" 5.32453
+cap "m1_1426_396#" "start_buff" 5.32453
+cap "start_buff" "m1_1670_158#" 23.9074
+cap "m1_266_396#" "start_buff" 176.703
+cap "m1_266_396#" "start" 12.5963
+cap "inverter_3_1x4_0/inverter_3_1_4/a_66_n196#" "inverter_3_1x4_0/inverter_3_1_0/a_136_200#" 29.5778
 cap "inverter_3_1x4_0/inverter_3_1_0/a_136_200#" "inverter_3_1x4_0/inverter_3_1_4/a_136_200#" -5.08787
-cap "inverter_3_1x4_0/inverter_3_1_4/a_136_200#" "inverter_3_1x4_0/inverter_3_1_4/a_66_n196#" 199.196
-cap "inverter_3_1x4_0/inverter_3_1_0/a_136_200#" "inverter_3_1x4_0/inverter_3_1_4/a_66_n196#" 29.5778
+cap "inverter_3_1x4_0/inverter_3_1_4/a_66_n196#" "inverter_3_1x4_0/inverter_3_1_4/w_30_230#" -124.369
+cap "inverter_3_1x4_0/inverter_3_1_4/a_136_200#" "inverter_3_1x4_0/inverter_3_1_4/w_30_230#" 285.359
+cap "inverter_3_1x4_0/inverter_3_1_4/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" "inverter_3_1x4_0/inverter_3_1_0/a_136_200#" 0.427145
 cap "inverter_3_1x4_0/inverter_3_1_4/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" "inverter_3_1x4_0/inverter_3_1_4/w_30_230#" 12.0297
-cap "inverter_3_1x4_0/inverter_3_1_4/a_66_n196#" "inverter_3_1x4_0/inverter_3_1_4/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" 177.826
+cap "inverter_3_1x4_0/inverter_3_1_4/a_66_n196#" "inverter_3_1x4_0/inverter_3_1_4/a_136_200#" 199.196
+cap "inverter_3_1x4_0/inverter_3_1_4/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" "inverter_3_1x4_0/inverter_3_1_4/a_66_n196#" 408.089
+cap "inverter_3_1x4_0/inverter_3_1_4/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" "inverter_3_1x4_0/inverter_3_1_4/a_136_200#" 222.322
+cap "inverter_3_1x4_0/inverter_3_1_0/a_136_200#" "inverter_3_1x4_0/inverter_3_1_4/w_30_230#" 37.5818
+cap "inverter_3_1x4_0/inverter_3_1_4/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" "inverter_3_1x4_0/inverter_3_1_4/a_66_n196#" 177.826
 cap "inverter_3_1x4_1/inverter_3_1_4/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" "inverter_3_1x4_0/inverter_3_1_4/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" 122.761
 cap "inverter_3_1x4_0/inverter_3_1_4/w_30_230#" "inverter_3_1x4_0/inverter_3_1_4/a_66_n196#" -81.2835
-cap "inverter_3_1x4_0/inverter_3_1_4/w_30_230#" "inverter_3_1x4_1/inverter_3_1_4/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" 54.9654
+cap "inverter_3_1x4_1/inverter_3_1_4/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" "inverter_3_1x4_0/inverter_3_1_4/w_30_230#" 54.9654
 cap "inverter_3_1x4_0/inverter_3_1_4/w_30_230#" "inverter_3_1x4_0/inverter_3_1_4/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" 208.731
+cap "inverter_3_1x4_1/inverter_3_1_4/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" "inverter_3_1x4_0/inverter_3_1_4/a_66_n196#" 337.309
 cap "inverter_3_1x4_0/inverter_3_1_4/a_136_200#" "inverter_3_1x4_0/inverter_3_1_4/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" -3.91583
-cap "inverter_3_1x4_0/inverter_3_1_4/a_66_n196#" "inverter_3_1x4_1/inverter_3_1_4/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" 337.309
 merge "inverter_3_1x4_0/VSUBS" "inverter_3_1x4_1/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "inverter_3_1x4_1/VSUBS" "VSUBS"
 merge "inverter_3_1x4_0/inverter_3_1_0/a_136_200#" "start" -45.5902 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -108 0 0 0 0 0 0 0 0 0 0

@@ -1,0 +1,160 @@
+magic
+tech sky130A
+timestamp 1731143787
+<< nwell >>
+rect 330 303 402 774
+<< pwell >>
+rect 330 0 402 303
+<< metal1 >>
+rect -111 879 850 881
+rect -111 849 -108 879
+rect -79 878 850 879
+rect -79 849 817 878
+rect 848 849 850 878
+rect -111 846 850 849
+rect -404 820 439 823
+rect -404 791 -401 820
+rect -370 791 128 820
+rect 161 791 406 820
+rect 437 791 439 820
+rect -404 788 439 791
+rect -703 708 -541 756
+rect -589 696 -541 708
+rect -62 708 1 756
+rect 330 708 402 756
+rect -62 696 -14 708
+rect -589 648 -524 696
+rect -126 648 -14 696
+rect -700 300 -667 303
+rect -700 273 -697 300
+rect -670 273 -667 300
+rect -700 270 -667 273
+rect -581 301 -546 304
+rect -581 274 -579 301
+rect -548 298 -546 301
+rect -404 298 -367 301
+rect -548 274 -471 298
+rect -581 271 -471 274
+rect -404 271 -402 298
+rect -369 271 -367 298
+rect -404 268 -367 271
+rect -344 298 -307 301
+rect -111 300 -76 303
+rect -111 299 -109 300
+rect -344 271 -342 298
+rect -309 271 -272 298
+rect -192 273 -109 299
+rect -78 299 -76 300
+rect -78 273 106 299
+rect -344 268 -307 271
+rect -192 270 106 273
+rect 242 262 245 266
+rect 291 262 294 266
+rect 330 264 402 293
+rect 666 270 806 299
+rect 242 257 294 262
+rect -589 73 -524 121
+rect -126 73 -60 121
+rect -589 48 -541 73
+rect -703 0 -541 48
+rect -108 48 -60 73
+rect -108 0 3 48
+rect 330 0 402 48
+<< via1 >>
+rect -108 849 -79 879
+rect 817 849 848 878
+rect -401 791 -370 820
+rect 128 791 161 820
+rect 406 791 437 820
+rect -697 273 -670 300
+rect -579 274 -548 301
+rect -402 271 -369 298
+rect -342 271 -309 298
+rect -109 273 -78 300
+rect 245 262 291 288
+<< metal2 >>
+rect -581 903 646 938
+rect -659 492 -609 525
+rect -700 300 -667 303
+rect -700 273 -697 300
+rect -670 273 -667 300
+rect -700 -19 -667 273
+rect -642 69 -609 492
+rect -581 301 -546 903
+rect -111 879 -76 881
+rect -111 849 -108 879
+rect -79 849 -76 879
+rect -581 274 -579 301
+rect -548 274 -546 301
+rect -581 271 -546 274
+rect -404 820 -367 823
+rect -404 791 -401 820
+rect -370 791 -367 820
+rect -404 298 -367 791
+rect -404 271 -402 298
+rect -369 271 -367 298
+rect -404 268 -367 271
+rect -344 298 -307 301
+rect -344 271 -342 298
+rect -309 271 -307 298
+rect -344 268 -307 271
+rect -111 300 -76 849
+rect 126 820 163 823
+rect 126 791 128 820
+rect 161 791 163 820
+rect 333 808 368 903
+rect 404 820 439 823
+rect 126 788 163 791
+rect 404 791 406 820
+rect 437 791 439 820
+rect 609 808 646 903
+rect 815 878 850 881
+rect 815 849 817 878
+rect 848 849 850 878
+rect 404 788 439 791
+rect 815 525 850 849
+rect -111 273 -109 300
+rect -78 273 -76 300
+rect -111 270 -76 273
+rect 242 288 294 293
+rect -337 69 -313 268
+rect 242 267 245 288
+rect -642 36 -313 69
+rect -46 262 245 267
+rect 291 262 294 288
+rect -46 257 294 262
+rect -46 238 265 257
+rect -46 -19 -13 238
+rect -700 -52 -13 -19
+use inverter_3_1  inverter_3_1_0
+timestamp 1730749971
+transform 1 0 -340 0 1 171
+box 15 -98 214 543
+use inverter_3_1  inverter_3_1_1
+timestamp 1730749971
+transform 1 0 -539 0 1 171
+box 15 -98 214 543
+use tristate_inverter  tristate_inverter_0
+timestamp 1731136808
+transform 1 0 -359 0 1 -11
+box 360 11 729 819
+use tristate_inverter  tristate_inverter_1
+timestamp 1731136808
+transform -1 0 1131 0 1 -11
+box 360 11 729 819
+<< labels >>
+rlabel metal2 -659 496 -630 525 0 in
+port 1 nsew
+rlabel metal2 -581 909 -552 938 0 en
+port 2 nsew
+rlabel metal1 777 270 806 299 0 back
+port 3 nsew
+rlabel metal2 821 577 850 606 0 forward
+port 4 nsew
+rlabel metal2 -700 236 -671 265 0 out
+port 5 nsew
+rlabel metal1 -703 727 -674 756 0 VDD
+port 6 nsew
+rlabel metal1 -656 0 -627 29 0 VSS
+port 7 nsew
+<< end >>

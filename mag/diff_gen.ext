@@ -1,4 +1,4 @@
-timestamp 1730645360
+timestamp 1730821783
 version 8.3
 tech sky130A
 style ngspice()
@@ -24,132 +24,131 @@ node "in_buff" 0 44.3649 0 1298 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "VSS" 0 52.217 0 32 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4096 256 0 0 0 0 0 0 0 0 0 0
 node "VDD" 0 52.217 0 1422 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4096 256 0 0 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "VDD" "in_buff" 8.26126
-cap "out_pos" "out_neg" 2.74443
-cap "in_delay" "in_buff" 3.86473
-cap "in_buff" "VSS" 0.0307308
-cap "in_delay" "VDD" 0.0546818
-cap "VDD" "VSS" 2.04651
-cap "in_delay" "VSS" 0.675306
-cap "delay_unit_2_2/VDD" "delay_unit_2_2/VSS" -1.02326
-cap "delay_unit_2_1/in_2" "delay_unit_2_1/in_1" 5.93232
-cap "delay_unit_2_1/in_2" "delay_unit_2_0/in_2" 13.6217
-cap "delay_unit_2_0/in_1" "delay_unit_2_1/in_2" 29.4238
-cap "delay_unit_2_0/in_1" "delay_unit_2_1/in_1" 13.0134
-cap "delay_unit_2_0/in_1" "delay_unit_2_0/in_2" -3.86473
-cap "delay_unit_2_1/in_2" "delay_unit_2_2/VDD" 2.5097
-cap "delay_unit_2_2/in_1" "delay_unit_2_1/in_1" 2.77081
+cap "in_buff" "VDD" 8.26126
+cap "VSS" "VDD" 2.04651
+cap "in_buff" "in_delay" 3.86473
+cap "VSS" "in_delay" 0.675306
+cap "VSS" "in_buff" 0.0307308
+cap "out_neg" "out_pos" 2.74443
+cap "VDD" "in_delay" 0.0546818
+cap "delay_unit_2_2/in_2" "delay_unit_2_1/in_2" 5.36834
+cap "delay_unit_2_1/in_1" "delay_unit_2_1/in_2" 8.0387
+cap "delay_unit_2_1/in_2" "delay_unit_2_0/in_1" 29.2416
+cap "delay_unit_2_1/in_1" "delay_unit_2_0/in_1" 13.0134
+cap "delay_unit_2_2/VDD" "delay_unit_2_1/in_2" 3.56343
+cap "delay_unit_2_2/VSS" "delay_unit_2_1/in_2" 58.0586
 cap "delay_unit_2_1/in_1" "delay_unit_2_2/VDD" 11.6984
-cap "delay_unit_2_0/in_1" "delay_unit_2_2/in_1" 1.35593
-cap "delay_unit_2_0/in_1" "delay_unit_2_2/VDD" 10.7824
-cap "delay_unit_2_1/in_2" "delay_unit_2_2/VSS" 60.8879
-cap "delay_unit_2_1/in_1" "delay_unit_2_2/VSS" 1.96204e-13
-cap "delay_unit_2_1/in_2" "delay_unit_2_2/in_2" 5.36834
-cap "delay_unit_2_0/in_2" "delay_unit_2_2/VSS" -0.675306
-cap "delay_unit_2_0/in_1" "delay_unit_2_2/VSS" 0.194657
-cap "delay_unit_2_2/in_1" "delay_unit_2_3/VDD" 15.0364
-cap "delay_unit_2_1/in_1" "delay_unit_2_3/VSS" 0.335996
-cap "delay_unit_2_3/in_1" "delay_unit_2_2/in_1" 2.77081
-cap "delay_unit_2_2/in_2" "delay_unit_2_3/VDD" 2.5097
-cap "delay_unit_2_2/in_2" "delay_unit_2_1/in_2" 8.2534
-cap "delay_unit_2_2/in_2" "delay_unit_2_2/in_1" 10.9642
-cap "delay_unit_2_1/in_2" "delay_unit_2_0/in_1" 4.42488
-cap "delay_unit_2_3/VDD" "delay_unit_2_3/VSS" 7.81597e-14
-cap "delay_unit_2_3/VDD" "delay_unit_2_1/in_1" 24.3902
-cap "delay_unit_2_3/in_1" "delay_unit_2_1/in_1" 1.35593
-cap "delay_unit_2_1/in_2" "delay_unit_2_3/VSS" 0.225388
-cap "delay_unit_2_0/in_2" "delay_unit_2_1/in_1" 0.588343
-cap "delay_unit_2_2/in_1" "delay_unit_2_3/VSS" 0.110608
-cap "delay_unit_2_1/in_2" "delay_unit_2_1/in_1" 6.98571
-cap "delay_unit_2_2/in_2" "delay_unit_2_3/VSS" 60.8879
-cap "delay_unit_2_2/in_1" "delay_unit_2_1/in_1" 15.7842
-cap "delay_unit_2_2/in_2" "delay_unit_2_3/in_2" 5.36834
-cap "delay_unit_2_2/in_2" "delay_unit_2_1/in_1" 29.4238
-cap "delay_unit_2_0/in_1" "delay_unit_2_1/in_1" 14.9418
-cap "delay_unit_2_3/VDD" "delay_unit_2_1/in_2" 2.9671
-cap "delay_unit_2_4/VSS" "delay_unit_2_3/in_2" 61.1133
-cap "delay_unit_2_3/in_1" "delay_unit_2_4/in_1" 2.77081
-cap "delay_unit_2_4/VDD" "delay_unit_2_2/in_1" 23.297
-cap "delay_unit_2_3/in_1" "delay_unit_2_2/in_1" 15.7842
-cap "delay_unit_2_1/in_1" "delay_unit_2_2/in_1" 14.9418
-cap "delay_unit_2_2/in_2" "delay_unit_2_3/in_2" 8.2534
-cap "delay_unit_2_4/VSS" "delay_unit_2_2/in_1" 0.225388
-cap "delay_unit_2_3/in_1" "delay_unit_2_4/VDD" 15.0364
-cap "delay_unit_2_4/VSS" "delay_unit_2_4/VDD" 7.10543e-14
-cap "delay_unit_2_2/in_2" "delay_unit_2_2/in_1" 1.9538
-cap "delay_unit_2_4/VSS" "delay_unit_2_3/in_1" 0.110608
-cap "delay_unit_2_4/in_2" "delay_unit_2_3/in_2" 5.36834
-cap "delay_unit_2_2/in_1" "delay_unit_2_3/in_2" 33.8487
-cap "delay_unit_2_4/VDD" "delay_unit_2_2/in_2" 2.9671
-cap "delay_unit_2_2/in_1" "delay_unit_2_1/in_2" 0.588343
-cap "delay_unit_2_1/in_1" "delay_unit_2_2/in_2" 4.42488
-cap "delay_unit_2_4/in_1" "delay_unit_2_2/in_1" 1.35593
-cap "delay_unit_2_4/VSS" "delay_unit_2_2/in_2" 0.225388
-cap "delay_unit_2_4/VDD" "delay_unit_2_3/in_2" 5.47681
-cap "delay_unit_2_3/in_1" "delay_unit_2_3/in_2" 10.9642
-cap "delay_unit_2_5/VDD" "delay_unit_2_4/in_1" 15.0364
-cap "delay_unit_2_3/in_1" "delay_unit_2_3/in_2" 1.9538
-cap "delay_unit_2_3/in_1" "delay_unit_2_5/VDD" 23.297
-cap "delay_unit_2_3/in_1" "delay_unit_2_4/in_1" 15.7842
-cap "delay_unit_2_3/in_1" "delay_unit_2_2/in_1" 14.9418
-cap "delay_unit_2_4/in_2" "delay_unit_2_5/VSS" 61.1133
-cap "delay_unit_2_4/in_2" "delay_unit_2_3/in_2" 8.2534
-cap "delay_unit_2_5/VDD" "delay_unit_2_5/VSS" 9.9476e-14
-cap "delay_unit_2_5/in_1" "delay_unit_2_5/VDD" 1.93715
-cap "delay_unit_2_4/in_2" "delay_unit_2_5/VDD" 5.47681
-cap "delay_unit_2_4/in_1" "delay_unit_2_5/VSS" 0.110608
-cap "delay_unit_2_5/in_1" "delay_unit_2_4/in_1" 4.99303
-cap "delay_unit_2_3/in_1" "delay_unit_2_2/sky130_fd_pr__nfet_01v8_6H9P4D_3/a_n15_n126#" 0.588343
-cap "delay_unit_2_4/in_2" "delay_unit_2_5/in_2" 5.36834
-cap "delay_unit_2_3/in_1" "delay_unit_2_5/in_1" 1.35593
-cap "delay_unit_2_4/in_2" "delay_unit_2_4/in_1" 10.9642
-cap "delay_unit_2_3/in_1" "delay_unit_2_5/VSS" 0.225388
-cap "delay_unit_2_3/in_1" "delay_unit_2_4/in_2" 33.8487
-cap "delay_unit_2_6/in_1" "delay_unit_2_6/VDD" 1.93715
-cap "delay_unit_2_4/in_1" "delay_unit_2_3/sky130_fd_pr__nfet_01v8_6H9P4D_3/a_n73_n100#" 14.9418
-cap "delay_unit_2_5/in_2" "delay_unit_2_6/VDD" 5.47681
-cap "delay_unit_2_6/VSS" "delay_unit_2_5/in_1" 0.110608
-cap "delay_unit_2_6/in_2" "delay_unit_2_5/in_2" 5.36834
-cap "delay_unit_2_6/VSS" "delay_unit_2_4/in_1" 0.225388
-cap "delay_unit_2_4/in_1" "delay_unit_2_5/in_1" 13.5619
-cap "delay_unit_2_4/in_1" "delay_unit_2_4/in_2" 1.9538
-cap "delay_unit_2_4/in_1" "delay_unit_2_3/sky130_fd_pr__nfet_01v8_6H9P4D_4/a_n73_n100#" 0.588343
-cap "delay_unit_2_6/in_1" "delay_unit_2_5/in_1" 4.99303
-cap "delay_unit_2_6/VSS" "delay_unit_2_6/VDD" 7.81597e-14
-cap "delay_unit_2_6/VDD" "delay_unit_2_5/in_1" 13.0993
-cap "delay_unit_2_6/in_1" "delay_unit_2_4/in_1" 1.35593
-cap "delay_unit_2_6/VDD" "delay_unit_2_4/in_1" 23.297
-cap "delay_unit_2_5/in_2" "delay_unit_2_6/VSS" 61.1133
-cap "delay_unit_2_5/in_2" "delay_unit_2_5/in_1" 10.9642
-cap "delay_unit_2_5/in_2" "delay_unit_2_4/in_2" 8.2534
-cap "delay_unit_2_5/in_2" "delay_unit_2_4/in_1" 33.8487
-cap "delay_unit_2_5/in_1" "delay_unit_2_4/sky130_fd_pr__nfet_01v8_6H9P4D_4/a_n73_n100#" 0.588343
-cap "delay_unit_2_6/VSS" "delay_unit_2_6/in_1" 0.110608
-cap "delay_unit_2_5/in_1" "delay_unit_2_6/out_1" 1.35593
-cap "delay_unit_2_6/VDD" "delay_unit_2_6/out_1" 1.93715
-cap "delay_unit_2_6/VDD" "delay_unit_2_5/in_1" 23.297
-cap "delay_unit_2_6/in_1" "delay_unit_2_5/in_2" 0.588343
-cap "delay_unit_2_5/in_1" "delay_unit_2_6/in_2" 33.8487
-cap "delay_unit_2_6/VDD" "delay_unit_2_6/in_2" 5.47681
-cap "delay_unit_2_6/VDD" "delay_unit_2_6/VSS" 1.13687e-13
-cap "delay_unit_2_6/VSS" "delay_unit_2_5/in_1" 0.225388
-cap "delay_unit_2_6/VSS" "delay_unit_2_6/in_2" 61.1133
-cap "delay_unit_2_6/in_1" "delay_unit_2_6/out_1" 4.99303
-cap "delay_unit_2_6/VDD" "delay_unit_2_6/in_1" 20.8073
-cap "delay_unit_2_5/in_1" "delay_unit_2_5/in_2" 1.9538
-cap "delay_unit_2_6/in_1" "delay_unit_2_5/in_1" 28.5038
-cap "delay_unit_2_6/in_2" "delay_unit_2_5/in_2" 8.2534
-cap "delay_unit_2_6/in_1" "delay_unit_2_6/in_2" 12.918
-cap "delay_unit_2_5/in_1" "delay_unit_2_4/sky130_fd_pr__nfet_01v8_6H9P4D_4/a_n15_n126#" 14.9418
-cap "delay_unit_2_6/in_1" "delay_unit_2_6/out_1" 0.548589
-cap "delay_unit_2_6/out_1" "delay_unit_2_6/VDD" 0.307625
-cap "delay_unit_2_6/out_2" "delay_unit_2_6/out_1" -2.74443
-cap "delay_unit_2_2/VDD" "delay_unit_2_0/in_2" -0.0546818
-cap "delay_unit_2_2/VDD" "delay_unit_2_0/in_1" -3.45462
+cap "delay_unit_2_1/in_1" "delay_unit_2_2/VSS" 1.27259e-13
+cap "delay_unit_2_2/VDD" "delay_unit_2_0/in_1" 10.8056
+cap "delay_unit_2_0/in_2" "delay_unit_2_1/in_2" 13.5819
+cap "delay_unit_2_2/VSS" "delay_unit_2_0/in_1" 0.0966187
+cap "delay_unit_2_0/in_2" "delay_unit_2_0/in_1" -3.86473
 cap "delay_unit_2_2/VDD" "delay_unit_2_2/VSS" -1.02326
-merge "delay_unit_2_2/out_1" "delay_unit_2_3/in_1" -186.122 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
+cap "delay_unit_2_1/in_1" "delay_unit_2_2/in_1" 2.77081
+cap "delay_unit_2_0/in_2" "delay_unit_2_2/VSS" -0.675306
+cap "delay_unit_2_0/in_1" "delay_unit_2_2/in_1" 1.35593
+cap "delay_unit_2_2/in_1" "delay_unit_2_1/in_1" 15.7842
+cap "delay_unit_2_0/in_1" "delay_unit_2_1/in_1" 14.8956
+cap "delay_unit_2_2/in_2" "delay_unit_2_3/VSS" 58.0586
+cap "delay_unit_2_0/in_1" "delay_unit_2_1/in_2" 4.42488
+cap "delay_unit_2_2/in_2" "delay_unit_2_3/VDD" 3.56343
+cap "delay_unit_2_3/in_2" "delay_unit_2_2/in_2" 5.36834
+cap "delay_unit_2_0/in_2" "delay_unit_2_1/in_1" 0.588343
+cap "delay_unit_2_1/in_2" "delay_unit_2_2/in_2" 8.21354
+cap "delay_unit_2_2/in_2" "delay_unit_2_1/in_1" 29.2416
+cap "delay_unit_2_2/in_1" "delay_unit_2_2/in_2" 15.177
+cap "delay_unit_2_3/VDD" "delay_unit_2_3/VSS" 4.26326e-14
+cap "delay_unit_2_3/in_1" "delay_unit_2_1/in_1" 1.35593
+cap "delay_unit_2_1/in_1" "delay_unit_2_3/VSS" 0.127349
+cap "delay_unit_2_1/in_2" "delay_unit_2_3/VSS" 0.127349
+cap "delay_unit_2_1/in_2" "delay_unit_2_3/VDD" 2.89637
+cap "delay_unit_2_3/VDD" "delay_unit_2_1/in_1" 25.1773
+cap "delay_unit_2_2/in_1" "delay_unit_2_3/in_1" 2.77081
+cap "delay_unit_2_2/in_1" "delay_unit_2_3/VDD" 15.7045
+cap "delay_unit_2_1/in_2" "delay_unit_2_1/in_1" 9.09209
+cap "delay_unit_2_2/in_2" "delay_unit_2_2/in_1" 1.9538
+cap "delay_unit_2_4/VDD" "delay_unit_2_2/in_1" 23.416
+cap "delay_unit_2_4/VSS" "delay_unit_2_3/in_1" -3.97904e-13
+cap "delay_unit_2_3/in_1" "delay_unit_2_2/in_1" 15.7842
+cap "delay_unit_2_1/in_1" "delay_unit_2_2/in_2" 4.42488
+cap "delay_unit_2_3/in_2" "delay_unit_2_4/VSS" 58.1859
+cap "delay_unit_2_4/in_1" "delay_unit_2_2/in_1" 1.35593
+cap "delay_unit_2_3/in_2" "delay_unit_2_2/in_1" 33.6665
+cap "delay_unit_2_2/in_2" "delay_unit_2_4/VDD" 2.89637
+cap "delay_unit_2_4/VSS" "delay_unit_2_2/in_1" 0.127349
+cap "delay_unit_2_4/VDD" "delay_unit_2_3/in_1" 15.7045
+cap "delay_unit_2_3/in_2" "delay_unit_2_2/in_2" 8.21354
+cap "delay_unit_2_3/in_2" "delay_unit_2_4/VDD" 6.45981
+cap "delay_unit_2_1/in_1" "delay_unit_2_2/in_1" 14.8956
+cap "delay_unit_2_1/in_2" "delay_unit_2_2/in_1" 0.588343
+cap "delay_unit_2_3/in_2" "delay_unit_2_4/in_2" 5.36834
+cap "delay_unit_2_2/in_2" "delay_unit_2_4/VSS" 0.127349
+cap "delay_unit_2_4/VDD" "delay_unit_2_4/VSS" 4.26326e-14
+cap "delay_unit_2_3/in_1" "delay_unit_2_4/in_1" 2.77081
+cap "delay_unit_2_3/in_2" "delay_unit_2_3/in_1" 15.177
+cap "delay_unit_2_5/VDD" "delay_unit_2_4/in_2" 6.45981
+cap "delay_unit_2_4/in_2" "delay_unit_2_4/in_1" 15.177
+cap "delay_unit_2_3/in_1" "delay_unit_2_4/in_2" 33.6665
+cap "delay_unit_2_2/in_1" "delay_unit_2_3/in_1" 14.8956
+cap "delay_unit_2_3/in_2" "delay_unit_2_4/in_2" 8.21354
+cap "delay_unit_2_5/VDD" "delay_unit_2_5/VSS" 4.26326e-14
+cap "delay_unit_2_5/VSS" "delay_unit_2_4/in_1" -2.84217e-13
+cap "delay_unit_2_3/in_1" "delay_unit_2_5/VSS" 0.127349
+cap "delay_unit_2_5/VDD" "delay_unit_2_4/in_1" 15.7045
+cap "delay_unit_2_3/in_1" "delay_unit_2_5/VDD" 23.416
+cap "delay_unit_2_3/in_1" "delay_unit_2_4/in_1" 15.7842
+cap "delay_unit_2_3/in_1" "delay_unit_2_3/in_2" 1.9538
+cap "delay_unit_2_5/VDD" "delay_unit_2_5/in_1" 1.93715
+cap "delay_unit_2_3/in_1" "delay_unit_2_2/sky130_fd_pr__nfet_01v8_6H9P4D_3/a_n15_n126#" 0.588343
+cap "delay_unit_2_5/VSS" "delay_unit_2_4/in_2" 58.1859
+cap "delay_unit_2_3/in_1" "delay_unit_2_5/in_1" 1.35593
+cap "delay_unit_2_5/in_1" "delay_unit_2_4/in_1" 4.99303
+cap "delay_unit_2_4/in_2" "delay_unit_2_5/in_2" 5.36834
+cap "delay_unit_2_4/in_1" "delay_unit_2_5/in_2" 33.6665
+cap "delay_unit_2_4/in_1" "delay_unit_2_6/VDD" 23.416
+cap "delay_unit_2_5/in_1" "delay_unit_2_6/VSS" 5.11591e-13
+cap "delay_unit_2_6/VDD" "delay_unit_2_6/VSS" 2.13163e-14
+cap "delay_unit_2_6/VSS" "delay_unit_2_5/in_2" 58.1859
+cap "delay_unit_2_4/in_2" "delay_unit_2_4/in_1" 1.9538
+cap "delay_unit_2_4/in_1" "delay_unit_2_3/sky130_fd_pr__nfet_01v8_6H9P4D_3/a_n73_n100#" 14.8956
+cap "delay_unit_2_5/in_1" "delay_unit_2_6/VDD" 13.7673
+cap "delay_unit_2_5/in_1" "delay_unit_2_5/in_2" 15.177
+cap "delay_unit_2_6/in_1" "delay_unit_2_4/in_1" 1.35593
+cap "delay_unit_2_6/VDD" "delay_unit_2_5/in_2" 6.45981
+cap "delay_unit_2_5/in_1" "delay_unit_2_6/in_1" 4.99303
+cap "delay_unit_2_6/in_2" "delay_unit_2_5/in_2" 5.36834
+cap "delay_unit_2_4/in_2" "delay_unit_2_5/in_2" 8.21354
+cap "delay_unit_2_4/in_1" "delay_unit_2_6/VSS" 0.127349
+cap "delay_unit_2_3/sky130_fd_pr__nfet_01v8_6H9P4D_4/a_n73_n100#" "delay_unit_2_4/in_1" 0.588343
+cap "delay_unit_2_6/in_1" "delay_unit_2_6/VDD" 1.93715
+cap "delay_unit_2_5/in_1" "delay_unit_2_4/in_1" 13.5619
+cap "delay_unit_2_6/out_1" "delay_unit_2_6/in_1" 4.99303
+cap "delay_unit_2_6/out_1" "delay_unit_2_5/in_1" 1.35593
+cap "delay_unit_2_5/in_1" "delay_unit_2_4/sky130_fd_pr__nfet_01v8_6H9P4D_4/a_n15_n126#" 14.8956
+cap "delay_unit_2_6/in_2" "delay_unit_2_6/in_1" 17.1308
+cap "delay_unit_2_4/sky130_fd_pr__nfet_01v8_6H9P4D_4/a_n73_n100#" "delay_unit_2_5/in_1" 0.588343
+cap "delay_unit_2_6/VSS" "delay_unit_2_6/in_1" -1.13687e-13
+cap "delay_unit_2_5/in_1" "delay_unit_2_6/in_2" 33.6665
+cap "delay_unit_2_6/VDD" "delay_unit_2_6/in_1" 21.5711
+cap "delay_unit_2_5/in_1" "delay_unit_2_6/VSS" 0.127349
+cap "delay_unit_2_6/VDD" "delay_unit_2_5/in_1" 23.416
+cap "delay_unit_2_5/in_2" "delay_unit_2_6/in_1" 0.588343
+cap "delay_unit_2_6/VDD" "delay_unit_2_6/out_1" 1.93715
+cap "delay_unit_2_5/in_1" "delay_unit_2_5/in_2" 1.9538
+cap "delay_unit_2_6/in_2" "delay_unit_2_6/VSS" 58.1859
+cap "delay_unit_2_6/VDD" "delay_unit_2_6/in_2" 6.45981
+cap "delay_unit_2_6/VDD" "delay_unit_2_6/VSS" 4.26326e-14
+cap "delay_unit_2_6/in_2" "delay_unit_2_5/in_2" 8.21354
+cap "delay_unit_2_5/in_1" "delay_unit_2_6/in_1" 28.4576
+cap "delay_unit_2_6/out_1" "delay_unit_2_6/in_1" 0.548589
+cap "delay_unit_2_6/out_1" "delay_unit_2_6/out_2" -2.74443
+cap "delay_unit_2_6/out_1" "delay_unit_2_6/VDD" 0.307625
+cap "delay_unit_2_2/VSS" "delay_unit_2_2/VDD" -1.02326
+cap "delay_unit_2_2/VDD" "delay_unit_2_0/in_2" -0.0546818
+cap "delay_unit_2_0/in_1" "delay_unit_2_2/VDD" -3.45462
+merge "delay_unit_2_2/out_1" "delay_unit_2_3/in_1" -190.736 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
 merge "delay_unit_2_0/in_2" "in_delay" -59.0961 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4096 -256 0 0 0 0 0 0 0 0
-merge "delay_unit_2_6/VSS" "delay_unit_2_5/VSS" -1895.28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4096 -1408 0 0 0 0 0 0 0 0 0 0
+merge "delay_unit_2_6/VSS" "delay_unit_2_5/VSS" -1812.52 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4096 -1408 0 0 0 0 0 0 0 0 0 0
 merge "delay_unit_2_5/VSS" "delay_unit_2_4/VSS"
 merge "delay_unit_2_4/VSS" "delay_unit_2_3/VSS"
 merge "delay_unit_2_3/VSS" "delay_unit_2_0/VSS"
@@ -157,24 +156,24 @@ merge "delay_unit_2_0/VSS" "VSS"
 merge "VSS" "delay_unit_2_1/VSS"
 merge "delay_unit_2_1/VSS" "delay_unit_2_2/VSS"
 merge "delay_unit_2_2/VSS" "VSUBS"
-merge "delay_unit_2_2/out_2" "delay_unit_2_3/in_2" -120.581 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
-merge "delay_unit_2_5/out_1" "delay_unit_2_6/in_1" -108.143 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
-merge "delay_unit_2_0/VDD" "delay_unit_2_6/VDD" -3984.24 0 0 0 0 0 -12240 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4096 -1408 0 0 0 0 0 0 0 0 0 0
+merge "delay_unit_2_2/out_2" "delay_unit_2_3/in_2" -125.042 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
+merge "delay_unit_2_5/out_1" "delay_unit_2_6/in_1" -112.757 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
+merge "delay_unit_2_0/VDD" "delay_unit_2_6/VDD" -3906.77 0 0 0 0 0 -12240 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4096 -1408 0 0 0 0 0 0 0 0 0 0
 merge "delay_unit_2_6/VDD" "delay_unit_2_5/VDD"
 merge "delay_unit_2_5/VDD" "delay_unit_2_4/VDD"
 merge "delay_unit_2_4/VDD" "delay_unit_2_3/VDD"
 merge "delay_unit_2_3/VDD" "VDD"
 merge "VDD" "delay_unit_2_1/VDD"
 merge "delay_unit_2_1/VDD" "delay_unit_2_2/VDD"
-merge "delay_unit_2_5/out_2" "delay_unit_2_6/in_2" -106.113 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
+merge "delay_unit_2_5/out_2" "delay_unit_2_6/in_2" -110.573 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
 merge "delay_unit_2_6/out_1" "out_pos" -56.0695 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4096 -256 0 0 0 0 0 0 0 0
 merge "delay_unit_2_6/out_2" "out_neg" -46.4561 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4096 -256 0 0 0 0 0 0 0 0
-merge "delay_unit_2_1/out_1" "delay_unit_2_2/in_1" -186.122 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
-merge "delay_unit_2_4/out_1" "delay_unit_2_5/in_1" -186.122 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
-merge "delay_unit_2_1/out_2" "delay_unit_2_2/in_2" -120.581 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
-merge "delay_unit_2_4/out_2" "delay_unit_2_5/in_2" -120.581 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
-merge "delay_unit_2_3/out_1" "delay_unit_2_4/in_1" -186.122 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
-merge "delay_unit_2_3/out_2" "delay_unit_2_4/in_2" -120.581 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
-merge "delay_unit_2_0/out_1" "delay_unit_2_1/in_1" -176.509 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
-merge "delay_unit_2_0/out_2" "delay_unit_2_1/in_2" -120.581 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
+merge "delay_unit_2_1/out_1" "delay_unit_2_2/in_1" -190.736 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
+merge "delay_unit_2_4/out_1" "delay_unit_2_5/in_1" -190.736 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
+merge "delay_unit_2_1/out_2" "delay_unit_2_2/in_2" -125.042 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
+merge "delay_unit_2_4/out_2" "delay_unit_2_5/in_2" -125.042 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
+merge "delay_unit_2_3/out_1" "delay_unit_2_4/in_1" -190.736 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
+merge "delay_unit_2_3/out_2" "delay_unit_2_4/in_2" -125.042 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
+merge "delay_unit_2_0/out_1" "delay_unit_2_1/in_1" -181.122 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
+merge "delay_unit_2_0/out_2" "delay_unit_2_1/in_2" -125.042 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -128 0 0 0 0 0 0 0 0
 merge "delay_unit_2_0/in_1" "in_buff" -122.344 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4096 -256 0 0 0 0 0 0 0 0

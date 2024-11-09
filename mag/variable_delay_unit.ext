@@ -1,0 +1,217 @@
+timestamp 1731143787
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use tristate_inverter tristate_inverter_1 -1 0 2262 0 1 -22
+use tristate_inverter tristate_inverter_0 1 0 -718 0 1 -22
+use inverter_3_1 inverter_3_1_1 1 0 -1078 0 1 342
+use inverter_3_1 inverter_3_1_0 1 0 -680 0 1 342
+port "VSS" 7 -1312 0 -1254 58 m1
+port "back" 3 1554 540 1612 598 m1
+port "in" 1 -1318 992 -1260 1050 m2
+port "en" 2 -1162 1818 -1104 1876 m2
+port "out" 5 -1400 472 -1342 530 m2
+port "VDD" 6 -1406 1454 -1348 1512 m1
+port "forward" 4 1642 1154 1700 1212 m2
+node "m1_660_0#" 0 86.034 660 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13824 480 0 0 0 0 0 0 0 0 0 0
+node "m1_n252_146#" 1 180.352 -252 146 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 38784 1000 0 0 0 0 0 0 0 0 0 0
+node "VSS" 1 234.778 -1312 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 48384 1200 0 0 0 0 0 0 0 0 0 0
+node "back" 1 130.99 1554 540 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16240 676 0 0 0 0 0 0 0 0 0 0
+node "m1_660_528#" 0 32.2753 660 528 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8352 404 0 0 0 0 0 0 0 0 0 0
+node "in" 5 445.148 -1318 992 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8664 420 129852 4320 0 0 0 0 0 0 0 0
+node "en" 8 1268.59 -1162 1818 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12720 572 287620 8336 0 0 0 0 0 0 0 0
+node "out" 7 1075.01 -1400 472 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10276 596 209756 6644 0 0 0 0 0 0 0 0
+node "m1_660_1416#" 0 33.8383 660 1416 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13824 480 0 0 0 0 0 0 0 0 0 0
+node "m1_n252_1296#" 0 136.46 -252 1296 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 35904 940 0 0 0 0 0 0 0 0 0 0
+node "VDD" 1 232.83 -1406 1454 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45888 1148 0 0 0 0 0 0 0 0 0 0
+node "m1_n808_536#" 6 730.975 -808 536 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 122904 3792 92220 2936 0 0 0 0 0 0 0 0
+node "forward" 9 1489.52 1642 1154 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 169668 5308 135380 4148 0 0 0 0 0 0 0 0
+node "w_660_606#" 6215 406.944 660 606 nw 0 0 0 0 135648 2172 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "forward" "m1_660_528#" 0.883534
+cap "forward" "m1_n252_1296#" 123.898
+cap "m1_n252_146#" "m1_660_0#" 6
+cap "VDD" "out" 3.52419
+cap "VDD" "en" 134.228
+cap "in" "out" 482.671
+cap "in" "en" 234.39
+cap "en" "w_660_606#" 11.7153
+cap "m1_n808_536#" "out" 8.77368
+cap "en" "m1_n808_536#" 325.936
+cap "en" "m1_660_1416#" 4.90632
+cap "forward" "m1_n252_146#" 29.4642
+cap "VSS" "out" 125.205
+cap "VDD" "forward" 0.119513
+cap "out" "back" 0.267516
+cap "en" "VSS" 15.2559
+cap "forward" "in" 21.2129
+cap "forward" "w_660_606#" 11.092
+cap "forward" "m1_n808_536#" 710.986
+cap "forward" "m1_660_1416#" 0.658312
+cap "m1_660_528#" "w_660_606#" 20.122
+cap "VDD" "m1_n252_1296#" 10.231
+cap "m1_660_528#" "m1_660_1416#" 7.2
+cap "w_660_606#" "m1_n252_1296#" 1.19502
+cap "m1_n808_536#" "m1_n252_1296#" 73.4201
+cap "en" "out" 35.8018
+cap "m1_660_1416#" "m1_n252_1296#" 5.9661
+cap "in" "m1_n252_146#" 2.90569
+cap "forward" "back" 11.2298
+cap "m1_660_0#" "out" 0.383292
+cap "en" "m1_660_0#" 0.036628
+cap "m1_660_528#" "back" 3.50173
+cap "VDD" "in" 2.63673
+cap "forward" "out" 93.6368
+cap "forward" "en" 444.153
+cap "VDD" "m1_n808_536#" 3.15338
+cap "in" "m1_n808_536#" 76.7061
+cap "m1_n808_536#" "w_660_606#" 1.70073
+cap "m1_660_528#" "out" 23.2833
+cap "en" "m1_660_528#" 0.101208
+cap "w_660_606#" "m1_660_1416#" 31.535
+cap "m1_n252_146#" "VSS" 12.006
+cap "m1_n808_536#" "m1_660_1416#" 55.5789
+cap "out" "m1_n252_1296#" 0.445947
+cap "en" "m1_n252_1296#" 2.90911
+cap "m1_660_528#" "m1_660_0#" 13.1452
+cap "VDD" "VSS" 5.8406
+cap "m1_n252_146#" "out" 141.289
+cap "m1_n252_146#" "en" 0.0141891
+cap "in" "VSS" 157.071
+cap "tristate_inverter_0/in" "tristate_inverter_1/en" 15.5423
+cap "inverter_3_1_0/a_136_200#" "tristate_inverter_1/sky130_fd_pr__nfet_01v8_6H9P4D_3/a_n73_n100#" 0.00765492
+cap "inverter_3_1_0/a_136_200#" "tristate_inverter_0/in" 10.6704
+cap "tristate_inverter_1/out" "tristate_inverter_1/VDD" 9.26125
+cap "tristate_inverter_1/in" "tristate_inverter_0/in" -0.00932499
+cap "inverter_3_1_0/a_136_200#" "tristate_inverter_0/sky130_fd_pr__nfet_01v8_6H9P4D_1/a_n73_n100#" 0.0882122
+cap "tristate_inverter_1/nen" "tristate_inverter_1/en" 4.91349
+cap "tristate_inverter_1/nen" "inverter_3_1_0/a_136_200#" 23.5184
+cap "tristate_inverter_1/VSS" "tristate_inverter_1/en" 6.80873
+cap "tristate_inverter_1/VSS" "inverter_3_1_0/a_136_200#" 395.7
+cap "tristate_inverter_1/out" "tristate_inverter_1/en" -0.0720767
+cap "tristate_inverter_1/VDD" "tristate_inverter_1/en" 286.623
+cap "tristate_inverter_1/out" "inverter_3_1_0/a_136_200#" 4.4419
+cap "inverter_3_1_0/a_136_200#" "tristate_inverter_1/VDD" 82.2187
+cap "tristate_inverter_0/sky130_fd_pr__pfet_01v8_2K9SAN_1/a_n73_n300#" "tristate_inverter_0/in" 10.1065
+cap "tristate_inverter_1/VSS" "tristate_inverter_1/in" 0.00669407
+cap "tristate_inverter_1/in" "tristate_inverter_1/VDD" 0.00669407
+cap "inverter_3_1_0/a_136_200#" "tristate_inverter_1/en" 17.5015
+cap "tristate_inverter_1/nen" "tristate_inverter_0/in" 14.1006
+cap "tristate_inverter_1/VSS" "tristate_inverter_0/in" 37.9905
+cap "inverter_3_1_0/a_136_200#" "tristate_inverter_1/sky130_fd_pr__pfet_01v8_2K9SAN_3/a_n73_n300#" 0.00765492
+cap "tristate_inverter_1/out" "tristate_inverter_0/in" 8.0311
+cap "tristate_inverter_0/in" "tristate_inverter_1/VDD" 197.935
+cap "tristate_inverter_0/sky130_fd_pr__pfet_01v8_2K9SAN_1/a_n73_n300#" "inverter_3_1_0/a_136_200#" 0.0882122
+cap "tristate_inverter_1/out" "tristate_inverter_0/sky130_fd_pr__nfet_01v8_6H9P4D_1/a_n73_n100#" 7.21486
+cap "tristate_inverter_1/nen" "tristate_inverter_1/VSS" 34.5859
+cap "tristate_inverter_1/out" "tristate_inverter_1/nen" 13.6287
+cap "tristate_inverter_1/nen" "tristate_inverter_1/VDD" 134.409
+cap "tristate_inverter_1/out" "tristate_inverter_1/VSS" 110.469
+cap "tristate_inverter_1/VSS" "tristate_inverter_1/VDD" -64.9885
+cap "tristate_inverter_1/out" "tristate_inverter_0/sky130_fd_pr__nfet_01v8_6H9P4D_1/a_n73_n100#" 43.3145
+cap "tristate_inverter_1/en" "tristate_inverter_1/nen" 445.432
+cap "tristate_inverter_1/VSS" "tristate_inverter_1/VDD" -77.3522
+cap "tristate_inverter_0/sky130_fd_pr__pfet_01v8_2K9SAN_1/a_n73_n300#" "tristate_inverter_1/VSS" -0.0450469
+cap "tristate_inverter_1/out" "tristate_inverter_1/in" -1.67388
+cap "tristate_inverter_1/en" "tristate_inverter_0/sky130_fd_pr__nfet_01v8_6H9P4D_1/a_n73_n100#" -1.66973
+cap "tristate_inverter_1/VSS" "inverter_3_1_0/a_136_200#" 0.633373
+cap "tristate_inverter_0/in" "tristate_inverter_1/VDD" 87.332
+cap "tristate_inverter_1/en" "tristate_inverter_1/in" 3.87757
+cap "tristate_inverter_0/in" "tristate_inverter_0/sky130_fd_pr__pfet_01v8_2K9SAN_1/a_n73_n300#" 6.95066
+cap "tristate_inverter_1/out" "tristate_inverter_1/en" 9.62638
+cap "tristate_inverter_0/in" "inverter_3_1_0/a_136_200#" 2.09021
+cap "tristate_inverter_1/VDD" "tristate_inverter_1/nen" 17.9079
+cap "tristate_inverter_0/sky130_fd_pr__pfet_01v8_2K9SAN_1/a_n73_n300#" "tristate_inverter_1/nen" 6.55201
+cap "tristate_inverter_1/VDD" "tristate_inverter_0/sky130_fd_pr__nfet_01v8_6H9P4D_1/a_n73_n100#" -0.769824
+cap "inverter_3_1_0/a_136_200#" "tristate_inverter_1/nen" 0.110594
+cap "tristate_inverter_0/sky130_fd_pr__pfet_01v8_2K9SAN_1/a_n73_n300#" "tristate_inverter_0/sky130_fd_pr__nfet_01v8_6H9P4D_1/a_n73_n100#" -7.04231
+cap "tristate_inverter_1/out" "tristate_inverter_1/VDD" 80.8967
+cap "tristate_inverter_1/VDD" "tristate_inverter_1/in" 24.3076
+cap "tristate_inverter_0/sky130_fd_pr__pfet_01v8_2K9SAN_1/a_n73_n300#" "tristate_inverter_1/out" 11.6961
+cap "tristate_inverter_0/in" "tristate_inverter_1/VSS" 38.6957
+cap "tristate_inverter_1/out" "inverter_3_1_0/a_136_200#" -0.0746626
+cap "tristate_inverter_1/VDD" "tristate_inverter_1/en" 21.9544
+cap "tristate_inverter_1/VSS" "tristate_inverter_1/nen" 7.32025
+cap "tristate_inverter_0/sky130_fd_pr__pfet_01v8_2K9SAN_1/a_n73_n300#" "tristate_inverter_1/en" 1.49928
+cap "inverter_3_1_0/a_136_200#" "tristate_inverter_1/en" 0.0111929
+cap "tristate_inverter_0/in" "tristate_inverter_1/nen" 13.128
+cap "tristate_inverter_1/out" "tristate_inverter_1/VSS" 186.925
+cap "tristate_inverter_1/VSS" "tristate_inverter_1/in" 18.1524
+cap "tristate_inverter_0/in" "tristate_inverter_0/sky130_fd_pr__nfet_01v8_6H9P4D_1/a_n73_n100#" -1.40529
+cap "tristate_inverter_0/in" "tristate_inverter_1/sky130_fd_pr__pfet_01v8_2K9SAN_3/a_n73_n300#" 8.11357
+cap "tristate_inverter_0/in" "tristate_inverter_1/out" 70.7875
+cap "tristate_inverter_0/in" "tristate_inverter_1/in" 8.22659
+cap "tristate_inverter_1/VSS" "tristate_inverter_1/en" 4.74605
+cap "tristate_inverter_1/out" "tristate_inverter_1/nen" 65.5307
+cap "tristate_inverter_1/sky130_fd_pr__pfet_01v8_2K9SAN_3/a_n73_n300#" "tristate_inverter_1/nen" 5.18395
+cap "tristate_inverter_1/in" "tristate_inverter_1/nen" 5.44157
+cap "tristate_inverter_0/in" "tristate_inverter_1/en" 5.76058
+cap "tristate_inverter_1/in" "tristate_inverter_1/VDD" 44.4163
+cap "tristate_inverter_0/in" "tristate_inverter_1/nen" 2.94052
+cap "tristate_inverter_1/sky130_fd_pr__pfet_01v8_2K9SAN_3/a_n73_n300#" "tristate_inverter_0/in" 8.78251
+cap "tristate_inverter_0/in" "tristate_inverter_1/en" 4.37192
+cap "tristate_inverter_1/VDD" "tristate_inverter_1/VSS" -17.9356
+cap "tristate_inverter_0/in" "tristate_inverter_1/in" -2.36543
+cap "tristate_inverter_0/in" "tristate_inverter_1/VDD" 21.9807
+cap "tristate_inverter_1/in" "tristate_inverter_1/VSS" 31.9962
+cap "tristate_inverter_0/in" "tristate_inverter_1/out" 0.389281
+cap "tristate_inverter_1/nen" "tristate_inverter_1/en" 0.615728
+cap "tristate_inverter_0/in" "tristate_inverter_1/nen" 1.96332
+cap "tristate_inverter_1/en" "inverter_3_1_0/a_136_200#" -3.10103
+cap "tristate_inverter_1/nen" "tristate_inverter_1/VDD" 48.4763
+cap "tristate_inverter_1/VSS" "tristate_inverter_1/nen" 0.846115
+cap "tristate_inverter_1/nen" "inverter_3_1_0/a_136_200#" 1.55218
+cap "tristate_inverter_0/in" "tristate_inverter_1/en" 11.831
+cap "tristate_inverter_0/in" "tristate_inverter_1/VDD" 35.7528
+cap "tristate_inverter_1/en" "tristate_inverter_1/VDD" 208.465
+cap "tristate_inverter_1/sky130_fd_pr__pfet_01v8_2K9SAN_3/a_n73_n300#" "tristate_inverter_1/nen" 5.19884
+cap "tristate_inverter_1/en" "tristate_inverter_1/out" -3.94451
+cap "tristate_inverter_1/out" "tristate_inverter_1/VDD" -1.97293
+cap "tristate_inverter_1/nen" "tristate_inverter_1/out" -1.93442
+cap "tristate_inverter_0/in" "tristate_inverter_1/VDD" 109.041
+cap "tristate_inverter_1/en" "tristate_inverter_0/in" 9.73612
+cap "tristate_inverter_1/nen" "tristate_inverter_0/in" 26.1683
+cap "tristate_inverter_1/en" "tristate_inverter_1/VDD" 317.405
+cap "tristate_inverter_1/nen" "tristate_inverter_1/en" 153.027
+cap "tristate_inverter_1/nen" "tristate_inverter_1/VDD" 60.0121
+cap "tristate_inverter_0/in" "tristate_inverter_1/in" -1.19231
+cap "tristate_inverter_1/VDD" "tristate_inverter_1/in" 0.658986
+cap "tristate_inverter_1/nen" "tristate_inverter_1/in" 1.55232
+cap "tristate_inverter_1/nen" "tristate_inverter_0/sky130_fd_pr__pfet_01v8_2K9SAN_1/a_n73_n300#" 6.88247
+cap "tristate_inverter_1/VSS" "tristate_inverter_1/VDD" -2.09895
+cap "tristate_inverter_1/nen" "tristate_inverter_1/VSS" 0.122276
+cap "tristate_inverter_1/en" "tristate_inverter_0/in" -0.554187
+cap "tristate_inverter_1/VDD" "tristate_inverter_0/in" 57.8197
+cap "tristate_inverter_1/in" "tristate_inverter_0/in" -2.84615
+cap "tristate_inverter_1/VDD" "tristate_inverter_1/VSS" -1.22044
+cap "tristate_inverter_1/nen" "tristate_inverter_0/in" 19.6042
+cap "tristate_inverter_1/VDD" "tristate_inverter_1/in" 1.92627
+merge "inverter_3_1_1/a_136_200#" "tristate_inverter_0/en" -697.287 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -108 0 -288 0 0 0 0 0 0 0 0
+merge "tristate_inverter_0/en" "tristate_inverter_1/nen"
+merge "tristate_inverter_1/nen" "en"
+merge "inverter_3_1_0/a_66_n196#" "inverter_3_1_1/a_66_n196#" -840.706 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8064 -1320 0 0 0 0 0 0 0 0 0 0
+merge "inverter_3_1_1/a_66_n196#" "VSS"
+merge "VSS" "tristate_inverter_0/VSS"
+merge "tristate_inverter_0/VSS" "m1_n252_146#"
+merge "m1_n252_146#" "tristate_inverter_1/VSS"
+merge "tristate_inverter_1/VSS" "VSUBS"
+merge "VSUBS" "m1_660_0#"
+merge "inverter_3_1_1/m1_250_162#" "tristate_inverter_0/nen" -790.21 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1716 -184 -5760 -448 0 0 0 0 0 0 0 0
+merge "tristate_inverter_0/nen" "tristate_inverter_1/en"
+merge "tristate_inverter_1/en" "m1_n808_536#"
+merge "inverter_3_1_0/w_30_230#" "inverter_3_1_1/w_30_230#" -2175.07 0 0 0 0 -75360 -5640 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7680 -1312 0 0 0 0 0 0 0 0 0 0
+merge "inverter_3_1_1/w_30_230#" "VDD"
+merge "VDD" "tristate_inverter_0/VDD"
+merge "tristate_inverter_0/VDD" "m1_n252_1296#"
+merge "m1_n252_1296#" "tristate_inverter_1/VDD"
+merge "tristate_inverter_1/VDD" "m1_660_1416#"
+merge "m1_660_1416#" "w_660_606#"
+merge "inverter_3_1_0/m1_250_162#" "tristate_inverter_0/in" -575.923 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -232 0 0 0 0 0 0 0 0 0 0
+merge "tristate_inverter_0/in" "forward"
+merge "inverter_3_1_0/a_136_200#" "in" -188.097 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -108 0 0 0 0 0 0 0 0 0 0
+merge "tristate_inverter_0/out" "out" -443.413 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -9748 -724 0 0 0 0 0 0 0 0 0 0
+merge "out" "tristate_inverter_1/out"
+merge "tristate_inverter_1/out" "m1_660_528#"
+merge "tristate_inverter_1/in" "back" -95.7448 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -116 0 0 0 0 0 0 0 0 0 0

@@ -1,0 +1,199 @@
+* NGSPICE file created from tdc.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_6H9P4D a_n73_n100# a_15_n100# a_n15_n126# VSUBS
+X0 a_15_n100# a_n15_n126# a_n73_n100# VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+**devattr s=11600,516 d=11600,516
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_2K9SAN a_n73_n300# w_n109_n362# a_15_n300# a_n15_n326#
+X0 a_15_n300# a_n15_n326# a_n73_n300# w_n109_n362# sky130_fd_pr__pfet_01v8 ad=0.87 pd=6.58 as=0.87 ps=6.58 w=3 l=0.15
+**devattr s=34800,1316 d=34800,1316
+.ends
+
+.subckt saff_bottom_latch a1 a2 b1 b2 c nc VDD VSS
+Xsky130_fd_pr__nfet_01v8_6H9P4D_0 a_6226_n406# VSS b2 VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__nfet_01v8_6H9P4D_1 VSS c a_6226_n406# VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_0 a_6226_n406# VDD VDD b2 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_2 c sky130_fd_pr__nfet_01v8_6H9P4D_2/a_15_n100# a1
++ VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_1 VDD VDD c a1 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_3 sky130_fd_pr__nfet_01v8_6H9P4D_2/a_15_n100# VSS
++ nc VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_2 c VDD sky130_fd_pr__pfet_01v8_2K9SAN_2/a_15_n300#
++ a_6226_n406# sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_4 VSS sky130_fd_pr__nfet_01v8_6H9P4D_4/a_15_n100#
++ c VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_3 sky130_fd_pr__pfet_01v8_2K9SAN_2/a_15_n300# VDD
++ VDD nc sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_5 sky130_fd_pr__nfet_01v8_6H9P4D_4/a_15_n100# nc b1
++ VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__nfet_01v8_6H9P4D_6 nc VSS a_6688_n404# VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_4 VDD VDD sky130_fd_pr__pfet_01v8_2K9SAN_4/a_15_n300#
++ c sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_7 VSS a_6688_n404# a2 VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_5 sky130_fd_pr__pfet_01v8_2K9SAN_4/a_15_n300# VDD
++ nc a_6688_n404# sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__pfet_01v8_2K9SAN_6 nc VDD VDD b1 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__pfet_01v8_2K9SAN_7 VDD VDD a_6688_n404# a2 sky130_fd_pr__pfet_01v8_2K9SAN
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_NM9Y3C a_n73_n300# a_15_n300# a_n15_n326# VSUBS
+X0 a_15_n300# a_n15_n326# a_n73_n300# VSUBS sky130_fd_pr__nfet_01v8 ad=0.87 pd=6.58 as=0.87 ps=6.58 w=3 l=0.15
+**devattr s=34800,1316 d=34800,1316
+.ends
+
+.subckt sense_amplifier d nd clk out1 out2 VDD VSS
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_0 m1_62_2238# m1_150_3122# d VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_1 m1_150_3122# out1 out2 VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_2 out1 m1_150_3122# out2 VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_3 out2 m1_326_3122# out1 VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_4 m1_326_3122# out2 out1 VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_5 m1_326_3122# m1_62_2238# nd VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_6 m1_150_3122# m1_62_2238# d VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_7 m1_62_2238# m1_326_3122# nd VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_8 m1_326_3122# m1_62_2238# nd VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_9 m1_62_2238# VSS clk VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__pfet_01v8_2K9SAN_0 out2 VDD VDD clk sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__pfet_01v8_2K9SAN_1 VDD VDD out1 clk sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__pfet_01v8_2K9SAN_2 out1 VDD VDD out2 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_10 m1_150_3122# m1_62_2238# d VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__pfet_01v8_2K9SAN_3 VDD VDD out2 out1 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_11 m1_62_2238# m1_326_3122# nd VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_12 m1_62_2238# m1_150_3122# d VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_13 m1_62_2238# VSS clk VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_14 VSS m1_62_2238# clk VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_15 m1_62_2238# VSS clk VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+Xsky130_fd_pr__nfet_01v8_NM9Y3C_16 VSS m1_62_2238# clk VSS sky130_fd_pr__nfet_01v8_NM9Y3C
+.ends
+
+.subckt saff_2 d nd clk q nq VDD1 VDD2 VSS2
+Xsaff_bottom_latch_0 sense_amplifier_0/out1 sense_amplifier_0/out1 sense_amplifier_0/out2
++ sense_amplifier_0/out2 q nq VDD2 VSS2 saff_bottom_latch
+Xsense_amplifier_0 d nd clk sense_amplifier_0/out1 sense_amplifier_0/out2 VDD1 VSS2
++ sense_amplifier
+.ends
+
+.subckt delay_unit_2 in_1 in_2 out_1 out_2 VDD VSS
+Xsky130_fd_pr__nfet_01v8_6H9P4D_0 VSS out_1 in_2 VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__nfet_01v8_6H9P4D_1 out_1 VSS in_2 VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_0 VDD VDD out_1 in_2 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_2 VSS out_1 in_2 VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_1 out_1 VDD VDD in_2 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_3 in_1 VSS in_2 VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_2 VDD VDD out_1 in_2 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_4 in_2 VSS in_1 VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_3 in_1 VDD VDD in_2 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_5 VSS out_2 in_1 VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__nfet_01v8_6H9P4D_6 out_2 VSS in_1 VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_4 VDD VDD out_2 in_1 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_7 VSS out_2 in_1 VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_5 in_2 VDD VDD in_1 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__pfet_01v8_2K9SAN_6 VDD VDD out_2 in_1 sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__pfet_01v8_2K9SAN_7 out_2 VDD VDD in_1 sky130_fd_pr__pfet_01v8_2K9SAN
+.ends
+
+.subckt saff_delay_unit delay_unit_2_0/in_2 delay_unit_2_0/in_1 saff_2_0/q saff_2_0/nd
++ saff_2_0/clk saff_2_0/d delay_unit_2_0/VDD saff_2_0/VDD2 saff_2_0/VDD1 VSUBS
+Xsaff_2_0 saff_2_0/d saff_2_0/nd saff_2_0/clk saff_2_0/q saff_2_0/nq saff_2_0/VDD1
++ saff_2_0/VDD2 VSUBS saff_2
+Xdelay_unit_2_0 delay_unit_2_0/in_1 delay_unit_2_0/in_2 saff_2_0/d saff_2_0/nd delay_unit_2_0/VDD
++ VSUBS delay_unit_2
+.ends
+
+.subckt vernier_delay_line start_pos start_neg stop_strong term_0 term_1 term_2 term_3
++ term_4 term_5 term_7 VDD term_6 VSS
+Xsaff_delay_unit_5 saff_delay_unit_4/saff_2_0/nd saff_delay_unit_4/saff_2_0/d term_5
++ saff_delay_unit_5/saff_2_0/nd stop_strong saff_delay_unit_5/saff_2_0/d VDD VDD VDD
++ VSS saff_delay_unit
+Xsaff_delay_unit_6 saff_delay_unit_5/saff_2_0/nd saff_delay_unit_5/saff_2_0/d term_6
++ saff_delay_unit_6/saff_2_0/nd stop_strong saff_delay_unit_6/saff_2_0/d VDD VDD VDD
++ VSS saff_delay_unit
+Xsaff_delay_unit_7 saff_delay_unit_6/saff_2_0/nd saff_delay_unit_6/saff_2_0/d term_7
++ delay_unit_2_0/in_2 stop_strong delay_unit_2_0/in_1 VDD VDD VDD VSS saff_delay_unit
+Xdelay_unit_2_0 delay_unit_2_0/in_1 delay_unit_2_0/in_2 delay_unit_2_0/out_1 delay_unit_2_0/out_2
++ VDD VSS delay_unit_2
+Xsaff_delay_unit_0 start_neg start_pos term_0 saff_delay_unit_0/saff_2_0/nd stop_strong
++ saff_delay_unit_0/saff_2_0/d VDD VDD VDD VSS saff_delay_unit
+Xsaff_delay_unit_1 saff_delay_unit_0/saff_2_0/nd saff_delay_unit_0/saff_2_0/d term_1
++ saff_delay_unit_1/saff_2_0/nd stop_strong saff_delay_unit_1/saff_2_0/d VDD VDD VDD
++ VSS saff_delay_unit
+Xsaff_delay_unit_2 saff_delay_unit_1/saff_2_0/nd saff_delay_unit_1/saff_2_0/d term_2
++ saff_delay_unit_2/saff_2_0/nd stop_strong saff_delay_unit_2/saff_2_0/d VDD VDD VDD
++ VSS saff_delay_unit
+Xsaff_delay_unit_3 saff_delay_unit_2/saff_2_0/nd saff_delay_unit_2/saff_2_0/d term_3
++ saff_delay_unit_3/saff_2_0/nd stop_strong saff_delay_unit_3/saff_2_0/d VDD VDD VDD
++ VSS saff_delay_unit
+Xsaff_delay_unit_4 saff_delay_unit_3/saff_2_0/nd saff_delay_unit_3/saff_2_0/d term_4
++ saff_delay_unit_4/saff_2_0/nd stop_strong saff_delay_unit_4/saff_2_0/d VDD VDD VDD
++ VSS saff_delay_unit
+.ends
+
+.subckt inverter_3_1 w_30_230# m1_250_162# sky130_fd_pr__pfet_01v8_2K9SAN_0/VSUBS
++ a_136_200#
+Xsky130_fd_pr__nfet_01v8_6H9P4D_0 sky130_fd_pr__pfet_01v8_2K9SAN_0/VSUBS m1_250_162#
++ a_136_200# sky130_fd_pr__pfet_01v8_2K9SAN_0/VSUBS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_0 w_30_230# w_30_230# m1_250_162# a_136_200# sky130_fd_pr__pfet_01v8_2K9SAN
+.ends
+
+.subckt inverter_3_1x4 inverter_3_1_2/a_136_200# inverter_3_1_3/a_136_200# inverter_3_1_4/a_136_200#
++ inverter_3_1_4/w_30_230# inverter_3_1_0/a_136_200# inverter_3_1_0/m1_250_162# inverter_3_1_2/m1_250_162#
++ inverter_3_1_3/m1_250_162# VSUBS inverter_3_1_4/m1_250_162#
+Xinverter_3_1_0 inverter_3_1_4/w_30_230# inverter_3_1_0/m1_250_162# VSUBS inverter_3_1_0/a_136_200#
++ inverter_3_1
+Xinverter_3_1_2 inverter_3_1_4/w_30_230# inverter_3_1_2/m1_250_162# VSUBS inverter_3_1_2/a_136_200#
++ inverter_3_1
+Xinverter_3_1_3 inverter_3_1_4/w_30_230# inverter_3_1_3/m1_250_162# VSUBS inverter_3_1_3/a_136_200#
++ inverter_3_1
+Xinverter_3_1_4 inverter_3_1_4/w_30_230# inverter_3_1_4/m1_250_162# VSUBS inverter_3_1_4/a_136_200#
++ inverter_3_1
+.ends
+
+.subckt stop_buffer stop stop_strong VDD VSS
+Xinverter_3_1x4_0 m1_3456_392# m1_3456_392# m1_3456_392# VDD m1_3456_392# stop_strong
++ stop_strong stop_strong VSS stop_strong inverter_3_1x4
+Xinverter_3_1x4_1 m1_266_396# m1_556_396# m1_846_396# VDD stop m1_266_396# m1_556_396#
++ m1_846_396# VSS m1_1136_396# inverter_3_1x4
+Xinverter_3_1x4_2 m1_1426_396# m1_1716_396# m1_2006_396# VDD m1_1136_396# m1_1426_396#
++ m1_1716_396# m1_2006_396# VSS m1_2296_396# inverter_3_1x4
+Xinverter_3_1x4_3 m1_2296_396# m1_2296_396# m1_2296_396# VDD m1_2296_396# m1_3456_392#
++ m1_3456_392# m1_3456_392# VSS m1_3456_392# inverter_3_1x4
+Xinverter_3_1x4_4 m1_3456_392# m1_3456_392# m1_3456_392# VDD m1_3456_392# stop_strong
++ stop_strong stop_strong VSS stop_strong inverter_3_1x4
+Xinverter_3_1x4_5 m1_3456_392# m1_3456_392# m1_3456_392# VDD m1_3456_392# stop_strong
++ stop_strong stop_strong VSS stop_strong inverter_3_1x4
+Xinverter_3_1x4_6 m1_3456_392# m1_3456_392# m1_3456_392# VDD m1_3456_392# stop_strong
++ stop_strong stop_strong VSS stop_strong inverter_3_1x4
+.ends
+
+.subckt start_buffer start start_buff VDD start_delay VSS
+Xinverter_3_1x4_0 m1_266_396# m1_266_396# m1_266_396# VDD start m1_266_396# start_buff
++ start_buff VSS start_buff inverter_3_1x4
+Xinverter_3_1x4_1 start_buff start_buff start_buff VDD m1_266_396# start_buff start_delay
++ start_delay VSS start_delay inverter_3_1x4
+.ends
+
+.subckt diff_gen in_delay in_buff out_pos out_neg VDD VSS
+Xdelay_unit_2_4 delay_unit_2_4/in_1 delay_unit_2_4/in_2 delay_unit_2_5/in_1 delay_unit_2_5/in_2
++ VDD VSS delay_unit_2
+Xdelay_unit_2_5 delay_unit_2_5/in_1 delay_unit_2_5/in_2 delay_unit_2_6/in_1 delay_unit_2_6/in_2
++ VDD VSS delay_unit_2
+Xdelay_unit_2_6 delay_unit_2_6/in_1 delay_unit_2_6/in_2 out_pos out_neg VDD VSS delay_unit_2
+Xdelay_unit_2_0 in_buff in_delay delay_unit_2_1/in_1 delay_unit_2_1/in_2 VDD VSS delay_unit_2
+Xdelay_unit_2_1 delay_unit_2_1/in_1 delay_unit_2_1/in_2 delay_unit_2_2/in_1 delay_unit_2_2/in_2
++ VDD VSS delay_unit_2
+Xdelay_unit_2_2 delay_unit_2_2/in_1 delay_unit_2_2/in_2 delay_unit_2_3/in_1 delay_unit_2_3/in_2
++ VDD VSS delay_unit_2
+Xdelay_unit_2_3 delay_unit_2_3/in_1 delay_unit_2_3/in_2 delay_unit_2_4/in_1 delay_unit_2_4/in_2
++ VDD VSS delay_unit_2
+.ends
+
+.subckt tdc start stop term_0 term_1 term_2 term_3 term_4 term_5 term_6 term_7 VDD
++ VSS
+Xvernier_delay_line_0 diff_gen_0/out_pos diff_gen_0/out_neg stop_buffer_0/stop_strong
++ term_0 term_1 term_2 term_3 term_4 term_5 term_7 VDD term_6 VSS vernier_delay_line
+Xstop_buffer_0 stop stop_buffer_0/stop_strong VDD VSS stop_buffer
+Xstart_buffer_0 start diff_gen_0/in_buff VDD diff_gen_0/in_delay VSS start_buffer
+Xdiff_gen_0 diff_gen_0/in_delay diff_gen_0/in_buff diff_gen_0/out_pos diff_gen_0/out_neg
++ VDD VSS diff_gen
+.ends
+

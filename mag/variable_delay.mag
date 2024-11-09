@@ -1,0 +1,12 @@
+magic
+tech sky130A
+timestamp 1731144722
+use variable_delay_unit  variable_delay_unit_0
+timestamp 1731143787
+transform 1 0 700 0 1 52
+box -703 -52 850 938
+use variable_delay_unit  variable_delay_unit_1
+timestamp 1731143787
+transform 1 0 2174 0 1 52
+box -703 -52 850 938
+<< end >>
