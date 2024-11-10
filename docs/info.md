@@ -13,9 +13,9 @@ A Pseudo-Differential Time to Digital Converter (TDC)
 
 ## How to test
 
-The TDC has two analog inputs start and stop and one digital output vector. Provide two square signals to the start and stop inputs with different phases. Read the measured phase difference from the digital output vector.
+The TDC has one analog input that is then split into start and stop signals. Because this TDC has a resolution of around 80 ps, it would be difficult to provide signals with such a small phase difference, that is why there is an extra variable delay circuit that delays the stop signal relative to the start signal. You can change the stop signal delay by configuring the digital input. To test the circuit drive the stop signal for a given configuration of delay.
 
 ## External hardware
 
-Signal generator with two outputs to generate the start and stop signals, and a logic analyzer to read the digital output.
+No external hardware needed.
 

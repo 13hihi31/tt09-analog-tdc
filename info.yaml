@@ -24,14 +24,14 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: "start delay 0"
-  ui[1]: "start delay 1"
-  ui[2]: "start delay 2"
-  ui[3]: "stop delay 0"
-  ui[4]: "stop delay 1"
-  ui[5]: "stop delay 2"
-  ui[6]: "stop delay 3"
-  ui[7]: "stop delay 4"
+  ui[0]: "stop fine delay 0"
+  ui[1]: "stop fine delay 1"
+  ui[2]: "stop fine delay 2"
+  ui[3]: "stop fine delay 3"
+  ui[4]: "stop coarse delay 0"
+  ui[5]: "stop coarse delay 1"
+  ui[6]: "stop coarse delay 2"
+  ui[7]: "stop coarse delay 3"
 
   # Outputs
   uo[0]: "tdc bit 0"
@@ -44,12 +44,12 @@ pinout:
   uo[7]: "tdc bit 7"
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
+  uio[0]: "stop coarse delay 4"
+  uio[1]: "start fine delay 0"
+  uio[2]: "start fine delay 1"
+  uio[3]: "start fine delay 2"
+  uio[4]: "start fine delay 3"
+  uio[5]: "start enable"
   uio[6]: ""
   uio[7]: ""
 
