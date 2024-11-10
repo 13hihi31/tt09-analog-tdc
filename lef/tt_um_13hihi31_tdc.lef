@@ -134,6 +134,7 @@ MACRO tt_um_13hihi31_tdc
   PIN ui_in[4]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 2.400000 ;
     PORT
       LAYER met4 ;
         RECT 127.270 224.760 127.570 225.760 ;
@@ -142,6 +143,7 @@ MACRO tt_um_13hihi31_tdc
   PIN ui_in[5]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 2.400000 ;
     PORT
       LAYER met4 ;
         RECT 124.510 224.760 124.810 225.760 ;
@@ -150,6 +152,7 @@ MACRO tt_um_13hihi31_tdc
   PIN ui_in[6]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 2.400000 ;
     PORT
       LAYER met4 ;
         RECT 121.750 224.760 122.050 225.760 ;
@@ -158,6 +161,7 @@ MACRO tt_um_13hihi31_tdc
   PIN ui_in[7]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 2.400000 ;
     PORT
       LAYER met4 ;
         RECT 118.990 224.760 119.290 225.760 ;
@@ -166,6 +170,7 @@ MACRO tt_um_13hihi31_tdc
   PIN uio_in[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 2.400000 ;
     PORT
       LAYER met4 ;
         RECT 116.230 224.760 116.530 225.760 ;
