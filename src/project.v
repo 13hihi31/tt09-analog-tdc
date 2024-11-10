@@ -20,42 +20,86 @@ module tt_um_13hihi31_tdc (
     input  wire       rst_n     // reset_n - low to reset
 );
 
-    inverter inverter_1(
-        .VDD(VDPWR),
-        .VSS(VGND),
-        .in(ua[0]),
-        .out(ua[1])
+    wire start;
+    wire stop;
+    wire start_delayed;
+    wire stop_delayed;
+    
+    tdc tdc_0(
+      .start(start_delayed),
+      .stop(stop_delayed),
+      .term_0(uo_out[0]),
+      .term_1(uo_out[1]),
+      .term_2(uo_out[2]),
+      .term_3(uo_out[3]),
+      .term_4(uo_out[4]),
+      .term_5(uo_out[5]),
+      .term_6(uo_out[6]),
+      .term_7(uo_out[7]),
+      .VDD(VDPWR),
+      .VSS(VGND),
     );
     
-    vernier_delay_line vernier_delay_line_0(
-      .start_pos(),
-      .start_neg(),
-      .stop_strong(),
-      .term_0(),
-      .term_1(),
-      .term_2(),
-      .term_3(),
-      .term_4(),
-      .term_5(),
-      .term_6(),
-      .term_7(),
-      .VDD(),
-      .VSS(),
+    variable_delay_short variable_delay_short_0(
+      .in(stop),
+      .en_0(ui_in[1]),
+      .en_1(ui_in[2]),
+      .en_2(ui_in[3]),
+      .en_3(ui_in[4]),
+      .en_4(ui_in[5]),
+      .out(stop_delayed),
+      .VDD(VDPWR),
+      .VSS(VGND),
     );
     
-    diff_gen diff_gen_0(
-      .in_delay(),
-      .in_buff(),
-      .out_pos(),
-      .out_neg(),
-      .VDD(),
-      .VSS(),
+    variable_delay_dummy variable_delay_dummy_0(
+      .in(start),
+      .out(start_delayed),
+      .VDD(VDPWR),
+      .VSS(VGND),
     );
     
-    stop_buffer stop_buffer_0(
-      .stop(),
-      .stop_strong(),
-      .VDD() VSS
+    input_stage input_stage_0(
+      .in(ua[0]),
+      .en(ui_in[0]),
+      .t0(),
+      .t1(),
+      .t2(),
+      .t3(),
+      .out(start),
+      .VDD(VDPWR),
+      .VSS(VGND),
     );
+
+    input_stage input_stage_1(
+      .in(ua[0]),
+      .en(VDPWR),
+      .t0(),
+      .t1(),
+      .t2(),
+      .t3(),
+      .out(stop),
+      .VDD(VDPWR),
+      .VSS(VGND),
+    );
+
+    // ties for the output enables
+    assign uio_out[0] = VGND;
+    assign uio_out[1] = VGND;
+    assign uio_out[2] = VGND;
+    assign uio_out[3] = VGND;
+    assign uio_out[4] = VGND;
+    assign uio_out[5] = VGND;
+    assign uio_out[6] = VGND;
+    assign uio_out[7] = VGND;
+
+    assign uio_oe[0] = VGND;
+    assign uio_oe[1] = VGND;
+    assign uio_oe[2] = VGND;
+    assign uio_oe[3] = VGND;
+    assign uio_oe[4] = VGND;
+    assign uio_oe[5] = VGND;
+    assign uio_oe[6] = VGND;
+    assign uio_oe[7] = VGND;
 
 endmodule
