@@ -412,6 +412,8 @@ MACRO tt_um_13hihi31_tdc
   PIN uo_out[7]
     DIRECTION OUTPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.600000 ;
+    ANTENNADIFFAREA 1.160000 ;
     PORT
       LAYER met4 ;
         RECT 74.830 224.760 75.130 225.760 ;
@@ -443,7 +445,7 @@ MACRO tt_um_13hihi31_tdc
       LAYER met2 ;
         RECT 34.110 1.900 152.700 211.650 ;
       LAYER met3 ;
-        RECT 1.000 1.150 152.700 51.300 ;
+        RECT 1.000 1.150 152.700 198.610 ;
       LAYER met4 ;
         RECT 6.000 224.360 30.270 224.760 ;
         RECT 31.370 224.360 33.030 224.760 ;
