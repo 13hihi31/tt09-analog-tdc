@@ -179,6 +179,7 @@ MACRO tt_um_13hihi31_tdc
   PIN uio_in[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.300000 ;
     PORT
       LAYER met4 ;
         RECT 113.470 224.760 113.770 225.760 ;
@@ -187,6 +188,7 @@ MACRO tt_um_13hihi31_tdc
   PIN uio_in[2]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.300000 ;
     PORT
       LAYER met4 ;
         RECT 110.710 224.760 111.010 225.760 ;
@@ -195,6 +197,7 @@ MACRO tt_um_13hihi31_tdc
   PIN uio_in[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.300000 ;
     PORT
       LAYER met4 ;
         RECT 107.950 224.760 108.250 225.760 ;
@@ -203,6 +206,7 @@ MACRO tt_um_13hihi31_tdc
   PIN uio_in[4]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.300000 ;
     PORT
       LAYER met4 ;
         RECT 105.190 224.760 105.490 225.760 ;
@@ -458,9 +462,9 @@ MACRO tt_um_13hihi31_tdc
   END VGND
   OBS
       LAYER nwell ;
-        RECT 34.860 22.210 129.200 211.650 ;
+        RECT 34.860 24.470 129.200 211.650 ;
       LAYER li1 ;
-        RECT 35.040 22.390 129.200 211.650 ;
+        RECT 35.040 24.650 129.200 211.650 ;
       LAYER met1 ;
         RECT 33.360 2.650 152.700 214.360 ;
       LAYER met2 ;
