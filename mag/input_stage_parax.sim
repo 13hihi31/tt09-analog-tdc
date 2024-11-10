@@ -1,0 +1,61 @@
+| units: 500000 tech: sky130A format: MIT
+x t0 a_1870_1170# a_2134_616# VSS s=23200,916 d=11600,458 l=30 w=400 x=2104 y=616 sky130_fd_pr__nfet_01v8
+x fine_delay_unit_1.in VDD a_3160_1170# VDD s=34800,1316 d=34800,1316 l=30 w=600 x=3306 y=1716 sky130_fd_pr__pfet_01v8
+x fine_delay_unit_1.in a_3160_1170# a_3248_1170# VSS s=5800,258 d=5800,258 l=30 w=200 x=3394 y=1170 sky130_fd_pr__nfet_01v8
+x t3 a_3512_616# VSS VSS s=11600,458 d=23200,916 l=30 w=400 x=3570 y=616 sky130_fd_pr__nfet_01v8
+x fine_delay_unit_0.in a_2134_616# VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=2192 y=1170 sky130_fd_pr__nfet_01v8
+x in VDD nand_gate_0.out VDD s=34800,1316 d=17400,658 l=30 w=600 x=276 y=1084 sky130_fd_pr__pfet_01v8
+x fine_delay_unit_1.in a_3512_616# VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=3570 y=1170 sky130_fd_pr__nfet_01v8
+x in VSS a_306_476# VSS s=23200,916 d=11600,458 l=30 w=400 x=276 y=476 sky130_fd_pr__nfet_01v8
+x nand_gate_0.out VDD fine_delay_unit_0.in VDD s=34800,1316 d=34800,1316 l=30 w=600 x=1024 y=808 sky130_fd_pr__pfet_01v8
+x fine_delay_unit_1.in a_3248_1170# a_3160_1170# VSS s=5800,258 d=5800,258 l=30 w=200 x=3306 y=1170 sky130_fd_pr__nfet_01v8
+x fine_delay_unit_0.in a_1870_1170# a_2134_616# VSS s=5800,258 d=5800,258 l=30 w=200 x=2104 y=1170 sky130_fd_pr__nfet_01v8
+x t1 a_2134_616# VSS VSS s=11600,458 d=23200,916 l=30 w=400 x=2192 y=616 sky130_fd_pr__nfet_01v8
+x a_3160_1170# VSS out VSS s=5800,258 d=11600,516 l=30 w=200 x=3658 y=1170 sky130_fd_pr__nfet_01v8
+x t2 a_3248_1170# a_3512_616# VSS s=23200,916 d=11600,458 l=30 w=400 x=3482 y=616 sky130_fd_pr__nfet_01v8
+x fine_delay_unit_0.in a_1782_1170# a_1870_1170# VSS s=11600,516 d=5800,258 l=30 w=200 x=1840 y=1170 sky130_fd_pr__nfet_01v8
+x nand_gate_0.out VSS fine_delay_unit_0.in VSS s=11600,516 d=11600,516 l=30 w=200 x=1024 y=478 sky130_fd_pr__nfet_01v8
+x fine_delay_unit_1.in a_3248_1170# a_3512_616# VSS s=5800,258 d=5800,258 l=30 w=200 x=3482 y=1170 sky130_fd_pr__nfet_01v8
+x a_3160_1170# VDD out VDD s=34800,1316 d=34800,1316 l=30 w=600 x=3658 y=1714 sky130_fd_pr__pfet_01v8
+x fine_delay_unit_1.in a_3160_1170# a_3248_1170# VSS s=11600,516 d=5800,258 l=30 w=200 x=3218 y=1170 sky130_fd_pr__nfet_01v8
+x fine_delay_unit_0.in VDD a_1782_1170# VDD s=34800,1316 d=34800,1316 l=30 w=600 x=1928 y=1716 sky130_fd_pr__pfet_01v8
+x a_1782_1170# VSS fine_delay_unit_1.in VSS s=5800,258 d=11600,516 l=30 w=200 x=2280 y=1170 sky130_fd_pr__nfet_01v8
+x en nand_gate_0.out VDD VDD s=17400,658 d=34800,1316 l=30 w=600 x=364 y=1084 sky130_fd_pr__pfet_01v8
+x fine_delay_unit_0.in a_1782_1170# a_1870_1170# VSS s=5800,258 d=5800,258 l=30 w=200 x=2016 y=1170 sky130_fd_pr__nfet_01v8
+x en a_306_476# nand_gate_0.out VSS s=11600,458 d=23200,916 l=30 w=400 x=364 y=476 sky130_fd_pr__nfet_01v8
+x fine_delay_unit_0.in a_1870_1170# a_1782_1170# VSS s=5800,258 d=5800,258 l=30 w=200 x=1928 y=1170 sky130_fd_pr__nfet_01v8
+x a_1782_1170# VDD fine_delay_unit_1.in VDD s=34800,1316 d=34800,1316 l=30 w=600 x=2280 y=1714 sky130_fd_pr__pfet_01v8
+R t2 857
+= t2 fine_delay_unit_1.t0
+R t3 1031
+= t3 fine_delay_unit_1.t1
+R t0 857
+= t0 fine_delay_unit_0.t0
+R t1 1031
+= t1 fine_delay_unit_0.t1
+R out 2789
+= out fine_delay_unit_1.out
+R en 2053
+= en nand_gate_0.a
+R in 2053
+= in nand_gate_0.b
+C VDD0 11.7
+R VDD 49853
+= VDD fine_delay_unit_0.VDD
+= VDD fine_delay_unit_1.VDD
+= VDD nand_gate_0.VDD
+R VSS 43097
+= VSS fine_delay_unit_0.VSS
+= VSS fine_delay_unit_1.VSS
+= VSS nand_gate_0.VSS
+R a_3512_616# 1780
+R a_3248_1170# 2576
+R a_2134_616# 1780
+R a_1870_1170# 2576
+R a_306_476# 982
+R a_3160_1170# 5569
+R fine_delay_unit_1.in 6832
+= fine_delay_unit_1.in fine_delay_unit_0.out
+R nand_gate_0.out 4935
+R a_1782_1170# 5569
+R fine_delay_unit_0.in 6833

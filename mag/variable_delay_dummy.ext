@@ -1,0 +1,147 @@
+timestamp 1731242716
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use variable_delay_unit variable_delay_unit_1 1 0 4348 0 1 104
+use variable_delay_unit variable_delay_unit_0 1 0 1400 0 1 104
+port "out" 10 0 518 58 576 m2
+port "in" 1 116 1008 174 1066 m2
+port "VSS" 12 146 104 204 162 m1
+port "VDD" 11 52 1558 110 1616 m1
+node "out" 0 45.2556 0 518 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3364 232 0 0 0 0 0 0 0 0
+node "in" 0 45.1712 116 1008 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3364 232 0 0 0 0 0 0 0 0
+node "m1_5890_104#" 1 271.839 5890 104 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 37800 1220 0 0 0 0 0 0 0 0 0 0
+node "VSS" 0 49.2293 146 104 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3364 232 0 0 0 0 0 0 0 0 0 0
+node "m1_3192_1438#" 1 147.196 3192 1438 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7192 364 7192 364 0 0 0 0 0 0 0 0
+node "m1_246_1448#" 1 141.493 246 1448 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6696 356 6696 356 0 0 0 0 0 0 0 0
+node "VDD" 0 46.999 52 1558 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3364 232 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "VDD" "m1_246_1448#" 3.31183
+cap "VSS" "in" 0.0577662
+cap "VDD" "out" 0.00928654
+cap "variable_delay_unit_1/VDD" "variable_delay_unit_0/out" -0.00540318
+cap "variable_delay_unit_0/in" "variable_delay_unit_0/VSS" -0.0577662
+cap "variable_delay_unit_1/out" "variable_delay_unit_0/out" 3.54957
+cap "variable_delay_unit_0/tristate_inverter_0/in" "variable_delay_unit_1/VDD" -2.27374e-13
+cap "variable_delay_unit_0/VSS" "variable_delay_unit_1/VDD" -1.42109e-14
+cap "variable_delay_unit_0/tristate_inverter_1/en" "variable_delay_unit_1/VDD" -2.27374e-13
+cap "variable_delay_unit_0/in" "variable_delay_unit_1/VDD" -2.84217e-13
+cap "variable_delay_unit_0/VSS" "variable_delay_unit_0/out" 0.00371258
+cap "variable_delay_unit_1/out" "variable_delay_unit_1/en" 2.97619
+cap "variable_delay_unit_0/tristate_inverter_1/en" "variable_delay_unit_1/en" -5.68434e-13
+cap "variable_delay_unit_0/out" "variable_delay_unit_1/en" 1.25783
+cap "variable_delay_unit_1/en" "variable_delay_unit_1/inverter_3_1_1/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" 0.0749005
+cap "variable_delay_unit_1/en" "variable_delay_unit_1/in" 0.0889556
+cap "variable_delay_unit_1/en" "variable_delay_unit_0/tristate_inverter_0/sky130_fd_pr__pfet_01v8_2K9SAN_1/a_n73_n300#" -3.83693e-13
+cap "variable_delay_unit_0/tristate_inverter_1/en" "variable_delay_unit_1/out" 14.9895
+cap "variable_delay_unit_1/out" "variable_delay_unit_1/VSS" 0.0659929
+cap "variable_delay_unit_1/en" "variable_delay_unit_1/inverter_3_1_0/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" 0.0336808
+cap "variable_delay_unit_1/out" "variable_delay_unit_1/inverter_3_1_1/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" 0.022395
+cap "variable_delay_unit_1/out" "variable_delay_unit_0/out" 0.568306
+cap "variable_delay_unit_0/tristate_inverter_1/en" "variable_delay_unit_1/VSS" 1.59937
+cap "variable_delay_unit_0/tristate_inverter_1/en" "variable_delay_unit_1/inverter_3_1_1/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" 0.0176268
+cap "variable_delay_unit_1/out" "variable_delay_unit_1/in" 0.547889
+cap "variable_delay_unit_0/tristate_inverter_1/en" "variable_delay_unit_0/out" -1.42109e-14
+cap "variable_delay_unit_0/out" "variable_delay_unit_1/VSS" 1.33913
+cap "variable_delay_unit_0/tristate_inverter_1/en" "variable_delay_unit_1/in" 10.6452
+cap "variable_delay_unit_0/out" "variable_delay_unit_1/inverter_3_1_1/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" 1.07027
+cap "variable_delay_unit_1/en" "variable_delay_unit_0/tristate_inverter_1/sky130_fd_pr__nfet_01v8_6H9P4D_3/a_n73_n100#" 2.22045e-16
+cap "variable_delay_unit_1/out" "variable_delay_unit_1/inverter_3_1_0/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" 0.0123501
+cap "variable_delay_unit_0/out" "variable_delay_unit_1/in" 0.269128
+cap "variable_delay_unit_0/tristate_inverter_1/en" "variable_delay_unit_1/inverter_3_1_0/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" 0.00790676
+cap "variable_delay_unit_1/out" "variable_delay_unit_0/tristate_inverter_1/sky130_fd_pr__nfet_01v8_6H9P4D_3/a_n73_n100#" 6.7029
+cap "variable_delay_unit_1/en" "variable_delay_unit_0/tristate_inverter_1/sky130_fd_pr__pfet_01v8_2K9SAN_3/a_n73_n300#" 1.13687e-12
+cap "variable_delay_unit_1/in" "variable_delay_unit_0/tristate_inverter_1/out" 0.969711
+cap "variable_delay_unit_1/in" "variable_delay_unit_1/out" -0.191772
+cap "variable_delay_unit_0/tristate_inverter_1/nen" "variable_delay_unit_1/VSS" 0.0194058
+cap "variable_delay_unit_0/tristate_inverter_1/sky130_fd_pr__pfet_01v8_2K9SAN_3/a_n73_n300#" "variable_delay_unit_1/in" 3.27657
+cap "variable_delay_unit_1/out" "variable_delay_unit_1/en" 3.23758
+cap "variable_delay_unit_0/tristate_inverter_1/out" "variable_delay_unit_1/en" 0.917015
+cap "variable_delay_unit_1/out" "variable_delay_unit_0/tristate_inverter_1/en" 18.1768
+cap "variable_delay_unit_0/tristate_inverter_1/sky130_fd_pr__nfet_01v8_6H9P4D_3/a_n73_n100#" "variable_delay_unit_1/en" 0.0699251
+cap "variable_delay_unit_0/tristate_inverter_1/sky130_fd_pr__pfet_01v8_2K9SAN_3/a_n73_n300#" "variable_delay_unit_1/en" 0.0699251
+cap "variable_delay_unit_0/tristate_inverter_1/nen" "variable_delay_unit_1/in" 4.55984
+cap "variable_delay_unit_0/tristate_inverter_1/out" "variable_delay_unit_1/out" 4.89422
+cap "variable_delay_unit_0/tristate_inverter_1/nen" "variable_delay_unit_1/en" 0.220549
+cap "variable_delay_unit_1/in" "variable_delay_unit_1/VSS" 9.60566
+cap "variable_delay_unit_1/out" "variable_delay_unit_0/tristate_inverter_1/sky130_fd_pr__nfet_01v8_6H9P4D_3/a_n73_n100#" 7.83198
+cap "variable_delay_unit_1/en" "variable_delay_unit_1/VSS" -0.0166222
+cap "variable_delay_unit_0/tristate_inverter_1/en" "variable_delay_unit_1/VSS" 0.158801
+cap "variable_delay_unit_1/tristate_inverter_1/en" "variable_delay_unit_1/en" 0.655693
+cap "variable_delay_unit_1/in" "variable_delay_unit_1/en" 138.516
+cap "variable_delay_unit_0/tristate_inverter_1/out" "variable_delay_unit_1/VSS" 1.38477
+cap "variable_delay_unit_1/in" "variable_delay_unit_0/tristate_inverter_1/en" 10.1289
+cap "variable_delay_unit_1/out" "variable_delay_unit_1/VSS" 114.552
+cap "variable_delay_unit_1/tristate_inverter_1/en" "variable_delay_unit_0/tristate_inverter_1/out" 1.07027
+cap "variable_delay_unit_1/tristate_inverter_1/en" "variable_delay_unit_1/out" 0.0476149
+cap "variable_delay_unit_0/tristate_inverter_1/en" "variable_delay_unit_1/en" 0.0580272
+cap "variable_delay_unit_1/tristate_inverter_1/en" "variable_delay_unit_1/in" 0.0122728
+cap "variable_delay_unit_1/en" "variable_delay_unit_1/tristate_inverter_1/sky130_fd_pr__nfet_01v8_6H9P4D_3/a_n73_n100#" -3.33067e-16
+cap "variable_delay_unit_1/tristate_inverter_0/sky130_fd_pr__nfet_01v8_6H9P4D_1/a_n73_n100#" "variable_delay_unit_1/en" -1.9984e-15
+cap "variable_delay_unit_1/en" "variable_delay_unit_1/forward" -3.12639e-13
+cap "variable_delay_unit_1/back" "variable_delay_unit_1/tristate_inverter_1/sky130_fd_pr__nfet_01v8_6H9P4D_3/a_n73_n100#" -1.7053e-13
+cap "variable_delay_unit_1/back" "variable_delay_unit_1/forward" -2.84217e-14
+cap "variable_delay_unit_1/en" "variable_delay_unit_1/tristate_inverter_1/sky130_fd_pr__pfet_01v8_2K9SAN_3/a_n73_n300#" -2.27374e-13
+cap "variable_delay_unit_1/out" "variable_delay_unit_1/en" -6.82121e-13
+cap "variable_delay_unit_1/back" "variable_delay_unit_1/en" 5.68434e-14
+cap "variable_delay_unit_1/tristate_inverter_1/en" "variable_delay_unit_1/en" 0.00350632
+cap "variable_delay_unit_1/tristate_inverter_0/sky130_fd_pr__pfet_01v8_2K9SAN_1/a_n73_n300#" "variable_delay_unit_1/en" -4.54747e-13
+cap "variable_delay_unit_1/back" "variable_delay_unit_1/out" 3.66507
+cap "variable_delay_unit_1/tristate_inverter_1/en" "variable_delay_unit_1/back" 0.439197
+cap "variable_delay_unit_1/back" "variable_delay_unit_1/tristate_inverter_1/out" 3.6391
+cap "variable_delay_unit_1/back" "variable_delay_unit_1/tristate_inverter_1/VDD" 4.26326e-14
+cap "variable_delay_unit_1/back" "variable_delay_unit_1/tristate_inverter_1/nen" -2.05391e-15
+cap "variable_delay_unit_1/back" "variable_delay_unit_1/tristate_inverter_1/sky130_fd_pr__nfet_01v8_6H9P4D_3/a_n73_n100#" 1.27999
+cap "variable_delay_unit_1/back" "variable_delay_unit_1/tristate_inverter_1/en" 2.53201
+cap "variable_delay_unit_1/VDD" "variable_delay_unit_0/in" -1.33227e-15
+cap "variable_delay_unit_1/VDD" "variable_delay_unit_0/tristate_inverter_0/in" -4.26326e-14
+cap "variable_delay_unit_1/VDD" "variable_delay_unit_0/out" -0.00388336
+cap "variable_delay_unit_1/VDD" "variable_delay_unit_0/tristate_inverter_1/en" 5.68434e-14
+cap "variable_delay_unit_1/VDD" "variable_delay_unit_0/VSS" -1.77636e-15
+cap "variable_delay_unit_0/out" "variable_delay_unit_1/en" -3.55271e-15
+cap "variable_delay_unit_1/en" "variable_delay_unit_1/VSS" 3.88578e-16
+cap "variable_delay_unit_0/tristate_inverter_1/en" "variable_delay_unit_1/inverter_3_1_1/sky130_fd_pr__nfet_01v8_6H9P4D_0/a_15_n100#" 1.17378
+cap "variable_delay_unit_0/tristate_inverter_1/sky130_fd_pr__pfet_01v8_2K9SAN_3/a_n73_n300#" "variable_delay_unit_1/en" -3.55271e-15
+cap "variable_delay_unit_1/en" "variable_delay_unit_1/in" -2.27374e-13
+cap "variable_delay_unit_0/tristate_inverter_0/sky130_fd_pr__pfet_01v8_2K9SAN_1/a_n73_n300#" "variable_delay_unit_1/en" -1.77636e-15
+cap "variable_delay_unit_1/en" "variable_delay_unit_0/tristate_inverter_1/en" 0.0628331
+cap "variable_delay_unit_1/en" "variable_delay_unit_1/tristate_inverter_0/in" 0.0940912
+cap "variable_delay_unit_1/out" "variable_delay_unit_1/in" -1.34615
+cap "variable_delay_unit_1/en" "variable_delay_unit_1/in" 282.199
+cap "variable_delay_unit_1/en" "variable_delay_unit_1/tristate_inverter_1/en" 0.314613
+cap "variable_delay_unit_1/en" "variable_delay_unit_1/VSS" -0.0963504
+cap "variable_delay_unit_1/out" "variable_delay_unit_1/en" 0.152074
+cap "variable_delay_unit_0/tristate_inverter_1/nen" "variable_delay_unit_1/tristate_inverter_1/en" 0.0753789
+cap "variable_delay_unit_1/en" "variable_delay_unit_0/tristate_inverter_1/nen" 5.1444
+cap "variable_delay_unit_0/tristate_inverter_1/en" "variable_delay_unit_1/tristate_inverter_1/en" 1.17378
+cap "variable_delay_unit_1/tristate_inverter_0/in" "variable_delay_unit_1/in" 2.86245
+cap "variable_delay_unit_1/in" "variable_delay_unit_1/tristate_inverter_1/en" 0.244103
+cap "variable_delay_unit_1/tristate_inverter_0/sky130_fd_pr__pfet_01v8_2K9SAN_1/a_n73_n300#" "variable_delay_unit_1/en" -1.77636e-15
+cap "variable_delay_unit_1/tristate_inverter_1/sky130_fd_pr__pfet_01v8_2K9SAN_3/a_n73_n300#" "variable_delay_unit_1/en" -3.55271e-15
+cap "variable_delay_unit_1/out" "variable_delay_unit_1/en" 1.77636e-15
+cap "variable_delay_unit_1/en" "variable_delay_unit_1/back" -1.16573e-15
+cap "variable_delay_unit_1/en" "variable_delay_unit_1/tristate_inverter_1/en" 0.00181809
+cap "variable_delay_unit_1/in" "variable_delay_unit_1/tristate_inverter_1/en" 0.0356373
+cap "variable_delay_unit_1/in" "variable_delay_unit_1/en" 0.0170553
+cap "variable_delay_unit_1/forward" "variable_delay_unit_1/en" -2.84217e-13
+merge "variable_delay_unit_0/VSUBS" "variable_delay_unit_1/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "variable_delay_unit_1/VSUBS" "VSUBS"
+merge "variable_delay_unit_0/in" "in" -45.1712 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3364 -232 0 0 0 0 0 0 0 0
+merge "variable_delay_unit_0/forward" "variable_delay_unit_1/in" -250.402 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -140 0 0 0 0 0 0 0 0
+merge "variable_delay_unit_1/tristate_inverter_1/VSS" "variable_delay_unit_0/tristate_inverter_1/VSS" -457.439 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3364 -756 0 0 0 0 0 0 0 0 0 0
+merge "variable_delay_unit_0/tristate_inverter_1/VSS" "variable_delay_unit_1/back"
+merge "variable_delay_unit_1/back" "m1_5890_104#"
+merge "m1_5890_104#" "variable_delay_unit_0/VSS"
+merge "variable_delay_unit_0/VSS" "variable_delay_unit_1/VSS"
+merge "variable_delay_unit_1/VSS" "VSS"
+merge "variable_delay_unit_0/tristate_inverter_1/VDD" "variable_delay_unit_1/en" -1517.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -17252 -1144 -13888 -720 0 0 0 0 0 0 0 0
+merge "variable_delay_unit_1/en" "variable_delay_unit_0/en"
+merge "variable_delay_unit_0/en" "m1_3192_1438#"
+merge "m1_3192_1438#" "variable_delay_unit_0/VDD"
+merge "variable_delay_unit_0/VDD" "variable_delay_unit_1/VDD"
+merge "variable_delay_unit_1/VDD" "m1_246_1448#"
+merge "m1_246_1448#" "VDD"
+merge "variable_delay_unit_0/out" "out" -63.4533 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3364 -232 0 0 0 0 0 0 0 0
+merge "variable_delay_unit_0/back" "variable_delay_unit_1/out" -161.847 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3712 -244 0 0 0 0 0 0 0 0 0 0

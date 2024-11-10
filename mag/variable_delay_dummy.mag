@@ -1,0 +1,31 @@
+magic
+tech sky130A
+timestamp 1731242716
+<< metal1 >>
+rect 26 779 55 808
+rect 73 52 102 81
+rect 2945 52 2980 322
+<< via1 >>
+rect 123 724 150 786
+rect 1596 719 1625 781
+<< metal2 >>
+rect 58 504 87 533
+rect 0 259 29 288
+use variable_delay_unit  variable_delay_unit_0
+timestamp 1731143787
+transform 1 0 700 0 1 52
+box -703 -52 850 938
+use variable_delay_unit  variable_delay_unit_1
+timestamp 1731143787
+transform 1 0 2174 0 1 52
+box -703 -52 850 938
+<< labels >>
+rlabel metal2 58 504 87 533 0 in
+port 1 nsew
+rlabel metal2 0 259 29 288 0 out
+port 10 nsew
+rlabel metal1 26 779 55 808 0 VDD
+port 11 nsew
+rlabel metal1 73 52 102 81 0 VSS
+port 12 nsew
+<< end >>
