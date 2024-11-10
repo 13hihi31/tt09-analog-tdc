@@ -93,7 +93,10 @@ N 820 -330 820 -300 {
 lab=vdd}
 N 820 -220 820 -190 {
 lab=GND}
-C {nand_gate.sym} 450 -270 0 0 {name=x1}
+C {nand_gate.sym} 450 -270 0 0 {name=x1
+schematic=nand_gate_parax.sim
+spice_sym_def="tcleval(.include [file normalize ../mag/nand_gate.sim.spice])"
+tclcommand="textwindow [file normalize ../mag/nand_gate.sim.spice]"}
 C {devices/gnd.sym} 620 -40 0 0 {name=l5 lab=GND}
 C {devices/vsource.sym} 620 -70 0 0 {name=V2 value="pulse(0 1.8 1ns 0.5ns 0.5ns 1.5ns 4ns)" savecurrent=false}
 C {devices/lab_pin.sym} 620 -100 0 0 {name=p5 sig_type=std_logic lab=stop_pulse}

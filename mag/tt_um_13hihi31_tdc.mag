@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1731229845
+timestamp 1731231213
 << metal1 >>
 rect 11760 5125 11885 5130
 rect 11760 5010 11765 5125
@@ -159,6 +159,10 @@ use inverter  inverter_0
 timestamp 1728242959
 transform 1 0 12080 0 1 1950
 box -195 -120 615 3200
+use nand_gate  nand_gate_0
+timestamp 1731172820
+transform 1 0 9578 0 1 7580
+box -47 -351 198 441
 use tdc  tdc_0
 timestamp 1730921041
 transform 0 -1 7808 1 0 11037
