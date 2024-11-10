@@ -34,7 +34,6 @@ MACRO tt_um_13hihi31_tdc
   PIN ua[0]
     DIRECTION INOUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 32.700001 ;
     PORT
       LAYER met4 ;
         RECT 151.810 0.000 152.710 1.000 ;
@@ -43,7 +42,6 @@ MACRO tt_um_13hihi31_tdc
   PIN ua[1]
     DIRECTION INOUT ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 42.639999 ;
     PORT
       LAYER met4 ;
         RECT 132.490 0.000 133.390 1.000 ;
@@ -451,9 +449,9 @@ MACRO tt_um_13hihi31_tdc
   END VGND
   OBS
       LAYER nwell ;
-        RECT 34.860 19.235 126.945 211.650 ;
+        RECT 34.860 22.210 121.700 211.650 ;
       LAYER li1 ;
-        RECT 35.040 19.410 126.765 211.650 ;
+        RECT 35.040 22.390 121.700 211.650 ;
       LAYER met1 ;
         RECT 33.360 2.650 152.700 214.360 ;
       LAYER met2 ;
