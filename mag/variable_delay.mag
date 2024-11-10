@@ -1,6 +1,24 @@
 magic
 tech sky130A
-timestamp 1731144722
+timestamp 1731147906
+<< metal1 >>
+rect 26 779 55 808
+rect 13269 100 13298 322
+rect 73 52 102 81
+rect 13263 52 13298 100
+<< via1 >>
+rect 11915 708 11941 763
+<< metal2 >>
+rect 161 961 190 990
+rect 1640 961 1669 990
+rect 3133 961 3162 990
+rect 4590 961 4619 990
+rect 6044 961 6073 990
+rect 7518 961 7547 990
+rect 8992 961 9021 990
+rect 10466 961 10495 990
+rect 58 504 87 533
+rect 0 259 29 288
 use variable_delay_unit  variable_delay_unit_0
 timestamp 1731143787
 transform 1 0 700 0 1 52
@@ -9,4 +27,57 @@ use variable_delay_unit  variable_delay_unit_1
 timestamp 1731143787
 transform 1 0 2174 0 1 52
 box -703 -52 850 938
+use variable_delay_unit  variable_delay_unit_2
+timestamp 1731143787
+transform 1 0 3648 0 1 52
+box -703 -52 850 938
+use variable_delay_unit  variable_delay_unit_3
+timestamp 1731143787
+transform 1 0 5122 0 1 52
+box -703 -52 850 938
+use variable_delay_unit  variable_delay_unit_4
+timestamp 1731143787
+transform 1 0 6596 0 1 52
+box -703 -52 850 938
+use variable_delay_unit  variable_delay_unit_5
+timestamp 1731143787
+transform 1 0 8070 0 1 52
+box -703 -52 850 938
+use variable_delay_unit  variable_delay_unit_6
+timestamp 1731143787
+transform 1 0 9544 0 1 52
+box -703 -52 850 938
+use variable_delay_unit  variable_delay_unit_7
+timestamp 1731143787
+transform 1 0 11018 0 1 52
+box -703 -52 850 938
+use variable_delay_unit  variable_delay_unit_8
+timestamp 1731143787
+transform 1 0 12492 0 1 52
+box -703 -52 850 938
+<< labels >>
+rlabel metal2 58 504 87 533 0 in
+port 1 nsew
+rlabel metal2 161 961 190 990 0 en_0
+port 2 nsew
+rlabel metal2 1640 961 1669 990 0 en_1
+port 3 nsew
+rlabel metal2 3133 961 3162 990 0 en_2
+port 4 nsew
+rlabel metal2 4590 961 4619 990 0 en_3
+port 5 nsew
+rlabel metal2 6044 961 6073 990 0 en_4
+port 6 nsew
+rlabel metal2 7518 961 7547 990 0 en_5
+port 7 nsew
+rlabel metal2 8992 961 9021 990 0 en_6
+port 8 nsew
+rlabel metal2 10466 961 10495 990 0 en_7
+port 9 nsew
+rlabel metal2 0 259 29 288 0 out
+port 10 nsew
+rlabel metal1 26 779 55 808 0 VDD
+port 11 nsew
+rlabel metal1 73 52 102 81 0 VSS
+port 12 nsew
 << end >>

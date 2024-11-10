@@ -435,9 +435,9 @@ MACRO tt_um_13hihi31_tdc
   END VGND
   OBS
       LAYER nwell ;
-        RECT 44.190 19.235 127.790 210.610 ;
+        RECT 44.190 19.235 126.945 210.610 ;
       LAYER li1 ;
-        RECT 44.370 19.410 127.610 210.610 ;
+        RECT 44.370 19.410 126.765 210.610 ;
       LAYER met1 ;
         RECT 42.690 2.650 152.700 213.320 ;
       LAYER met2 ;

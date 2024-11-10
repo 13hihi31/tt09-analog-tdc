@@ -1,0 +1,9 @@
+** sch_path: /home/ttuser/Documents/tt09-analog-tdc/xschem/nand_gate.sch
+.subckt nand_gate a b out VDD VSS
+*.PININFO VDD:B a:I out:O VSS:B b:I
+XM7 out a net1 VSS sky130_fd_pr__nfet_01v8 L=0.15 W=2 nf=1 m=1
+XM1 out a VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+XM2 net1 b VSS VSS sky130_fd_pr__nfet_01v8 L=0.15 W=2 nf=1 m=1
+XM3 out b VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=3 nf=1 m=1
+.ends
+.end

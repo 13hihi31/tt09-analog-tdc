@@ -1,0 +1,21 @@
+* NGSPICE file created from nand_gate.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_2K9SAN a_n73_n300# w_n109_n362# a_15_n300# a_n15_n326#
+X0 a_15_n300# a_n15_n326# a_n73_n300# w_n109_n362# sky130_fd_pr__pfet_01v8 ad=0.87 pd=6.58 as=0.87 ps=6.58 w=3 l=0.15
+**devattr s=34800,1316 d=34800,1316
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_TC9PQS a_15_n200# a_n15_n226# a_n73_n200# VSUBS
+X0 a_15_n200# a_n15_n226# a_n73_n200# VSUBS sky130_fd_pr__nfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.15
+**devattr s=23200,916 d=23200,916
+.ends
+
+.subckt nand_gate a b out VDD VSS
+Xsky130_fd_pr__pfet_01v8_2K9SAN_0 VDD VDD out a sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__pfet_01v8_2K9SAN_1 out VDD VDD b sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_TC9PQS_0 sky130_fd_pr__nfet_01v8_TC9PQS_0/a_15_n200# a out
++ VSS sky130_fd_pr__nfet_01v8_TC9PQS
+Xsky130_fd_pr__nfet_01v8_TC9PQS_1 VSS b sky130_fd_pr__nfet_01v8_TC9PQS_0/a_15_n200#
++ VSS sky130_fd_pr__nfet_01v8_TC9PQS
+.ends
+

@@ -26,28 +26,28 @@ def plot_signals(axs, label:str, signals: pd.DataFrame, x_sig_names: list[str], 
   
   
 
-def plot_variable_delay_tb():
-  axs = plot_signals(None, "0", read_output_signals(Path(f"~/.xschem/simulations/variable_delay_tb_0").expanduser()), ["time"], ["v(in)", "v(delay)"])
-  axs = plot_signals(axs, "1", read_output_signals(Path(f"~/.xschem/simulations/variable_delay_tb_1").expanduser()), ["time"], ["v(delay)"])
-  axs = plot_signals(axs, "2", read_output_signals(Path(f"~/.xschem/simulations/variable_delay_tb_2").expanduser()), ["time"], ["v(delay)"])
-  axs = plot_signals(axs, "3", read_output_signals(Path(f"~/.xschem/simulations/variable_delay_tb_3").expanduser()), ["time"], ["v(delay)"])
-  axs = plot_signals(axs, "4", read_output_signals(Path(f"~/.xschem/simulations/variable_delay_tb_4").expanduser()), ["time"], ["v(delay)"])
-  axs = plot_signals(axs, "5", read_output_signals(Path(f"~/.xschem/simulations/variable_delay_tb_5").expanduser()), ["time"], ["v(delay)"])
-  axs = plot_signals(axs, "6", read_output_signals(Path(f"~/.xschem/simulations/variable_delay_tb_6").expanduser()), ["time"], ["v(delay)"])
-  axs = plot_signals(axs, "7", read_output_signals(Path(f"~/.xschem/simulations/variable_delay_tb_7").expanduser()), ["time"], ["v(delay)"])
+def plot_fine_delay_tb():
+  axs = plot_signals(None, "0", read_output_signals(Path(f"~/.xschem/simulations/fine_delay_tb_0").expanduser()), ["time"], ["v(in)", "v(delay)"])
+  axs = plot_signals(axs, "1", read_output_signals(Path(f"~/.xschem/simulations/fine_delay_tb_1").expanduser()), ["time"], ["v(delay)"])
+  axs = plot_signals(axs, "2", read_output_signals(Path(f"~/.xschem/simulations/fine_delay_tb_2").expanduser()), ["time"], ["v(delay)"])
+  axs = plot_signals(axs, "3", read_output_signals(Path(f"~/.xschem/simulations/fine_delay_tb_3").expanduser()), ["time"], ["v(delay)"])
+  axs = plot_signals(axs, "4", read_output_signals(Path(f"~/.xschem/simulations/fine_delay_tb_4").expanduser()), ["time"], ["v(delay)"])
+  #axs = plot_signals(axs, "5", read_output_signals(Path(f"~/.xschem/simulations/fine_delay_tb_5").expanduser()), ["time"], ["v(delay)"])
+  #axs = plot_signals(axs, "6", read_output_signals(Path(f"~/.xschem/simulations/fine_delay_tb_6").expanduser()), ["time"], ["v(delay)"])
+  #axs = plot_signals(axs, "7", read_output_signals(Path(f"~/.xschem/simulations/fine_delay_tb_7").expanduser()), ["time"], ["v(delay)"])
   
   plt.show()
   
 
 def find_time_diff():
-  sig_0 = read_output_signals(Path(f"~/.xschem/simulations/variable_delay_tb_0").expanduser())
-  sig_1 = read_output_signals(Path(f"~/.xschem/simulations/variable_delay_tb_1").expanduser())
-  sig_2 = read_output_signals(Path(f"~/.xschem/simulations/variable_delay_tb_2").expanduser())
-  sig_3 = read_output_signals(Path(f"~/.xschem/simulations/variable_delay_tb_3").expanduser())
-  sig_4 = read_output_signals(Path(f"~/.xschem/simulations/variable_delay_tb_4").expanduser())
-  sig_5 = read_output_signals(Path(f"~/.xschem/simulations/variable_delay_tb_5").expanduser())
-  sig_6 = read_output_signals(Path(f"~/.xschem/simulations/variable_delay_tb_6").expanduser())
-  sig_7 = read_output_signals(Path(f"~/.xschem/simulations/variable_delay_tb_7").expanduser())
+  sig_0 = read_output_signals(Path(f"~/.xschem/simulations/fine_delay_tb_0").expanduser())
+  sig_1 = read_output_signals(Path(f"~/.xschem/simulations/fine_delay_tb_1").expanduser())
+  sig_2 = read_output_signals(Path(f"~/.xschem/simulations/fine_delay_tb_2").expanduser())
+  sig_3 = read_output_signals(Path(f"~/.xschem/simulations/fine_delay_tb_3").expanduser())
+  sig_4 = read_output_signals(Path(f"~/.xschem/simulations/fine_delay_tb_4").expanduser())
+  sig_5 = read_output_signals(Path(f"~/.xschem/simulations/fine_delay_tb_5").expanduser())
+  sig_6 = read_output_signals(Path(f"~/.xschem/simulations/fine_delay_tb_6").expanduser())
+  sig_7 = read_output_signals(Path(f"~/.xschem/simulations/fine_delay_tb_7").expanduser())
   
   time = sig_0["time"].to_numpy()
   
@@ -78,6 +78,6 @@ def find_time_diff():
 
   
 if __name__ == "__main__":
-  #plot_variable_delay_tb()
-  find_time_diff()
+  plot_fine_delay_tb()
+  #find_time_diff()
   

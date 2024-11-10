@@ -1,0 +1,21 @@
+| units: 500000 tech: sky130A format: MIT
+x in a_632_434# a_544_434# VSS s=5800,258 d=5800,258 l=30 w=200 x=690 y=434 sky130_fd_pr__nfet_01v8
+x in a_632_434# a_896_n120# VSS s=5800,258 d=5800,258 l=30 w=200 x=866 y=434 sky130_fd_pr__nfet_01v8
+x in VDD a_544_434# VDD s=34800,1316 d=34800,1316 l=30 w=600 x=690 y=980 sky130_fd_pr__pfet_01v8
+x t1 a_896_n120# VSS VSS s=11600,458 d=23200,916 l=30 w=400 x=954 y=-119 sky130_fd_pr__nfet_01v8
+x a_544_434# VSS out VSS s=5800,258 d=11600,516 l=30 w=200 x=1042 y=434 sky130_fd_pr__nfet_01v8
+x in a_544_434# a_632_434# VSS s=5800,258 d=5800,258 l=30 w=200 x=778 y=434 sky130_fd_pr__nfet_01v8
+x in a_544_434# a_632_434# VSS s=11600,516 d=5800,258 l=30 w=200 x=602 y=434 sky130_fd_pr__nfet_01v8
+x in a_896_n120# VSS VSS s=5800,258 d=5800,258 l=30 w=200 x=954 y=434 sky130_fd_pr__nfet_01v8
+x a_544_434# VDD out VDD s=34800,1316 d=34800,1316 l=30 w=600 x=1042 y=978 sky130_fd_pr__pfet_01v8
+x t0 a_632_434# a_896_n120# VSS s=23200,916 d=11600,458 l=30 w=400 x=866 y=-119 sky130_fd_pr__nfet_01v8
+R t0 857
+R t1 1031
+R out 2789
+R in 4014
+C VDD0 3.8
+R VDD 10470
+R VSS 15485
+R a_896_n120# 1780
+R a_632_434# 2576
+R a_544_434# 5569

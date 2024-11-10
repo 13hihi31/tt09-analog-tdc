@@ -1,0 +1,58 @@
+* NGSPICE file created from variable_delay.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_6H9P4D a_n73_n100# a_15_n100# a_n15_n126# VSUBS
+X0 a_15_n100# a_n15_n126# a_n73_n100# VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+**devattr s=11600,516 d=11600,516
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_2K9SAN a_n73_n300# w_n109_n362# a_15_n300# a_n15_n326#
+X0 a_15_n300# a_n15_n326# a_n73_n300# w_n109_n362# sky130_fd_pr__pfet_01v8 ad=0.87 pd=6.58 as=0.87 ps=6.58 w=3 l=0.15
+**devattr s=34800,1316 d=34800,1316
+.ends
+
+.subckt inverter_3_1 w_30_230# m1_250_162# sky130_fd_pr__pfet_01v8_2K9SAN_0/VSUBS
++ a_136_200#
+Xsky130_fd_pr__nfet_01v8_6H9P4D_0 sky130_fd_pr__pfet_01v8_2K9SAN_0/VSUBS m1_250_162#
++ a_136_200# sky130_fd_pr__pfet_01v8_2K9SAN_0/VSUBS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_0 w_30_230# w_30_230# m1_250_162# a_136_200# sky130_fd_pr__pfet_01v8_2K9SAN
+.ends
+
+.subckt tristate_inverter in en nen out VDD VSS
+Xsky130_fd_pr__nfet_01v8_6H9P4D_0 VSS m1_930_270# en VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__nfet_01v8_6H9P4D_1 m1_930_270# VSS en VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_0 VDD VDD m1_930_1186# nen sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_2 VSS m1_930_270# en VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_1 m1_930_1186# VDD VDD nen sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_3 m1_930_270# out in VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_2 VDD VDD m1_930_1186# nen sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__pfet_01v8_2K9SAN_3 m1_930_1186# VDD out in sky130_fd_pr__pfet_01v8_2K9SAN
+.ends
+
+.subckt variable_delay_unit in en back forward out VDD VSS
+Xinverter_3_1_0 VDD forward VSS in inverter_3_1
+Xinverter_3_1_1 VDD tristate_inverter_1/en VSS en inverter_3_1
+Xtristate_inverter_0 forward en tristate_inverter_1/en out VDD VSS tristate_inverter
+Xtristate_inverter_1 back tristate_inverter_1/en en out VDD VSS tristate_inverter
+.ends
+
+.subckt variable_delay in en_0 en_1 en_2 en_3 en_4 en_5 en_6 en_7 out VDD VSS
+Xvariable_delay_unit_2 variable_delay_unit_2/in en_2 variable_delay_unit_3/out variable_delay_unit_3/in
++ variable_delay_unit_2/out VDD VSS variable_delay_unit
+Xvariable_delay_unit_3 variable_delay_unit_3/in en_3 variable_delay_unit_4/out variable_delay_unit_4/in
++ variable_delay_unit_3/out VDD VSS variable_delay_unit
+Xvariable_delay_unit_4 variable_delay_unit_4/in en_4 variable_delay_unit_5/out variable_delay_unit_5/in
++ variable_delay_unit_4/out VDD VSS variable_delay_unit
+Xvariable_delay_unit_5 variable_delay_unit_5/in en_5 variable_delay_unit_6/out variable_delay_unit_6/in
++ variable_delay_unit_5/out VDD VSS variable_delay_unit
+Xvariable_delay_unit_6 variable_delay_unit_6/in en_6 variable_delay_unit_7/out variable_delay_unit_7/in
++ variable_delay_unit_6/out VDD VSS variable_delay_unit
+Xvariable_delay_unit_7 variable_delay_unit_7/in en_7 variable_delay_unit_8/out variable_delay_unit_8/in
++ variable_delay_unit_7/out VDD VSS variable_delay_unit
+Xvariable_delay_unit_8 variable_delay_unit_8/in VDD VSS variable_delay_unit_8/forward
++ variable_delay_unit_8/out VDD VSS variable_delay_unit
+Xvariable_delay_unit_0 in en_0 variable_delay_unit_1/out variable_delay_unit_1/in
++ out VDD VSS variable_delay_unit
+Xvariable_delay_unit_1 variable_delay_unit_1/in en_1 variable_delay_unit_2/out variable_delay_unit_2/in
++ variable_delay_unit_1/out VDD VSS variable_delay_unit
+.ends
+

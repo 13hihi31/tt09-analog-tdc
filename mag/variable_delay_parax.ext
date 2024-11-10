@@ -1,0 +1,877 @@
+timestamp 0
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__nfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__pfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+port "en_7" 9 20932 1922 20990 1980 m2
+port "en_6" 8 17984 1922 18042 1980 m2
+port "en_5" 7 15036 1922 15094 1980 m2
+port "en_4" 6 12088 1922 12146 1980 m2
+port "en_3" 5 9180 1922 9238 1980 m2
+port "en_2" 4 6266 1922 6324 1980 m2
+port "en_1" 3 3280 1922 3338 1980 m2
+port "out" 10 0 518 58 576 m2
+port "in" 1 116 1008 174 1066 m2
+port "en_0" 2 322 1922 380 1980 m2
+port "VDD" 11 52 1558 110 1616 m1
+port "VSS" 12 146 104 204 162 m1
+node "a_26080_352#" 1312 783.967 26080 352 ndif 0 0 0 0 0 0 0 0 23200 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14144 968 20768 1048 17612 624 0 0 0 0 0 0 0 0
+node "a_25198_352#" 1312 716.48 25198 352 ndif 0 0 0 0 0 0 0 0 23200 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14144 968 20768 1048 17612 624 0 0 0 0 0 0 0 0
+node "a_23132_352#" 1312 717.347 23132 352 ndif 0 0 0 0 0 0 0 0 23200 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14144 968 20768 1048 17612 624 0 0 0 0 0 0 0 0
+node "a_22250_352#" 1312 716.48 22250 352 ndif 0 0 0 0 0 0 0 0 23200 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14144 968 20768 1048 17612 624 0 0 0 0 0 0 0 0
+node "a_26080_772#" 4988 114.203 26080 772 pdif 0 0 0 0 0 0 0 0 0 0 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41344 2568 58528 2648 24752 684 0 0 0 0 0 0 0 0
+node "a_25198_772#" 4988 37.8878 25198 772 pdif 0 0 0 0 0 0 0 0 0 0 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41344 2568 58528 2648 24752 684 0 0 0 0 0 0 0 0
+node "variable_delay_unit_8.forward" 4581 1721.93 24548 408 ndif 0 0 0 0 0 0 0 0 11600 516 34800 1316 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36684 2360 0 0 32036 2032 225904 7608 135380 4148 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_8.forward" "variable_delay_unit_8.tristate_inverter_0.in"
+node "variable_delay_unit_8.tristate_inverter_1.en" 7937 1776.96 24150 408 ndif 0 0 0 0 0 0 0 0 11600 516 34800 1316 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 102304 6600 0 0 36328 2296 174328 6136 241792 7180 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_8.tristate_inverter_1.en" "variable_delay_unit_8.tristate_inverter_0.nen"
+node "a_20184_352#" 1312 717.347 20184 352 ndif 0 0 0 0 0 0 0 0 23200 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14144 968 20768 1048 17612 624 0 0 0 0 0 0 0 0
+node "a_19302_352#" 1312 716.48 19302 352 ndif 0 0 0 0 0 0 0 0 23200 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14144 968 20768 1048 17612 624 0 0 0 0 0 0 0 0
+node "a_23132_772#" 4988 43.1282 23132 772 pdif 0 0 0 0 0 0 0 0 0 0 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41344 2568 58528 2648 24752 684 0 0 0 0 0 0 0 0
+node "variable_delay_unit_8.out" 8117 2297.31 23102 326 p 0 0 0 0 0 0 0 0 23200 1032 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36684 2360 0 0 59780 3800 153064 6276 209756 6644 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_8.out" "variable_delay_unit_7.tristate_inverter_1.in"
+equiv "variable_delay_unit_8.out" "variable_delay_unit_7.back"
+equiv "variable_delay_unit_8.out" "variable_delay_unit_8.tristate_inverter_0.out"
+equiv "variable_delay_unit_8.out" "variable_delay_unit_8.tristate_inverter_1.out"
+node "a_22250_772#" 4988 37.8878 22250 772 pdif 0 0 0 0 0 0 0 0 0 0 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41344 2568 58528 2648 24752 684 0 0 0 0 0 0 0 0
+node "variable_delay_unit_8.in" 6340 2527.2 21600 408 ndif 0 0 0 0 0 0 0 0 11600 516 34800 1316 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70356 4540 0 0 35816 2280 238348 8168 265232 8328 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_8.in" "variable_delay_unit_7.tristate_inverter_0.in"
+equiv "variable_delay_unit_8.in" "variable_delay_unit_7.forward"
+node "variable_delay_unit_7.tristate_inverter_1.en" 7937 1665.97 21202 408 ndif 0 0 0 0 0 0 0 0 11600 516 34800 1316 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 102304 6600 0 0 36328 2296 174328 6136 241792 7180 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_7.tristate_inverter_1.en" "variable_delay_unit_7.tristate_inverter_0.nen"
+node "en_7" 6877 2089.69 20932 1922 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 135976 8780 0 0 12364 776 26860 1288 442952 12740 0 0 0 0 0 0 0 0
+equiv "en_7" "variable_delay_unit_7.tristate_inverter_0.en"
+equiv "en_7" "variable_delay_unit_7.tristate_inverter_1.nen"
+equiv "en_7" "variable_delay_unit_7.en"
+node "a_17236_352#" 1312 717.347 17236 352 ndif 0 0 0 0 0 0 0 0 23200 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14144 968 20768 1048 17612 624 0 0 0 0 0 0 0 0
+node "a_16354_352#" 1312 716.48 16354 352 ndif 0 0 0 0 0 0 0 0 23200 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14144 968 20768 1048 17612 624 0 0 0 0 0 0 0 0
+node "a_20184_772#" 4988 43.1282 20184 772 pdif 0 0 0 0 0 0 0 0 0 0 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41344 2568 58528 2648 24752 684 0 0 0 0 0 0 0 0
+node "variable_delay_unit_7.out" 8117 2219.57 20154 326 p 0 0 0 0 0 0 0 0 23200 1032 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36684 2360 0 0 59780 3800 153064 6276 209756 6644 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_7.out" "variable_delay_unit_6.tristate_inverter_1.in"
+equiv "variable_delay_unit_7.out" "variable_delay_unit_6.back"
+equiv "variable_delay_unit_7.out" "variable_delay_unit_7.tristate_inverter_0.out"
+equiv "variable_delay_unit_7.out" "variable_delay_unit_7.tristate_inverter_1.out"
+node "a_19302_772#" 4988 37.8878 19302 772 pdif 0 0 0 0 0 0 0 0 0 0 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41344 2568 58528 2648 24752 684 0 0 0 0 0 0 0 0
+node "variable_delay_unit_7.in" 6340 2527.2 18652 408 ndif 0 0 0 0 0 0 0 0 11600 516 34800 1316 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70356 4540 0 0 35816 2280 238348 8168 265232 8328 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_7.in" "variable_delay_unit_6.tristate_inverter_0.in"
+equiv "variable_delay_unit_7.in" "variable_delay_unit_6.forward"
+node "variable_delay_unit_6.tristate_inverter_1.en" 7937 1665.97 18254 408 ndif 0 0 0 0 0 0 0 0 11600 516 34800 1316 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 102304 6600 0 0 36328 2296 174328 6136 241792 7180 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_6.tristate_inverter_1.en" "variable_delay_unit_6.tristate_inverter_0.nen"
+node "en_6" 6877 2089.69 17984 1922 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 135976 8780 0 0 12364 776 26860 1288 442952 12740 0 0 0 0 0 0 0 0
+equiv "en_6" "variable_delay_unit_6.tristate_inverter_0.en"
+equiv "en_6" "variable_delay_unit_6.tristate_inverter_1.nen"
+equiv "en_6" "variable_delay_unit_6.en"
+node "a_14288_352#" 1312 717.347 14288 352 ndif 0 0 0 0 0 0 0 0 23200 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14144 968 20768 1048 17612 624 0 0 0 0 0 0 0 0
+node "a_13406_352#" 1312 716.48 13406 352 ndif 0 0 0 0 0 0 0 0 23200 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14144 968 20768 1048 17612 624 0 0 0 0 0 0 0 0
+node "a_17236_772#" 4988 43.1282 17236 772 pdif 0 0 0 0 0 0 0 0 0 0 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41344 2568 58528 2648 24752 684 0 0 0 0 0 0 0 0
+node "variable_delay_unit_6.out" 8117 2219.57 17206 326 p 0 0 0 0 0 0 0 0 23200 1032 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36684 2360 0 0 59780 3800 153064 6276 209756 6644 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_6.out" "variable_delay_unit_5.tristate_inverter_1.in"
+equiv "variable_delay_unit_6.out" "variable_delay_unit_5.back"
+equiv "variable_delay_unit_6.out" "variable_delay_unit_6.tristate_inverter_0.out"
+equiv "variable_delay_unit_6.out" "variable_delay_unit_6.tristate_inverter_1.out"
+node "a_16354_772#" 4988 37.8878 16354 772 pdif 0 0 0 0 0 0 0 0 0 0 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41344 2568 58528 2648 24752 684 0 0 0 0 0 0 0 0
+node "variable_delay_unit_6.in" 6340 2527.2 15704 408 ndif 0 0 0 0 0 0 0 0 11600 516 34800 1316 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70356 4540 0 0 35816 2280 238348 8168 265232 8328 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_6.in" "variable_delay_unit_5.tristate_inverter_0.in"
+equiv "variable_delay_unit_6.in" "variable_delay_unit_5.forward"
+node "variable_delay_unit_5.tristate_inverter_1.en" 7937 1665.97 15306 408 ndif 0 0 0 0 0 0 0 0 11600 516 34800 1316 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 102304 6600 0 0 36328 2296 174328 6136 241792 7180 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_5.tristate_inverter_1.en" "variable_delay_unit_5.tristate_inverter_0.nen"
+node "en_5" 6877 2089.69 15036 1922 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 135976 8780 0 0 12364 776 26860 1288 442952 12740 0 0 0 0 0 0 0 0
+equiv "en_5" "variable_delay_unit_5.tristate_inverter_0.en"
+equiv "en_5" "variable_delay_unit_5.tristate_inverter_1.nen"
+equiv "en_5" "variable_delay_unit_5.en"
+node "a_11340_352#" 1312 717.347 11340 352 ndif 0 0 0 0 0 0 0 0 23200 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14144 968 20768 1048 17612 624 0 0 0 0 0 0 0 0
+node "a_10458_352#" 1312 716.48 10458 352 ndif 0 0 0 0 0 0 0 0 23200 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14144 968 20768 1048 17612 624 0 0 0 0 0 0 0 0
+node "a_14288_772#" 4988 43.1282 14288 772 pdif 0 0 0 0 0 0 0 0 0 0 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41344 2568 58528 2648 24752 684 0 0 0 0 0 0 0 0
+node "variable_delay_unit_5.out" 8117 2219.57 14258 326 p 0 0 0 0 0 0 0 0 23200 1032 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36684 2360 0 0 59780 3800 153064 6276 209756 6644 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_5.out" "variable_delay_unit_4.tristate_inverter_1.in"
+equiv "variable_delay_unit_5.out" "variable_delay_unit_4.back"
+equiv "variable_delay_unit_5.out" "variable_delay_unit_5.tristate_inverter_0.out"
+equiv "variable_delay_unit_5.out" "variable_delay_unit_5.tristate_inverter_1.out"
+node "a_13406_772#" 4988 37.8878 13406 772 pdif 0 0 0 0 0 0 0 0 0 0 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41344 2568 58528 2648 24752 684 0 0 0 0 0 0 0 0
+node "variable_delay_unit_5.in" 6340 2527.2 12756 408 ndif 0 0 0 0 0 0 0 0 11600 516 34800 1316 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70356 4540 0 0 35816 2280 238348 8168 265232 8328 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_5.in" "variable_delay_unit_4.tristate_inverter_0.in"
+equiv "variable_delay_unit_5.in" "variable_delay_unit_4.forward"
+node "variable_delay_unit_4.tristate_inverter_1.en" 7937 1665.97 12358 408 ndif 0 0 0 0 0 0 0 0 11600 516 34800 1316 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 102304 6600 0 0 36328 2296 174328 6136 241792 7180 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_4.tristate_inverter_1.en" "variable_delay_unit_4.tristate_inverter_0.nen"
+node "en_4" 6877 2089.69 12088 1922 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 135976 8780 0 0 12364 776 26860 1288 442952 12740 0 0 0 0 0 0 0 0
+equiv "en_4" "variable_delay_unit_4.tristate_inverter_0.en"
+equiv "en_4" "variable_delay_unit_4.tristate_inverter_1.nen"
+equiv "en_4" "variable_delay_unit_4.en"
+node "a_8392_352#" 1312 717.347 8392 352 ndif 0 0 0 0 0 0 0 0 23200 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14144 968 20768 1048 17612 624 0 0 0 0 0 0 0 0
+node "a_7510_352#" 1312 716.48 7510 352 ndif 0 0 0 0 0 0 0 0 23200 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14144 968 20768 1048 17612 624 0 0 0 0 0 0 0 0
+node "a_11340_772#" 4988 43.1282 11340 772 pdif 0 0 0 0 0 0 0 0 0 0 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41344 2568 58528 2648 24752 684 0 0 0 0 0 0 0 0
+node "variable_delay_unit_4.out" 8117 2219.57 11310 326 p 0 0 0 0 0 0 0 0 23200 1032 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36684 2360 0 0 59780 3800 153064 6276 209756 6644 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_4.out" "variable_delay_unit_3.tristate_inverter_1.in"
+equiv "variable_delay_unit_4.out" "variable_delay_unit_3.back"
+equiv "variable_delay_unit_4.out" "variable_delay_unit_4.tristate_inverter_0.out"
+equiv "variable_delay_unit_4.out" "variable_delay_unit_4.tristate_inverter_1.out"
+node "a_10458_772#" 4988 37.8878 10458 772 pdif 0 0 0 0 0 0 0 0 0 0 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41344 2568 58528 2648 24752 684 0 0 0 0 0 0 0 0
+node "variable_delay_unit_4.in" 6340 2527.2 9808 408 ndif 0 0 0 0 0 0 0 0 11600 516 34800 1316 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70356 4540 0 0 35816 2280 238348 8168 265232 8328 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_4.in" "variable_delay_unit_3.tristate_inverter_0.in"
+equiv "variable_delay_unit_4.in" "variable_delay_unit_3.forward"
+node "variable_delay_unit_3.tristate_inverter_1.en" 7937 1665.97 9410 408 ndif 0 0 0 0 0 0 0 0 11600 516 34800 1316 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 102304 6600 0 0 36328 2296 174328 6136 241792 7180 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_3.tristate_inverter_1.en" "variable_delay_unit_3.tristate_inverter_0.nen"
+node "en_3" 6877 2089.69 9180 1922 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 135976 8780 0 0 12364 776 26860 1288 442952 12740 0 0 0 0 0 0 0 0
+equiv "en_3" "variable_delay_unit_3.tristate_inverter_0.en"
+equiv "en_3" "variable_delay_unit_3.tristate_inverter_1.nen"
+equiv "en_3" "variable_delay_unit_3.en"
+node "a_5444_352#" 1312 717.347 5444 352 ndif 0 0 0 0 0 0 0 0 23200 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14144 968 20768 1048 17612 624 0 0 0 0 0 0 0 0
+node "a_4562_352#" 1312 716.48 4562 352 ndif 0 0 0 0 0 0 0 0 23200 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14144 968 20768 1048 17612 624 0 0 0 0 0 0 0 0
+node "a_8392_772#" 4988 43.1282 8392 772 pdif 0 0 0 0 0 0 0 0 0 0 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41344 2568 58528 2648 24752 684 0 0 0 0 0 0 0 0
+node "variable_delay_unit_3.out" 8117 2219.57 8362 326 p 0 0 0 0 0 0 0 0 23200 1032 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36684 2360 0 0 59780 3800 153064 6276 209756 6644 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_3.out" "variable_delay_unit_2.tristate_inverter_1.in"
+equiv "variable_delay_unit_3.out" "variable_delay_unit_2.back"
+equiv "variable_delay_unit_3.out" "variable_delay_unit_3.tristate_inverter_0.out"
+equiv "variable_delay_unit_3.out" "variable_delay_unit_3.tristate_inverter_1.out"
+node "a_7510_772#" 4988 37.8878 7510 772 pdif 0 0 0 0 0 0 0 0 0 0 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41344 2568 58528 2648 24752 684 0 0 0 0 0 0 0 0
+node "variable_delay_unit_3.in" 6340 2527.2 6860 408 ndif 0 0 0 0 0 0 0 0 11600 516 34800 1316 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70356 4540 0 0 35816 2280 238348 8168 265232 8328 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_3.in" "variable_delay_unit_2.tristate_inverter_0.in"
+equiv "variable_delay_unit_3.in" "variable_delay_unit_2.forward"
+node "variable_delay_unit_2.tristate_inverter_1.en" 7937 1665.97 6462 408 ndif 0 0 0 0 0 0 0 0 11600 516 34800 1316 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 102304 6600 0 0 36328 2296 174328 6136 241792 7180 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_2.tristate_inverter_1.en" "variable_delay_unit_2.tristate_inverter_0.nen"
+node "en_2" 6877 2089.69 6266 1922 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 135976 8780 0 0 12364 776 26860 1288 442952 12740 0 0 0 0 0 0 0 0
+equiv "en_2" "variable_delay_unit_2.tristate_inverter_0.en"
+equiv "en_2" "variable_delay_unit_2.tristate_inverter_1.nen"
+equiv "en_2" "variable_delay_unit_2.en"
+node "a_2496_352#" 1312 717.347 2496 352 ndif 0 0 0 0 0 0 0 0 23200 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14144 968 20768 1048 17612 624 0 0 0 0 0 0 0 0
+node "a_1614_352#" 1312 716.48 1614 352 ndif 0 0 0 0 0 0 0 0 23200 1032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14144 968 20768 1048 17612 624 0 0 0 0 0 0 0 0
+node "a_5444_772#" 4988 43.1282 5444 772 pdif 0 0 0 0 0 0 0 0 0 0 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41344 2568 58528 2648 24752 684 0 0 0 0 0 0 0 0
+node "variable_delay_unit_2.out" 8117 2219.57 5414 326 p 0 0 0 0 0 0 0 0 23200 1032 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36684 2360 0 0 59780 3800 153064 6276 209756 6644 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_2.out" "variable_delay_unit_1.tristate_inverter_1.in"
+equiv "variable_delay_unit_2.out" "variable_delay_unit_1.back"
+equiv "variable_delay_unit_2.out" "variable_delay_unit_2.tristate_inverter_0.out"
+equiv "variable_delay_unit_2.out" "variable_delay_unit_2.tristate_inverter_1.out"
+node "a_4562_772#" 4988 37.8878 4562 772 pdif 0 0 0 0 0 0 0 0 0 0 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41344 2568 58528 2648 24752 684 0 0 0 0 0 0 0 0
+node "variable_delay_unit_2.in" 6340 2527.2 3912 408 ndif 0 0 0 0 0 0 0 0 11600 516 34800 1316 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70356 4540 0 0 35816 2280 238348 8168 265232 8328 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_2.in" "variable_delay_unit_1.tristate_inverter_0.in"
+equiv "variable_delay_unit_2.in" "variable_delay_unit_1.forward"
+node "variable_delay_unit_1.tristate_inverter_1.en" 7937 1665.97 3514 408 ndif 0 0 0 0 0 0 0 0 11600 516 34800 1316 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 102304 6600 0 0 36328 2296 174328 6136 241792 7180 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_1.tristate_inverter_1.en" "variable_delay_unit_1.tristate_inverter_0.nen"
+node "en_1" 6877 2089.69 3280 1922 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 135976 8780 0 0 12364 776 26860 1288 442952 12740 0 0 0 0 0 0 0 0
+equiv "en_1" "variable_delay_unit_1.tristate_inverter_0.en"
+equiv "en_1" "variable_delay_unit_1.tristate_inverter_1.nen"
+equiv "en_1" "variable_delay_unit_1.en"
+node "a_2496_772#" 4988 43.1282 2496 772 pdif 0 0 0 0 0 0 0 0 0 0 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41344 2568 58528 2648 24752 684 0 0 0 0 0 0 0 0
+node "variable_delay_unit_1.out" 8117 2219.57 2466 326 p 0 0 0 0 0 0 0 0 23200 1032 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36684 2360 0 0 59780 3800 153064 6276 209756 6644 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_1.out" "variable_delay_unit_0.tristate_inverter_1.in"
+equiv "variable_delay_unit_1.out" "variable_delay_unit_0.back"
+equiv "variable_delay_unit_1.out" "variable_delay_unit_1.tristate_inverter_0.out"
+equiv "variable_delay_unit_1.out" "variable_delay_unit_1.tristate_inverter_1.out"
+node "out" 6332 1892.89 0 518 m2 0 0 0 0 0 0 0 0 23200 1032 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 55488 3536 127080 5380 209756 6644 0 0 0 0 0 0 0 0
+equiv "out" "variable_delay_unit_0.tristate_inverter_0.out"
+equiv "out" "variable_delay_unit_0.tristate_inverter_1.out"
+equiv "out" "variable_delay_unit_0.out"
+node "a_1614_772#" 4988 37.8878 1614 772 pdif 0 0 0 0 0 0 0 0 0 0 69600 2632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41344 2568 58528 2648 24752 684 0 0 0 0 0 0 0 0
+node "variable_delay_unit_1.in" 6340 2530.47 964 408 ndif 0 0 0 0 0 0 0 0 11600 516 34800 1316 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70356 4540 0 0 35816 2280 238348 8168 265232 8328 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_1.in" "variable_delay_unit_0.tristate_inverter_0.in"
+equiv "variable_delay_unit_1.in" "variable_delay_unit_0.forward"
+node "in" 1624 1059.1 116 1008 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33672 2180 0 0 3780 248 12444 560 129852 4320 0 0 0 0 0 0 0 0
+equiv "in" "variable_delay_unit_0.in"
+node "variable_delay_unit_0.tristate_inverter_1.en" 7937 1671.84 566 408 ndif 0 0 0 0 0 0 0 0 11600 516 34800 1316 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 102304 6600 0 0 36328 2296 174328 6136 241792 7180 0 0 0 0 0 0 0 0
+equiv "variable_delay_unit_0.tristate_inverter_1.en" "variable_delay_unit_0.tristate_inverter_0.nen"
+node "en_0" 6877 2225.78 322 1922 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 135976 8780 0 0 12364 776 26860 1288 442952 12740 0 0 0 0 0 0 0 0
+equiv "en_0" "variable_delay_unit_0.tristate_inverter_0.en"
+equiv "en_0" "variable_delay_unit_0.tristate_inverter_1.nen"
+equiv "en_0" "variable_delay_unit_0.en"
+node "VDD" 9609 76657.1 52 1558 m1 0 0 0 0 19188504 74412 0 0 3359520 141840 1879200 71064 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 135976 8780 0 0 4488172 211952 6901636 236128 888488 25052 0 0 0 0 0 0 0 0
+equiv "VDD" "variable_delay_unit_0.tristate_inverter_0.VDD"
+equiv "VDD" "variable_delay_unit_0.tristate_inverter_1.VDD"
+equiv "VDD" "variable_delay_unit_0.VDD"
+equiv "VDD" "variable_delay_unit_1.tristate_inverter_0.VDD"
+equiv "VDD" "variable_delay_unit_1.tristate_inverter_1.VDD"
+equiv "VDD" "variable_delay_unit_1.VDD"
+equiv "VDD" "variable_delay_unit_2.tristate_inverter_0.VDD"
+equiv "VDD" "variable_delay_unit_2.tristate_inverter_1.VDD"
+equiv "VDD" "variable_delay_unit_2.VDD"
+equiv "VDD" "variable_delay_unit_3.tristate_inverter_0.VDD"
+equiv "VDD" "variable_delay_unit_3.tristate_inverter_1.VDD"
+equiv "VDD" "variable_delay_unit_3.VDD"
+equiv "VDD" "variable_delay_unit_4.tristate_inverter_0.VDD"
+equiv "VDD" "variable_delay_unit_4.tristate_inverter_1.VDD"
+equiv "VDD" "variable_delay_unit_4.VDD"
+equiv "VDD" "variable_delay_unit_5.tristate_inverter_0.VDD"
+equiv "VDD" "variable_delay_unit_5.tristate_inverter_1.VDD"
+equiv "VDD" "variable_delay_unit_5.VDD"
+equiv "VDD" "variable_delay_unit_6.tristate_inverter_0.VDD"
+equiv "VDD" "variable_delay_unit_6.tristate_inverter_1.VDD"
+equiv "VDD" "variable_delay_unit_6.VDD"
+equiv "VDD" "variable_delay_unit_7.tristate_inverter_0.VDD"
+equiv "VDD" "variable_delay_unit_7.tristate_inverter_1.VDD"
+equiv "VDD" "variable_delay_unit_7.VDD"
+equiv "VDD" "variable_delay_unit_8.tristate_inverter_0.VDD"
+equiv "VDD" "variable_delay_unit_8.tristate_inverter_0.en"
+equiv "VDD" "variable_delay_unit_8.tristate_inverter_1.VDD"
+equiv "VDD" "variable_delay_unit_8.tristate_inverter_1.nen"
+equiv "VDD" "variable_delay_unit_8.VDD"
+equiv "VDD" "variable_delay_unit_8.en"
+substrate "VSS" 0 0 146 104 m1 0 0 0 0 0 0 0 0 626400 27864 2356416 84528 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36684 2360 0 0 2742596 110928 4627328 137460 317016 11232 0 0 0 0 0 0 0 0
+equiv "VSS" "variable_delay_unit_0.tristate_inverter_0.VSS"
+equiv "VSS" "variable_delay_unit_0.tristate_inverter_1.VSS"
+equiv "VSS" "variable_delay_unit_0.VSS"
+equiv "VSS" "variable_delay_unit_1.tristate_inverter_0.VSS"
+equiv "VSS" "variable_delay_unit_1.tristate_inverter_1.VSS"
+equiv "VSS" "variable_delay_unit_1.VSS"
+equiv "VSS" "variable_delay_unit_2.tristate_inverter_0.VSS"
+equiv "VSS" "variable_delay_unit_2.tristate_inverter_1.VSS"
+equiv "VSS" "variable_delay_unit_2.VSS"
+equiv "VSS" "variable_delay_unit_3.tristate_inverter_0.VSS"
+equiv "VSS" "variable_delay_unit_3.tristate_inverter_1.VSS"
+equiv "VSS" "variable_delay_unit_3.VSS"
+equiv "VSS" "variable_delay_unit_4.tristate_inverter_0.VSS"
+equiv "VSS" "variable_delay_unit_4.tristate_inverter_1.VSS"
+equiv "VSS" "variable_delay_unit_4.VSS"
+equiv "VSS" "variable_delay_unit_5.tristate_inverter_0.VSS"
+equiv "VSS" "variable_delay_unit_5.tristate_inverter_1.VSS"
+equiv "VSS" "variable_delay_unit_5.VSS"
+equiv "VSS" "variable_delay_unit_6.tristate_inverter_0.VSS"
+equiv "VSS" "variable_delay_unit_6.tristate_inverter_1.VSS"
+equiv "VSS" "variable_delay_unit_6.VSS"
+equiv "VSS" "variable_delay_unit_7.tristate_inverter_0.VSS"
+equiv "VSS" "variable_delay_unit_7.tristate_inverter_1.VSS"
+equiv "VSS" "variable_delay_unit_7.VSS"
+equiv "VSS" "variable_delay_unit_8.tristate_inverter_0.VSS"
+equiv "VSS" "variable_delay_unit_8.tristate_inverter_1.VSS"
+equiv "VSS" "variable_delay_unit_8.tristate_inverter_1.in"
+equiv "VSS" "variable_delay_unit_8.VSS"
+equiv "VSS" "variable_delay_unit_8.back"
+cap "variable_delay_unit_7.in" "variable_delay_unit_5.tristate_inverter_1.en" 0.00790676
+cap "variable_delay_unit_1.tristate_inverter_1.en" "variable_delay_unit_2.in" 814.958
+cap "variable_delay_unit_8.tristate_inverter_1.en" "variable_delay_unit_7.out" 2.14054
+cap "VDD" "a_5444_352#" 1.46808
+cap "variable_delay_unit_7.in" "variable_delay_unit_6.in" 87.2828
+cap "variable_delay_unit_8.in" "a_26080_772#" 0.00765492
+cap "variable_delay_unit_5.out" "a_16354_772#" 505.512
+cap "variable_delay_unit_6.out" "VDD" 1344.24
+cap "a_14288_772#" "VDD" 1658.4
+cap "variable_delay_unit_4.out" "a_11340_352#" 70.1457
+cap "variable_delay_unit_2.out" "variable_delay_unit_3.out" 71.7952
+cap "VDD" "variable_delay_unit_6.tristate_inverter_1.en" 2776.11
+cap "variable_delay_unit_8.out" "variable_delay_unit_7.tristate_inverter_1.en" 85.059
+cap "en_5" "variable_delay_unit_4.out" 0.266964
+cap "variable_delay_unit_1.tristate_inverter_1.en" "variable_delay_unit_1.out" 120.29
+cap "en_0" "in" 259.572
+cap "variable_delay_unit_8.in" "a_26080_352#" 0.00765492
+cap "variable_delay_unit_4.tristate_inverter_1.en" "en_4" 1093.49
+cap "a_10458_352#" "variable_delay_unit_4.in" 54.2055
+cap "en_1" "VDD" 1407.92
+cap "variable_delay_unit_1.tristate_inverter_1.en" "variable_delay_unit_2.tristate_inverter_1.en" 2.36519
+cap "variable_delay_unit_7.out" "VDD" 1344.5
+cap "variable_delay_unit_2.in" "variable_delay_unit_2.out" 499.092
+cap "a_2496_772#" "en_1" 0.0699251
+cap "a_20184_352#" "en_6" 1.90852
+cap "variable_delay_unit_5.tristate_inverter_1.en" "variable_delay_unit_5.in" 91.4098
+cap "variable_delay_unit_3.in" "variable_delay_unit_4.in" 87.2828
+cap "variable_delay_unit_6.in" "variable_delay_unit_5.in" 87.2828
+cap "variable_delay_unit_2.in" "a_7510_772#" 0.0882122
+cap "variable_delay_unit_2.out" "variable_delay_unit_1.out" 71.7952
+cap "variable_delay_unit_1.tristate_inverter_1.en" "a_4562_352#" 0.238784
+cap "out" "en_1" 0.266964
+cap "en_5" "en_6" 10.4591
+cap "en_2" "VDD" 1407.92
+cap "a_14288_772#" "variable_delay_unit_4.out" 493.816
+cap "en_5" "variable_delay_unit_5.out" 224.474
+cap "variable_delay_unit_2.out" "variable_delay_unit_2.tristate_inverter_1.en" 120.29
+cap "a_20184_352#" "en_7" 0.0699251
+cap "a_22250_352#" "variable_delay_unit_7.tristate_inverter_1.en" 0.238784
+cap "a_16354_352#" "variable_delay_unit_5.tristate_inverter_1.en" 0.238784
+cap "variable_delay_unit_5.in" "a_17236_772#" 0.00765492
+cap "a_16354_352#" "variable_delay_unit_6.in" 54.2055
+cap "variable_delay_unit_2.tristate_inverter_1.en" "a_7510_772#" 115.39
+cap "variable_delay_unit_4.tristate_inverter_1.en" "variable_delay_unit_3.tristate_inverter_1.en" 2.36519
+cap "a_10458_772#" "variable_delay_unit_3.out" 505.512
+cap "variable_delay_unit_2.out" "a_8392_772#" 493.816
+cap "en_4" "variable_delay_unit_5.tristate_inverter_1.en" 0.150279
+cap "en_4" "variable_delay_unit_6.in" 0.0336808
+cap "a_14288_772#" "variable_delay_unit_4.in" 0.00765492
+cap "variable_delay_unit_4.tristate_inverter_1.en" "en_3" 0.150279
+cap "VDD" "variable_delay_unit_1.in" 2127.98
+cap "a_2496_772#" "variable_delay_unit_1.in" 20.1726
+cap "a_17236_352#" "VDD" 1.46808
+cap "a_23132_772#" "variable_delay_unit_7.out" 493.816
+cap "variable_delay_unit_8.out" "variable_delay_unit_8.tristate_inverter_1.en" 120.29
+cap "variable_delay_unit_6.out" "en_6" 224.474
+cap "variable_delay_unit_5.in" "a_16354_772#" 0.0882122
+cap "variable_delay_unit_8.tristate_inverter_1.en" "variable_delay_unit_7.tristate_inverter_1.en" 2.36519
+cap "variable_delay_unit_5.out" "variable_delay_unit_6.out" 71.7952
+cap "variable_delay_unit_1.tristate_inverter_1.en" "variable_delay_unit_0.tristate_inverter_1.en" 2.36519
+cap "variable_delay_unit_8.out" "a_25198_352#" 222.585
+cap "a_14288_772#" "variable_delay_unit_5.out" 71.0743
+cap "en_6" "variable_delay_unit_6.tristate_inverter_1.en" 1093.49
+cap "variable_delay_unit_5.out" "variable_delay_unit_6.tristate_inverter_1.en" 2.14054
+cap "en_5" "variable_delay_unit_7.in" 0.0336808
+cap "variable_delay_unit_3.tristate_inverter_1.en" "variable_delay_unit_2.out" 2.14054
+cap "variable_delay_unit_2.in" "a_7510_352#" 0.0882122
+cap "variable_delay_unit_1.tristate_inverter_1.en" "a_5444_772#" 29.2838
+cap "out" "variable_delay_unit_1.in" 235.655
+cap "variable_delay_unit_8.in" "variable_delay_unit_6.tristate_inverter_1.en" 0.00790676
+cap "variable_delay_unit_7.out" "en_6" 43.5037
+cap "variable_delay_unit_6.out" "en_7" 0.266964
+cap "variable_delay_unit_2.out" "en_3" 0.266964
+cap "variable_delay_unit_8.out" "VDD" 1566.8
+cap "a_19302_352#" "a_19302_772#" 4.14157
+cap "a_16354_352#" "a_16354_772#" 4.14157
+cap "variable_delay_unit_8.in" "variable_delay_unit_7.out" 235.667
+cap "VDD" "in" 238.594
+cap "VDD" "en_0" 1410.13
+cap "a_10458_352#" "variable_delay_unit_3.out" 222.585
+cap "a_22250_772#" "variable_delay_unit_7.out" 505.512
+cap "a_4562_772#" "VDD" 1658.4
+cap "variable_delay_unit_4.tristate_inverter_1.en" "a_14288_352#" 159.82
+cap "a_1614_352#" "variable_delay_unit_1.in" 54.2055
+cap "variable_delay_unit_7.tristate_inverter_1.en" "VDD" 2776.2
+cap "en_7" "variable_delay_unit_6.tristate_inverter_1.en" 0.0938033
+cap "a_2496_772#" "in" 0.00765492
+cap "en_2" "variable_delay_unit_4.in" 0.0336808
+cap "a_2496_772#" "en_0" 124.274
+cap "a_8392_352#" "en_2" 1.90852
+cap "en_7" "variable_delay_unit_7.out" 224.474
+cap "variable_delay_unit_2.tristate_inverter_1.en" "a_7510_352#" 0.238784
+cap "variable_delay_unit_2.out" "a_5444_772#" 71.0743
+cap "variable_delay_unit_3.out" "a_11340_352#" 172.055
+cap "variable_delay_unit_7.in" "variable_delay_unit_6.out" 235.667
+cap "variable_delay_unit_3.in" "variable_delay_unit_3.out" 499.092
+cap "en_5" "variable_delay_unit_5.in" 506.369
+cap "out" "in" 487.038
+cap "en_1" "a_2496_352#" 0.0699251
+cap "out" "en_0" 218.964
+cap "variable_delay_unit_7.in" "variable_delay_unit_6.tristate_inverter_1.en" 814.958
+cap "a_22250_352#" "VDD" 0.698255
+cap "variable_delay_unit_8.out" "variable_delay_unit_8.forward" 234.428
+cap "variable_delay_unit_2.in" "variable_delay_unit_3.in" 87.2828
+cap "a_1614_772#" "variable_delay_unit_1.in" 88.1315
+cap "a_19302_352#" "VDD" 0.698255
+cap "a_13406_772#" "VDD" 1658.4
+cap "variable_delay_unit_7.in" "variable_delay_unit_7.out" 499.092
+cap "variable_delay_unit_6.in" "a_20184_772#" 0.00765492
+cap "a_1614_352#" "in" 0.0882122
+cap "variable_delay_unit_8.forward" "variable_delay_unit_7.tristate_inverter_1.en" 0.00790676
+cap "a_1614_352#" "en_0" 159.82
+cap "variable_delay_unit_3.tristate_inverter_1.en" "a_10458_772#" 115.39
+cap "en_5" "a_16354_352#" 159.82
+cap "variable_delay_unit_8.tristate_inverter_1.en" "a_25198_352#" 0.238784
+cap "a_17236_352#" "en_6" 0.0699251
+cap "a_17236_352#" "variable_delay_unit_5.out" 172.055
+cap "a_19302_772#" "VDD" 1658.4
+cap "variable_delay_unit_8.out" "a_23132_772#" 71.0743
+cap "en_4" "a_11340_352#" 0.0699251
+cap "en_3" "a_10458_772#" 42.7183
+cap "a_14288_772#" "variable_delay_unit_5.in" 20.1726
+cap "a_13406_772#" "a_13406_352#" 4.14157
+cap "a_23132_772#" "variable_delay_unit_7.tristate_inverter_1.en" 29.2838
+cap "variable_delay_unit_3.in" "variable_delay_unit_2.tristate_inverter_1.en" 814.958
+cap "en_4" "en_5" 10.4591
+cap "a_1614_772#" "in" 0.0882122
+cap "variable_delay_unit_8.tristate_inverter_1.en" "VDD" 3869.57
+cap "a_1614_772#" "en_0" 42.7183
+cap "a_8392_772#" "variable_delay_unit_3.in" 20.1726
+cap "VDD" "a_11340_772#" 1658.4
+cap "VDD" "a_25198_352#" 160.518
+cap "variable_delay_unit_4.out" "a_13406_772#" 505.512
+cap "variable_delay_unit_8.out" "variable_delay_unit_8.in" 499.092
+cap "variable_delay_unit_7.tristate_inverter_1.en" "en_6" 0.150279
+cap "variable_delay_unit_1.tristate_inverter_1.en" "variable_delay_unit_2.out" 85.059
+cap "variable_delay_unit_1.out" "a_5444_352#" 172.055
+cap "variable_delay_unit_3.tristate_inverter_1.en" "a_10458_352#" 0.238784
+cap "variable_delay_unit_2.in" "en_1" 574.722
+cap "variable_delay_unit_8.in" "variable_delay_unit_7.tristate_inverter_1.en" 814.958
+cap "variable_delay_unit_7.tristate_inverter_1.en" "a_22250_772#" 115.39
+cap "variable_delay_unit_8.out" "en_7" 43.5037
+cap "en_4" "a_14288_772#" 124.274
+cap "a_10458_352#" "en_3" 159.82
+cap "a_2496_772#" "VDD" 1658.4
+cap "variable_delay_unit_4.tristate_inverter_1.en" "variable_delay_unit_5.tristate_inverter_1.en" 2.36519
+cap "variable_delay_unit_8.tristate_inverter_1.en" "variable_delay_unit_8.forward" 794.183
+cap "en_7" "variable_delay_unit_7.tristate_inverter_1.en" 1093.49
+cap "variable_delay_unit_3.tristate_inverter_1.en" "a_11340_352#" 159.82
+cap "a_13406_772#" "variable_delay_unit_4.in" 0.0882122
+cap "variable_delay_unit_3.tristate_inverter_1.en" "variable_delay_unit_3.in" 91.4098
+cap "en_2" "variable_delay_unit_3.out" 43.5037
+cap "variable_delay_unit_4.tristate_inverter_1.en" "variable_delay_unit_6.in" 0.00790676
+cap "variable_delay_unit_1.out" "en_1" 224.474
+cap "variable_delay_unit_8.forward" "a_25198_352#" 54.2055
+cap "a_19302_352#" "en_6" 159.82
+cap "en_3" "a_11340_352#" 1.90852
+cap "variable_delay_unit_3.in" "en_3" 506.369
+cap "variable_delay_unit_2.tristate_inverter_1.en" "en_1" 0.150279
+cap "in" "a_2496_352#" 0.00765492
+cap "VDD" "a_13406_352#" 0.698255
+cap "a_20184_352#" "a_20184_772#" 11.1839
+cap "out" "VDD" 1159.38
+cap "en_0" "a_2496_352#" 1.90852
+cap "a_23132_352#" "variable_delay_unit_7.out" 172.055
+cap "variable_delay_unit_2.in" "en_2" 506.369
+cap "variable_delay_unit_8.in" "a_22250_352#" 54.2055
+cap "variable_delay_unit_4.out" "a_11340_772#" 71.0743
+cap "a_22250_352#" "a_22250_772#" 4.14157
+cap "variable_delay_unit_2.out" "a_7510_772#" 505.512
+cap "out" "a_2496_772#" 493.816
+cap "variable_delay_unit_7.in" "variable_delay_unit_7.tristate_inverter_1.en" 91.4098
+cap "a_1614_352#" "VDD" 0.698255
+cap "variable_delay_unit_8.forward" "VDD" 2285.61
+cap "a_19302_772#" "en_6" 42.7183
+cap "a_17236_352#" "variable_delay_unit_5.in" 0.00765492
+cap "a_22250_352#" "en_7" 159.82
+cap "a_4562_352#" "en_1" 159.82
+cap "variable_delay_unit_4.out" "VDD" 1344.24
+cap "en_2" "variable_delay_unit_1.out" 0.266964
+cap "a_11340_772#" "variable_delay_unit_4.in" 20.1726
+cap "variable_delay_unit_2.tristate_inverter_1.en" "en_2" 1093.49
+cap "variable_delay_unit_2.in" "variable_delay_unit_1.in" 87.2828
+cap "a_23132_772#" "VDD" 1658.47
+cap "variable_delay_unit_8.tristate_inverter_1.en" "variable_delay_unit_8.in" 91.4098
+cap "out" "a_1614_352#" 222.585
+cap "en_5" "a_14288_352#" 0.0699251
+cap "variable_delay_unit_7.in" "a_22250_352#" 0.0882122
+cap "a_19302_352#" "variable_delay_unit_7.in" 54.2055
+cap "variable_delay_unit_6.in" "variable_delay_unit_5.tristate_inverter_1.en" 814.958
+cap "variable_delay_unit_4.out" "a_13406_352#" 222.585
+cap "a_8392_352#" "VDD" 1.46808
+cap "a_1614_772#" "VDD" 1658.4
+cap "a_8392_772#" "en_2" 124.274
+cap "variable_delay_unit_1.out" "variable_delay_unit_1.in" 499.092
+cap "VDD" "variable_delay_unit_4.in" 2128.07
+cap "variable_delay_unit_8.in" "a_25198_352#" 0.0882122
+cap "variable_delay_unit_6.out" "a_20184_772#" 493.816
+cap "a_5444_772#" "a_5444_352#" 11.1839
+cap "variable_delay_unit_8.tristate_inverter_1.en" "en_7" 0.150279
+cap "VDD" "en_6" 1407.92
+cap "variable_delay_unit_6.tristate_inverter_1.en" "a_20184_772#" 29.2838
+cap "variable_delay_unit_5.out" "VDD" 1344.24
+cap "variable_delay_unit_7.in" "a_19302_772#" 88.1315
+cap "en_1" "variable_delay_unit_0.tristate_inverter_1.en" 0.0938033
+cap "variable_delay_unit_2.in" "en_0" 0.0336808
+cap "variable_delay_unit_8.in" "VDD" 2634.44
+cap "a_22250_772#" "VDD" 1658.4
+cap "variable_delay_unit_5.tristate_inverter_1.en" "a_17236_772#" 29.2838
+cap "variable_delay_unit_2.in" "a_4562_772#" 88.1315
+cap "variable_delay_unit_6.in" "a_17236_772#" 20.1726
+cap "variable_delay_unit_2.out" "a_7510_352#" 222.585
+cap "variable_delay_unit_7.out" "a_20184_772#" 71.0743
+cap "a_13406_352#" "variable_delay_unit_4.in" 0.0882122
+cap "a_1614_772#" "out" 505.512
+cap "a_5444_772#" "en_1" 124.274
+cap "a_14288_772#" "a_14288_352#" 11.1839
+cap "variable_delay_unit_3.tristate_inverter_1.en" "en_2" 0.150279
+cap "a_4562_352#" "variable_delay_unit_1.in" 0.0882122
+cap "en_7" "VDD" 1418.38
+cap "a_7510_772#" "a_7510_352#" 4.14157
+cap "variable_delay_unit_1.out" "en_0" 43.5037
+cap "a_4562_772#" "variable_delay_unit_1.out" 505.512
+cap "variable_delay_unit_8.out" "a_23132_352#" 70.1457
+cap "a_13406_772#" "variable_delay_unit_5.in" 88.1315
+cap "variable_delay_unit_1.tristate_inverter_1.en" "variable_delay_unit_3.in" 0.00790676
+cap "en_2" "en_3" 10.4591
+cap "a_1614_772#" "a_1614_352#" 4.14157
+cap "variable_delay_unit_4.tristate_inverter_1.en" "en_5" 0.0938033
+cap "VDD" "a_2496_352#" 1.46808
+cap "a_23132_352#" "variable_delay_unit_7.tristate_inverter_1.en" 159.82
+cap "variable_delay_unit_5.tristate_inverter_1.en" "a_16354_772#" 115.39
+cap "variable_delay_unit_4.out" "variable_delay_unit_4.in" 499.092
+cap "variable_delay_unit_6.in" "a_16354_772#" 88.1315
+cap "a_2496_772#" "a_2496_352#" 11.1839
+cap "variable_delay_unit_8.in" "variable_delay_unit_8.forward" 87.2828
+cap "variable_delay_unit_7.in" "VDD" 2128.07
+cap "variable_delay_unit_5.out" "variable_delay_unit_4.out" 71.7952
+cap "a_5444_772#" "en_2" 0.0699251
+cap "a_4562_772#" "a_4562_352#" 4.14157
+cap "variable_delay_unit_8.forward" "en_7" 0.0336808
+cap "variable_delay_unit_2.out" "variable_delay_unit_3.in" 235.667
+cap "out" "a_2496_352#" 172.055
+cap "variable_delay_unit_1.tristate_inverter_1.en" "a_5444_352#" 159.82
+cap "a_23132_772#" "variable_delay_unit_8.in" 20.1726
+cap "en_4" "a_13406_772#" 42.7183
+cap "variable_delay_unit_0.tristate_inverter_1.en" "variable_delay_unit_1.in" 814.958
+cap "a_11340_772#" "variable_delay_unit_3.out" 493.816
+cap "variable_delay_unit_4.tristate_inverter_1.en" "a_14288_772#" 29.2838
+cap "variable_delay_unit_3.in" "a_7510_772#" 88.1315
+cap "variable_delay_unit_6.in" "a_20184_352#" 0.00765492
+cap "a_5444_772#" "variable_delay_unit_1.in" 0.00765492
+cap "a_23132_772#" "en_7" 124.274
+cap "variable_delay_unit_5.out" "en_6" 0.266964
+cap "variable_delay_unit_1.tristate_inverter_1.en" "en_1" 1093.49
+cap "en_5" "variable_delay_unit_5.tristate_inverter_1.en" 1093.49
+cap "VDD" "variable_delay_unit_5.in" 2128.07
+cap "VDD" "variable_delay_unit_3.out" 1344.24
+cap "variable_delay_unit_8.in" "en_6" 0.0336808
+cap "a_26080_772#" "a_26080_352#" 11.1839
+cap "en_5" "variable_delay_unit_6.in" 574.722
+cap "variable_delay_unit_2.out" "a_5444_352#" 70.1457
+cap "variable_delay_unit_0.tristate_inverter_1.en" "in" 91.1178
+cap "a_10458_352#" "a_10458_772#" 4.14157
+cap "variable_delay_unit_8.in" "a_22250_772#" 88.1315
+cap "en_0" "variable_delay_unit_0.tristate_inverter_1.en" 1093.49
+cap "variable_delay_unit_2.in" "VDD" 2128.07
+cap "a_23132_772#" "variable_delay_unit_7.in" 0.00765492
+cap "en_7" "en_6" 10.4591
+cap "en_4" "a_11340_772#" 0.0699251
+cap "a_16354_352#" "VDD" 0.698255
+cap "a_13406_352#" "variable_delay_unit_5.in" 54.2055
+cap "variable_delay_unit_8.in" "en_7" 574.722
+cap "en_5" "a_17236_772#" 124.274
+cap "en_7" "a_22250_772#" 42.7183
+cap "variable_delay_unit_1.tristate_inverter_1.en" "en_2" 0.0938033
+cap "variable_delay_unit_2.out" "en_1" 43.5037
+cap "variable_delay_unit_8.out" "a_25198_772#" 505.512
+cap "variable_delay_unit_3.in" "a_10458_772#" 0.0882122
+cap "variable_delay_unit_6.out" "variable_delay_unit_5.tristate_inverter_1.en" 85.059
+cap "variable_delay_unit_1.out" "VDD" 1344.24
+cap "en_4" "VDD" 1407.92
+cap "variable_delay_unit_7.in" "en_6" 574.722
+cap "variable_delay_unit_6.in" "variable_delay_unit_6.out" 499.092
+cap "variable_delay_unit_1.out" "a_2496_772#" 71.0743
+cap "variable_delay_unit_2.tristate_inverter_1.en" "VDD" 2776.11
+cap "a_23132_352#" "VDD" 1.538
+cap "variable_delay_unit_6.tristate_inverter_1.en" "variable_delay_unit_5.tristate_inverter_1.en" 2.36519
+cap "variable_delay_unit_4.out" "variable_delay_unit_5.in" 235.667
+cap "variable_delay_unit_4.out" "variable_delay_unit_3.out" 71.7952
+cap "variable_delay_unit_3.in" "a_7510_352#" 54.2055
+cap "variable_delay_unit_8.in" "variable_delay_unit_7.in" 87.2828
+cap "variable_delay_unit_6.in" "variable_delay_unit_6.tristate_inverter_1.en" 91.4098
+cap "variable_delay_unit_7.in" "a_22250_772#" 0.0882122
+cap "en_5" "a_16354_772#" 42.7183
+cap "variable_delay_unit_1.tristate_inverter_1.en" "variable_delay_unit_1.in" 91.4098
+cap "out" "variable_delay_unit_1.out" 71.7952
+cap "a_8392_772#" "VDD" 1658.4
+cap "variable_delay_unit_6.out" "a_17236_772#" 71.0743
+cap "en_4" "a_13406_352#" 159.82
+cap "variable_delay_unit_2.out" "en_2" 224.474
+cap "a_4562_352#" "VDD" 0.698255
+cap "variable_delay_unit_7.in" "en_7" 506.369
+cap "variable_delay_unit_5.in" "variable_delay_unit_4.in" 87.2828
+cap "variable_delay_unit_3.tristate_inverter_1.en" "a_11340_772#" 29.2838
+cap "en_2" "a_7510_772#" 42.7183
+cap "a_8392_352#" "variable_delay_unit_3.out" 70.1457
+cap "variable_delay_unit_4.in" "variable_delay_unit_3.out" 235.667
+cap "variable_delay_unit_3.in" "a_10458_352#" 0.0882122
+cap "a_11340_772#" "en_3" 124.274
+cap "variable_delay_unit_5.out" "variable_delay_unit_5.in" 499.092
+cap "en_4" "variable_delay_unit_4.out" 224.474
+cap "variable_delay_unit_2.in" "a_8392_352#" 0.00765492
+cap "variable_delay_unit_3.tristate_inverter_1.en" "VDD" 2776.11
+cap "variable_delay_unit_1.tristate_inverter_1.en" "en_0" 0.150279
+cap "variable_delay_unit_3.in" "a_11340_352#" 0.00765492
+cap "variable_delay_unit_1.tristate_inverter_1.en" "a_4562_772#" 115.39
+cap "VDD" "en_3" 1407.92
+cap "a_23132_772#" "a_23132_352#" 11.1839
+cap "variable_delay_unit_8.tristate_inverter_1.en" "a_25198_772#" 115.39
+cap "a_16354_352#" "variable_delay_unit_5.out" 222.585
+cap "en_4" "variable_delay_unit_4.in" 506.369
+cap "VDD" "variable_delay_unit_0.tristate_inverter_1.en" 2775.13
+cap "VDD" "a_20184_772#" 1658.4
+cap "a_25198_772#" "a_25198_352#" 4.14157
+cap "a_17236_352#" "variable_delay_unit_5.tristate_inverter_1.en" 159.82
+cap "variable_delay_unit_2.tristate_inverter_1.en" "variable_delay_unit_4.in" 0.00790676
+cap "variable_delay_unit_2.tristate_inverter_1.en" "a_8392_352#" 159.82
+cap "a_2496_772#" "variable_delay_unit_0.tristate_inverter_1.en" 29.2838
+cap "a_5444_772#" "VDD" 1658.4
+cap "variable_delay_unit_6.out" "a_20184_352#" 172.055
+cap "en_4" "variable_delay_unit_5.out" 43.5037
+cap "variable_delay_unit_4.tristate_inverter_1.en" "a_13406_772#" 115.39
+cap "a_8392_772#" "a_8392_352#" 11.1839
+cap "a_25198_772#" "VDD" 1701.12
+cap "a_20184_352#" "variable_delay_unit_6.tristate_inverter_1.en" 159.82
+cap "a_14288_352#" "VDD" 1.46808
+cap "variable_delay_unit_3.tristate_inverter_1.en" "variable_delay_unit_4.out" 85.059
+cap "en_2" "a_7510_352#" 159.82
+cap "out" "variable_delay_unit_0.tristate_inverter_1.en" 120.22
+cap "a_17236_352#" "a_17236_772#" 11.1839
+cap "en_5" "variable_delay_unit_6.out" 43.5037
+cap "a_20184_352#" "variable_delay_unit_7.out" 70.1457
+cap "a_14288_772#" "en_5" 0.0699251
+cap "variable_delay_unit_4.out" "en_3" 43.5037
+cap "a_23132_352#" "en_7" 1.90852
+cap "en_5" "variable_delay_unit_6.tristate_inverter_1.en" 0.150279
+cap "variable_delay_unit_3.in" "en_1" 0.0336808
+cap "a_1614_352#" "variable_delay_unit_0.tristate_inverter_1.en" 0.238784
+cap "variable_delay_unit_1.out" "a_2496_352#" 70.1457
+cap "variable_delay_unit_3.tristate_inverter_1.en" "variable_delay_unit_4.in" 814.958
+cap "variable_delay_unit_8.forward" "a_25198_772#" 88.1315
+cap "a_23132_352#" "variable_delay_unit_7.in" 0.00765492
+cap "a_8392_352#" "en_3" 0.0699251
+cap "en_3" "variable_delay_unit_4.in" 574.722
+cap "a_14288_352#" "variable_delay_unit_4.out" 172.055
+cap "variable_delay_unit_3.in" "en_2" 574.722
+cap "a_1614_772#" "variable_delay_unit_0.tristate_inverter_1.en" 115.39
+cap "variable_delay_unit_8.out" "a_26080_772#" 493.816
+cap "variable_delay_unit_6.out" "variable_delay_unit_6.tristate_inverter_1.en" 120.29
+cap "en_1" "a_5444_352#" 1.90852
+cap "variable_delay_unit_4.tristate_inverter_1.en" "VDD" 2776.11
+cap "a_19302_352#" "variable_delay_unit_6.in" 0.0882122
+cap "variable_delay_unit_1.tristate_inverter_1.en" "VDD" 2776.11
+cap "a_16354_352#" "variable_delay_unit_5.in" 0.0882122
+cap "en_6" "a_20184_772#" 124.274
+cap "variable_delay_unit_6.out" "variable_delay_unit_7.out" 71.7952
+cap "variable_delay_unit_8.out" "a_26080_352#" 172.055
+cap "variable_delay_unit_7.out" "variable_delay_unit_6.tristate_inverter_1.en" 85.059
+cap "variable_delay_unit_6.in" "a_19302_772#" 0.0882122
+cap "a_14288_352#" "variable_delay_unit_4.in" 0.00765492
+cap "en_4" "variable_delay_unit_5.in" 574.722
+cap "variable_delay_unit_4.tristate_inverter_1.en" "a_13406_352#" 0.238784
+cap "en_4" "variable_delay_unit_3.out" 0.266964
+cap "variable_delay_unit_1.tristate_inverter_1.en" "out" 2.14054
+cap "variable_delay_unit_2.tristate_inverter_1.en" "variable_delay_unit_3.out" 85.059
+cap "en_7" "a_20184_772#" 0.0699251
+cap "en_2" "a_5444_352#" 0.0699251
+cap "variable_delay_unit_2.in" "variable_delay_unit_1.out" 235.667
+cap "variable_delay_unit_2.out" "VDD" 1344.24
+cap "variable_delay_unit_8.in" "a_25198_772#" 0.0882122
+cap "a_14288_352#" "variable_delay_unit_5.out" 70.1457
+cap "a_17236_352#" "en_5" 1.90852
+cap "variable_delay_unit_2.in" "variable_delay_unit_2.tristate_inverter_1.en" 91.4098
+cap "variable_delay_unit_0.tristate_inverter_1.en" "a_2496_352#" 159.82
+cap "a_7510_772#" "VDD" 1658.4
+cap "variable_delay_unit_4.tristate_inverter_1.en" "variable_delay_unit_4.out" 120.29
+cap "a_8392_772#" "variable_delay_unit_3.out" 71.0743
+cap "en_2" "en_1" 10.4591
+cap "variable_delay_unit_7.in" "a_20184_772#" 20.1726
+cap "VDD" "variable_delay_unit_5.tristate_inverter_1.en" 2776.11
+cap "variable_delay_unit_2.in" "a_8392_772#" 0.00765492
+cap "a_5444_352#" "variable_delay_unit_1.in" 0.00765492
+cap "variable_delay_unit_6.in" "VDD" 2128.07
+cap "variable_delay_unit_2.tristate_inverter_1.en" "variable_delay_unit_1.out" 2.14054
+cap "variable_delay_unit_2.in" "a_4562_352#" 54.2055
+cap "a_17236_352#" "variable_delay_unit_6.out" 70.1457
+cap "variable_delay_unit_3.tristate_inverter_1.en" "variable_delay_unit_5.in" 0.00790676
+cap "variable_delay_unit_4.tristate_inverter_1.en" "variable_delay_unit_4.in" 91.4098
+cap "variable_delay_unit_8.tristate_inverter_1.en" "a_26080_772#" 29.2838
+cap "variable_delay_unit_3.tristate_inverter_1.en" "variable_delay_unit_3.out" 120.29
+cap "variable_delay_unit_5.in" "en_3" 0.0336808
+cap "en_1" "variable_delay_unit_1.in" 506.369
+cap "a_4562_352#" "variable_delay_unit_1.out" 222.585
+cap "VDD" "a_17236_772#" 1658.4
+cap "en_3" "variable_delay_unit_3.out" 224.474
+cap "variable_delay_unit_4.tristate_inverter_1.en" "variable_delay_unit_5.out" 85.059
+cap "a_8392_772#" "variable_delay_unit_2.tristate_inverter_1.en" 29.2838
+cap "VDD" "a_10458_772#" 1658.4
+cap "variable_delay_unit_8.tristate_inverter_1.en" "a_26080_352#" 159.82
+cap "variable_delay_unit_4.out" "variable_delay_unit_5.tristate_inverter_1.en" 2.14054
+cap "a_26080_772#" "VDD" 1782.68
+cap "variable_delay_unit_6.out" "variable_delay_unit_7.tristate_inverter_1.en" 2.14054
+cap "variable_delay_unit_2.out" "a_8392_352#" 172.055
+cap "VDD" "a_7510_352#" 0.698255
+cap "VDD" "a_16354_772#" 1658.4
+cap "variable_delay_unit_2.in" "variable_delay_unit_0.tristate_inverter_1.en" 0.00790676
+cap "variable_delay_unit_7.tristate_inverter_1.en" "variable_delay_unit_6.tristate_inverter_1.en" 2.36519
+cap "variable_delay_unit_3.tristate_inverter_1.en" "en_4" 0.0938033
+cap "variable_delay_unit_8.out" "variable_delay_unit_7.out" 71.7952
+cap "variable_delay_unit_3.tristate_inverter_1.en" "variable_delay_unit_2.tristate_inverter_1.en" 2.36519
+cap "en_1" "en_0" 10.4591
+cap "variable_delay_unit_2.in" "a_5444_772#" 20.1726
+cap "VDD" "a_26080_352#" 3.3766
+cap "a_4562_772#" "en_1" 42.7183
+cap "en_4" "en_3" 10.4591
+cap "variable_delay_unit_7.tristate_inverter_1.en" "variable_delay_unit_7.out" 120.29
+cap "variable_delay_unit_2.tristate_inverter_1.en" "en_3" 0.0938033
+cap "variable_delay_unit_1.out" "variable_delay_unit_0.tristate_inverter_1.en" 85.059
+cap "en_6" "variable_delay_unit_5.tristate_inverter_1.en" 0.0938033
+cap "a_26080_772#" "variable_delay_unit_8.forward" 16.8961
+cap "a_19302_352#" "variable_delay_unit_6.out" 222.585
+cap "a_10458_352#" "VDD" 0.698255
+cap "a_11340_772#" "a_11340_352#" 11.1839
+cap "a_5444_772#" "variable_delay_unit_1.out" 493.816
+cap "variable_delay_unit_3.in" "a_11340_772#" 0.00765492
+cap "variable_delay_unit_6.in" "en_6" 506.369
+cap "variable_delay_unit_5.out" "variable_delay_unit_5.tristate_inverter_1.en" 120.29
+cap "a_8392_772#" "en_3" 0.0699251
+cap "a_20184_352#" "VDD" 1.46808
+cap "variable_delay_unit_5.out" "variable_delay_unit_6.in" 235.667
+cap "a_19302_352#" "variable_delay_unit_6.tristate_inverter_1.en" 0.238784
+cap "VDD" "a_11340_352#" 1.46808
+cap "variable_delay_unit_3.in" "VDD" 2128.07
+cap "a_22250_352#" "variable_delay_unit_7.out" 222.585
+cap "a_19302_772#" "variable_delay_unit_6.out" 505.512
+cap "en_4" "a_14288_352#" 1.90852
+cap "en_5" "VDD" 1407.92
+cap "en_6" "a_17236_772#" 0.0699251
+cap "variable_delay_unit_4.in" "a_10458_772#" 88.1315
+cap "a_19302_772#" "variable_delay_unit_6.tristate_inverter_1.en" 115.39
+cap "variable_delay_unit_5.out" "a_17236_772#" 493.816
+cap "variable_delay_unit_4.tristate_inverter_1.en" "variable_delay_unit_5.in" 814.958
+cap "variable_delay_unit_4.tristate_inverter_1.en" "variable_delay_unit_3.out" 2.14054
+cap "variable_delay_unit_3.tristate_inverter_1.en" "en_3" 1093.49
+cap "en_0" "variable_delay_unit_1.in" 574.722
+cap "in" "variable_delay_unit_1.in" 84.4204
+cap "a_4562_772#" "variable_delay_unit_1.in" 0.0882122
+device msubckt sky130_fd_pr__nfet_01v8 26314 352 26315 353 l=30 w=200 "VSS" "variable_delay_unit_8.tristate_inverter_1.en" 60 0 "a_26080_352#" 200 5800,258 "VSS" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 26226 352 26227 353 l=30 w=200 "VSS" "variable_delay_unit_8.tristate_inverter_1.en" 60 0 "VSS" 200 5800,258 "a_26080_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 26138 352 26139 353 l=30 w=200 "VSS" "variable_delay_unit_8.tristate_inverter_1.en" 60 0 "a_26080_352#" 200 5800,258 "VSS" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 26050 352 26051 353 l=30 w=200 "VSS" "VSS" 60 0 "variable_delay_unit_8.out" 200 11600,516 "a_26080_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 25432 352 25433 353 l=30 w=200 "VSS" "variable_delay_unit_8.forward" 60 0 "a_25198_352#" 200 5800,258 "variable_delay_unit_8.out" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 25344 352 25345 353 l=30 w=200 "VSS" "VDD" 60 0 "VSS" 200 5800,258 "a_25198_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 25256 352 25257 353 l=30 w=200 "VSS" "VDD" 60 0 "a_25198_352#" 200 5800,258 "VSS" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 25168 352 25169 353 l=30 w=200 "VSS" "VDD" 60 0 "VSS" 200 11600,516 "a_25198_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 24518 408 24519 409 l=30 w=200 "VSS" "variable_delay_unit_8.in" 60 0 "VSS" 200 11600,516 "variable_delay_unit_8.forward" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 24120 408 24121 409 l=30 w=200 "VSS" "VDD" 60 0 "VSS" 200 11600,516 "variable_delay_unit_8.tristate_inverter_1.en" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 23366 352 23367 353 l=30 w=200 "VSS" "variable_delay_unit_7.tristate_inverter_1.en" 60 0 "a_23132_352#" 200 5800,258 "VSS" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 23278 352 23279 353 l=30 w=200 "VSS" "variable_delay_unit_7.tristate_inverter_1.en" 60 0 "VSS" 200 5800,258 "a_23132_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 23190 352 23191 353 l=30 w=200 "VSS" "variable_delay_unit_7.tristate_inverter_1.en" 60 0 "a_23132_352#" 200 5800,258 "VSS" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 23102 352 23103 353 l=30 w=200 "VSS" "variable_delay_unit_8.out" 60 0 "variable_delay_unit_7.out" 200 11600,516 "a_23132_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 22484 352 22485 353 l=30 w=200 "VSS" "variable_delay_unit_8.in" 60 0 "a_22250_352#" 200 5800,258 "variable_delay_unit_7.out" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 22396 352 22397 353 l=30 w=200 "VSS" "en_7" 60 0 "VSS" 200 5800,258 "a_22250_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 22308 352 22309 353 l=30 w=200 "VSS" "en_7" 60 0 "a_22250_352#" 200 5800,258 "VSS" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 22220 352 22221 353 l=30 w=200 "VSS" "en_7" 60 0 "VSS" 200 11600,516 "a_22250_352#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 26314 772 26315 773 l=30 w=600 "VDD" "VDD" 60 0 "a_26080_772#" 600 17400,658 "VDD" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 26226 772 26227 773 l=30 w=600 "VDD" "VDD" 60 0 "VDD" 600 17400,658 "a_26080_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 26138 772 26139 773 l=30 w=600 "VDD" "VDD" 60 0 "a_26080_772#" 600 17400,658 "VDD" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 26050 772 26051 773 l=30 w=600 "VDD" "VSS" 60 0 "variable_delay_unit_8.out" 600 34800,1316 "a_26080_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 25432 772 25433 773 l=30 w=600 "VDD" "variable_delay_unit_8.forward" 60 0 "a_25198_772#" 600 17400,658 "variable_delay_unit_8.out" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 25344 772 25345 773 l=30 w=600 "VDD" "variable_delay_unit_8.tristate_inverter_1.en" 60 0 "VDD" 600 17400,658 "a_25198_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 25256 772 25257 773 l=30 w=600 "VDD" "variable_delay_unit_8.tristate_inverter_1.en" 60 0 "a_25198_772#" 600 17400,658 "VDD" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 25168 772 25169 773 l=30 w=600 "VDD" "variable_delay_unit_8.tristate_inverter_1.en" 60 0 "VDD" 600 34800,1316 "a_25198_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 24518 738 24519 739 l=30 w=600 "VDD" "variable_delay_unit_8.in" 60 0 "VDD" 600 34800,1316 "variable_delay_unit_8.forward" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 24120 738 24121 739 l=30 w=600 "VDD" "VDD" 60 0 "VDD" 600 34800,1316 "variable_delay_unit_8.tristate_inverter_1.en" 600 34800,1316
+device msubckt sky130_fd_pr__nfet_01v8 21570 408 21571 409 l=30 w=200 "VSS" "variable_delay_unit_7.in" 60 0 "VSS" 200 11600,516 "variable_delay_unit_8.in" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 21172 408 21173 409 l=30 w=200 "VSS" "en_7" 60 0 "VSS" 200 11600,516 "variable_delay_unit_7.tristate_inverter_1.en" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 20418 352 20419 353 l=30 w=200 "VSS" "variable_delay_unit_6.tristate_inverter_1.en" 60 0 "a_20184_352#" 200 5800,258 "VSS" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 20330 352 20331 353 l=30 w=200 "VSS" "variable_delay_unit_6.tristate_inverter_1.en" 60 0 "VSS" 200 5800,258 "a_20184_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 20242 352 20243 353 l=30 w=200 "VSS" "variable_delay_unit_6.tristate_inverter_1.en" 60 0 "a_20184_352#" 200 5800,258 "VSS" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 20154 352 20155 353 l=30 w=200 "VSS" "variable_delay_unit_7.out" 60 0 "variable_delay_unit_6.out" 200 11600,516 "a_20184_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 19536 352 19537 353 l=30 w=200 "VSS" "variable_delay_unit_7.in" 60 0 "a_19302_352#" 200 5800,258 "variable_delay_unit_6.out" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 19448 352 19449 353 l=30 w=200 "VSS" "en_6" 60 0 "VSS" 200 5800,258 "a_19302_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 19360 352 19361 353 l=30 w=200 "VSS" "en_6" 60 0 "a_19302_352#" 200 5800,258 "VSS" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 19272 352 19273 353 l=30 w=200 "VSS" "en_6" 60 0 "VSS" 200 11600,516 "a_19302_352#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 23366 772 23367 773 l=30 w=600 "VDD" "en_7" 60 0 "a_23132_772#" 600 17400,658 "VDD" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 23278 772 23279 773 l=30 w=600 "VDD" "en_7" 60 0 "VDD" 600 17400,658 "a_23132_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 23190 772 23191 773 l=30 w=600 "VDD" "en_7" 60 0 "a_23132_772#" 600 17400,658 "VDD" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 23102 772 23103 773 l=30 w=600 "VDD" "variable_delay_unit_8.out" 60 0 "variable_delay_unit_7.out" 600 34800,1316 "a_23132_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 22484 772 22485 773 l=30 w=600 "VDD" "variable_delay_unit_8.in" 60 0 "a_22250_772#" 600 17400,658 "variable_delay_unit_7.out" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 22396 772 22397 773 l=30 w=600 "VDD" "variable_delay_unit_7.tristate_inverter_1.en" 60 0 "VDD" 600 17400,658 "a_22250_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 22308 772 22309 773 l=30 w=600 "VDD" "variable_delay_unit_7.tristate_inverter_1.en" 60 0 "a_22250_772#" 600 17400,658 "VDD" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 22220 772 22221 773 l=30 w=600 "VDD" "variable_delay_unit_7.tristate_inverter_1.en" 60 0 "VDD" 600 34800,1316 "a_22250_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 21570 738 21571 739 l=30 w=600 "VDD" "variable_delay_unit_7.in" 60 0 "VDD" 600 34800,1316 "variable_delay_unit_8.in" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 21172 738 21173 739 l=30 w=600 "VDD" "en_7" 60 0 "VDD" 600 34800,1316 "variable_delay_unit_7.tristate_inverter_1.en" 600 34800,1316
+device msubckt sky130_fd_pr__nfet_01v8 18622 408 18623 409 l=30 w=200 "VSS" "variable_delay_unit_6.in" 60 0 "VSS" 200 11600,516 "variable_delay_unit_7.in" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 18224 408 18225 409 l=30 w=200 "VSS" "en_6" 60 0 "VSS" 200 11600,516 "variable_delay_unit_6.tristate_inverter_1.en" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 17470 352 17471 353 l=30 w=200 "VSS" "variable_delay_unit_5.tristate_inverter_1.en" 60 0 "a_17236_352#" 200 5800,258 "VSS" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 17382 352 17383 353 l=30 w=200 "VSS" "variable_delay_unit_5.tristate_inverter_1.en" 60 0 "VSS" 200 5800,258 "a_17236_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 17294 352 17295 353 l=30 w=200 "VSS" "variable_delay_unit_5.tristate_inverter_1.en" 60 0 "a_17236_352#" 200 5800,258 "VSS" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 17206 352 17207 353 l=30 w=200 "VSS" "variable_delay_unit_6.out" 60 0 "variable_delay_unit_5.out" 200 11600,516 "a_17236_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 16588 352 16589 353 l=30 w=200 "VSS" "variable_delay_unit_6.in" 60 0 "a_16354_352#" 200 5800,258 "variable_delay_unit_5.out" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 16500 352 16501 353 l=30 w=200 "VSS" "en_5" 60 0 "VSS" 200 5800,258 "a_16354_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 16412 352 16413 353 l=30 w=200 "VSS" "en_5" 60 0 "a_16354_352#" 200 5800,258 "VSS" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 16324 352 16325 353 l=30 w=200 "VSS" "en_5" 60 0 "VSS" 200 11600,516 "a_16354_352#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 20418 772 20419 773 l=30 w=600 "VDD" "en_6" 60 0 "a_20184_772#" 600 17400,658 "VDD" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 20330 772 20331 773 l=30 w=600 "VDD" "en_6" 60 0 "VDD" 600 17400,658 "a_20184_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 20242 772 20243 773 l=30 w=600 "VDD" "en_6" 60 0 "a_20184_772#" 600 17400,658 "VDD" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 20154 772 20155 773 l=30 w=600 "VDD" "variable_delay_unit_7.out" 60 0 "variable_delay_unit_6.out" 600 34800,1316 "a_20184_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 19536 772 19537 773 l=30 w=600 "VDD" "variable_delay_unit_7.in" 60 0 "a_19302_772#" 600 17400,658 "variable_delay_unit_6.out" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 19448 772 19449 773 l=30 w=600 "VDD" "variable_delay_unit_6.tristate_inverter_1.en" 60 0 "VDD" 600 17400,658 "a_19302_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 19360 772 19361 773 l=30 w=600 "VDD" "variable_delay_unit_6.tristate_inverter_1.en" 60 0 "a_19302_772#" 600 17400,658 "VDD" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 19272 772 19273 773 l=30 w=600 "VDD" "variable_delay_unit_6.tristate_inverter_1.en" 60 0 "VDD" 600 34800,1316 "a_19302_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 18622 738 18623 739 l=30 w=600 "VDD" "variable_delay_unit_6.in" 60 0 "VDD" 600 34800,1316 "variable_delay_unit_7.in" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 18224 738 18225 739 l=30 w=600 "VDD" "en_6" 60 0 "VDD" 600 34800,1316 "variable_delay_unit_6.tristate_inverter_1.en" 600 34800,1316
+device msubckt sky130_fd_pr__nfet_01v8 15674 408 15675 409 l=30 w=200 "VSS" "variable_delay_unit_5.in" 60 0 "VSS" 200 11600,516 "variable_delay_unit_6.in" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 15276 408 15277 409 l=30 w=200 "VSS" "en_5" 60 0 "VSS" 200 11600,516 "variable_delay_unit_5.tristate_inverter_1.en" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 14522 352 14523 353 l=30 w=200 "VSS" "variable_delay_unit_4.tristate_inverter_1.en" 60 0 "a_14288_352#" 200 5800,258 "VSS" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 14434 352 14435 353 l=30 w=200 "VSS" "variable_delay_unit_4.tristate_inverter_1.en" 60 0 "VSS" 200 5800,258 "a_14288_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 14346 352 14347 353 l=30 w=200 "VSS" "variable_delay_unit_4.tristate_inverter_1.en" 60 0 "a_14288_352#" 200 5800,258 "VSS" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 14258 352 14259 353 l=30 w=200 "VSS" "variable_delay_unit_5.out" 60 0 "variable_delay_unit_4.out" 200 11600,516 "a_14288_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 13640 352 13641 353 l=30 w=200 "VSS" "variable_delay_unit_5.in" 60 0 "a_13406_352#" 200 5800,258 "variable_delay_unit_4.out" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 13552 352 13553 353 l=30 w=200 "VSS" "en_4" 60 0 "VSS" 200 5800,258 "a_13406_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 13464 352 13465 353 l=30 w=200 "VSS" "en_4" 60 0 "a_13406_352#" 200 5800,258 "VSS" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 13376 352 13377 353 l=30 w=200 "VSS" "en_4" 60 0 "VSS" 200 11600,516 "a_13406_352#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 17470 772 17471 773 l=30 w=600 "VDD" "en_5" 60 0 "a_17236_772#" 600 17400,658 "VDD" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 17382 772 17383 773 l=30 w=600 "VDD" "en_5" 60 0 "VDD" 600 17400,658 "a_17236_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 17294 772 17295 773 l=30 w=600 "VDD" "en_5" 60 0 "a_17236_772#" 600 17400,658 "VDD" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 17206 772 17207 773 l=30 w=600 "VDD" "variable_delay_unit_6.out" 60 0 "variable_delay_unit_5.out" 600 34800,1316 "a_17236_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 16588 772 16589 773 l=30 w=600 "VDD" "variable_delay_unit_6.in" 60 0 "a_16354_772#" 600 17400,658 "variable_delay_unit_5.out" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 16500 772 16501 773 l=30 w=600 "VDD" "variable_delay_unit_5.tristate_inverter_1.en" 60 0 "VDD" 600 17400,658 "a_16354_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 16412 772 16413 773 l=30 w=600 "VDD" "variable_delay_unit_5.tristate_inverter_1.en" 60 0 "a_16354_772#" 600 17400,658 "VDD" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 16324 772 16325 773 l=30 w=600 "VDD" "variable_delay_unit_5.tristate_inverter_1.en" 60 0 "VDD" 600 34800,1316 "a_16354_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 15674 738 15675 739 l=30 w=600 "VDD" "variable_delay_unit_5.in" 60 0 "VDD" 600 34800,1316 "variable_delay_unit_6.in" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 15276 738 15277 739 l=30 w=600 "VDD" "en_5" 60 0 "VDD" 600 34800,1316 "variable_delay_unit_5.tristate_inverter_1.en" 600 34800,1316
+device msubckt sky130_fd_pr__nfet_01v8 12726 408 12727 409 l=30 w=200 "VSS" "variable_delay_unit_4.in" 60 0 "VSS" 200 11600,516 "variable_delay_unit_5.in" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 12328 408 12329 409 l=30 w=200 "VSS" "en_4" 60 0 "VSS" 200 11600,516 "variable_delay_unit_4.tristate_inverter_1.en" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 11574 352 11575 353 l=30 w=200 "VSS" "variable_delay_unit_3.tristate_inverter_1.en" 60 0 "a_11340_352#" 200 5800,258 "VSS" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 11486 352 11487 353 l=30 w=200 "VSS" "variable_delay_unit_3.tristate_inverter_1.en" 60 0 "VSS" 200 5800,258 "a_11340_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 11398 352 11399 353 l=30 w=200 "VSS" "variable_delay_unit_3.tristate_inverter_1.en" 60 0 "a_11340_352#" 200 5800,258 "VSS" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 11310 352 11311 353 l=30 w=200 "VSS" "variable_delay_unit_4.out" 60 0 "variable_delay_unit_3.out" 200 11600,516 "a_11340_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 10692 352 10693 353 l=30 w=200 "VSS" "variable_delay_unit_4.in" 60 0 "a_10458_352#" 200 5800,258 "variable_delay_unit_3.out" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 10604 352 10605 353 l=30 w=200 "VSS" "en_3" 60 0 "VSS" 200 5800,258 "a_10458_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 10516 352 10517 353 l=30 w=200 "VSS" "en_3" 60 0 "a_10458_352#" 200 5800,258 "VSS" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 10428 352 10429 353 l=30 w=200 "VSS" "en_3" 60 0 "VSS" 200 11600,516 "a_10458_352#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 14522 772 14523 773 l=30 w=600 "VDD" "en_4" 60 0 "a_14288_772#" 600 17400,658 "VDD" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 14434 772 14435 773 l=30 w=600 "VDD" "en_4" 60 0 "VDD" 600 17400,658 "a_14288_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 14346 772 14347 773 l=30 w=600 "VDD" "en_4" 60 0 "a_14288_772#" 600 17400,658 "VDD" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 14258 772 14259 773 l=30 w=600 "VDD" "variable_delay_unit_5.out" 60 0 "variable_delay_unit_4.out" 600 34800,1316 "a_14288_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 13640 772 13641 773 l=30 w=600 "VDD" "variable_delay_unit_5.in" 60 0 "a_13406_772#" 600 17400,658 "variable_delay_unit_4.out" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 13552 772 13553 773 l=30 w=600 "VDD" "variable_delay_unit_4.tristate_inverter_1.en" 60 0 "VDD" 600 17400,658 "a_13406_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 13464 772 13465 773 l=30 w=600 "VDD" "variable_delay_unit_4.tristate_inverter_1.en" 60 0 "a_13406_772#" 600 17400,658 "VDD" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 13376 772 13377 773 l=30 w=600 "VDD" "variable_delay_unit_4.tristate_inverter_1.en" 60 0 "VDD" 600 34800,1316 "a_13406_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 12726 738 12727 739 l=30 w=600 "VDD" "variable_delay_unit_4.in" 60 0 "VDD" 600 34800,1316 "variable_delay_unit_5.in" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 12328 738 12329 739 l=30 w=600 "VDD" "en_4" 60 0 "VDD" 600 34800,1316 "variable_delay_unit_4.tristate_inverter_1.en" 600 34800,1316
+device msubckt sky130_fd_pr__nfet_01v8 9778 408 9779 409 l=30 w=200 "VSS" "variable_delay_unit_3.in" 60 0 "VSS" 200 11600,516 "variable_delay_unit_4.in" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 9380 408 9381 409 l=30 w=200 "VSS" "en_3" 60 0 "VSS" 200 11600,516 "variable_delay_unit_3.tristate_inverter_1.en" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 8626 352 8627 353 l=30 w=200 "VSS" "variable_delay_unit_2.tristate_inverter_1.en" 60 0 "a_8392_352#" 200 5800,258 "VSS" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 8538 352 8539 353 l=30 w=200 "VSS" "variable_delay_unit_2.tristate_inverter_1.en" 60 0 "VSS" 200 5800,258 "a_8392_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 8450 352 8451 353 l=30 w=200 "VSS" "variable_delay_unit_2.tristate_inverter_1.en" 60 0 "a_8392_352#" 200 5800,258 "VSS" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 8362 352 8363 353 l=30 w=200 "VSS" "variable_delay_unit_3.out" 60 0 "variable_delay_unit_2.out" 200 11600,516 "a_8392_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 7744 352 7745 353 l=30 w=200 "VSS" "variable_delay_unit_3.in" 60 0 "a_7510_352#" 200 5800,258 "variable_delay_unit_2.out" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 7656 352 7657 353 l=30 w=200 "VSS" "en_2" 60 0 "VSS" 200 5800,258 "a_7510_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 7568 352 7569 353 l=30 w=200 "VSS" "en_2" 60 0 "a_7510_352#" 200 5800,258 "VSS" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 7480 352 7481 353 l=30 w=200 "VSS" "en_2" 60 0 "VSS" 200 11600,516 "a_7510_352#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 11574 772 11575 773 l=30 w=600 "VDD" "en_3" 60 0 "a_11340_772#" 600 17400,658 "VDD" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 11486 772 11487 773 l=30 w=600 "VDD" "en_3" 60 0 "VDD" 600 17400,658 "a_11340_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 11398 772 11399 773 l=30 w=600 "VDD" "en_3" 60 0 "a_11340_772#" 600 17400,658 "VDD" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 11310 772 11311 773 l=30 w=600 "VDD" "variable_delay_unit_4.out" 60 0 "variable_delay_unit_3.out" 600 34800,1316 "a_11340_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 10692 772 10693 773 l=30 w=600 "VDD" "variable_delay_unit_4.in" 60 0 "a_10458_772#" 600 17400,658 "variable_delay_unit_3.out" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 10604 772 10605 773 l=30 w=600 "VDD" "variable_delay_unit_3.tristate_inverter_1.en" 60 0 "VDD" 600 17400,658 "a_10458_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 10516 772 10517 773 l=30 w=600 "VDD" "variable_delay_unit_3.tristate_inverter_1.en" 60 0 "a_10458_772#" 600 17400,658 "VDD" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 10428 772 10429 773 l=30 w=600 "VDD" "variable_delay_unit_3.tristate_inverter_1.en" 60 0 "VDD" 600 34800,1316 "a_10458_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 9778 738 9779 739 l=30 w=600 "VDD" "variable_delay_unit_3.in" 60 0 "VDD" 600 34800,1316 "variable_delay_unit_4.in" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 9380 738 9381 739 l=30 w=600 "VDD" "en_3" 60 0 "VDD" 600 34800,1316 "variable_delay_unit_3.tristate_inverter_1.en" 600 34800,1316
+device msubckt sky130_fd_pr__nfet_01v8 6830 408 6831 409 l=30 w=200 "VSS" "variable_delay_unit_2.in" 60 0 "VSS" 200 11600,516 "variable_delay_unit_3.in" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 6432 408 6433 409 l=30 w=200 "VSS" "en_2" 60 0 "VSS" 200 11600,516 "variable_delay_unit_2.tristate_inverter_1.en" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 5678 352 5679 353 l=30 w=200 "VSS" "variable_delay_unit_1.tristate_inverter_1.en" 60 0 "a_5444_352#" 200 5800,258 "VSS" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 5590 352 5591 353 l=30 w=200 "VSS" "variable_delay_unit_1.tristate_inverter_1.en" 60 0 "VSS" 200 5800,258 "a_5444_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 5502 352 5503 353 l=30 w=200 "VSS" "variable_delay_unit_1.tristate_inverter_1.en" 60 0 "a_5444_352#" 200 5800,258 "VSS" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 5414 352 5415 353 l=30 w=200 "VSS" "variable_delay_unit_2.out" 60 0 "variable_delay_unit_1.out" 200 11600,516 "a_5444_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 4796 352 4797 353 l=30 w=200 "VSS" "variable_delay_unit_2.in" 60 0 "a_4562_352#" 200 5800,258 "variable_delay_unit_1.out" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 4708 352 4709 353 l=30 w=200 "VSS" "en_1" 60 0 "VSS" 200 5800,258 "a_4562_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 4620 352 4621 353 l=30 w=200 "VSS" "en_1" 60 0 "a_4562_352#" 200 5800,258 "VSS" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 4532 352 4533 353 l=30 w=200 "VSS" "en_1" 60 0 "VSS" 200 11600,516 "a_4562_352#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 8626 772 8627 773 l=30 w=600 "VDD" "en_2" 60 0 "a_8392_772#" 600 17400,658 "VDD" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 8538 772 8539 773 l=30 w=600 "VDD" "en_2" 60 0 "VDD" 600 17400,658 "a_8392_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 8450 772 8451 773 l=30 w=600 "VDD" "en_2" 60 0 "a_8392_772#" 600 17400,658 "VDD" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 8362 772 8363 773 l=30 w=600 "VDD" "variable_delay_unit_3.out" 60 0 "variable_delay_unit_2.out" 600 34800,1316 "a_8392_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 7744 772 7745 773 l=30 w=600 "VDD" "variable_delay_unit_3.in" 60 0 "a_7510_772#" 600 17400,658 "variable_delay_unit_2.out" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 7656 772 7657 773 l=30 w=600 "VDD" "variable_delay_unit_2.tristate_inverter_1.en" 60 0 "VDD" 600 17400,658 "a_7510_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 7568 772 7569 773 l=30 w=600 "VDD" "variable_delay_unit_2.tristate_inverter_1.en" 60 0 "a_7510_772#" 600 17400,658 "VDD" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 7480 772 7481 773 l=30 w=600 "VDD" "variable_delay_unit_2.tristate_inverter_1.en" 60 0 "VDD" 600 34800,1316 "a_7510_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 6830 738 6831 739 l=30 w=600 "VDD" "variable_delay_unit_2.in" 60 0 "VDD" 600 34800,1316 "variable_delay_unit_3.in" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 6432 738 6433 739 l=30 w=600 "VDD" "en_2" 60 0 "VDD" 600 34800,1316 "variable_delay_unit_2.tristate_inverter_1.en" 600 34800,1316
+device msubckt sky130_fd_pr__nfet_01v8 3882 408 3883 409 l=30 w=200 "VSS" "variable_delay_unit_1.in" 60 0 "VSS" 200 11600,516 "variable_delay_unit_2.in" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 3484 408 3485 409 l=30 w=200 "VSS" "en_1" 60 0 "VSS" 200 11600,516 "variable_delay_unit_1.tristate_inverter_1.en" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 2730 352 2731 353 l=30 w=200 "VSS" "variable_delay_unit_0.tristate_inverter_1.en" 60 0 "a_2496_352#" 200 5800,258 "VSS" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 2642 352 2643 353 l=30 w=200 "VSS" "variable_delay_unit_0.tristate_inverter_1.en" 60 0 "VSS" 200 5800,258 "a_2496_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 2554 352 2555 353 l=30 w=200 "VSS" "variable_delay_unit_0.tristate_inverter_1.en" 60 0 "a_2496_352#" 200 5800,258 "VSS" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 2466 352 2467 353 l=30 w=200 "VSS" "variable_delay_unit_1.out" 60 0 "out" 200 11600,516 "a_2496_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 1848 352 1849 353 l=30 w=200 "VSS" "variable_delay_unit_1.in" 60 0 "a_1614_352#" 200 5800,258 "out" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 1760 352 1761 353 l=30 w=200 "VSS" "en_0" 60 0 "VSS" 200 5800,258 "a_1614_352#" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 1672 352 1673 353 l=30 w=200 "VSS" "en_0" 60 0 "a_1614_352#" 200 5800,258 "VSS" 200 5800,258
+device msubckt sky130_fd_pr__nfet_01v8 1584 352 1585 353 l=30 w=200 "VSS" "en_0" 60 0 "VSS" 200 11600,516 "a_1614_352#" 200 5800,258
+device msubckt sky130_fd_pr__pfet_01v8 5678 772 5679 773 l=30 w=600 "VDD" "en_1" 60 0 "a_5444_772#" 600 17400,658 "VDD" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 5590 772 5591 773 l=30 w=600 "VDD" "en_1" 60 0 "VDD" 600 17400,658 "a_5444_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 5502 772 5503 773 l=30 w=600 "VDD" "en_1" 60 0 "a_5444_772#" 600 17400,658 "VDD" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 5414 772 5415 773 l=30 w=600 "VDD" "variable_delay_unit_2.out" 60 0 "variable_delay_unit_1.out" 600 34800,1316 "a_5444_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 4796 772 4797 773 l=30 w=600 "VDD" "variable_delay_unit_2.in" 60 0 "a_4562_772#" 600 17400,658 "variable_delay_unit_1.out" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 4708 772 4709 773 l=30 w=600 "VDD" "variable_delay_unit_1.tristate_inverter_1.en" 60 0 "VDD" 600 17400,658 "a_4562_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 4620 772 4621 773 l=30 w=600 "VDD" "variable_delay_unit_1.tristate_inverter_1.en" 60 0 "a_4562_772#" 600 17400,658 "VDD" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 4532 772 4533 773 l=30 w=600 "VDD" "variable_delay_unit_1.tristate_inverter_1.en" 60 0 "VDD" 600 34800,1316 "a_4562_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 3882 738 3883 739 l=30 w=600 "VDD" "variable_delay_unit_1.in" 60 0 "VDD" 600 34800,1316 "variable_delay_unit_2.in" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 3484 738 3485 739 l=30 w=600 "VDD" "en_1" 60 0 "VDD" 600 34800,1316 "variable_delay_unit_1.tristate_inverter_1.en" 600 34800,1316
+device msubckt sky130_fd_pr__nfet_01v8 934 408 935 409 l=30 w=200 "VSS" "in" 60 0 "VSS" 200 11600,516 "variable_delay_unit_1.in" 200 11600,516
+device msubckt sky130_fd_pr__nfet_01v8 536 408 537 409 l=30 w=200 "VSS" "en_0" 60 0 "VSS" 200 11600,516 "variable_delay_unit_0.tristate_inverter_1.en" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 2730 772 2731 773 l=30 w=600 "VDD" "en_0" 60 0 "a_2496_772#" 600 17400,658 "VDD" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 2642 772 2643 773 l=30 w=600 "VDD" "en_0" 60 0 "VDD" 600 17400,658 "a_2496_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 2554 772 2555 773 l=30 w=600 "VDD" "en_0" 60 0 "a_2496_772#" 600 17400,658 "VDD" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 2466 772 2467 773 l=30 w=600 "VDD" "variable_delay_unit_1.out" 60 0 "out" 600 34800,1316 "a_2496_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 1848 772 1849 773 l=30 w=600 "VDD" "variable_delay_unit_1.in" 60 0 "a_1614_772#" 600 17400,658 "out" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 1760 772 1761 773 l=30 w=600 "VDD" "variable_delay_unit_0.tristate_inverter_1.en" 60 0 "VDD" 600 17400,658 "a_1614_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 1672 772 1673 773 l=30 w=600 "VDD" "variable_delay_unit_0.tristate_inverter_1.en" 60 0 "a_1614_772#" 600 17400,658 "VDD" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 1584 772 1585 773 l=30 w=600 "VDD" "variable_delay_unit_0.tristate_inverter_1.en" 60 0 "VDD" 600 34800,1316 "a_1614_772#" 600 17400,658
+device msubckt sky130_fd_pr__pfet_01v8 934 738 935 739 l=30 w=600 "VDD" "in" 60 0 "VDD" 600 34800,1316 "variable_delay_unit_1.in" 600 34800,1316
+device msubckt sky130_fd_pr__pfet_01v8 536 738 537 739 l=30 w=600 "VDD" "en_0" 60 0 "VDD" 600 34800,1316 "variable_delay_unit_0.tristate_inverter_1.en" 600 34800,1316

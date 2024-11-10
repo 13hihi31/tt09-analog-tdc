@@ -517,7 +517,7 @@ value="
 spice_ignore=false}
 C {devices/code.sym} 170 -990 0 0 {name=STIMULI only_toplevel=false value="
 
-.tran 0.001n 200n
+.tran 0.001n 340n
 .save v(start) v(stop) v(term_0) v(term_1) v(term_2) v(term_3) v(term_4) v(term_5) v(term_6) v(term_7)
 
 .control
