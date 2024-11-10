@@ -34,6 +34,7 @@ MACRO tt_um_13hihi31_tdc
   PIN ua[0]
     DIRECTION INOUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 1.500000 ;
     PORT
       LAYER met4 ;
         RECT 151.810 0.000 152.710 1.000 ;
