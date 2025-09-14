@@ -7,7 +7,7 @@ x a_9330_16954# VGND tdc_0.vernier_delay_line_0.stop_strong VGND s=11600,516 d=1
 x tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd a_10108_39954# a_10958_39338# VGND s=17400,658 d=17400,658 l=30 w=600 x=10958 y=39660 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out1 tdc_0.vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out2 a_10108_28544# VGND s=34800,1316 d=17400,658 l=30 w=600 x=10108 y=28514 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_3/saff_2_0.nq a_12420_30598# VDPWR VDPWR s=17400,658 d=34800,1316 l=30 w=600 x=12420 y=30656 sky130_fd_pr__pfet_01v8
-x input_stage_1.fine_delay_unit_0.in a_24790_6936# VGND VGND s=5800,258 d=5800,258 l=30 w=200 x=24790 y=6994 sky130_fd_pr__nfet_01v8
+x input_stage_andpwr_0.fine_delay_unit_0.in a_24790_6936# VGND VGND s=5800,258 d=5800,258 l=30 w=200 x=24790 y=6994 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.stop_strong VGND a_10958_23364# VGND s=17400,658 d=17400,658 l=30 w=600 x=10958 y=24390 sky130_fd_pr__nfet_01v8
 x variable_delay_short_0.variable_delay_unit_0.tristate_inverter_1.en VDPWR a_24240_11366# VDPWR s=34800,1316 d=17400,658 l=30 w=600 x=24240 y=11336 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 a_13254_26412# tdc_0.vernier_delay_line_0.saff_delay_unit_1/saff_2_0.nq VGND s=5800,258 d=5800,258 l=30 w=200 x=13254 y=26470 sky130_fd_pr__nfet_01v8
@@ -67,7 +67,7 @@ x variable_delay_short_0.variable_delay_unit_2.tristate_inverter_1.en a_25060_18
 x tdc_0.diff_gen_0.delay_unit_2_5.in_2 VGND tdc_0.diff_gen_0.delay_unit_2_6.in_1 VGND s=5800,258 d=5800,258 l=30 w=200 x=8060 y=19640 sky130_fd_pr__nfet_01v8
 x tdc_0.diff_gen_0.delay_unit_2_3.in_2 tdc_0.diff_gen_0.delay_unit_2_4.in_1 VDPWR VDPWR s=17400,658 d=17400,658 l=30 w=600 x=7330 y=17168 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 a_10958_27928# a_10108_28544# VGND s=17400,658 d=17400,658 l=30 w=600 x=10958 y=28162 sky130_fd_pr__nfet_01v8
-x input_stage_1.fine_delay_unit_1.in a_23820_8460# a_24790_8050# VGND s=5800,258 d=5800,258 l=30 w=200 x=24790 y=8196 sky130_fd_pr__nfet_01v8
+x input_stage_andpwr_0.fine_delay_unit_1.in a_23820_8460# a_24790_8050# VGND s=5800,258 d=5800,258 l=30 w=200 x=24790 y=8196 sky130_fd_pr__nfet_01v8
 x a_9330_16954# VDPWR tdc_0.vernier_delay_line_0.stop_strong VDPWR s=34800,1316 d=34800,1316 l=30 w=600 x=9356 y=17534 sky130_fd_pr__pfet_01v8
 x VDPWR VGND variable_delay_short_0.variable_delay_unit_5.tristate_inverter_1.en VGND s=11600,516 d=11600,516 l=30 w=200 x=25004 y=25028 sky130_fd_pr__nfet_01v8
 x a_12310_23706# VGND uo_out[0] VGND s=5800,258 d=5800,258 l=30 w=200 x=13254 y=23634 sky130_fd_pr__nfet_01v8
@@ -90,7 +90,7 @@ x tdc_0.diff_gen_0.delay_unit_2_5.in_2 tdc_0.diff_gen_0.delay_unit_2_6.in_1 VGND
 x tdc_0.vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 a_10108_23452# a_10958_23364# VGND s=17400,658 d=17400,658 l=30 w=600 x=10958 y=23862 sky130_fd_pr__nfet_01v8
 x input_stage_0.fine_delay_unit_1.in a_16292_8344# VGND VGND s=5800,258 d=5800,258 l=30 w=200 x=16292 y=8402 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.stop_strong a_10958_39338# VGND VGND s=17400,658 d=34800,1316 l=30 w=600 x=10958 y=40452 sky130_fd_pr__nfet_01v8
-x input_stage_1.fine_delay_unit_0.in a_24790_6672# a_23820_7082# VGND s=5800,258 d=5800,258 l=30 w=200 x=24790 y=6730 sky130_fd_pr__nfet_01v8
+x input_stage_andpwr_0.fine_delay_unit_0.in a_24790_6672# a_23820_7082# VGND s=5800,258 d=5800,258 l=30 w=200 x=24790 y=6730 sky130_fd_pr__nfet_01v8
 x tdc_0.diff_gen_0.delay_unit_2_1.in_1 tdc_0.diff_gen_0.delay_unit_2_1.in_2 VDPWR VDPWR s=34800,1316 d=17400,658 l=30 w=600 x=7330 y=14988 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 tdc_0.vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 VDPWR VDPWR s=34800,1316 d=17400,658 l=30 w=600 x=7330 y=39570 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out2 tdc_0.vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out1 a_10108_34862# VGND s=34800,1316 d=17400,658 l=30 w=600 x=10108 y=34832 sky130_fd_pr__nfet_01v8
@@ -112,7 +112,7 @@ x tdc_0.vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 VGND tdc_0.ve
 x input_stage_0.fine_delay_unit_1.in a_15322_8490# a_16292_8080# VGND s=11600,516 d=5800,258 l=30 w=200 x=16292 y=8050 sky130_fd_pr__nfet_01v8
 x tdc_0.start_buffer_0.start_buff VGND tdc_0.diff_gen_0.delay_unit_2_1.in_2 VGND s=5800,258 d=11600,516 l=30 w=200 x=8060 y=13972 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 a_10958_25646# a_10108_25734# VGND s=17400,658 d=17400,658 l=30 w=600 x=10958 y=26056 sky130_fd_pr__nfet_01v8
-x input_stage_1.fine_delay_unit_0.in a_23820_7082# a_24790_6672# VGND s=5800,258 d=5800,258 l=30 w=200 x=24790 y=6818 sky130_fd_pr__nfet_01v8
+x input_stage_andpwr_0.fine_delay_unit_0.in a_23820_7082# a_24790_6672# VGND s=5800,258 d=5800,258 l=30 w=200 x=24790 y=6818 sky130_fd_pr__nfet_01v8
 x a_9330_15794# VDPWR a_9330_16954# VDPWR s=34800,1316 d=34800,1316 l=30 w=600 x=9356 y=16084 sky130_fd_pr__pfet_01v8
 x tdc_0.diff_gen_0.delay_unit_2_2.in_1 VDPWR tdc_0.diff_gen_0.delay_unit_2_3.in_2 VDPWR s=17400,658 d=17400,658 l=30 w=600 x=7330 y=16356 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd VDPWR s=17400,658 d=17400,658 l=30 w=600 x=7330 y=39658 sky130_fd_pr__pfet_01v8
@@ -163,7 +163,7 @@ x tdc_0.vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out2 t
 x tdc_0.diff_gen_0.delay_unit_2_1.in_1 VGND tdc_0.diff_gen_0.delay_unit_2_2.in_2 VGND s=5800,258 d=5800,258 l=30 w=200 x=8060 y=15076 sky130_fd_pr__nfet_01v8
 x ui_in[6] VDPWR a_24240_18144# VDPWR s=17400,658 d=17400,658 l=30 w=600 x=24240 y=18290 sky130_fd_pr__pfet_01v8
 x a_9330_16954# VGND tdc_0.vernier_delay_line_0.stop_strong VGND s=11600,516 d=11600,516 l=30 w=200 x=10086 y=18984 sky130_fd_pr__nfet_01v8
-x ua[0] VGND a_25284_5108# VGND s=23200,916 d=11600,458 l=30 w=400 x=25284 y=5078 sky130_fd_pr__nfet_01v8
+x uio_in[6] VGND a_25284_5108# VGND s=23200,916 d=11600,458 l=30 w=400 x=25284 y=5078 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out1 VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 VDPWR s=34800,1316 d=17400,658 l=30 w=600 x=9182 y=26232 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out2 tdc_0.vernier_delay_line_0.saff_delay_unit_2/saff_2_0.nq VDPWR VDPWR s=17400,658 d=17400,658 l=30 w=600 x=12420 y=28840 sky130_fd_pr__pfet_01v8
 x uio_in[0] a_25060_11366# VGND VGND s=5800,258 d=5800,258 l=30 w=200 x=25060 y=11424 sky130_fd_pr__nfet_01v8
@@ -203,8 +203,8 @@ x VDPWR a_24240_26988# VDPWR VDPWR s=17400,658 d=34800,1316 l=30 w=600 x=24240 y
 x tdc_0.diff_gen_0.delay_unit_2_6.in_2 tdc_0.diff_gen_0.delay_unit_2_6.in_1 VDPWR VDPWR s=34800,1316 d=17400,658 l=30 w=600 x=7330 y=20832 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 a_10108_30826# a_10958_30210# VGND s=17400,658 d=17400,658 l=30 w=600 x=10958 y=30532 sky130_fd_pr__nfet_01v8
 x a_7140_10670# VDPWR tdc_0.start_buffer_0.start_buff VDPWR s=34800,1316 d=34800,1316 l=30 w=600 x=7166 y=11250 sky130_fd_pr__pfet_01v8
-x input_stage_1.fine_delay_unit_0.in VDPWR a_23820_7082# VDPWR s=34800,1316 d=34800,1316 l=30 w=600 x=23844 y=6730 sky130_fd_pr__pfet_01v8
-x ua[0] VGND a_16786_5138# VGND s=23200,916 d=11600,458 l=30 w=400 x=16786 y=5108 sky130_fd_pr__nfet_01v8
+x input_stage_andpwr_0.fine_delay_unit_0.in VDPWR a_23820_7082# VDPWR s=34800,1316 d=34800,1316 l=30 w=600 x=23844 y=6730 sky130_fd_pr__pfet_01v8
+x uio_in[6] VGND a_16786_5138# VGND s=23200,916 d=11600,458 l=30 w=400 x=16786 y=5108 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd VDPWR tdc_0.vernier_delay_line_0.delay_unit_2_0.out_1 VDPWR s=17400,658 d=17400,658 l=30 w=600 x=7330 y=41384 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.start_pos VGND tdc_0.vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 VGND s=5800,258 d=11600,516 l=30 w=200 x=8060 y=23860 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_6/saff_2_0.nq a_12420_37444# VDPWR VDPWR s=17400,658 d=34800,1316 l=30 w=600 x=12420 y=37502 sky130_fd_pr__pfet_01v8
@@ -314,7 +314,7 @@ x tdc_0.vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 VGND tdc_0.ve
 x tdc_0.vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out2 tdc_0.vernier_delay_line_0.saff_delay_unit_4/saff_2_0.nq VDPWR VDPWR s=17400,658 d=17400,658 l=30 w=600 x=12420 y=33404 sky130_fd_pr__pfet_01v8
 x a_15322_7112# VDPWR input_stage_0.fine_delay_unit_1.in VDPWR s=34800,1316 d=34800,1316 l=30 w=600 x=15348 y=7112 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_5/saff_2_0.nq a_13254_35162# VGND VGND s=5800,258 d=11600,516 l=30 w=200 x=13254 y=35220 sky130_fd_pr__nfet_01v8
-x a_23820_7082# VGND input_stage_1.fine_delay_unit_1.in VGND s=5800,258 d=11600,516 l=30 w=200 x=24790 y=7082 sky130_fd_pr__nfet_01v8
+x a_23820_7082# VGND input_stage_andpwr_0.fine_delay_unit_1.in VGND s=5800,258 d=11600,516 l=30 w=200 x=24790 y=7082 sky130_fd_pr__nfet_01v8
 x ui_in[7] VGND variable_delay_short_0.variable_delay_unit_1.tristate_inverter_1.en VGND s=11600,516 d=11600,516 l=30 w=200 x=25004 y=13236 sky130_fd_pr__nfet_01v8
 x a_9330_16954# VGND tdc_0.vernier_delay_line_0.stop_strong VGND s=11600,516 d=11600,516 l=30 w=200 x=10086 y=17824 sky130_fd_pr__nfet_01v8
 x tdc_0.diff_gen_0.delay_unit_2_2.in_2 tdc_0.diff_gen_0.delay_unit_2_3.in_1 VDPWR VDPWR s=17400,658 d=17400,658 l=30 w=600 x=7330 y=15888 sky130_fd_pr__pfet_01v8
@@ -326,7 +326,7 @@ x a_9330_16954# VGND tdc_0.vernier_delay_line_0.stop_strong VGND s=11600,516 d=1
 x tdc_0.diff_gen_0.delay_unit_2_5.in_2 tdc_0.diff_gen_0.delay_unit_2_6.in_1 VDPWR VDPWR s=17400,658 d=17400,658 l=30 w=600 x=7330 y=19728 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 a_10958_37056# a_10108_37672# VGND s=17400,658 d=17400,658 l=30 w=600 x=10958 y=37290 sky130_fd_pr__nfet_01v8
 x uo_out[3] VDPWR a_12420_30976# VDPWR s=34800,1316 d=17400,658 l=30 w=600 x=12420 y=30946 sky130_fd_pr__pfet_01v8
-x ua[0] VDPWR input_stage_1.nand_gate_0.out VDPWR s=34800,1316 d=17400,658 l=30 w=600 x=24476 y=5078 sky130_fd_pr__pfet_01v8
+x uio_in[6] ua[0] input_stage_andpwr_0.nand_gate_0.out ua[0] s=34800,1316 d=17400,658 l=30 w=600 x=24476 y=5078 sky130_fd_pr__pfet_01v8
 x variable_delay_short_0.variable_delay_unit_1.tristate_inverter_1.en a_25060_15196# VGND VGND s=5800,258 d=11600,516 l=30 w=200 x=25060 y=15430 sky130_fd_pr__nfet_01v8
 x a_12310_32834# VGND uo_out[4] VGND s=5800,258 d=5800,258 l=30 w=200 x=13254 y=32762 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 tdc_0.vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 VGND VGND s=5800,258 d=5800,258 l=30 w=200 x=8060 y=30618 sky130_fd_pr__nfet_01v8
@@ -337,7 +337,7 @@ x variable_delay_short_0.variable_delay_unit_2.in VDPWR variable_delay_short_0.v
 x tdc_0.vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out1 VDPWR a_12308_31014# VDPWR s=17400,658 d=34800,1316 l=30 w=600 x=12420 y=31210 sky130_fd_pr__pfet_01v8
 x tdc_0.diff_gen_0.delay_unit_2_3.in_2 VDPWR tdc_0.diff_gen_0.delay_unit_2_4.in_1 VDPWR s=17400,658 d=34800,1316 l=30 w=600 x=7330 y=17256 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 a_10108_28544# a_10958_27928# VGND s=17400,658 d=17400,658 l=30 w=600 x=10958 y=28250 sky130_fd_pr__nfet_01v8
-x input_stage_1.fine_delay_unit_1.in a_24790_8050# a_24790_8314# VGND s=5800,258 d=5800,258 l=30 w=200 x=24790 y=8284 sky130_fd_pr__nfet_01v8
+x input_stage_andpwr_0.fine_delay_unit_1.in a_24790_8050# a_24790_8314# VGND s=5800,258 d=5800,258 l=30 w=200 x=24790 y=8284 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out1 uo_out[0] a_13254_23752# VGND s=5800,258 d=5800,258 l=30 w=200 x=13254 y=23722 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 VDPWR a_12308_40142# VDPWR s=17400,658 d=34800,1316 l=30 w=600 x=12420 y=40338 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 VDPWR s=17400,658 d=34800,1316 l=30 w=600 x=7330 y=36996 sky130_fd_pr__pfet_01v8
@@ -371,7 +371,7 @@ x variable_delay_short_0.variable_delay_unit_2.out variable_delay_short_0.variab
 x tdc_0.diff_gen_0.delay_unit_2_4.in_1 VDPWR tdc_0.diff_gen_0.delay_unit_2_5.in_2 VDPWR s=17400,658 d=17400,658 l=30 w=600 x=7330 y=18916 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 a_10958_34774# a_10108_34862# VGND s=17400,658 d=17400,658 l=30 w=600 x=10958 y=35184 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out1 a_10108_23980# tdc_0.vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out2 VGND s=17400,658 d=34800,1316 l=30 w=600 x=10108 y=24038 sky130_fd_pr__nfet_01v8
-x ua[0] VDPWR input_stage_0.nand_gate_0.out VDPWR s=34800,1316 d=17400,658 l=30 w=600 x=15978 y=5108 sky130_fd_pr__pfet_01v8
+x uio_in[6] VDPWR input_stage_0.nand_gate_0.out VDPWR s=34800,1316 d=17400,658 l=30 w=600 x=15978 y=5108 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.stop_strong VGND a_10958_32492# VGND s=17400,658 d=17400,658 l=30 w=600 x=10958 y=33342 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_3/saff_2_0.nq a_13254_30598# VGND VGND s=5800,258 d=11600,516 l=30 w=200 x=13254 y=30656 sky130_fd_pr__nfet_01v8
 x a_9330_16954# VDPWR tdc_0.vernier_delay_line_0.stop_strong VDPWR s=34800,1316 d=34800,1316 l=30 w=600 x=9356 y=20144 sky130_fd_pr__pfet_01v8
@@ -381,7 +381,7 @@ x a_7140_10670# VGND tdc_0.start_buffer_0.start_buff VGND s=11600,516 d=11600,51
 x tdc_0.vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d VGND VGND s=5800,258 d=5800,258 l=30 w=200 x=8060 y=39190 sky130_fd_pr__nfet_01v8
 x tdc_0.diff_gen_0.delay_unit_2_2.in_1 tdc_0.diff_gen_0.delay_unit_2_3.in_2 VDPWR VDPWR s=17400,658 d=17400,658 l=30 w=600 x=7330 y=16444 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 a_10108_25734# a_10958_25646# VGND s=17400,658 d=17400,658 l=30 w=600 x=10958 y=26144 sky130_fd_pr__nfet_01v8
-x input_stage_1.fine_delay_unit_0.in a_24790_6672# a_24790_6936# VGND s=5800,258 d=5800,258 l=30 w=200 x=24790 y=6906 sky130_fd_pr__nfet_01v8
+x input_stage_andpwr_0.fine_delay_unit_0.in a_24790_6672# a_24790_6936# VGND s=5800,258 d=5800,258 l=30 w=200 x=24790 y=6906 sky130_fd_pr__nfet_01v8
 x tdc_0.diff_gen_0.delay_unit_2_4.in_2 tdc_0.diff_gen_0.delay_unit_2_5.in_1 VGND VGND s=5800,258 d=5800,258 l=30 w=200 x=8060 y=18448 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd VDPWR VDPWR s=17400,658 d=17400,658 l=30 w=600 x=7330 y=39746 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.stop_strong a_10958_23364# VGND VGND s=17400,658 d=17400,658 l=30 w=600 x=10958 y=24302 sky130_fd_pr__nfet_01v8
@@ -428,7 +428,7 @@ x tdc_0.vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out1 V
 x variable_delay_short_0.variable_delay_unit_2.tristate_inverter_1.en a_25060_18144# VGND VGND s=5800,258 d=5800,258 l=30 w=200 x=25060 y=18202 sky130_fd_pr__nfet_01v8
 x variable_delay_dummy_0.variable_delay_unit_1.in VDPWR variable_delay_dummy_0.variable_delay_unit_1.forward VDPWR s=34800,1316 d=34800,1316 l=30 w=600 x=15714 y=13902 sky130_fd_pr__pfet_01v8
 x a_9330_14344# VDPWR a_9330_14634# VDPWR s=34800,1316 d=34800,1316 l=30 w=600 x=9356 y=14344 sky130_fd_pr__pfet_01v8
-x input_stage_1.fine_delay_unit_1.in a_23820_8460# a_24790_8050# VGND s=11600,516 d=5800,258 l=30 w=200 x=24790 y=8020 sky130_fd_pr__nfet_01v8
+x input_stage_andpwr_0.fine_delay_unit_1.in a_23820_8460# a_24790_8050# VGND s=11600,516 d=5800,258 l=30 w=200 x=24790 y=8020 sky130_fd_pr__nfet_01v8
 x ui_in[7] VGND a_25060_14314# VGND s=5800,258 d=5800,258 l=30 w=200 x=25060 y=14460 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 tdc_0.vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 VDPWR VDPWR s=34800,1316 d=17400,658 l=30 w=600 x=7330 y=36732 sky130_fd_pr__pfet_01v8
 x a_12308_31014# tdc_0.vernier_delay_line_0.saff_delay_unit_3/saff_2_0.nq VGND VGND s=5800,258 d=5800,258 l=30 w=200 x=13254 y=31122 sky130_fd_pr__nfet_01v8
@@ -438,7 +438,7 @@ x tdc_0.diff_gen_0.delay_unit_2_1.in_1 tdc_0.diff_gen_0.delay_unit_2_2.in_2 VGND
 x a_9330_15794# VDPWR a_9330_16954# VDPWR s=34800,1316 d=34800,1316 l=30 w=600 x=9356 y=16374 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 a_10108_39954# tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 VGND s=17400,658 d=34800,1316 l=30 w=600 x=10108 y=40012 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 a_10958_37056# a_10108_37144# VGND s=34800,1316 d=17400,658 l=30 w=600 x=10958 y=37114 sky130_fd_pr__nfet_01v8
-x VDPWR a_25284_5108# input_stage_1.nand_gate_0.out VGND s=11600,458 d=23200,916 l=30 w=400 x=25284 y=5166 sky130_fd_pr__nfet_01v8
+x VDPWR a_25284_5108# input_stage_andpwr_0.nand_gate_0.out VGND s=11600,458 d=23200,916 l=30 w=400 x=25284 y=5166 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.stop_strong tdc_0.vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 VDPWR VDPWR s=17400,658 d=34800,1316 l=30 w=600 x=9182 y=26320 sky130_fd_pr__pfet_01v8
 x tdc_0.diff_gen_0.delay_unit_2_2.in_2 tdc_0.diff_gen_0.delay_unit_2_2.in_1 VGND VGND s=11600,516 d=5800,258 l=30 w=200 x=8060 y=15712 sky130_fd_pr__nfet_01v8
 x uio_in[0] VGND a_25060_11366# VGND s=5800,258 d=5800,258 l=30 w=200 x=25060 y=11512 sky130_fd_pr__nfet_01v8
@@ -448,7 +448,7 @@ x tdc_0.diff_gen_0.delay_unit_2_4.in_1 tdc_0.diff_gen_0.delay_unit_2_5.in_2 VGND
 x tdc_0.vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 VGND tdc_0.vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 VGND s=5800,258 d=11600,516 l=30 w=200 x=8060 y=25586 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.stop_strong tdc_0.vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out2 VDPWR VDPWR s=17400,658 d=34800,1316 l=30 w=600 x=9182 y=35448 sky130_fd_pr__pfet_01v8
 x ui_in[7] a_24240_15196# VDPWR VDPWR s=17400,658 d=34800,1316 l=30 w=600 x=24240 y=15430 sky130_fd_pr__pfet_01v8
-x input_stage_1.fine_delay_unit_1.in a_24790_8050# a_23820_8460# VGND s=5800,258 d=5800,258 l=30 w=200 x=24790 y=8108 sky130_fd_pr__nfet_01v8
+x input_stage_andpwr_0.fine_delay_unit_1.in a_24790_8050# a_23820_8460# VGND s=5800,258 d=5800,258 l=30 w=200 x=24790 y=8108 sky130_fd_pr__nfet_01v8
 x variable_delay_short_0.variable_delay_unit_2.in a_25060_14314# variable_delay_short_0.variable_delay_unit_1.out VGND s=5800,258 d=11600,516 l=30 w=200 x=25060 y=14548 sky130_fd_pr__nfet_01v8
 x VGND variable_delay_dummy_0.variable_delay_unit_1.out a_16500_15464# VGND s=11600,516 d=5800,258 l=30 w=200 x=16500 y=15434 sky130_fd_pr__nfet_01v8
 x tdc_0.diff_gen_0.delay_unit_2_2.in_1 tdc_0.diff_gen_0.delay_unit_2_2.in_2 VGND VGND s=11600,516 d=5800,258 l=30 w=200 x=8060 y=16268 sky130_fd_pr__nfet_01v8
@@ -514,7 +514,7 @@ x tdc_0.vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 t
 x tdc_0.vernier_delay_line_0.start_pos VGND tdc_0.vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 VGND s=5800,258 d=5800,258 l=30 w=200 x=8060 y=23684 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out1 VDPWR uo_out[6] VDPWR s=17400,658 d=17400,658 l=30 w=600 x=12420 y=37326 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_2/saff_2_0.nq a_13254_28316# VGND VGND s=5800,258 d=11600,516 l=30 w=200 x=13254 y=28374 sky130_fd_pr__nfet_01v8
-x input_stage_1.nand_gate_0.out VGND input_stage_1.fine_delay_unit_0.in VGND s=11600,516 d=11600,516 l=30 w=200 x=25482 y=5826 sky130_fd_pr__nfet_01v8
+x input_stage_andpwr_0.nand_gate_0.out VGND input_stage_andpwr_0.fine_delay_unit_0.in VGND s=11600,516 d=11600,516 l=30 w=200 x=25482 y=5826 sky130_fd_pr__nfet_01v8
 x a_9330_15214# VGND a_9330_15504# VGND s=11600,516 d=11600,516 l=30 w=200 x=10086 y=15214 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 a_10108_39954# VGND s=34800,1316 d=17400,658 l=30 w=600 x=10108 y=39924 sky130_fd_pr__nfet_01v8
 x uio_in[4] a_16292_8344# VGND VGND s=11600,458 d=23200,916 l=30 w=400 x=16646 y=8402 sky130_fd_pr__nfet_01v8
@@ -558,7 +558,7 @@ x variable_delay_short_0.variable_delay_unit_3.in a_24240_17262# variable_delay_
 x variable_delay_short_0.variable_delay_unit_0.tristate_inverter_1.en VDPWR a_24240_11366# VDPWR s=17400,658 d=17400,658 l=30 w=600 x=24240 y=11512 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d VDPWR tdc_0.vernier_delay_line_0.delay_unit_2_0.out_2 VDPWR s=17400,658 d=34800,1316 l=30 w=600 x=7330 y=42116 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 VGND tdc_0.vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 VGND s=5800,258 d=5800,258 l=30 w=200 x=8060 y=32256 sky130_fd_pr__nfet_01v8
-x input_stage_1.fine_delay_unit_1.in VDPWR a_23820_8460# VDPWR s=34800,1316 d=34800,1316 l=30 w=600 x=23844 y=8108 sky130_fd_pr__pfet_01v8
+x input_stage_andpwr_0.fine_delay_unit_1.in VDPWR a_23820_8460# VDPWR s=34800,1316 d=34800,1316 l=30 w=600 x=23844 y=8108 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd VGND VGND s=11600,516 d=5800,258 l=30 w=200 x=8060 y=41852 sky130_fd_pr__nfet_01v8
 x a_23820_8460# VDPWR variable_delay_short_0.in VDPWR s=34800,1316 d=34800,1316 l=30 w=600 x=23846 y=8460 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out1 VGND a_12308_35578# VGND s=5800,258 d=11600,516 l=30 w=200 x=13254 y=35774 sky130_fd_pr__nfet_01v8
@@ -575,7 +575,7 @@ x a_15322_8490# VGND variable_delay_dummy_0.in VGND s=5800,258 d=11600,516 l=30 
 x tdc_0.vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out1 VDPWR uo_out[3] VDPWR s=17400,658 d=17400,658 l=30 w=600 x=12420 y=30480 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.stop_strong VGND a_10958_25646# VGND s=17400,658 d=17400,658 l=30 w=600 x=10958 y=26496 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 VGND tdc_0.vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 VGND s=5800,258 d=5800,258 l=30 w=200 x=8060 y=32812 sky130_fd_pr__nfet_01v8
-x input_stage_1.nand_gate_0.out VDPWR input_stage_1.fine_delay_unit_0.in VDPWR s=34800,1316 d=34800,1316 l=30 w=600 x=24752 y=5826 sky130_fd_pr__pfet_01v8
+x input_stage_andpwr_0.nand_gate_0.out ua[0] input_stage_andpwr_0.fine_delay_unit_0.in ua[0] s=34800,1316 d=34800,1316 l=30 w=600 x=24752 y=5826 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_6/saff_2_0.nq a_13254_37444# VGND VGND s=5800,258 d=11600,516 l=30 w=200 x=13254 y=37502 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 tdc_0.vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 VGND VGND s=5800,258 d=5800,258 l=30 w=200 x=8060 y=30062 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 tdc_0.vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 VDPWR VDPWR s=17400,658 d=17400,658 l=30 w=600 x=7330 y=30618 sky130_fd_pr__pfet_01v8
@@ -599,7 +599,7 @@ x variable_delay_short_0.variable_delay_unit_5.tristate_inverter_1.en VDPWR a_24
 x tdc_0.vernier_delay_line_0.stop_strong a_10958_37056# VGND VGND s=17400,658 d=17400,658 l=30 w=600 x=10958 y=37818 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out1 uo_out[4] a_13254_32880# VGND s=5800,258 d=5800,258 l=30 w=200 x=13254 y=32850 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out1 tdc_0.vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 a_10108_26262# VGND s=34800,1316 d=17400,658 l=30 w=600 x=10108 y=26232 sky130_fd_pr__nfet_01v8
-x VDPWR input_stage_1.nand_gate_0.out VDPWR VDPWR s=17400,658 d=34800,1316 l=30 w=600 x=24476 y=5166 sky130_fd_pr__pfet_01v8
+x VDPWR input_stage_andpwr_0.nand_gate_0.out ua[0] ua[0] s=17400,658 d=34800,1316 l=30 w=600 x=24476 y=5166 sky130_fd_pr__pfet_01v8
 x a_9330_16954# VDPWR tdc_0.vernier_delay_line_0.stop_strong VDPWR s=34800,1316 d=34800,1316 l=30 w=600 x=9356 y=19274 sky130_fd_pr__pfet_01v8
 x tdc_0.diff_gen_0.delay_unit_2_4.in_2 VDPWR tdc_0.diff_gen_0.delay_unit_2_5.in_1 VDPWR s=17400,658 d=17400,658 l=30 w=600 x=7330 y=18360 sky130_fd_pr__pfet_01v8
 x variable_delay_short_0.variable_delay_unit_4.tristate_inverter_1.en a_25060_24040# VGND VGND s=5800,258 d=5800,258 l=30 w=200 x=25060 y=24098 sky130_fd_pr__nfet_01v8
@@ -607,7 +607,7 @@ x tdc_0.vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out2 a
 x tdc_0.vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 VGND tdc_0.vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 VGND s=5800,258 d=11600,516 l=30 w=200 x=8060 y=30706 sky130_fd_pr__nfet_01v8
 x variable_delay_short_0.in VGND variable_delay_short_0.variable_delay_unit_1.in VGND s=11600,516 d=11600,516 l=30 w=200 x=25004 y=10686 sky130_fd_pr__nfet_01v8
 x variable_delay_short_0.variable_delay_unit_4.tristate_inverter_1.en VDPWR a_24240_23158# VDPWR s=34800,1316 d=17400,658 l=30 w=600 x=24240 y=23128 sky130_fd_pr__pfet_01v8
-x input_stage_1.fine_delay_unit_1.in a_24790_8314# VGND VGND s=5800,258 d=5800,258 l=30 w=200 x=24790 y=8372 sky130_fd_pr__nfet_01v8
+x input_stage_andpwr_0.fine_delay_unit_1.in a_24790_8314# VGND VGND s=5800,258 d=5800,258 l=30 w=200 x=24790 y=8372 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_0/saff_2_0.nq a_13254_23752# VGND VGND s=5800,258 d=11600,516 l=30 w=200 x=13254 y=23810 sky130_fd_pr__nfet_01v8
 x uo_out[0] VDPWR a_12420_24130# VDPWR s=34800,1316 d=17400,658 l=30 w=600 x=12420 y=24100 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d VDPWR VDPWR s=17400,658 d=17400,658 l=30 w=600 x=7330 y=39190 sky130_fd_pr__pfet_01v8
@@ -666,7 +666,7 @@ x tdc_0.vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 a_10958_23364
 x variable_delay_short_0.variable_delay_unit_5.in a_25060_23158# variable_delay_short_0.variable_delay_unit_4.out VGND s=5800,258 d=11600,516 l=30 w=200 x=25060 y=23392 sky130_fd_pr__nfet_01v8
 x input_stage_0.fine_delay_unit_1.in a_16292_8080# a_16292_8344# VGND s=5800,258 d=5800,258 l=30 w=200 x=16292 y=8314 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.stop_strong VGND a_10958_39338# VGND s=17400,658 d=17400,658 l=30 w=600 x=10958 y=40364 sky130_fd_pr__nfet_01v8
-x input_stage_1.fine_delay_unit_0.in a_23820_7082# a_24790_6672# VGND s=11600,516 d=5800,258 l=30 w=200 x=24790 y=6642 sky130_fd_pr__nfet_01v8
+x input_stage_andpwr_0.fine_delay_unit_0.in a_23820_7082# a_24790_6672# VGND s=11600,516 d=5800,258 l=30 w=200 x=24790 y=6642 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 VDPWR VDPWR s=17400,658 d=34800,1316 l=30 w=600 x=9182 y=39484 sky130_fd_pr__pfet_01v8
 x a_9330_14634# VGND a_9330_14924# VGND s=11600,516 d=11600,516 l=30 w=200 x=10086 y=14634 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 tdc_0.vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 VGND VGND s=5800,258 d=5800,258 l=30 w=200 x=8060 y=27780 sky130_fd_pr__nfet_01v8
@@ -830,129 +830,131 @@ x uo_out[2] VGND a_13254_28694# VGND s=11600,516 d=5800,258 l=30 w=200 x=13254 y
 x tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 a_10108_39426# VGND s=34800,1316 d=17400,658 l=30 w=600 x=10108 y=39396 sky130_fd_pr__nfet_01v8
 x tdc_0.vernier_delay_line_0.stop_strong VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out1 VDPWR s=34800,1316 d=17400,658 l=30 w=600 x=9182 y=23422 sky130_fd_pr__pfet_01v8
 x a_12308_24168# a_12420_24130# tdc_0.vernier_delay_line_0.saff_delay_unit_0/saff_2_0.nq VDPWR s=17400,658 d=17400,658 l=30 w=600 x=12420 y=24188 sky130_fd_pr__pfet_01v8
-x a_23820_7082# VDPWR input_stage_1.fine_delay_unit_1.in VDPWR s=34800,1316 d=34800,1316 l=30 w=600 x=23846 y=7082 sky130_fd_pr__pfet_01v8
+x a_23820_7082# VDPWR input_stage_andpwr_0.fine_delay_unit_1.in VDPWR s=34800,1316 d=34800,1316 l=30 w=600 x=23846 y=7082 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 VGND tdc_0.vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 VGND s=5800,258 d=11600,516 l=30 w=200 x=8060 y=30150 sky130_fd_pr__nfet_01v8
 x uio_in[5] input_stage_0.nand_gate_0.out VDPWR VDPWR s=17400,658 d=34800,1316 l=30 w=600 x=15978 y=5196 sky130_fd_pr__pfet_01v8
 x tdc_0.vernier_delay_line_0.stop_strong tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 VDPWR VDPWR s=17400,658 d=34800,1316 l=30 w=600 x=9182 y=40012 sky130_fd_pr__pfet_01v8
 x a_9330_16954# VGND tdc_0.vernier_delay_line_0.stop_strong VGND s=11600,516 d=11600,516 l=30 w=200 x=10086 y=17534 sky130_fd_pr__nfet_01v8
-C uo_out[2] uo_out[3] 2.3
-C VDPWR tdc_0.vernier_delay_line_0.start_pos 4.8
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out1 2.6
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 2.4
-C tdc_0.vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out1 tdc_0.vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out2 4.3
-C a_10108_33108# a_10958_32492# 2.0
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out2 2.4
-C VDPWR variable_delay_short_0.variable_delay_unit_5.in 2.6
-C ui_in[3] ui_in[2] 5.8
-C VDPWR variable_delay_short_0.variable_delay_unit_5.tristate_inverter_1.en 3.9
-C VDPWR a_9330_16954# 7.5
-C uio_in[0] uio_in[1] 6.2
-C tdc_0.vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out1 tdc_0.vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out2 4.3
-C VDPWR variable_delay_dummy_0.variable_delay_unit_1.tristate_inverter_1.en 3.9
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out2 2.4
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 5.1
-C tdc_0.vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 tdc_0.vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out1 4.3
-C VDPWR variable_delay_dummy_0.variable_delay_unit_1.in 3.2
-C VDPWR variable_delay_dummy_0.variable_delay_unit_0.tristate_inverter_1.en 3.9
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out2 2.4
-C VDPWR tdc_0.diff_gen_0.delay_unit_2_5.in_2 3.1
-C tdc_0.vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out1 tdc_0.vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out2 4.3
-C ui_in[5] ui_in[6] 5.1
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 2.4
-C a_10108_35390# a_10958_34774# 2.0
-C uio_in[2] uio_in[3] 8.1
-C VDPWR variable_delay_short_0.variable_delay_unit_4.tristate_inverter_1.en 2.8
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 5.2
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out1 2.6
-C VDPWR tdc_0.vernier_delay_line_0.stop_strong 37.0
-C a_10958_27928# a_10108_28544# 2.0
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 5.1
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 3.2
-C ui_in[7] ui_in[6] 7.6
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 5.1
-C ui_in[1] ui_in[0] 6.3
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 3.2
-C VDPWR tdc_0.diff_gen_0.delay_unit_2_3.in_2 3.1
-C uio_in[2] uio_in[1] 9.4
-C VDPWR variable_delay_short_0.variable_delay_unit_2.in 2.1
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out1 2.6
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out1 2.6
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 3.2
-C VDPWR tdc_0.start_buffer_0.start_delay 4.1
-C uo_out[2] uo_out[1] 2.6
-C VDPWR variable_delay_dummy_0.variable_delay_unit_1.forward 2.3
-C VDPWR variable_delay_short_0.variable_delay_unit_3.in 2.1
-C ui_in[1] ui_in[2] 5.8
-C ui_in[3] ui_in[4] 2.6
-C VDPWR variable_delay_short_0.variable_delay_unit_5.forward 2.3
-C VDPWR tdc_0.diff_gen_0.delay_unit_2_4.in_1 4.4
-C VDPWR variable_delay_short_0.variable_delay_unit_1.tristate_inverter_1.en 2.8
-C VDPWR tdc_0.start_buffer_0.start_buff 7.3
-C tdc_0.vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out2 tdc_0.vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out1 4.3
-C VDPWR tdc_0.diff_gen_0.delay_unit_2_2.in_2 3.1
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out2 2.4
-C VDPWR tdc_0.diff_gen_0.delay_unit_2_4.in_2 3.1
-C VDPWR variable_delay_short_0.variable_delay_unit_0.tristate_inverter_1.en 2.8
-C VDPWR variable_delay_short_0.variable_delay_unit_4.in 2.1
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out1 2.6
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out2 2.4
-C tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 4.3
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 3.2
-C VDPWR tdc_0.diff_gen_0.delay_unit_2_3.in_1 4.4
-C uo_out[1] uo_out[0] 3.0
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 3.2
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 3.2
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out2 2.4
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out1 2.6
-C ui_in[5] ui_in[4] 3.9
-C tdc_0.vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out2 tdc_0.vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out1 4.3
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 5.1
-C VDPWR variable_delay_short_0.variable_delay_unit_3.tristate_inverter_1.en 2.8
-C uio_in[4] uio_in[3] 9.0
-C tdc_0.vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out1 tdc_0.vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out2 4.3
-C VDPWR tdc_0.vernier_delay_line_0.start_neg 3.2
-C VDPWR tdc_0.diff_gen_0.delay_unit_2_6.in_2 3.1
-C a_10958_37056# a_10108_37672# 2.0
-C VDPWR variable_delay_short_0.variable_delay_unit_2.tristate_inverter_1.en 2.8
+C uo_out[3] uo_out[2] 2.3
+C tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 VDPWR 2.4
 C VDPWR tdc_0.diff_gen_0.delay_unit_2_1.in_1 4.4
-C a_10958_23364# a_10108_23980# 2.0
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 5.1
-C a_10958_25646# a_10108_26262# 2.0
-C VDPWR variable_delay_short_0.variable_delay_unit_1.in 2.1
-C VDPWR tdc_0.diff_gen_0.delay_unit_2_5.in_1 4.4
-C a_10108_39954# a_10958_39338# 2.0
-C VDPWR tdc_0.diff_gen_0.delay_unit_2_2.in_1 4.4
-C uio_in[4] uio_in[5] 7.8
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d 5.1
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 2.6
-C VDPWR tdc_0.diff_gen_0.delay_unit_2_1.in_2 3.1
-C a_10958_30210# a_10108_30826# 2.0
-C a_9330_16954# tdc_0.vernier_delay_line_0.stop_strong 3.1
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 3.2
-C VDPWR tdc_0.diff_gen_0.delay_unit_2_6.in_1 4.4
-C VDPWR tdc_0.vernier_delay_line_0.delay_unit_2_0.out_1 2.2
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out1 2.6
-C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 5.1
-C ui_in[7] uio_in[0] 10.0
+C tdc_0.vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_1 VDPWR 5.1
+C VDPWR variable_delay_short_0.variable_delay_unit_4.in 2.1
 C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.nd 3.2
-C ua[0]0 11.6
-R ua[0] 4268
-= ua[0] input_stage_0.nand_gate_0.b
-= ua[0] input_stage_0.in
-= ua[0] input_stage_1.nand_gate_0.b
-= ua[0] input_stage_1.in
-C uio_in[5]0 10.3
+C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out2 2.4
+C a_10108_37672# a_10958_37056# 2.0
+C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.d 5.1
+C tdc_0.diff_gen_0.delay_unit_2_1.in_2 VDPWR 3.1
+C tdc_0.vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out2 VDPWR 2.4
+C uo_out[0] uo_out[1] 3.0
+C tdc_0.vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 tdc_0.vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out1 4.3
+C tdc_0.vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_2 VDPWR 3.2
+C VDPWR variable_delay_dummy_0.variable_delay_unit_1.forward 2.3
+C uio_in[6] uo_out[0] 2.1
+C ui_in[7] uio_in[0] 10.0
+C variable_delay_short_0.variable_delay_unit_1.tristate_inverter_1.en VDPWR 2.8
+C tdc_0.vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_2 VDPWR 3.2
+C uio_in[5] uio_in[4] 7.8
+C VDPWR tdc_0.diff_gen_0.delay_unit_2_6.in_2 3.1
+C VDPWR tdc_0.diff_gen_0.delay_unit_2_2.in_2 3.1
+C tdc_0.vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out1 tdc_0.vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out2 4.3
+C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_2 3.2
+C tdc_0.vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out1 tdc_0.vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out2 4.3
+C a_10108_28544# a_10958_27928# 2.0
+C variable_delay_short_0.variable_delay_unit_0.tristate_inverter_1.en VDPWR 2.8
+C a_10108_39954# a_10958_39338# 2.0
+C variable_delay_short_0.variable_delay_unit_1.in VDPWR 2.1
+C VDPWR tdc_0.vernier_delay_line_0.start_neg 3.2
+C VDPWR tdc_0.diff_gen_0.delay_unit_2_5.in_1 4.4
+C VDPWR variable_delay_short_0.variable_delay_unit_2.tristate_inverter_1.en 2.8
+C ui_in[4] ui_in[3] 2.6
+C variable_delay_short_0.variable_delay_unit_5.tristate_inverter_1.en VDPWR 3.9
+C tdc_0.vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_2 VDPWR 3.2
+C tdc_0.vernier_delay_line_0.saff_delay_unit_3/saff_2_0.sense_amplifier_0.out1 VDPWR 2.6
+C variable_delay_dummy_0.variable_delay_unit_1.in VDPWR 3.2
+C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out2 2.4
+C VDPWR tdc_0.vernier_delay_line_0.delay_unit_2_0.out_1 2.2
+C tdc_0.vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_1 VDPWR 5.1
+C VDPWR variable_delay_dummy_0.variable_delay_unit_1.tristate_inverter_1.en 3.9
+C tdc_0.vernier_delay_line_0.saff_delay_unit_1/delay_unit_2_0.in_1 VDPWR 5.2
+C VDPWR tdc_0.diff_gen_0.delay_unit_2_3.in_1 4.4
+C tdc_0.vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out2 tdc_0.vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out1 4.3
+C ui_in[7] ui_in[6] 7.6
+C variable_delay_short_0.variable_delay_unit_5.forward VDPWR 2.3
+C tdc_0.vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out2 VDPWR 2.4
+C tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out2 4.3
+C ui_in[5] ui_in[6] 5.1
+C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out2 2.4
+C tdc_0.vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_1 VDPWR 5.1
+C tdc_0.start_buffer_0.start_buff VDPWR 7.3
+C a_9330_16954# tdc_0.vernier_delay_line_0.stop_strong 3.1
+C ui_in[1] ui_in[2] 5.8
+C tdc_0.diff_gen_0.delay_unit_2_4.in_2 VDPWR 3.1
+C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out1 2.6
+C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out1 2.6
+C uio_in[6] uio_in[5] 5.4
+C variable_delay_dummy_0.variable_delay_unit_0.tristate_inverter_1.en VDPWR 3.9
+C uio_in[4] uio_in[3] 9.0
+C VDPWR tdc_0.diff_gen_0.delay_unit_2_2.in_1 4.4
+C VDPWR variable_delay_short_0.variable_delay_unit_4.tristate_inverter_1.en 2.8
+C tdc_0.vernier_delay_line_0.saff_delay_unit_2/delay_unit_2_0.in_2 VDPWR 3.2
+C ui_in[1] ui_in[0] 6.3
+C tdc_0.diff_gen_0.delay_unit_2_4.in_1 VDPWR 4.4
+C tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.sense_amplifier_0.out1 VDPWR 2.6
+C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out2 2.4
+C a_10958_30210# a_10108_30826# 2.0
+C uo_out[1] uo_out[2] 2.6
+C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_3/delay_unit_2_0.in_2 3.2
+C a_10108_35390# a_10958_34774# 2.0
+C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_4/delay_unit_2_0.in_1 5.1
+C variable_delay_short_0.variable_delay_unit_3.in VDPWR 2.1
+C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_7/delay_unit_2_0.in_1 5.1
+C a_10958_32492# a_10108_33108# 2.0
+C tdc_0.vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out1 tdc_0.vernier_delay_line_0.saff_delay_unit_6/saff_2_0.sense_amplifier_0.out2 4.3
+C tdc_0.vernier_delay_line_0.saff_delay_unit_5/delay_unit_2_0.in_1 VDPWR 5.1
+C tdc_0.vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out1 tdc_0.vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out2 4.3
+C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_6/delay_unit_2_0.in_2 3.2
+C tdc_0.vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out2 VDPWR 2.4
+C tdc_0.vernier_delay_line_0.saff_delay_unit_5/saff_2_0.sense_amplifier_0.out1 VDPWR 2.6
+C a_10958_23364# a_10108_23980# 2.0
+C ui_in[5] ui_in[4] 3.9
+C uio_in[2] uio_in[1] 9.4
+C a_9330_16954# VDPWR 7.5
+C uio_in[1] uio_in[0] 6.2
+C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_4/saff_2_0.sense_amplifier_0.out1 2.6
+C a_10108_26262# a_10958_25646# 2.0
+C tdc_0.vernier_delay_line_0.start_pos VDPWR 4.8
+C tdc_0.diff_gen_0.delay_unit_2_5.in_2 VDPWR 3.1
+C ui_in[3] ui_in[2] 5.8
+C VDPWR tdc_0.diff_gen_0.delay_unit_2_6.in_1 4.4
+C VDPWR tdc_0.diff_gen_0.delay_unit_2_3.in_2 3.1
+C tdc_0.vernier_delay_line_0.saff_delay_unit_1/saff_2_0.sense_amplifier_0.out1 VDPWR 2.6
+C VDPWR variable_delay_short_0.variable_delay_unit_3.tristate_inverter_1.en 2.8
+C variable_delay_short_0.variable_delay_unit_2.in VDPWR 2.1
+C VDPWR tdc_0.start_buffer_0.start_delay 4.1
+C VDPWR variable_delay_short_0.variable_delay_unit_5.in 2.6
+C tdc_0.vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out2 tdc_0.vernier_delay_line_0.saff_delay_unit_0/saff_2_0.sense_amplifier_0.out1 4.3
+C VDPWR tdc_0.vernier_delay_line_0.saff_delay_unit_2/saff_2_0.sense_amplifier_0.out1 2.6
+C VDPWR tdc_0.vernier_delay_line_0.stop_strong 37.0
+C uio_in[2] uio_in[3] 8.1
+C uio_in[6]0 16.5
+R uio_in[6] 4301
+= uio_in[6] input_stage_0.nand_gate_0.b
+= uio_in[6] input_stage_0.in
+= uio_in[6] input_stage_andpwr_0.nand_gate_0.b
+= uio_in[6] input_stage_andpwr_0.in
+C uio_in[5]0 7.5
 R uio_in[5] 2094
 = uio_in[5] input_stage_0.nand_gate_0.a
 = uio_in[5] input_stage_0.en
 C ui_in[0]0 10.4
 R ui_in[0] 891
-= ui_in[0] input_stage_1.fine_delay_unit_0.t0
-= ui_in[0] input_stage_1.t0
+= ui_in[0] input_stage_andpwr_0.fine_delay_unit_0.t0
+= ui_in[0] input_stage_andpwr_0.t0
 C ui_in[1]0 5.4
 R ui_in[1] 1065
-= ui_in[1] input_stage_1.fine_delay_unit_0.t1
-= ui_in[1] input_stage_1.t1
+= ui_in[1] input_stage_andpwr_0.fine_delay_unit_0.t1
+= ui_in[1] input_stage_andpwr_0.t1
 C uio_in[1]0 6.0
 R uio_in[1] 893
 = uio_in[1] input_stage_0.fine_delay_unit_0.t0
@@ -963,12 +965,12 @@ R uio_in[2] 1067
 = uio_in[2] input_stage_0.t1
 C ui_in[2]0 4.7
 R ui_in[2] 888
-= ui_in[2] input_stage_1.fine_delay_unit_1.t0
-= ui_in[2] input_stage_1.t2
+= ui_in[2] input_stage_andpwr_0.fine_delay_unit_1.t0
+= ui_in[2] input_stage_andpwr_0.t2
 C ui_in[3]0 7.1
 R ui_in[3] 1061
-= ui_in[3] input_stage_1.fine_delay_unit_1.t1
-= ui_in[3] input_stage_1.t3
+= ui_in[3] input_stage_andpwr_0.fine_delay_unit_1.t1
+= ui_in[3] input_stage_andpwr_0.t3
 C uio_in[3]0 4.2
 R uio_in[3] 890
 = uio_in[3] input_stage_0.fine_delay_unit_1.t0
@@ -1007,7 +1009,7 @@ R ui_in[4] 6897
 = ui_in[4] variable_delay_short_0.variable_delay_unit_4.tristate_inverter_1.nen
 = ui_in[4] variable_delay_short_0.variable_delay_unit_4.en
 = ui_in[4] variable_delay_short_0.en_4
-C uo_out[0]0 6.8
+C uo_out[0]0 6.2
 R uo_out[0] 4617
 = uo_out[0] tdc_0.vernier_delay_line_0.saff_delay_unit_0/saff_2_0.saff_bottom_latch_0.c
 = uo_out[0] tdc_0.vernier_delay_line_0.saff_delay_unit_0/saff_2_0.q
@@ -1055,18 +1057,21 @@ R uo_out[7] 4597
 = uo_out[7] tdc_0.vernier_delay_line_0.saff_delay_unit_7/saff_2_0.q
 = uo_out[7] tdc_0.vernier_delay_line_0.term_7
 = uo_out[7] tdc_0.term_7
-C VDPWR0 350.7
-R VDPWR 1353593
+C ua[0]0 9.5
+R ua[0] 24003
+= ua[0] input_stage_andpwr_0.nand_gate_0.VDD
+= ua[0] input_stage_andpwr_0.and_pwr
+C VDPWR0 347.1
+R VDPWR 1329386
 = VDPWR input_stage_0.fine_delay_unit_0.VDD
 = VDPWR input_stage_0.fine_delay_unit_1.VDD
 = VDPWR input_stage_0.nand_gate_0.VDD
 = VDPWR input_stage_0.VDD
-= VDPWR input_stage_1.fine_delay_unit_0.VDD
-= VDPWR input_stage_1.fine_delay_unit_1.VDD
-= VDPWR input_stage_1.nand_gate_0.VDD
-= VDPWR input_stage_1.nand_gate_0.a
-= VDPWR input_stage_1.VDD
-= VDPWR input_stage_1.en
+= VDPWR input_stage_andpwr_0.fine_delay_unit_0.VDD
+= VDPWR input_stage_andpwr_0.fine_delay_unit_1.VDD
+= VDPWR input_stage_andpwr_0.nand_gate_0.a
+= VDPWR input_stage_andpwr_0.VDD
+= VDPWR input_stage_andpwr_0.en
 = VDPWR tdc_0.diff_gen_0.delay_unit_2_0.VDD
 = VDPWR tdc_0.diff_gen_0.delay_unit_2_1.VDD
 = VDPWR tdc_0.diff_gen_0.delay_unit_2_2.VDD
@@ -1160,10 +1165,10 @@ R VGND 799761
 = VGND input_stage_0.fine_delay_unit_1.VSS
 = VGND input_stage_0.nand_gate_0.VSS
 = VGND input_stage_0.VSS
-= VGND input_stage_1.fine_delay_unit_0.VSS
-= VGND input_stage_1.fine_delay_unit_1.VSS
-= VGND input_stage_1.nand_gate_0.VSS
-= VGND input_stage_1.VSS
+= VGND input_stage_andpwr_0.fine_delay_unit_0.VSS
+= VGND input_stage_andpwr_0.fine_delay_unit_1.VSS
+= VGND input_stage_andpwr_0.nand_gate_0.VSS
+= VGND input_stage_andpwr_0.VSS
 = VGND tdc_0.diff_gen_0.delay_unit_2_0.VSS
 = VGND tdc_0.diff_gen_0.delay_unit_2_1.VSS
 = VGND tdc_0.diff_gen_0.delay_unit_2_2.VSS
@@ -1249,11 +1254,11 @@ R VGND 799761
 = VGND variable_delay_short_0.VSS
 R a_25284_5108# 982
 R a_16786_5138# 982
-R input_stage_1.nand_gate_0.out 4935
+R input_stage_andpwr_0.nand_gate_0.out 4935
 R input_stage_0.nand_gate_0.out 4935
 R a_24790_6672# 2576
 R a_24790_6936# 1780
-R input_stage_1.fine_delay_unit_0.in 6833
+R input_stage_andpwr_0.fine_delay_unit_0.in 6833
 R a_23820_7082# 5569
 R a_16292_6702# 2576
 R a_16292_6966# 1780
@@ -1261,8 +1266,8 @@ R input_stage_0.fine_delay_unit_0.in 6833
 R a_15322_7112# 5569
 R a_24790_8050# 2576
 R a_24790_8314# 1780
-R input_stage_1.fine_delay_unit_1.in 6832
-= input_stage_1.fine_delay_unit_1.in input_stage_1.fine_delay_unit_0.out
+R input_stage_andpwr_0.fine_delay_unit_1.in 6832
+= input_stage_andpwr_0.fine_delay_unit_1.in input_stage_andpwr_0.fine_delay_unit_0.out
 R a_23820_8460# 5569
 R a_16292_8080# 2576
 R a_16292_8344# 1780
@@ -1270,8 +1275,8 @@ R input_stage_0.fine_delay_unit_1.in 6832
 = input_stage_0.fine_delay_unit_1.in input_stage_0.fine_delay_unit_0.out
 R a_15322_8490# 5569
 R variable_delay_short_0.in 4453
-= variable_delay_short_0.in input_stage_1.fine_delay_unit_1.out
-= variable_delay_short_0.in input_stage_1.out
+= variable_delay_short_0.in input_stage_andpwr_0.fine_delay_unit_1.out
+= variable_delay_short_0.in input_stage_andpwr_0.out
 = variable_delay_short_0.in variable_delay_short_0.variable_delay_unit_0.in
 R variable_delay_dummy_0.in 4453
 = variable_delay_dummy_0.in input_stage_0.fine_delay_unit_1.out

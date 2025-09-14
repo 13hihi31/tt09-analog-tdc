@@ -8,7 +8,6 @@ ua[7] 3314 0 m4
 ena 29318 44952 m4
 clk 28766 44952 m4
 rst_n 28214 44952 m4
-uio_in[6] 19934 44952 m4
 uio_in[7] 19382 44952 m4
 uio_out[0] 14414 44952 m4
 uio_out[1] 13862 44952 m4
@@ -26,7 +25,7 @@ uio_oe[4] 7790 44952 m4
 uio_oe[5] 7238 44952 m4
 uio_oe[6] 6686 44952 m4
 uio_oe[7] 6134 44952 m4
-ua[0] 30362 0 m4
+uio_in[6] 19934 44952 m4
 uio_in[5] 20486 44952 m4
 ui_in[0] 27662 44952 m4
 ui_in[1] 27110 44952 m4
@@ -49,15 +48,16 @@ uo_out[4] 16622 44952 m4
 uo_out[5] 16070 44952 m4
 uo_out[6] 15518 44952 m4
 uo_out[7] 14966 44952 m4
+ua[0] 30362 0 m4
 VDPWR 200 1000 m4
 VGND 800 1000 m4
 a_25284_5108# 25284 5108 ndif
 a_16786_5138# 16786 5138 ndif
-input_stage_1.nand_gate_0.out 24476 5108 pdif
+input_stage_andpwr_0.nand_gate_0.out 24476 5108 pdif
 input_stage_0.nand_gate_0.out 15978 5138 pdif
 a_24790_6672# 24790 6672 ndif
 a_24790_6936# 24790 6936 ndif
-input_stage_1.fine_delay_unit_0.in 23818 6730 p
+input_stage_andpwr_0.fine_delay_unit_0.in 23818 6730 p
 a_23820_7082# 23820 7082 p
 a_16292_6702# 16292 6702 ndif
 a_16292_6966# 16292 6966 ndif
@@ -65,7 +65,7 @@ input_stage_0.fine_delay_unit_0.in 15320 6760 p
 a_15322_7112# 15322 7112 p
 a_24790_8050# 24790 8050 ndif
 a_24790_8314# 24790 8314 ndif
-input_stage_1.fine_delay_unit_1.in 23818 8108 p
+input_stage_andpwr_0.fine_delay_unit_1.in 23818 8108 p
 a_23820_8460# 23820 8460 p
 a_16292_8080# 16292 8080 ndif
 a_16292_8344# 16292 8344 ndif

@@ -197,31 +197,6 @@ Xdiff_gen_0 diff_gen_0/in_delay diff_gen_0/in_buff diff_gen_0/out_pos diff_gen_0
 + VDD VSS diff_gen
 .ends
 
-.subckt tristate_inverter in en nen out VDD VSS
-Xsky130_fd_pr__nfet_01v8_6H9P4D_0 VSS m1_930_270# en VSS sky130_fd_pr__nfet_01v8_6H9P4D
-Xsky130_fd_pr__nfet_01v8_6H9P4D_1 m1_930_270# VSS en VSS sky130_fd_pr__nfet_01v8_6H9P4D
-Xsky130_fd_pr__pfet_01v8_2K9SAN_0 VDD VDD m1_930_1186# nen sky130_fd_pr__pfet_01v8_2K9SAN
-Xsky130_fd_pr__nfet_01v8_6H9P4D_2 VSS m1_930_270# en VSS sky130_fd_pr__nfet_01v8_6H9P4D
-Xsky130_fd_pr__pfet_01v8_2K9SAN_1 m1_930_1186# VDD VDD nen sky130_fd_pr__pfet_01v8_2K9SAN
-Xsky130_fd_pr__nfet_01v8_6H9P4D_3 m1_930_270# out in VSS sky130_fd_pr__nfet_01v8_6H9P4D
-Xsky130_fd_pr__pfet_01v8_2K9SAN_2 VDD VDD m1_930_1186# nen sky130_fd_pr__pfet_01v8_2K9SAN
-Xsky130_fd_pr__pfet_01v8_2K9SAN_3 m1_930_1186# VDD out in sky130_fd_pr__pfet_01v8_2K9SAN
-.ends
-
-.subckt variable_delay_unit in en back forward out VDD VSS
-Xinverter_3_1_0 VDD forward VSS in inverter_3_1
-Xinverter_3_1_1 VDD tristate_inverter_1/en VSS en inverter_3_1
-Xtristate_inverter_0 forward en tristate_inverter_1/en out VDD VSS tristate_inverter
-Xtristate_inverter_1 back tristate_inverter_1/en en out VDD VSS tristate_inverter
-.ends
-
-.subckt variable_delay_dummy in out VDD VSS
-Xvariable_delay_unit_0 in VDD variable_delay_unit_1/out variable_delay_unit_1/in out
-+ VDD VSS variable_delay_unit
-Xvariable_delay_unit_1 variable_delay_unit_1/in VDD VSS variable_delay_unit_1/forward
-+ variable_delay_unit_1/out VDD VSS variable_delay_unit
-.ends
-
 .subckt sky130_fd_pr__nfet_01v8_TC9PQS a_15_n200# a_n15_n226# a_n73_n200# VSUBS
 X0 a_15_n200# a_n15_n226# a_n73_n200# VSUBS sky130_fd_pr__nfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.15
 **devattr s=23200,916 d=23200,916
@@ -247,6 +222,38 @@ Xsky130_fd_pr__nfet_01v8_TC9PQS_0 sky130_fd_pr__nfet_01v8_TC9PQS_0/a_15_n200# a 
 + VSS sky130_fd_pr__nfet_01v8_TC9PQS
 Xsky130_fd_pr__nfet_01v8_TC9PQS_1 VSS b sky130_fd_pr__nfet_01v8_TC9PQS_0/a_15_n200#
 + VSS sky130_fd_pr__nfet_01v8_TC9PQS
+.ends
+
+.subckt input_stage_andpwr in en t0 t1 t2 t3 out VDD and_pwr VSS
+Xfine_delay_unit_0 fine_delay_unit_0/in t0 t1 fine_delay_unit_1/in VDD VSS fine_delay_unit
+Xfine_delay_unit_1 fine_delay_unit_1/in t2 t3 out VDD VSS fine_delay_unit
+Xinverter_3_1_0 and_pwr fine_delay_unit_0/in VSS nand_gate_0/out inverter_3_1
+Xnand_gate_0 en in nand_gate_0/out and_pwr VSS nand_gate
+.ends
+
+.subckt tristate_inverter in en nen out VDD VSS
+Xsky130_fd_pr__nfet_01v8_6H9P4D_0 VSS m1_930_270# en VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__nfet_01v8_6H9P4D_1 m1_930_270# VSS en VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_0 VDD VDD m1_930_1186# nen sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_2 VSS m1_930_270# en VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_1 m1_930_1186# VDD VDD nen sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__nfet_01v8_6H9P4D_3 m1_930_270# out in VSS sky130_fd_pr__nfet_01v8_6H9P4D
+Xsky130_fd_pr__pfet_01v8_2K9SAN_2 VDD VDD m1_930_1186# nen sky130_fd_pr__pfet_01v8_2K9SAN
+Xsky130_fd_pr__pfet_01v8_2K9SAN_3 m1_930_1186# VDD out in sky130_fd_pr__pfet_01v8_2K9SAN
+.ends
+
+.subckt variable_delay_unit in en back forward out VDD VSS
+Xinverter_3_1_0 VDD forward VSS in inverter_3_1
+Xinverter_3_1_1 VDD tristate_inverter_1/en VSS en inverter_3_1
+Xtristate_inverter_0 forward en tristate_inverter_1/en out VDD VSS tristate_inverter
+Xtristate_inverter_1 back tristate_inverter_1/en en out VDD VSS tristate_inverter
+.ends
+
+.subckt variable_delay_dummy in out VDD VSS
+Xvariable_delay_unit_0 in VDD variable_delay_unit_1/out variable_delay_unit_1/in out
++ VDD VSS variable_delay_unit
+Xvariable_delay_unit_1 variable_delay_unit_1/in VDD VSS variable_delay_unit_1/forward
++ variable_delay_unit_1/out VDD VSS variable_delay_unit
 .ends
 
 .subckt input_stage in en t0 t1 t2 t3 out VSS VDD
@@ -279,12 +286,28 @@ Xvariable_delay_unit_1 variable_delay_unit_1/in en_1 variable_delay_unit_2/out v
 + uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7] VDPWR VGND
 Xtdc_0 tdc_0/start tdc_0/stop uo_out[0] uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5]
 + uo_out[6] uo_out[7] VDPWR VGND tdc_vernier_buffers
+Xinput_stage_andpwr_0 uio_in[6] VDPWR ui_in[0] ui_in[1] ui_in[2] ui_in[3] input_stage_andpwr_0/out
++ VDPWR ua[0] VGND input_stage_andpwr
 Xvariable_delay_dummy_0 input_stage_0/out tdc_0/start VDPWR VGND variable_delay_dummy
-Xinput_stage_0 ua[0] uio_in[5] uio_in[1] uio_in[2] uio_in[3] uio_in[4] input_stage_0/out
+Xinput_stage_0 uio_in[6] uio_in[5] uio_in[1] uio_in[2] uio_in[3] uio_in[4] input_stage_0/out
 + VGND VDPWR input_stage
-Xinput_stage_1 ua[0] VDPWR ui_in[0] ui_in[1] ui_in[2] ui_in[3] input_stage_1/out VGND
-+ VDPWR input_stage
-Xvariable_delay_short_0 input_stage_1/out uio_in[0] ui_in[7] ui_in[6] ui_in[5] ui_in[4]
-+ tdc_0/stop VDPWR VGND variable_delay_short
+Xvariable_delay_short_0 input_stage_andpwr_0/out uio_in[0] ui_in[7] ui_in[6] ui_in[5]
++ ui_in[4] tdc_0/stop VDPWR VGND variable_delay_short
+R0 VGND uio_out[2] 0.000000
+R1 VGND uio_out[1] 0.000000
+R2 VGND uio_out[0] 0.000000
+R3 VGND uio_oe[7] 0.000000
+R4 VGND uio_oe[6] 0.000000
+R5 VGND uio_oe[4] 0.000000
+R6 VGND uio_oe[5] 0.000000
+R7 VGND uio_out[7] 0.000000
+R8 VGND uio_oe[3] 0.000000
+R9 VGND uio_out[6] 0.000000
+R10 VGND uio_out[5] 0.000000
+R11 VGND uio_oe[2] 0.000000
+R12 VGND uio_oe[1] 0.000000
+R13 VGND uio_out[4] 0.000000
+R14 VGND uio_oe[0] 0.000000
+R15 VGND uio_out[3] 0.000000
 .ends
 
