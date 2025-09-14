@@ -25,7 +25,7 @@ module tt_um_13hihi31_tdc (
     wire start_delayed;
     wire stop_delayed;
     
-    tdc tdc_0(
+    tdc_vernier_buffers tdc_0(
       .start(start_delayed),
       .stop(stop_delayed),
       .term_0(uo_out[0]),
@@ -42,11 +42,11 @@ module tt_um_13hihi31_tdc (
     
     variable_delay_short variable_delay_short_0(
       .in(stop),
-      .en_0(ui_in[4]),
-      .en_1(ui_in[5]),
+      .en_0(uio_in[0]),
+      .en_1(ui_in[7]),
       .en_2(ui_in[6]),
-      .en_3(ui_in[7]),
-      .en_4(uio_in[0]),
+      .en_3(ui_in[5]),
+      .en_4(ui_in[4]),
       .out(stop_delayed),
       .VDD(VDPWR),
       .VSS(VGND),

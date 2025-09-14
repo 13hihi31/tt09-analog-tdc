@@ -6,7 +6,7 @@ from read_signals import read_output_signals, plot_signals, find_transitions
 
 
 def plot_tdc_vernier_buffers_tb():
-  wrdata_output = Path("~/.xschem/simulations/test_tt_um_13hihi31_tdc").expanduser()
+  wrdata_output = Path("~/.xschem/simulations/test_tt_um_13hihi31_tdc_andpwr").expanduser()
   
   signals = read_output_signals(wrdata_output)
   
@@ -15,6 +15,12 @@ def plot_tdc_vernier_buffers_tb():
     ["time", "time"],
     [
       "v(in)",
+      "v(analog_input)",
+      "v(start)",
+      "v(x1.stop)",
+      "v(x1.start)",
+      "v(x1.stop_delayed)", 
+      "v(x1.start_delayed)",
     ],
     [
       "v(term_0)",

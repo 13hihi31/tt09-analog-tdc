@@ -1,0 +1,85 @@
+magic
+tech sky130A
+timestamp 1731235174
+<< nwell >>
+rect 1248 798 1251 1275
+<< pwell >>
+rect 1249 160 1251 798
+<< metal1 >>
+rect 496 1185 793 1257
+rect 1249 1185 1482 1257
+rect 496 923 546 1185
+rect 291 872 546 923
+rect 496 783 546 872
+rect 793 837 826 839
+rect 673 836 826 837
+rect 673 809 795 836
+rect 824 809 826 836
+rect 673 806 826 809
+rect 1181 834 1515 837
+rect 1181 807 1484 834
+rect 1513 807 1515 834
+rect 1847 816 1870 839
+rect 105 481 128 504
+rect 207 498 230 521
+rect 223 452 371 475
+rect 344 385 371 452
+rect 673 385 703 806
+rect 1181 804 1515 807
+rect 344 358 473 385
+rect 553 355 703 385
+rect 291 160 420 208
+rect 619 160 793 208
+rect 1249 160 1482 232
+<< via1 >>
+rect 795 809 824 836
+rect 1484 807 1513 834
+<< metal2 >>
+rect 793 836 826 839
+rect 793 809 795 836
+rect 824 809 826 836
+rect 793 806 826 809
+rect 1482 834 1515 837
+rect 1482 807 1484 834
+rect 1513 807 1515 834
+rect 1482 804 1515 807
+rect 1156 515 1179 538
+rect 1845 515 1868 538
+rect 1044 266 1067 289
+rect 1733 266 1756 289
+use fine_delay_unit  fine_delay_unit_0
+timestamp 1731228565
+transform 1 0 619 0 1 368
+box 174 -208 630 907
+use fine_delay_unit  fine_delay_unit_1
+timestamp 1731228565
+transform 1 0 1308 0 1 368
+box 174 -208 630 907
+use inverter_3_1  inverter_3_1_0
+timestamp 1730749971
+transform 1 0 405 0 1 258
+box 15 -98 214 543
+use nand_gate  nand_gate_0
+timestamp 1731172820
+transform -1 0 244 0 1 511
+box -47 -351 198 441
+<< labels >>
+rlabel metal1 105 481 128 504 0 in
+port 1 nsew
+rlabel metal1 207 498 230 521 0 en
+port 2 nsew
+rlabel metal2 1044 266 1067 289 0 t0
+port 3 nsew
+rlabel metal2 1156 515 1179 538 0 t1
+port 4 nsew
+rlabel metal2 1733 266 1756 289 0 t2
+port 5 nsew
+rlabel metal2 1845 515 1868 538 0 t3
+port 6 nsew
+rlabel metal1 496 1234 519 1257 0 VDD
+port 8 nsew
+rlabel metal1 1313 160 1336 183 0 VSS
+port 9 nsew
+rlabel metal1 1847 816 1870 839 0 out
+port 7 nsew
+<< end >>

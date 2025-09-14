@@ -1,17 +1,4 @@
 
-Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
-
-Subcircuit pins:
-Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
--------------------------------------------|-------------------------------------------
-1                                          |1                                          
-2                                          |2                                          
-3                                          |3                                          
-4                                          |4                                          
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
-
 Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
 
 Subcircuit pins:
@@ -25,42 +12,400 @@ Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8
 Cell pin lists are equivalent.
 Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
 
-Circuit 2 cell inverter is a black box; will not flatten Circuit 1
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
 
 Subcircuit pins:
-Circuit 1: inverter                        |Circuit 2: inverter                        
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
 -------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_6H9P4D in circuit tristate_inverter (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2K9SAN in circuit tristate_inverter (0)(4 instances)
+
+Class tristate_inverter (0):  Merged 4 parallel devices.
+Subcircuit summary:
+Circuit 1: tristate_inverter               |Circuit 2: tristate_inverter               
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (4->2)             |sky130_fd_pr__nfet_01v8 (2)                
+sky130_fd_pr__pfet_01v8 (4->2)             |sky130_fd_pr__pfet_01v8 (2)                
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 8                          |Number of nets: 8                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: tristate_inverter               |Circuit 2: tristate_inverter               
+-------------------------------------------|-------------------------------------------
+nen                                        |nen                                        
+en                                         |en                                         
 out                                        |out                                        
-VDD                                        |VDD                                        
 in                                         |in                                         
+VDD                                        |VDD                                        
 VSS                                        |VSS                                        
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
-Device classes inverter and inverter are equivalent.
+Device classes tristate_inverter and tristate_inverter are equivalent.
+
+Subcircuit summary:
+Circuit 1: tristate_inverter               |Circuit 2: tristate_inverter[[0]]          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+sky130_fd_pr__pfet_01v8 (2)                |sky130_fd_pr__pfet_01v8 (2)                
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 8                          |Number of nets: 8                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: tristate_inverter               |Circuit 2: tristate_inverter[[0]]          
+-------------------------------------------|-------------------------------------------
+nen                                        |nen                                        
+en                                         |en                                         
+out                                        |out                                        
+in                                         |in                                         
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes tristate_inverter and tristate_inverter[[0]] are equivalent.
+Flattening unmatched subcell saff_delay_unit in circuit vernier_delay_line (0)(8 instances)
+Flattening unmatched subcell saff_2 in circuit vernier_delay_line (0)(8 instances)
+Flattening unmatched subcell saff_bottom_latch in circuit vernier_delay_line (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_6H9P4D in circuit vernier_delay_line (0)(64 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2K9SAN in circuit vernier_delay_line (0)(64 instances)
+Flattening unmatched subcell sense_amplifier in circuit vernier_delay_line (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_NM9Y3C in circuit vernier_delay_line (0)(136 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2K9SAN in circuit vernier_delay_line (0)(32 instances)
+Flattening unmatched subcell delay_unit_2 in circuit vernier_delay_line (0)(9 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_6H9P4D in circuit vernier_delay_line (0)(72 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2K9SAN in circuit vernier_delay_line (0)(72 instances)
+Flattening unmatched subcell delay_unit in circuit vernier_delay_line (1)(9 instances)
+Flattening unmatched subcell saff in circuit vernier_delay_line (1)(8 instances)
+
+Class vernier_delay_line (0):  Merged 168 parallel devices.
+Subcircuit summary:
+Circuit 1: vernier_delay_line              |Circuit 2: vernier_delay_line              
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (272->140)         |sky130_fd_pr__nfet_01v8 (140)              
+sky130_fd_pr__pfet_01v8 (168->132)         |sky130_fd_pr__pfet_01v8 (132)              
+Number of devices: 272                     |Number of devices: 272                     
+Number of nets: 127                        |Number of nets: 127                        
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: vernier_delay_line              |Circuit 2: vernier_delay_line              
+-------------------------------------------|-------------------------------------------
+VSS                                        |VSS                                        
+VDD                                        |VDD                                        
+stop_strong                                |stop_strong                                
+start_pos                                  |start_pos                                  
+start_neg                                  |start_neg                                  
+term_0                                     |term_0                                     
+term_7                                     |term_7                                     
+term_1                                     |term_1                                     
+term_3                                     |term_3                                     
+term_4                                     |term_4                                     
+term_2                                     |term_2                                     
+term_5                                     |term_5                                     
+term_6                                     |term_6                                     
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes vernier_delay_line and vernier_delay_line are equivalent.
+Flattening unmatched subcell inverter_3_1x4 in circuit stop_buffer (0)(7 instances)
+Flattening unmatched subcell inverter_3_1 in circuit stop_buffer (0)(28 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_6H9P4D in circuit stop_buffer (0)(28 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2K9SAN in circuit stop_buffer (0)(28 instances)
+
+Class stop_buffer (0):  Merged 36 parallel devices.
+Subcircuit summary:
+Circuit 1: stop_buffer                     |Circuit 2: stop_buffer                     
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (28->10)           |sky130_fd_pr__nfet_01v8 (10)               
+sky130_fd_pr__pfet_01v8 (28->10)           |sky130_fd_pr__pfet_01v8 (10)               
+Number of devices: 20                      |Number of devices: 20                      
+Number of nets: 13                         |Number of nets: 13                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: stop_buffer                     |Circuit 2: stop_buffer                     
+-------------------------------------------|-------------------------------------------
+stop_strong                                |stop_strong                                
+stop                                       |stop                                       
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes stop_buffer and stop_buffer are equivalent.
+Flattening unmatched subcell inverter_3_1x4 in circuit start_buffer (0)(2 instances)
+Flattening unmatched subcell inverter_3_1 in circuit start_buffer (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_6H9P4D in circuit start_buffer (0)(8 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2K9SAN in circuit start_buffer (0)(8 instances)
+
+Class start_buffer (0):  Merged 10 parallel devices.
+Subcircuit summary:
+Circuit 1: start_buffer                    |Circuit 2: start_buffer                    
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (8->3)             |sky130_fd_pr__nfet_01v8 (3)                
+sky130_fd_pr__pfet_01v8 (8->3)             |sky130_fd_pr__pfet_01v8 (3)                
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: start_buffer                    |Circuit 2: start_buffer                    
+-------------------------------------------|-------------------------------------------
+start                                      |start                                      
+start_delay                                |start_delay                                
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+start_buff                                 |start_buff                                 
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes start_buffer and start_buffer are equivalent.
+Flattening unmatched subcell delay_unit_2 in circuit diff_gen (0)(7 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_6H9P4D in circuit diff_gen (0)(56 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2K9SAN in circuit diff_gen (0)(56 instances)
+Flattening unmatched subcell delay_unit in circuit diff_gen (1)(7 instances)
+
+Class diff_gen (0):  Merged 56 parallel devices.
+Subcircuit summary:
+Circuit 1: diff_gen                        |Circuit 2: diff_gen                        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (56->28)           |sky130_fd_pr__nfet_01v8 (28)               
+sky130_fd_pr__pfet_01v8 (56->28)           |sky130_fd_pr__pfet_01v8 (28)               
+Number of devices: 56                      |Number of devices: 56                      
+Number of nets: 18                         |Number of nets: 18                         
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: diff_gen                        |Circuit 2: diff_gen                        
+-------------------------------------------|-------------------------------------------
+in_buff                                    |in_buff                                    
+in_delay                                   |in_delay                                   
+out_pos                                    |out_pos                                    
+out_neg                                    |out_neg                                    
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes diff_gen and diff_gen are equivalent.
+Flattening unmatched subcell inverter_3_1 in circuit variable_delay_unit (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_6H9P4D in circuit variable_delay_unit (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2K9SAN in circuit variable_delay_unit (0)(2 instances)
+Flattening unmatched subcell inverter_2[[0]] in circuit variable_delay_unit (1)(2 instances)
+
+Subcircuit summary:
+Circuit 1: variable_delay_unit             |Circuit 2: variable_delay_unit             
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+sky130_fd_pr__pfet_01v8 (2)                |sky130_fd_pr__pfet_01v8 (2)                
+tristate_inverter (2)                      |tristate_inverter[[0]] (2)                 
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 8                          |Number of nets: 8                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: variable_delay_unit             |Circuit 2: variable_delay_unit             
+-------------------------------------------|-------------------------------------------
+back                                       |back                                       
+en                                         |en                                         
+out                                        |out                                        
+in                                         |in                                         
+forward                                    |forward                                    
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes variable_delay_unit and variable_delay_unit are equivalent.
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2K9SAN in circuit nand_gate (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_TC9PQS in circuit nand_gate (0)(2 instances)
+
+Subcircuit summary:
+Circuit 1: nand_gate                       |Circuit 2: nand_gate                       
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (2)                |sky130_fd_pr__pfet_01v8 (2)                
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: nand_gate                       |Circuit 2: nand_gate                       
+-------------------------------------------|-------------------------------------------
+b                                          |b                                          
+a                                          |a                                          
+out                                        |out                                        
+VSS                                        |VSS                                        
+VDD                                        |VDD                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes nand_gate and nand_gate are equivalent.
+Flattening unmatched subcell inverter_2[[0]] in circuit variable_delay_unit[[0]] (1)(2 instances)
+
+Subcircuit summary:
+Circuit 1: variable_delay_unit             |Circuit 2: variable_delay_unit[[0]]        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+sky130_fd_pr__pfet_01v8 (2)                |sky130_fd_pr__pfet_01v8 (2)                
+tristate_inverter (2)                      |tristate_inverter[[0]] (2)                 
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 8                          |Number of nets: 8                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: variable_delay_unit             |Circuit 2: variable_delay_unit[[0]]        
+-------------------------------------------|-------------------------------------------
+back                                       |back                                       
+en                                         |en                                         
+out                                        |out                                        
+in                                         |in                                         
+forward                                    |forward                                    
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes variable_delay_unit and variable_delay_unit[[0]] are equivalent.
+
+Subcircuit summary:
+Circuit 1: tdc_vernier_buffers             |Circuit 2: tdc_vernier_buffers             
+-------------------------------------------|-------------------------------------------
+vernier_delay_line (1)                     |vernier_delay_line (1)                     
+stop_buffer (1)                            |stop_buffer (1)                            
+start_buffer (1)                           |start_buffer (1)                           
+diff_gen (1)                               |diff_gen (1)                               
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 17                         |Number of nets: 17                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: tdc_vernier_buffers             |Circuit 2: tdc_vernier_buffers             
+-------------------------------------------|-------------------------------------------
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+term_0                                     |term_0                                     
+term_1                                     |term_1                                     
+term_2                                     |term_2                                     
+term_3                                     |term_3                                     
+term_4                                     |term_4                                     
+term_5                                     |term_5                                     
+term_6                                     |term_6                                     
+term_7                                     |term_7                                     
+stop                                       |stop                                       
+start                                      |start                                      
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes tdc_vernier_buffers and tdc_vernier_buffers are equivalent.
+
+Subcircuit summary:
+Circuit 1: variable_delay_dummy            |Circuit 2: variable_delay_dummy            
+-------------------------------------------|-------------------------------------------
+variable_delay_unit (2)                    |variable_delay_unit (2)                    
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 7                          |Number of nets: 7                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: variable_delay_dummy            |Circuit 2: variable_delay_dummy            
+-------------------------------------------|-------------------------------------------
+VSS                                        |VSS                                        
+VDD                                        |VDD                                        
+in                                         |in                                         
+out                                        |out                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes variable_delay_dummy and variable_delay_dummy are equivalent.
+Flattening unmatched subcell fine_delay_unit in circuit input_stage (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_6H9P4D in circuit input_stage (0)(12 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2K9SAN in circuit input_stage (0)(4 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_TC9PQS in circuit input_stage (0)(4 instances)
+Flattening unmatched subcell inverter_3_1 in circuit input_stage (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_6H9P4D in circuit input_stage (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_2K9SAN in circuit input_stage (0)(1 instance)
+Flattening unmatched subcell inverter_2[[1]] in circuit input_stage (1)(1 instance)
+Flattening unmatched subcell fine_delay in circuit input_stage (1)(2 instances)
+
+Class input_stage (0):  Merged 4 parallel devices.
+Class input_stage (1):  Merged 4 parallel devices.
+Subcircuit summary:
+Circuit 1: input_stage                     |Circuit 2: input_stage                     
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (17->13)           |sky130_fd_pr__nfet_01v8 (17->13)           
+sky130_fd_pr__pfet_01v8 (5)                |sky130_fd_pr__pfet_01v8 (5)                
+nand_gate (1)                              |nand_gate (1)                              
+Number of devices: 19                      |Number of devices: 19                      
+Number of nets: 18                         |Number of nets: 18                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: input_stage                     |Circuit 2: input_stage                     
+-------------------------------------------|-------------------------------------------
+out                                        |out                                        
+VSS                                        |VSS                                        
+VDD                                        |VDD                                        
+en                                         |en                                         
+in                                         |in                                         
+t0                                         |t0                                         
+t2                                         |t2                                         
+t1                                         |t1                                         
+t3                                         |t3                                         
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes input_stage and input_stage are equivalent.
+
+Subcircuit summary:
+Circuit 1: variable_delay_short            |Circuit 2: variable_delay_short            
+-------------------------------------------|-------------------------------------------
+variable_delay_unit (6)                    |variable_delay_unit (6)                    
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 20                         |Number of nets: 20                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: variable_delay_short            |Circuit 2: variable_delay_short            
+-------------------------------------------|-------------------------------------------
+VDD                                        |VDD                                        
+VSS                                        |VSS                                        
+in                                         |in                                         
+en_0                                       |en_0                                       
+out                                        |out                                        
+en_1                                       |en_1                                       
+en_4                                       |en_4                                       
+en_2                                       |en_2                                       
+en_3                                       |en_3                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes variable_delay_short and variable_delay_short are equivalent.
 
 Cell tt_um_13hihi31_tdc (0) disconnected node: clk
 Cell tt_um_13hihi31_tdc (0) disconnected node: ena
 Cell tt_um_13hihi31_tdc (0) disconnected node: rst_n
+Cell tt_um_13hihi31_tdc (0) disconnected node: ua[1]
 Cell tt_um_13hihi31_tdc (0) disconnected node: ua[2]
 Cell tt_um_13hihi31_tdc (0) disconnected node: ua[3]
 Cell tt_um_13hihi31_tdc (0) disconnected node: ua[4]
 Cell tt_um_13hihi31_tdc (0) disconnected node: ua[5]
 Cell tt_um_13hihi31_tdc (0) disconnected node: ua[6]
 Cell tt_um_13hihi31_tdc (0) disconnected node: ua[7]
-Cell tt_um_13hihi31_tdc (0) disconnected node: ui_in[0]
-Cell tt_um_13hihi31_tdc (0) disconnected node: ui_in[1]
-Cell tt_um_13hihi31_tdc (0) disconnected node: ui_in[2]
-Cell tt_um_13hihi31_tdc (0) disconnected node: ui_in[3]
-Cell tt_um_13hihi31_tdc (0) disconnected node: ui_in[4]
-Cell tt_um_13hihi31_tdc (0) disconnected node: ui_in[5]
-Cell tt_um_13hihi31_tdc (0) disconnected node: ui_in[6]
-Cell tt_um_13hihi31_tdc (0) disconnected node: ui_in[7]
-Cell tt_um_13hihi31_tdc (0) disconnected node: uio_in[0]
-Cell tt_um_13hihi31_tdc (0) disconnected node: uio_in[1]
-Cell tt_um_13hihi31_tdc (0) disconnected node: uio_in[2]
-Cell tt_um_13hihi31_tdc (0) disconnected node: uio_in[3]
-Cell tt_um_13hihi31_tdc (0) disconnected node: uio_in[4]
-Cell tt_um_13hihi31_tdc (0) disconnected node: uio_in[5]
 Cell tt_um_13hihi31_tdc (0) disconnected node: uio_in[6]
 Cell tt_um_13hihi31_tdc (0) disconnected node: uio_in[7]
 Cell tt_um_13hihi31_tdc (0) disconnected node: uio_oe[0]
@@ -79,120 +424,35 @@ Cell tt_um_13hihi31_tdc (0) disconnected node: uio_out[4]
 Cell tt_um_13hihi31_tdc (0) disconnected node: uio_out[5]
 Cell tt_um_13hihi31_tdc (0) disconnected node: uio_out[6]
 Cell tt_um_13hihi31_tdc (0) disconnected node: uio_out[7]
-Cell tt_um_13hihi31_tdc (0) disconnected node: uo_out[0]
-Cell tt_um_13hihi31_tdc (0) disconnected node: uo_out[1]
-Cell tt_um_13hihi31_tdc (0) disconnected node: uo_out[2]
-Cell tt_um_13hihi31_tdc (0) disconnected node: uo_out[3]
-Cell tt_um_13hihi31_tdc (0) disconnected node: uo_out[4]
-Cell tt_um_13hihi31_tdc (0) disconnected node: uo_out[5]
-Cell tt_um_13hihi31_tdc (0) disconnected node: uo_out[6]
-Cell tt_um_13hihi31_tdc (0) disconnected node: uo_out[7]
-Cell tt_um_13hihi31_tdc (1) disconnected node: ui_in[7]
-Cell tt_um_13hihi31_tdc (1) disconnected node: ui_in[6]
-Cell tt_um_13hihi31_tdc (1) disconnected node: ui_in[5]
-Cell tt_um_13hihi31_tdc (1) disconnected node: ui_in[4]
-Cell tt_um_13hihi31_tdc (1) disconnected node: ui_in[3]
-Cell tt_um_13hihi31_tdc (1) disconnected node: ui_in[2]
-Cell tt_um_13hihi31_tdc (1) disconnected node: ui_in[1]
-Cell tt_um_13hihi31_tdc (1) disconnected node: ui_in[0]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uo_out[7]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uo_out[6]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uo_out[5]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uo_out[4]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uo_out[3]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uo_out[2]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uo_out[1]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uo_out[0]
 Cell tt_um_13hihi31_tdc (1) disconnected node: uio_in[7]
 Cell tt_um_13hihi31_tdc (1) disconnected node: uio_in[6]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uio_in[5]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uio_in[4]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uio_in[3]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uio_in[2]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uio_in[1]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uio_in[0]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uio_out[7]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uio_out[6]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uio_out[5]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uio_out[4]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uio_out[3]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uio_out[2]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uio_out[1]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uio_out[0]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uio_oe[7]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uio_oe[6]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uio_oe[5]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uio_oe[4]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uio_oe[3]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uio_oe[2]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uio_oe[1]
-Cell tt_um_13hihi31_tdc (1) disconnected node: uio_oe[0]
 Cell tt_um_13hihi31_tdc (1) disconnected node: ua[7]
 Cell tt_um_13hihi31_tdc (1) disconnected node: ua[6]
 Cell tt_um_13hihi31_tdc (1) disconnected node: ua[5]
 Cell tt_um_13hihi31_tdc (1) disconnected node: ua[4]
 Cell tt_um_13hihi31_tdc (1) disconnected node: ua[3]
 Cell tt_um_13hihi31_tdc (1) disconnected node: ua[2]
+Cell tt_um_13hihi31_tdc (1) disconnected node: ua[1]
 Cell tt_um_13hihi31_tdc (1) disconnected node: ena
 Cell tt_um_13hihi31_tdc (1) disconnected node: clk
 Cell tt_um_13hihi31_tdc (1) disconnected node: rst_n
 Subcircuit summary:
 Circuit 1: tt_um_13hihi31_tdc              |Circuit 2: tt_um_13hihi31_tdc              
 -------------------------------------------|-------------------------------------------
-inverter (1)                               |inverter (1)                               
-Number of devices: 1                       |Number of devices: 1                       
-Number of nets: 4                          |Number of nets: 4                          
+tdc_vernier_buffers (1)                    |tdc_vernier_buffers (1)                    
+variable_delay_dummy (1)                   |variable_delay_dummy (1)                   
+input_stage (2)                            |input_stage (2)                            
+variable_delay_short (1)                   |variable_delay_short (1)                   
+Number of devices: 5                       |Number of devices: 5                       
+Number of nets: 29                         |Number of nets: 29                         
 ---------------------------------------------------------------------------------------
 Netlists match uniquely.
 
 Subcircuit pins:
 Circuit 1: tt_um_13hihi31_tdc              |Circuit 2: tt_um_13hihi31_tdc              
 -------------------------------------------|-------------------------------------------
-VDPWR                                      |VDPWR                                      
 VGND                                       |VGND                                       
-ua[0]                                      |ua[0]                                      
-ua[1]                                      |ua[1]                                      
-clk                                        |clk                                        
-ena                                        |ena                                        
-rst_n                                      |rst_n                                      
-ua[2]                                      |ua[2]                                      
-ua[3]                                      |ua[3]                                      
-ua[4]                                      |ua[4]                                      
-ua[5]                                      |ua[5]                                      
-ua[6]                                      |ua[6]                                      
-ua[7]                                      |ua[7]                                      
-ui_in[0]                                   |ui_in[0]                                   
-ui_in[1]                                   |ui_in[1]                                   
-ui_in[2]                                   |ui_in[2]                                   
-ui_in[3]                                   |ui_in[3]                                   
-ui_in[4]                                   |ui_in[4]                                   
-ui_in[5]                                   |ui_in[5]                                   
-ui_in[6]                                   |ui_in[6]                                   
-ui_in[7]                                   |ui_in[7]                                   
-uio_in[0]                                  |uio_in[0]                                  
-uio_in[1]                                  |uio_in[1]                                  
-uio_in[2]                                  |uio_in[2]                                  
-uio_in[3]                                  |uio_in[3]                                  
-uio_in[4]                                  |uio_in[4]                                  
-uio_in[5]                                  |uio_in[5]                                  
-uio_in[6]                                  |uio_in[6]                                  
-uio_in[7]                                  |uio_in[7]                                  
-uio_oe[0]                                  |uio_oe[0]                                  
-uio_oe[1]                                  |uio_oe[1]                                  
-uio_oe[2]                                  |uio_oe[2]                                  
-uio_oe[3]                                  |uio_oe[3]                                  
-uio_oe[4]                                  |uio_oe[4]                                  
-uio_oe[5]                                  |uio_oe[5]                                  
-uio_oe[6]                                  |uio_oe[6]                                  
-uio_oe[7]                                  |uio_oe[7]                                  
-uio_out[0]                                 |uio_out[0]                                 
-uio_out[1]                                 |uio_out[1]                                 
-uio_out[2]                                 |uio_out[2]                                 
-uio_out[3]                                 |uio_out[3]                                 
-uio_out[4]                                 |uio_out[4]                                 
-uio_out[5]                                 |uio_out[5]                                 
-uio_out[6]                                 |uio_out[6]                                 
-uio_out[7]                                 |uio_out[7]                                 
+VDPWR                                      |VDPWR                                      
 uo_out[0]                                  |uo_out[0]                                  
 uo_out[1]                                  |uo_out[1]                                  
 uo_out[2]                                  |uo_out[2]                                  
@@ -201,9 +461,67 @@ uo_out[4]                                  |uo_out[4]
 uo_out[5]                                  |uo_out[5]                                  
 uo_out[6]                                  |uo_out[6]                                  
 uo_out[7]                                  |uo_out[7]                                  
+uio_in[0]                                  |uio_in[0]                                  
+ui_in[7]                                   |ui_in[7]                                   
+ui_in[6]                                   |ui_in[6]                                   
+ui_in[5]                                   |ui_in[5]                                   
+ui_in[4]                                   |ui_in[4]                                   
+uio_in[5]                                  |uio_in[5]                                  
+uio_in[1]                                  |uio_in[1]                                  
+uio_in[2]                                  |uio_in[2]                                  
+uio_in[3]                                  |uio_in[3]                                  
+uio_in[4]                                  |uio_in[4]                                  
+ui_in[0]                                   |ui_in[0]                                   
+ui_in[1]                                   |ui_in[1]                                   
+ui_in[2]                                   |ui_in[2]                                   
+ui_in[3]                                   |ui_in[3]                                   
+ua[0]                                      |ua[0]                                      
+clk                                        |clk                                        
+ena                                        |ena                                        
+rst_n                                      |rst_n                                      
+ua[1]                                      |ua[1]                                      
+ua[2]                                      |ua[2]                                      
+ua[3]                                      |ua[3]                                      
+ua[4]                                      |ua[4]                                      
+ua[5]                                      |ua[5]                                      
+ua[6]                                      |ua[6]                                      
+ua[7]                                      |ua[7]                                      
+uio_in[6]                                  |uio_in[6]                                  
+uio_in[7]                                  |uio_in[7]                                  
+(no matching pin)                          |uio_out[7]                                 
+(no matching pin)                          |uio_out[6]                                 
+(no matching pin)                          |uio_out[5]                                 
+(no matching pin)                          |uio_out[4]                                 
+(no matching pin)                          |uio_out[3]                                 
+(no matching pin)                          |uio_out[2]                                 
+(no matching pin)                          |uio_out[1]                                 
+(no matching pin)                          |uio_out[0]                                 
+(no matching pin)                          |uio_oe[7]                                  
+(no matching pin)                          |uio_oe[6]                                  
+(no matching pin)                          |uio_oe[5]                                  
+(no matching pin)                          |uio_oe[4]                                  
+(no matching pin)                          |uio_oe[3]                                  
+(no matching pin)                          |uio_oe[2]                                  
+(no matching pin)                          |uio_oe[1]                                  
+(no matching pin)                          |uio_oe[0]                                  
+uio_oe[0]                                  |(no matching pin)                          
+uio_oe[1]                                  |(no matching pin)                          
+uio_oe[2]                                  |(no matching pin)                          
+uio_oe[3]                                  |(no matching pin)                          
+uio_oe[4]                                  |(no matching pin)                          
+uio_oe[5]                                  |(no matching pin)                          
+uio_oe[6]                                  |(no matching pin)                          
+uio_oe[7]                                  |(no matching pin)                          
+uio_out[0]                                 |(no matching pin)                          
+uio_out[1]                                 |(no matching pin)                          
+uio_out[2]                                 |(no matching pin)                          
+uio_out[3]                                 |(no matching pin)                          
+uio_out[4]                                 |(no matching pin)                          
+uio_out[5]                                 |(no matching pin)                          
+uio_out[6]                                 |(no matching pin)                          
+uio_out[7]                                 |(no matching pin)                          
 ---------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
+Cell pin lists for tt_um_13hihi31_tdc and tt_um_13hihi31_tdc altered to match.
 Device classes tt_um_13hihi31_tdc and tt_um_13hihi31_tdc are equivalent.
 
-Final result: Circuits match uniquely.
-.
+Final result: Top level cell failed pin matching.

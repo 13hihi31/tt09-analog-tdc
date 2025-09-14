@@ -1,0 +1,100 @@
+magic
+tech sky130A
+timestamp 1730921041
+<< metal1 >>
+rect -6331 2796 -6272 3412
+rect -4829 3323 -4688 3371
+rect -208 3323 -45 3371
+rect 2 3339 34 3371
+rect -5353 3289 -5318 3292
+rect -5353 3260 -5350 3289
+rect -5321 3260 -5318 3289
+rect -5353 3257 -5318 3260
+rect -6043 2946 -6016 2973
+rect -6331 2748 -6043 2796
+rect -4874 2676 -4829 2748
+rect 10204 2676 10295 3539
+rect -4874 2628 -4688 2676
+rect 10024 2628 10295 2676
+rect -4874 1701 -4829 2628
+rect -382 2228 -29 2276
+rect -4496 1851 -4469 1878
+rect -4874 1653 -4496 1701
+rect -427 51 -382 1653
+rect 10204 936 10295 2628
+rect 9384 880 10295 936
+rect 10204 51 10295 880
+rect -427 0 150 51
+rect 9383 0 10295 51
+<< via1 >>
+rect -5350 3260 -5321 3289
+rect 75 2512 117 2555
+<< metal2 >>
+rect -5353 3428 -4726 3464
+rect -5353 3289 -5318 3428
+rect -5353 3260 -5350 3289
+rect -5321 3260 -5318 3289
+rect -4762 3309 -4726 3428
+rect -4762 3277 -4688 3309
+rect -208 3277 256 3309
+rect -5353 3257 -5318 3260
+rect -4883 2827 -4688 2862
+rect -140 2772 256 2804
+rect -140 2724 -108 2772
+rect -208 2692 -108 2724
+rect -233 2555 121 2558
+rect -233 2512 75 2555
+rect 117 2512 121 2555
+rect -233 2508 121 2512
+rect -233 1785 -183 2508
+rect -471 1732 -183 1785
+rect 694 81 726 113
+rect 1835 81 1867 113
+rect 2976 81 3008 113
+rect 4117 81 4149 113
+rect 5258 81 5290 113
+rect 6399 81 6431 113
+rect 7540 81 7572 113
+rect 8681 81 8713 113
+use diff_gen  diff_gen_0
+timestamp 1730821783
+transform 1 0 -4688 0 1 2628
+box 0 0 4480 761
+use start_buffer  start_buffer_0
+timestamp 1730835638
+transform 1 0 -6043 0 1 2748
+box 0 0 1214 641
+use stop_buffer  stop_buffer_0
+timestamp 1730753331
+transform 1 0 -4496 0 1 1653
+box 0 0 4114 641
+use vernier_delay_line  vernier_delay_line_0
+timestamp 1730836525
+transform 1 0 256 0 1 0
+box -301 0 9768 3389
+<< labels >>
+rlabel metal1 -6043 2946 -6016 2973 0 start
+port 1 nsew
+rlabel metal1 -4496 1851 -4469 1878 0 stop
+port 2 nsew
+rlabel metal2 694 81 726 113 0 term_0
+port 3 nsew
+rlabel metal2 1835 81 1867 113 0 term_1
+port 4 nsew
+rlabel metal2 2976 81 3008 113 0 term_2
+port 5 nsew
+rlabel metal2 4117 81 4149 113 0 term_3
+port 6 nsew
+rlabel metal2 5258 81 5290 113 0 term_4
+port 7 nsew
+rlabel metal2 6399 81 6431 113 0 term_5
+port 8 nsew
+rlabel metal2 7540 81 7572 113 0 term_6
+port 9 nsew
+rlabel metal2 8681 81 8713 113 0 term_7
+port 10 nsew
+rlabel metal1 2 3339 34 3371 0 VDD
+port 11 nsew
+rlabel metal1 10204 3507 10236 3539 0 VSS
+port 12 nsew
+<< end >>
