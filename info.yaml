@@ -28,10 +28,10 @@ pinout:
   ui[1]: "stop fine delay 1"
   ui[2]: "stop fine delay 2"
   ui[3]: "stop fine delay 3"
-  ui[4]: "stop coarse delay 0"
-  ui[5]: "stop coarse delay 1"
+  ui[4]: "stop coarse delay 4"
+  ui[5]: "stop coarse delay 3"
   ui[6]: "stop coarse delay 2"
-  ui[7]: "stop coarse delay 3"
+  ui[7]: "stop coarse delay 1"
 
   # Outputs
   uo[0]: "tdc bit 0"
@@ -44,17 +44,17 @@ pinout:
   uo[7]: "tdc bit 7"
 
   # Bidirectional pins
-  uio[0]: "stop coarse delay 4"
+  uio[0]: "stop coarse delay 0"
   uio[1]: "start fine delay 0"
   uio[2]: "start fine delay 1"
   uio[3]: "start fine delay 2"
   uio[4]: "start fine delay 3"
   uio[5]: "start enable"
-  uio[6]: ""
+  uio[6]: "start"
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: "stop"
+  ua[0]: "analog delay"
   ua[1]: ""
   ua[2]: ""
   ua[3]: ""

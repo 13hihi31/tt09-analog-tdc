@@ -131,7 +131,6 @@ C {devices/noconn.sym} 100 -1740 2 0 {name=l26}
 C {devices/noconn.sym} 100 -1800 2 0 {name=l27}
 C {devices/noconn.sym} 100 -1770 2 0 {name=l28}
 C {input_stage_andpwr.sym} 600 -210 0 0 {name=x1}
-C {input_stage_andpwr.sym} 600 -370 0 0 {name=x2}
 C {devices/lab_pin.sym} 450 -430 0 0 {name=p5 sig_type=std_logic lab=uio_in[6]}
 C {devices/lab_pin.sym} 450 -270 0 0 {name=p16 sig_type=std_logic lab=uio_in[6]}
-C {devices/lab_pin.sym} 450 -310 2 1 {name=p19 sig_type=std_logic lab=VDPWR}
+C {input_stage.sym} 600 -380 0 0 {name=x5}

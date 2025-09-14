@@ -60,7 +60,7 @@ module tt_um_13hihi31_tdc (
     );
     
     input_stage input_stage_0(
-      .in(ua[0]),
+      .in(uio_in[6]),
       .en(uio_in[5]),
       .t0(uio_in[1]),
       .t1(uio_in[2]),
@@ -71,13 +71,14 @@ module tt_um_13hihi31_tdc (
       .VSS(VGND),
     );
 
-    input_stage input_stage_1(
-      .in(ua[0]),
+    input_stage_andpwr input_stage_andpwr_0(
+      .in(uio_in[6]),
       .en(VDPWR),
       .t0(ui_in[0]),
       .t1(ui_in[1]),
       .t2(ui_in[2]),
       .t3(ui_in[3]),
+      .and_pwr(ua[0]),
       .out(stop),
       .VDD(VDPWR),
       .VSS(VGND),
