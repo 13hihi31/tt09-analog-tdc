@@ -42,6 +42,4 @@ The chip has one analog input, 14 digital inputs, and 8 digital outputs. To clea
 
 The fine delay is controlled using thermometer encoding, while the coarse delay is controlled using one-hot encoding. An input of all zeros is valid for both encoding schemes.
 
-## External hardware
-
-Additional hardware, such as a Raspberry Pi (RPi) and a level shifter, is required to drive the analog and digital inputs.
+More test instructions and results are in the [test_instructions_and_results.md](chip_tests/test_instructions_and_results.md) file.
